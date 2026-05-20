@@ -11,6 +11,11 @@ on:
 permissions:
   contents: write
 
+# Opt into Node.js 24 for JavaScript actions ahead of the June 2 default
+# switchover — silences the deprecation warning and avoids a surprise break.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: scrape
   cancel-in-progress: false
