@@ -1,0 +1,360 @@
+:root {
+  /* Primary — from the watercolor sky */
+  --sky-blue: #4E7FCC;
+  --sky-light: #6B9BE8;
+
+  /* Accent — from the vivid green clapboard */
+  --green: #85BD5A;
+  --green-dark: #639326;
+
+  /* Accent — from the magenta/purple tower */
+  --magenta: #6D366D;
+  --lavender: #B998DD;
+
+  /* Neutrals — from the ink linework */
+  --ink: #1B2024;
+  --ink-soft: #2E2B39;
+
+  /* Background — warm watercolor paper */
+  --paper: #FAF8F5;
+  --paper-dark: #F0EDE8;
+
+  /* Type */
+  --font-serif: "Playfair Display", "Lora", Georgia, "Times New Roman", serif;
+  --font-sans: "Source Sans 3", "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --radius: 10px;
+  --shadow-soft: 0 1px 2px rgba(27, 32, 36, 0.06), 0 4px 12px rgba(27, 32, 36, 0.05);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
+}
+
+a { color: var(--sky-blue); }
+a:hover, a:focus { color: var(--green-dark); }
+
+/* ----- Hero ----- */
+.hero {
+  position: relative;
+  background: linear-gradient(180deg, var(--sky-light) 0%, var(--sky-blue) 100%);
+  color: #fff;
+  border-bottom: 3px solid var(--ink-soft);
+}
+
+/* Mobile: full-bleed cover — viewport is narrow enough to show
+   the drawing with only minor side trim. */
+.hero__image {
+  width: 100%;
+  height: 65vh;
+  min-height: 340px;
+  max-height: 620px;
+  background-image: url("assets/banner_lunenburg.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+/* Tablet & desktop: don't force a portrait image into a landscape
+   container. Constrain width, preserve aspect ratio, let the
+   sky-blue gradient fill the sides. */
+@media (min-width: 600px) {
+  .hero { padding-top: 1.5rem; }
+  .hero__image {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    aspect-ratio: 960 / 1187;
+    max-width: 500px;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero { padding-top: 2rem; }
+  .hero__image {
+    max-width: 600px;
+  }
+}
+
+.hero__text {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem 1.5rem;
+  text-align: center;
+}
+
+.hero__title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: clamp(2rem, 6vw, 3rem);
+  letter-spacing: -0.01em;
+  margin: 0 0 0.25rem;
+  color: #fff;
+}
+
+.hero__tagline {
+  margin: 0;
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.92);
+  font-weight: 400;
+}
+
+/* ----- Main container ----- */
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 2.5rem;
+}
+
+.status {
+  text-align: center;
+  color: var(--ink-soft);
+  font-style: italic;
+  padding: 2rem 0;
+}
+
+/* ----- Day group ----- */
+.day-group {
+  margin: 2rem 0 1.25rem;
+}
+
+.day-group:first-of-type { margin-top: 0.5rem; }
+
+.day-group__heading {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.35rem;
+  margin: 0 0 0.75rem;
+  color: var(--ink);
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.day-group__heading .when-relative {
+  color: var(--green-dark);
+  font-weight: 700;
+}
+
+.day-group__heading .when-date {
+  color: var(--ink-soft);
+  font-weight: 400;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+.day-group--today .day-group__heading .when-relative {
+  color: var(--green-dark);
+}
+
+.weekend-tag {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--magenta);
+  background: rgba(185, 152, 221, 0.18);
+  border: 1px solid rgba(109, 54, 109, 0.25);
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  vertical-align: middle;
+}
+
+/* ----- Event card ----- */
+.event {
+  background: #fff;
+  border: 1px solid var(--paper-dark);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  margin: 0 0 0.85rem;
+  box-shadow: var(--shadow-soft);
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+.event:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(27, 32, 36, 0.08), 0 8px 20px rgba(27, 32, 36, 0.08);
+}
+
+.day-group--today .event {
+  border-left: 4px solid var(--green);
+  background: linear-gradient(90deg, rgba(133, 189, 90, 0.08) 0%, #fff 40%);
+}
+
+.event__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.event__title {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.15rem;
+  line-height: 1.3;
+  margin: 0;
+  color: var(--ink);
+}
+
+.event__title a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 120ms ease;
+}
+.event__title a:hover, .event__title a:focus {
+  border-bottom-color: var(--sky-blue);
+}
+
+.event__meta {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin: 0.25rem 0 0.5rem;
+}
+
+.event__meta .dot {
+  margin: 0 0.4rem;
+  opacity: 0.5;
+}
+
+.event__venue { font-weight: 500; color: var(--ink); }
+
+.event__description {
+  font-size: 0.97rem;
+  color: var(--ink-soft);
+  margin: 0.5rem 0 0.5rem;
+}
+
+.event__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.event__price {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+.event__links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.event__link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--sky-blue);
+  border: 1px solid var(--sky-blue);
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  transition: background 120ms ease, color 120ms ease;
+}
+
+.event__link:hover, .event__link:focus {
+  background: var(--sky-blue);
+  color: #fff;
+}
+
+.event__link--ticket {
+  color: #fff;
+  background: var(--sky-blue);
+}
+.event__link--ticket:hover, .event__link--ticket:focus {
+  background: var(--green-dark);
+  border-color: var(--green-dark);
+}
+
+/* ----- Category pill ----- */
+.category {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.category--music     { background: var(--sky-blue);   color: #fff; }
+.category--theater   { background: var(--magenta);    color: #fff; }
+.category--arts      { background: var(--lavender);   color: var(--ink); }
+.category--film      { background: var(--ink-soft);   color: #fff; }
+.category--festival  { background: var(--green);      color: var(--ink); }
+.category--social    { background: var(--green-dark); color: #fff; }
+.category--community { background: var(--green-dark); color: #fff; }
+.category--dance     { background: var(--magenta);    color: #fff; }
+
+/* ----- Footer ----- */
+.footer {
+  border-top: 1px solid var(--paper-dark);
+  padding: 1.5rem 1rem 2rem;
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.footer__line { margin: 0 0 0.25rem; }
+.footer__line span[aria-hidden="true"] { color: var(--magenta); }
+
+.footer__updated {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.75;
+  font-style: italic;
+}
+
+/* ----- Empty state ----- */
+.empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--ink-soft);
+}
+
+.empty__title {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem;
+  color: var(--ink);
+}
+
+/* ----- Print ----- */
+@media print {
+  .hero__image { display: none; }
+  .event { box-shadow: none; border: 1px solid #ccc; break-inside: avoid; }
+}

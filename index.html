@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Lunapp — Lunenburg Events</title>
+  <meta name="description" content="Music, theatre, arts, and community events in Lunenburg, Nova Scotia — for the next two weeks." />
+
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#4E7FCC" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Lunapp" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
+  <link rel="icon" type="image/png" href="assets/icon-192.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;500;600&display=swap" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" role="banner">
+    <div class="hero__image" aria-hidden="true"></div>
+    <div class="hero__text">
+      <h1 class="hero__title">Lunenburg Events</h1>
+      <p class="hero__tagline">Music, theatre, arts, and community — for the next two weeks.</p>
+    </div>
+  </header>
+
+  <main class="container" id="main">
+    <section id="events" aria-live="polite">
+      <p class="status" id="status">Loading events…</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__line">Made with <span aria-hidden="true">♥</span><span class="visually-hidden">love</span> in Lunenburg</p>
+    <p class="footer__updated" id="last-updated"></p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
