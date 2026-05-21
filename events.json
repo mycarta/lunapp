@@ -1,21 +1,6 @@
 {
   "events": [
     {
-      "title": "No Divas Allowed!",
-      "date": "2026-05-20",
-      "time": "7:00 PM",
-      "end_time": "8:30 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Join us for an evening of music and drama as the cohort of LAMP’s 2026 Bel Canto Opera Academy explore the voice outside of operatic repertoire- through art song and musical theatre ! From intimate and expressive pieces to dramatic favourites, this concert offers a chance to experience these emerging artists in a different light.",
-      "url": "https://www.lampns.ca/concert-schedule/no-divas-allowed",
-      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/no-divas-allowed-a-little-light-music/",
-      "price": "$15 donation suggested",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/concert-schedule/no-divas-allowed?format=ical"
-    },
-    {
       "title": "\"Beyond Heritage\" RAIC Public Lecture by Rayleen Hill, NSAA, MRAIC",
       "date": "2026-05-21",
       "time": "7:00 PM",
@@ -129,5 +114,5 @@
       "ics_url": "https://www.lampns.ca/concert-schedule/jazzmay2026?format=ical"
     }
   ],
-  "last_updated": "2026-05-20T21:57:25-03:00"
+  "last_updated": "2026-05-21T08:13:17-03:00"
 }
