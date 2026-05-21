@@ -2,7 +2,9 @@
 
 Musique Royale is a province-wide early-music / classical / jazz presenter.
 It runs concerts across Nova Scotia (Halifax, Wolfville, Cape Breton, Bell
-Island, ...). We only want the Lunenburg-area shows.
+Island, Mahone Bay, ...). We only want shows in Lunenburg and Riverport —
+Mahone Bay venues are intentionally excluded because Mahone Bay will have
+its own app.
 
 Two-step scrape:
 
@@ -53,8 +55,6 @@ _ALLOWED_VENUE_TOWN: list[tuple[str, str]] = [
     ("central united", "lunenburg"),
     ("lightship", "lunenburg"),
     ("old confidence", "riverport"),
-    ("st johns lutheran", "mahone bay"),
-    ("cecilias retreat", "mahone bay"),       # apostrophe stripped by _strip_punct_lower
     ("opera house", "lunenburg"),
 ]
 
