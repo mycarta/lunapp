@@ -58,4 +58,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add events.json sw.js
           git commit -m "Update events [automated]"
+
+          # Re-sync with main right before pushing: another commit may have
+          # landed between this job's checkout and now (a dev pushing a code
+          # change, or a fast-following manual workflow_dispatch). Rebasing
+          # our single bot commit on top is safe because only this workflow
+          # writes events.json / CACHE_VERSION, so no real merge conflict
+          # can arise from human-authored commits.
+          git pull --rebase origin main
           git push
