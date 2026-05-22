@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "\"Beyond Heritage\" RAIC Public Lecture by Rayleen Hill, NSAA, MRAIC",
-      "date": "2026-05-21",
-      "time": "7:00 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Join us on Thursday, May 21 st at 7:00 pm for a public lecture presented by the South Shore Network of the Royal Architectural Institute of Canada. This is a free event, no registration required. “Beyond Heritage” Rayleen reflects and weaves through RHAD’s vast portfolio of work from the last 15 years, connecting both their modern and heritage projects. As part of this reflection, Rayleen discusses her contemplations about heritage buildings and what preserving them ultimately means. She dives…",
-      "url": "https://lunenburgarts.org/news-events/beyond-heritage-raic-public-lecture-by-rayleen-hill-nsaa-mraic/",
-      "price": "Free",
-      "category": "arts",
-      "source": "school_of_arts"
-    },
-    {
       "title": "Gina Burgess Quintet & Natural Elements",
       "date": "2026-05-22",
       "time": "7:00 PM",
@@ -112,7 +100,34 @@
       "category": "music",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/concert-schedule/jazzmay2026?format=ical"
+    },
+    {
+      "title": "OPEN MIC",
+      "date": "2026-06-05",
+      "time": "7:00 PM",
+      "end_time": "11:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Audiences will enjoy a range of creative covers and original songs at first open mic night, hosted by Liam Britten. Musicians will appreciate a welcoming crowd that just wants to get their toes tapping!",
+      "url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg",
+      "price": "$10",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg?format=ical"
+    },
+    {
+      "title": "Neon Dreams",
+      "date": "2026-06-05",
+      "time": "7:30 PM",
+      "venue": "Lunenburg Opera House",
+      "location": "290 Lincoln St, Lunenburg",
+      "description": "Weekends at the Opera House concert series. Doors open at 6:45pm.",
+      "url": "https://folkharbour.ca/concerts",
+      "ticket_url": "https://tproatlantic.ticketpro.ca/en/pages/1690754901?aff=lfhf",
+      "price": "$15–$55; 50% off ages 25 & under",
+      "category": "music",
+      "source": "opera_house"
     }
   ],
-  "last_updated": "2026-05-21T19:35:18-03:00"
+  "last_updated": "2026-05-22T08:09:32-03:00"
 }
