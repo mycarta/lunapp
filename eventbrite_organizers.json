@@ -1,0 +1,4 @@
+{
+  "_note": "Add Eventbrite organizers here as you find them. To get an org's ID, open any of their event pages, view source, find the JSON-LD block; organizer.url ends with /o/<numeric id>. Each entry: {\"id\": \"...\", \"name\": \"...\"}. The name field is informational only - used in log output. The Lunenburg + Riverport venue filter happens automatically in eventbrite_orgs.py.",
+  "organizers": []
+}
