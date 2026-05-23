@@ -59,16 +59,18 @@
       "ics_url": "https://www.lampns.ca/concert-schedule/jazzmay2026?format=ical"
     },
     {
-      "title": "Gimme Shelter Benefit Concert",
+      "title": "Gimme Shelter Fundraiser",
       "date": "2026-05-30",
       "time": "7:00 PM",
+      "end_time": "10:00 PM",
       "venue": "Lunenburg Opera House",
       "location": "290 Lincoln St, Lunenburg",
-      "description": "A fundraising concert for women's shelters featuring multi-genre vocalists.",
-      "url": "https://www.eventbrite.com/e/1984392949731",
-      "ticket_url": "https://www.eventbrite.com/e/1984392949731",
+      "description": "A benefit concert showcasing women supporting women to help raise funds for Second Story Women’s Center and Be the Peace Institute",
+      "url": "https://www.eventbrite.com/e/gimme-shelter-fundraiser-tickets-1984392949731",
+      "ticket_url": "https://www.eventbrite.com/e/gimme-shelter-fundraiser-tickets-1984392949731",
+      "price": "$35.00",
       "category": "music",
-      "source": "manual"
+      "source": "eventbrite"
     },
     {
       "title": "\"MY HORAE\"   Exhibition by Erin Philp – Artist-in-Residence (Winter 2026)",
@@ -136,5 +138,5 @@
       "source": "opera_house"
     }
   ],
-  "last_updated": "2026-05-23T15:28:48-03:00"
+  "last_updated": "2026-05-23T16:02:08-03:00"
 }

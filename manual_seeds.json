@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "Gimme Shelter Benefit Concert",
-      "date": "2026-05-30",
-      "time": "7:00 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "290 Lincoln St, Lunenburg",
-      "description": "A fundraising concert for women's shelters featuring multi-genre vocalists.",
-      "url": "https://www.eventbrite.com/e/1984392949731",
-      "ticket_url": "https://www.eventbrite.com/e/1984392949731",
-      "category": "music",
-      "source": "manual"
-    },
-    {
       "title": "Capella Regalis Spring Concert",
       "date": "2026-06-13",
       "time": "4:00 PM",
@@ -33,7 +21,6 @@
       "location": "136 Cumberland St, Lunenburg",
       "description": "Maritime Concert Opera presents Henry Purcell's Dido and Aeneas. Professional soloists joined by the MCO chorus and the Blue Engine String Quartet.",
       "url": "https://www.maritimeconcertopera.com/",
-      "ticket_url": "https://www.eventbrite.com/e/1984392949731",
       "price": "$39",
       "category": "music",
       "source": "manual"
