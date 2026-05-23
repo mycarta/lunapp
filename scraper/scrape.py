@@ -24,6 +24,7 @@ LOG = logging.getLogger("scrape")
 REPO_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_PATH = REPO_ROOT / "events.json"
 INDEX_HTML_PATH = REPO_ROOT / "index.html"
+MANUAL_SEEDS_PATH = REPO_ROOT / "manual_seeds.json"
 HALIFAX = ZoneInfo("America/Halifax")
 WINDOW_DAYS = 14
 
@@ -137,6 +138,29 @@ def collect_events(session: requests.Session) -> list[dict]:
         except Exception as exc:
             LOG.error("[%s] failed: %s", name, exc, exc_info=True)
     return all_events
+
+
+def load_manual_seeds() -> list[dict]:
+    """Load human-curated events from manual_seeds.json at the repo root.
+
+    These cover sources that no parser handles — Instagram-only posts,
+    bulletin-board notices, Eventbrite listings without a scrapable home
+    page, etc. Seeds use the same event schema as parser output and go
+    through the same windowing + dedupe pipeline. The merge order in
+    ``main`` places them *before* parser output so they win the dedupe
+    against any parser entry that happens to overlap on (date, title) —
+    which is the contract: a manual seed persists until it's removed
+    from the file, regardless of what the parsers say.
+    """
+    if not MANUAL_SEEDS_PATH.exists():
+        return []
+    try:
+        data = json.loads(MANUAL_SEEDS_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        LOG.error("manual_seeds.json failed to load: %s", exc)
+        return []
+    events = data.get("events", []) if isinstance(data, dict) else []
+    return [e for e in events if isinstance(e, dict)]
 
 
 def filter_to_window(events: list[dict], today: datetime) -> list[dict]:
@@ -355,8 +379,17 @@ def main() -> int:
     )
     session = requests.Session()
 
-    events = collect_events(session)
-    LOG.info("collected %d total events from %d sources", len(events), len(ALL_PARSERS))
+    parser_events = collect_events(session)
+    LOG.info("collected %d parser events from %d sources",
+             len(parser_events), len(ALL_PARSERS))
+
+    manual = load_manual_seeds()
+    LOG.info("loaded %d manual seed events", len(manual))
+
+    # Manual seeds go FIRST so they win the dedupe step against any parser
+    # entry that happens to share (date, title). They're still subject to the
+    # 14-day window — seeds dated outside it just don't appear yet.
+    events = manual + parser_events
 
     now = datetime.now(HALIFAX)
     events = filter_to_window(events, now)
