@@ -1,49 +1,6 @@
 {
   "events": [
     {
-      "title": "Gina Burgess Quintet & Natural Elements",
-      "date": "2026-05-22",
-      "time": "7:00 PM",
-      "end_time": "9:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "An amazing night of fiddling, Inuit throat singing, Brazilian percussion, and much more! Gina Burgess is an ECMA-winning, genre-bending violinist and composer. Her performances feature an all-star 5-piece band, combining her violin with contemporary Inuit throat singing, drum kit, double bass, and Brazilian percussion. Natural Elements is contemporary folk music from fiddler-violinist Hayley Ryerson, performed with Ellen Gibling on harp.",
-      "url": "https://www.oldconfidence.ca/events/gina-burgess-lunenburg-county",
-      "ticket_url": "https://www.onstagedirect.com/buy/event_info.action?eventId=2842&token=02EEFEC151",
-      "price": "$25; $15 for Ages 18 & Under",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/gina-burgess-lunenburg-county?format=ical"
-    },
-    {
-      "title": "Bel Canto Academy Concert 2026",
-      "date": "2026-05-22",
-      "time": "7:00 PM",
-      "end_time": "8:30 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Under the guidance of esteemed vocal coaches Rachelle Jonck , co-founder of Bel Canto Boot Camp, and Derrick Goff , resident artists will refine their technique and interpretation of this Italian-originated style, rooted in the 18th and 19th centuries. This special performance showcases the culmination of their work- an evening of Bel Canto masterpieces that highlight the beauty and nuance of the human voice.",
-      "url": "https://www.lampns.ca/concert-schedule/bel-canto-2026",
-      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/bel-canto-recital",
-      "price": "$25",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/concert-schedule/bel-canto-2026?format=ical"
-    },
-    {
-      "title": "Pretty Archie",
-      "date": "2026-05-22",
-      "time": "7:30 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "290 Lincoln St, Lunenburg",
-      "description": "Weekends at the Opera House concert series. Doors open at 6:45pm.",
-      "url": "https://folkharbour.ca/concerts",
-      "ticket_url": "https://lfhf.ticketpro.ca/en/pages/1680149062?aff=lfhf",
-      "price": "$15–$55; 50% off ages 25 & under",
-      "category": "music",
-      "source": "opera_house"
-    },
-    {
       "title": "Roxy and the Underground Soul Sound",
       "date": "2026-05-23",
       "time": "7:30 PM",
@@ -139,7 +96,33 @@
       "price": "$15–$55; 50% off ages 25 & under",
       "category": "music",
       "source": "opera_house"
+    },
+    {
+      "title": "Duke Ellington Sacred Concert",
+      "date": "2026-06-06",
+      "time": "4:00 PM",
+      "venue": "St. John's Anglican Church",
+      "location": "64 Townsend St, Lunenburg",
+      "description": "Hear one of the 20th centuryâs most visionary musical statements - where jazz meets the sacred, through community voices coming together in sound. Composed in the final decade of Duke Ellingtonâs life, his Sacred Concerts represent what he called âthe most important thing I have done.â Designed for choir, soloists, and instrumental ensemble, these works fuse jazz, gospel, blues, and classical traditions into a vibrant and deeply human musical language. The Sacred Concerts move seamlessly from intimate prayer to exuberant celebration. The concert features soprano soloist Frances…",
+      "url": "http://musiqueroyale.com/event/2026/2026-06-06-duke-ellington-sacred-concert/",
+      "ticket_url": "https://www.canadahelps.org/en/charities/musique-royale-a-treasury-of-music-from-our-historic-past/events/duke-ellington-sacred-concert/",
+      "price": "$30 at the door, $25 advanced rate, youth free (ages 18 and under)",
+      "category": "music",
+      "source": "musique_royale"
+    },
+    {
+      "title": "The Janzen Boys",
+      "date": "2026-06-06",
+      "time": "7:30 PM",
+      "venue": "Lunenburg Opera House",
+      "location": "290 Lincoln St, Lunenburg",
+      "description": "Weekends at the Opera House concert series. Doors open at 6:45pm.",
+      "url": "https://folkharbour.ca/concerts",
+      "ticket_url": "https://lfhf.ticketpro.ca/en/pages/1680149065?aff=lfhf",
+      "price": "$15–$55; 50% off ages 25 & under",
+      "category": "music",
+      "source": "opera_house"
     }
   ],
-  "last_updated": "2026-05-22T19:29:12-03:00"
+  "last_updated": "2026-05-23T07:36:22-03:00"
 }
