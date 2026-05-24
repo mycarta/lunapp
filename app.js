@@ -202,36 +202,88 @@ function renderLastUpdated(iso) {
   document.getElementById("last-updated").textContent = `Last updated ${fmt}`;
 }
 
+// Data more than this many hours old is treated as "showing saved events".
+// Scraper runs twice daily (12h cadence); 24h is a generous safety margin
+// before we tell the user the data isn't fresh.
+const STALE_THRESHOLD_MS = 24 * 60 * 60 * 1000;
+
 async function loadEvents() {
   const container = document.getElementById("events");
   const status = document.getElementById("status");
+
+  // The service worker's networkFirst handler serves the latest events.json
+  // when online and falls back to the cached copy when not. If both fail
+  // (truly offline + nothing cached yet), fetch rejects and we drop into the
+  // graceful "no events offline yet" message instead of a technical error.
+  let data = null;
   try {
     const resp = await fetch("events.json", { cache: "no-cache" });
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const data = await resp.json();
-    const today = startOfDay(new Date());
-    const upcoming = (data.events || [])
-      .filter(e => e.date && parseLocalDate(e.date) >= today);
-
-    status.remove();
-    container.replaceChildren();
-
-    if (upcoming.length === 0) {
-      renderEmpty(container);
-    } else {
-      for (const [dateKey, events] of groupByDate(upcoming)) {
-        container.appendChild(renderDayGroup(dateKey, events, today));
-      }
-    }
-    renderLastUpdated(data.last_updated);
+    data = await resp.json();
   } catch (err) {
-    status.textContent = "Couldn't load events. Please try again later.";
-    status.style.color = "var(--magenta)";
-    console.error("Failed to load events:", err);
+    console.warn("events.json fetch failed (no cache fallback either):", err);
   }
+
+  if (!data) {
+    status.textContent = "No events available offline yet. Connect to the internet and try again.";
+    status.style.color = "var(--ink-soft)";
+    status.style.fontStyle = "normal";
+    return;
+  }
+
+  // If the data's last_updated is older than the scrape cadence, it's almost
+  // certainly the cached copy (we're offline or the scraper is stuck). Show
+  // it normally but with a subtle "showing saved events" note up top.
+  const lastUpdatedDate = data.last_updated ? new Date(data.last_updated) : null;
+  const isStale = !!lastUpdatedDate
+    && !isNaN(lastUpdatedDate)
+    && (Date.now() - lastUpdatedDate.getTime()) > STALE_THRESHOLD_MS;
+
+  const today = startOfDay(new Date());
+  const upcoming = (data.events || [])
+    .filter(e => e.date && parseLocalDate(e.date) >= today);
+
+  status.remove();
+  container.replaceChildren();
+
+  if (isStale) {
+    const when = lastUpdatedDate.toLocaleDateString(undefined, {
+      month: "short", day: "numeric"
+    });
+    container.appendChild(el("p", {
+      className: "stale-note",
+      text: `Showing saved events · Last updated ${when}`
+    }));
+  }
+
+  if (upcoming.length === 0) {
+    renderEmpty(container);
+  } else {
+    for (const [dateKey, events] of groupByDate(upcoming)) {
+      container.appendChild(renderDayGroup(dateKey, events, today));
+    }
+  }
+  renderLastUpdated(data.last_updated);
 }
 
 if ("serviceWorker" in navigator && location.protocol !== "file:") {
+  // Reload exactly once when a new service worker takes control of this page.
+  // This handles the "stale tab open during deploy" case: the new SW activates
+  // via skipWaiting()/clients.claim(), and the existing tab refreshes itself
+  // against the new shell instead of stranding the user on old assets.
+  //
+  // Two guards against reload loops:
+  //   - `reloaded` ensures we only reload once per page session.
+  //   - `hadControllerAtLoad` skips the controllerchange event that fires on
+  //     the very first page load (when there's no existing SW to replace).
+  const hadControllerAtLoad = !!navigator.serviceWorker.controller;
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (reloaded || !hadControllerAtLoad) return;
+    reloaded = true;
+    window.location.reload();
+  });
+
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("sw.js").catch(err => {
       console.warn("SW registration failed:", err);

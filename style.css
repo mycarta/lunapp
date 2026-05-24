@@ -129,6 +129,17 @@ a:hover, a:focus { color: var(--green-dark); }
   padding: 2rem 0;
 }
 
+/* "Showing saved events" banner — appears above the event list when the
+   data we loaded is older than the scraper's expected refresh cadence.
+   Kept subtle on purpose: it informs without alarming. */
+.stale-note {
+  text-align: center;
+  font-size: 0.88rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  margin: 0 0 1rem;
+}
+
 /* Temporary "submit an event" banner. Lives just below the hero, above
    the event list. Marked .seed-banner so it's easy to grep and remove
    once we have enough organic event submissions to drop the explicit
