@@ -1,30 +1,6 @@
 {
   "events": [
     {
-      "title": "Geoff Kennedy - Live at Lightship!",
-      "date": "2026-05-23",
-      "time": "7:00 PM",
-      "end_time": "9:00 PM",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/",
-      "category": "music",
-      "source": "lightship"
-    },
-    {
-      "title": "Roxy and the Underground Soul Sound",
-      "date": "2026-05-23",
-      "time": "7:30 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "290 Lincoln St, Lunenburg",
-      "description": "Weekends at the Opera House concert series. Doors open at 6:45pm.",
-      "url": "https://folkharbour.ca/concerts",
-      "ticket_url": "https://lfhf.ticketpro.ca/en/pages/1680149064?aff=lfhf",
-      "price": "$15–$55; 50% off ages 25 & under",
-      "category": "music",
-      "source": "opera_house"
-    },
-    {
       "title": "Silent Film with Live Score: Metropolis",
       "date": "2026-05-24",
       "time": "2:00 PM",
@@ -160,6 +136,17 @@
       "source": "musique_royale"
     },
     {
+      "title": "No Curfew - Live at Lightship!",
+      "date": "2026-06-06",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/",
+      "category": "music",
+      "source": "lightship"
+    },
+    {
       "title": "The Janzen Boys",
       "date": "2026-06-06",
       "time": "7:30 PM",
@@ -171,7 +158,20 @@
       "price": "$15–$55; 50% off ages 25 & under",
       "category": "music",
       "source": "opera_house"
+    },
+    {
+      "title": "Tom Richards Trio",
+      "date": "2026-06-07",
+      "time": "2:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "description": "Musique Royale invites you to Lightship Brewery to enjoy an outdoor show by the fantastic Tom Richards Trio (TRT). TRT takes you on a cinematic journey through vibrant landscapes, weaving stories of turmoil, love, and redemption. Instrumental music which spans genres such as jazz, cinematic, groove, and minimalist. Every performance includes a special twist - an immersive audience-outreach component where Tom leads a discussion about the music. Tom Richards Tom Richards presents a kaleidoscopic world of music through his piano trio. Inspired by artists like Bill Frisell and Khruangbin, TRT…",
+      "url": "http://musiqueroyale.com/event/2026/2026-06-07-tom-richards-trio/",
+      "ticket_url": "https://www.canadahelps.org/en/charities/musique-royale-a-treasury-of-music-from-our-historic-past/events/tom-richards-trio-at-lightship-brewery",
+      "price": "$25 advance, $30 at the door, youth free (18 and under)",
+      "category": "music",
+      "source": "musique_royale"
     }
   ],
-  "last_updated": "2026-05-23T22:14:46-03:00"
+  "last_updated": "2026-05-24T07:39:03-03:00"
 }
