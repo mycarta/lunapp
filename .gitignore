@@ -22,6 +22,7 @@ yarn-error.log*
 # Project
 _scrape_test/
 events.json.bak
+lunenburg-events-cc-prompt.md
 
 # Editor / tooling
 .claude/
