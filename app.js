@@ -284,10 +284,18 @@ if ("serviceWorker" in navigator && location.protocol !== "file:") {
     window.location.reload();
   });
 
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("sw.js").catch(err => {
+  window.addEventListener("load", async () => {
+    try {
+      const reg = await navigator.serviceWorker.register("sw.js");
+      // Force an update check on every page load. The browser's default
+      // SW update heuristic is sluggish on iOS Safari (sometimes deferred
+      // a full session), which leaves home-screen PWAs on a stale shell.
+      // Explicit .update() makes the check happen now; failures are
+      // harmless (offline, etc.) so we swallow them.
+      reg.update().catch(() => {});
+    } catch (err) {
       console.warn("SW registration failed:", err);
-    });
+    }
   });
 }
 
