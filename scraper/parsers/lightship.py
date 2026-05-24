@@ -75,8 +75,20 @@ def _format_date(dt) -> str:
 def _clean_description(raw: str, max_chars: int = 500) -> str | None:
     if not raw:
         return None
-    # icalendar already decoded escape sequences; squash whitespace and cap.
-    s = re.sub(r"\s+", " ", raw).strip()
+    # Google Calendar auto-injects a "Join with Google Meet: <url> Learn
+    # more about Meet at: <url>" block whenever an event has a Meet link
+    # attached — but Lightship's calendar admin uses Meet links as a
+    # bookkeeping convenience, not because the show is virtual. Strip it
+    # so brewery events don't look like Zoom calls in the listing.
+    s = re.sub(
+        r"-*\s*Join with Google Meet:\s*https?://\S+",
+        "", raw, flags=re.IGNORECASE,
+    )
+    s = re.sub(
+        r"Learn more about Meet at:\s*https?://\S+",
+        "", s, flags=re.IGNORECASE,
+    )
+    s = re.sub(r"\s+", " ", s).strip()
     if len(s) > max_chars:
         s = s[: max_chars - 1].rsplit(" ", 1)[0] + "…"
     return s or None

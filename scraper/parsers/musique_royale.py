@@ -254,6 +254,10 @@ def fetch(session: requests.Session | None = None) -> list[dict]:
         LOG.error("musique_royale listing fetch failed: %s", exc)
         return []
 
+    # Force UTF-8 — musiqueroyale.com serves UTF-8 content but its
+    # Content-Type lacks a charset, so requests defaults to ISO-8859-1
+    # and curly quotes / em-dashes come back as mojibake ("centuryâ€™s").
+    r.encoding = "utf-8"
     partial_events = _parse_listing(r.text)
     LOG.debug("musique_royale: %d events on listing page", len(partial_events))
 
@@ -266,6 +270,7 @@ def fetch(session: requests.Session | None = None) -> list[dict]:
         except Exception as exc:
             LOG.warning("musique_royale detail fetch failed (%s): %s", detail_url, exc)
             continue
+        dr.encoding = "utf-8"
         detail = _parse_detail(dr.text)
         time.sleep(DETAIL_DELAY_SECONDS)
 

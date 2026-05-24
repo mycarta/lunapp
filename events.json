@@ -66,7 +66,6 @@
       "end_time": "8:00 PM",
       "venue": "Lightship Brewery",
       "location": "93 Tannery Rd, Lunenburg",
-      "description": "Join with Google Meet: https://meet.google.com/mhq-kocm-khj Learn more about Meet at: https://support.google.com/a/users/answer/9282720",
       "url": "https://lightshipbrewery.ca/",
       "category": "community",
       "source": "lightship"
@@ -104,7 +103,6 @@
       "end_time": "10:00 PM",
       "venue": "Lightship Brewery",
       "location": "93 Tannery Rd, Lunenburg",
-      "description": "Join with Google Meet: https://meet.google.com/bzx-oonw-xgo Learn more about Meet at: https://support.google.com/a/users/answer/9282720",
       "url": "https://lightshipbrewery.ca/",
       "category": "music",
       "source": "lightship"
@@ -128,7 +126,7 @@
       "time": "4:00 PM",
       "venue": "St. John's Anglican Church",
       "location": "64 Townsend St, Lunenburg",
-      "description": "Hear one of the 20th centuryâs most visionary musical statements - where jazz meets the sacred, through community voices coming together in sound. Composed in the final decade of Duke Ellingtonâs life, his Sacred Concerts represent what he called âthe most important thing I have done.â Designed for choir, soloists, and instrumental ensemble, these works fuse jazz, gospel, blues, and classical traditions into a vibrant and deeply human musical language. The Sacred Concerts move seamlessly from intimate prayer to exuberant celebration. The concert features soprano soloist Frances…",
+      "description": "Hear one of the 20th century’s most visionary musical statements - where jazz meets the sacred, through community voices coming together in sound. Composed in the final decade of Duke Ellington’s life, his Sacred Concerts represent what he called “the most important thing I have done.” Designed for choir, soloists, and instrumental ensemble, these works fuse jazz, gospel, blues, and classical traditions into a vibrant and deeply human musical language. The Sacred Concerts move seamlessly from intimate prayer to exuberant celebration. The concert features soprano soloist Frances Farrell, and…",
       "url": "http://musiqueroyale.com/event/2026/2026-06-06-duke-ellington-sacred-concert/",
       "ticket_url": "https://www.canadahelps.org/en/charities/musique-royale-a-treasury-of-music-from-our-historic-past/events/duke-ellington-sacred-concert/",
       "price": "$30 at the door, $25 advanced rate, youth free (ages 18 and under)",
@@ -173,5 +171,5 @@
       "source": "musique_royale"
     }
   ],
-  "last_updated": "2026-05-24T10:43:57-03:00"
+  "last_updated": "2026-05-24T10:58:47-03:00"
 }
