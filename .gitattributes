@@ -1,0 +1,5 @@
+# Shell scripts and git hooks must keep LF line endings — a CRLF in the
+# shebang or anywhere else breaks them on Linux/macOS shells, even when
+# git's autocrlf config is otherwise turned on (Windows default).
+*.sh         text eol=lf
+hooks/*      text eol=lf

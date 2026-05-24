@@ -1,0 +1,73 @@
+#!/bin/sh
+# Auto-bump CACHE_VERSION in sw.js on every commit.
+#
+# Reads the current `const CACHE_VERSION = "..."` value from sw.js at
+# the repo root. If the value matches the pattern `<prefix>-v<digits>`
+# (e.g. "lunapp-v12"), the trailing number is incremented, sw.js is
+# rewritten, and the file is `git add`-ed so the bump rides along in
+# the same commit.
+#
+# Silent no-op when:
+#   - sw.js doesn't exist at the repo root, or
+#   - the CACHE_VERSION line isn't found, or
+#   - the value doesn't match the <prefix>-v<digits> pattern (e.g. it's
+#     still a short commit SHA from the previous convention).
+#
+# Never fails the commit — every error path exits 0 so the hook can
+# only help, never block.
+#
+# Versioned file. After cloning, run `scripts/install-hooks.sh` once to
+# point git at this directory via core.hooksPath.
+
+# Pick a Python that actually runs — on Windows `python3` is often the
+# Microsoft Store stub that's "found" by command -v but errors when
+# invoked. Probe each candidate by running a no-op.
+PY=""
+for cmd in python python3; do
+    if "$cmd" -c "" >/dev/null 2>&1; then
+        PY="$cmd"
+        break
+    fi
+done
+[ -z "$PY" ] && exit 0
+
+exec "$PY" - <<'PYEOF'
+import os
+import re
+import subprocess
+import sys
+
+try:
+    root = subprocess.check_output(
+        ["git", "rev-parse", "--show-toplevel"], text=True
+    ).strip()
+except subprocess.CalledProcessError:
+    sys.exit(0)
+
+sw_path = os.path.join(root, "sw.js")
+if not os.path.isfile(sw_path):
+    sys.exit(0)
+
+with open(sw_path, encoding="utf-8") as f:
+    content = f.read()
+
+m = re.search(r'^const CACHE_VERSION = "([^"]+)";', content, re.MULTILINE)
+if not m:
+    sys.exit(0)
+
+current = m.group(1)
+m2 = re.match(r'^([A-Za-z][A-Za-z0-9_-]*-v)(\d+)$', current)
+if not m2:
+    # e.g. still a short commit SHA like "5c3aae2" — leave it alone.
+    sys.exit(0)
+
+next_val = f"{m2.group(1)}{int(m2.group(2)) + 1}"
+new_content = content[: m.start(1)] + next_val + content[m.end(1):]
+
+with open(sw_path, "w", encoding="utf-8") as f:
+    f.write(new_content)
+
+subprocess.run(["git", "add", sw_path], check=True)
+print(f"pre-commit: CACHE_VERSION bumped {current} -> {next_val}",
+      file=sys.stderr)
+PYEOF
