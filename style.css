@@ -351,19 +351,6 @@ a:hover, a:focus { color: var(--green-dark); }
   font-size: 0.9rem;
 }
 
-.footer__submit {
-  margin: 0 0 0.6rem;
-}
-.footer__submit a {
-  color: var(--sky-blue);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 120ms ease;
-}
-.footer__submit a:hover, .footer__submit a:focus {
-  border-bottom-color: var(--sky-blue);
-}
-
 .footer__line { margin: 0 0 0.25rem; }
 .footer__line span[aria-hidden="true"] { color: var(--magenta); }
 
