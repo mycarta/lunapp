@@ -1,6 +1,17 @@
 {
   "events": [
     {
+      "title": "Geoff Kennedy - Live at Lightship!",
+      "date": "2026-05-23",
+      "time": "7:00 PM",
+      "end_time": "9:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/",
+      "category": "music",
+      "source": "lightship"
+    },
+    {
       "title": "Roxy and the Underground Soul Sound",
       "date": "2026-05-23",
       "time": "7:30 PM",
@@ -73,6 +84,18 @@
       "source": "eventbrite"
     },
     {
+      "title": "Trivia with Michelle at Lightship!",
+      "date": "2026-06-01",
+      "time": "6:00 PM",
+      "end_time": "8:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "description": "Join with Google Meet: https://meet.google.com/mhq-kocm-khj Learn more about Meet at: https://support.google.com/a/users/answer/9282720",
+      "url": "https://lightshipbrewery.ca/",
+      "category": "community",
+      "source": "lightship"
+    },
+    {
       "title": "\"MY HORAE\"   Exhibition by Erin Philp – Artist-in-Residence (Winter 2026)",
       "date": "2026-06-04",
       "time": "7:00 PM",
@@ -97,6 +120,18 @@
       "category": "music",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg?format=ical"
+    },
+    {
+      "title": "Zakary Miller & The Yodelayhee Few - Live at Lightship!",
+      "date": "2026-06-05",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "description": "Join with Google Meet: https://meet.google.com/bzx-oonw-xgo Learn more about Meet at: https://support.google.com/a/users/answer/9282720",
+      "url": "https://lightshipbrewery.ca/",
+      "category": "music",
+      "source": "lightship"
     },
     {
       "title": "Neon Dreams",
@@ -138,5 +173,5 @@
       "source": "opera_house"
     }
   ],
-  "last_updated": "2026-05-23T19:23:33-03:00"
+  "last_updated": "2026-05-23T22:14:46-03:00"
 }
