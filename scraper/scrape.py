@@ -30,6 +30,12 @@ WINDOW_DAYS = 14
 
 SITE_URL = "https://mycarta.github.io/lunapp/"
 
+# Fallback image baked into every event's JSON-LD because none of our
+# parsers carry per-event imagery. Google's rich-result carousel uses
+# the site icon when nothing better is available — better than no image
+# at all, which Search Console flags as a recommended-field warning.
+DEFAULT_EVENT_IMAGE = "https://mycarta.github.io/lunapp/assets/icon-512.png"
+
 # Comment markers in index.html that bracket the regions the scraper rewrites
 # on each run. Keep these in sync with the placeholders in index.html.
 _JSONLD_RE = re.compile(
@@ -224,15 +230,26 @@ def _combine_iso(date_str: str, time_str: str | None) -> str:
     return dt.isoformat()
 
 
-def _parse_offers(price: str | None, ticket_url: str | None) -> dict | None:
+def _parse_offers(
+    price: str | None, ticket_url: str | None, valid_from: str | None = None
+) -> dict | None:
     """Best-effort price → schema.org Offer / AggregateOffer.
 
     Returns None when the price string has no extractable amount and isn't
     a recognized "Free" or "PWYC" — better to emit no offer than a wrong one.
+
+    Adds ``availability`` (always InStock — we don't track sold-out state)
+    and an optional ``validFrom`` timestamp so crawlers know how stale the
+    pricing data is.
     """
-    base: dict = {"priceCurrency": "CAD"}
+    base: dict = {
+        "priceCurrency": "CAD",
+        "availability": "https://schema.org/InStock",
+    }
     if ticket_url:
         base["url"] = ticket_url
+    if valid_from:
+        base["validFrom"] = valid_from
 
     if price:
         if _FREE_RE.search(price):
@@ -254,7 +271,7 @@ def _parse_offers(price: str | None, ticket_url: str | None) -> dict | None:
     return None
 
 
-def _event_jsonld(event: dict) -> dict:
+def _event_jsonld(event: dict, valid_from: str | None = None) -> dict:
     start = _combine_iso(event["date"], event.get("time"))
     obj: dict = {
         "@type": "Event",
@@ -262,6 +279,9 @@ def _event_jsonld(event: dict) -> dict:
         "startDate": start,
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        # Google's rich-result preview wants an image. We don't have
+        # per-event art, so every event falls back to the site icon.
+        "image": DEFAULT_EVENT_IMAGE,
     }
     if event.get("end_time"):
         obj["endDate"] = _combine_iso(event["date"], event["end_time"])
@@ -271,22 +291,38 @@ def _event_jsonld(event: dict) -> dict:
         place["address"] = event["location"]
     obj["location"] = place
 
+    # Use the venue as the organizer fallback — it's the closest thing we
+    # know about who's putting the event on. Performer is intentionally
+    # omitted: we don't reliably know who the performer is (the event
+    # title sometimes IS the performer name, but not always), and a
+    # fabricated value would be worse than none.
+    if event.get("venue"):
+        obj["organizer"] = {"@type": "Organization", "name": event["venue"]}
+
     if event.get("url"):
         obj["url"] = event["url"]
     if event.get("description"):
         obj["description"] = event["description"]
 
-    offers = _parse_offers(event.get("price"), event.get("ticket_url"))
+    offers = _parse_offers(
+        event.get("price"), event.get("ticket_url"), valid_from=valid_from
+    )
     if offers:
         obj["offers"] = offers
     return obj
 
 
-def render_jsonld_script(events: list[dict]) -> str:
+def render_jsonld_script(
+    events: list[dict], valid_from: str | None = None
+) -> str:
     """Render the <script type='application/ld+json'> tag content. Always emits
     a single ItemList wrapping the events so the whole page is one structured
-    record — easier for Google to attribute than a bare array."""
-    items = [_event_jsonld(e) for e in events]
+    record — easier for Google to attribute than a bare array.
+
+    ``valid_from`` (typically the scrape run's ``last_updated``) is threaded
+    into per-event offers so price data carries a freshness timestamp.
+    """
+    items = [_event_jsonld(e, valid_from=valid_from) for e in events]
     payload = {
         "@context": "https://schema.org",
         "@type": "ItemList",
@@ -343,17 +379,23 @@ def render_noscript_html(events: list[dict]) -> str:
     return "\n      ".join(lines)
 
 
-def update_index_html(events: list[dict]) -> bool:
+def update_index_html(
+    events: list[dict], valid_from: str | None = None
+) -> bool:
     """Rewrite the JSON-LD and noscript regions in index.html. Returns True
     when the file actually changed (so the caller can short-circuit a no-op
-    write that would just confuse the workflow's git-diff check)."""
+    write that would just confuse the workflow's git-diff check).
+
+    ``valid_from`` is the scrape run's ``last_updated`` timestamp, threaded
+    through to each Offer's validFrom field for crawler freshness signals.
+    """
     if not INDEX_HTML_PATH.exists():
         LOG.warning("index.html not found at %s — skipping HTML update",
                     INDEX_HTML_PATH)
         return False
     original = INDEX_HTML_PATH.read_text(encoding="utf-8")
 
-    jsonld_script = render_jsonld_script(events)
+    jsonld_script = render_jsonld_script(events, valid_from=valid_from)
     noscript_body = render_noscript_html(events)
 
     def jsonld_sub(m: re.Match) -> str:
@@ -403,9 +445,10 @@ def main() -> int:
         else:
             e.pop("location", None)
 
+    last_updated = now.replace(microsecond=0).isoformat()
     payload = {
         "events": events,
-        "last_updated": now.replace(microsecond=0).isoformat(),
+        "last_updated": last_updated,
     }
     OUTPUT_PATH.write_text(
         json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
@@ -413,7 +456,7 @@ def main() -> int:
     )
     LOG.info("wrote %d events to %s", len(events), OUTPUT_PATH)
 
-    html_changed = update_index_html(events)
+    html_changed = update_index_html(events, valid_from=last_updated)
     LOG.info("index.html %s", "rewritten" if html_changed else "unchanged")
     return 0
 
