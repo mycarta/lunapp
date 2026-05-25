@@ -42,12 +42,11 @@ jobs:
             exit 0
           fi
 
-          # CACHE_VERSION = short SHA of the commit that triggered this run.
-          # Since each scrape produces a fresh commit, GITHUB_SHA on the next
-          # run is always different from the SHA baked into the deployed sw.js,
-          # which is what lets clients invalidate their caches.
-          SHORT_SHA="${GITHUB_SHA::7}"
-          sed -i -E "s/^const CACHE_VERSION = \".*\";/const CACHE_VERSION = \"${SHORT_SHA}\";/" sw.js
+          # Bump sw.js CACHE_VERSION using the lunapp-vN convention so this
+          # workflow stays aligned with the local pre-commit hook
+          # (hooks/pre-commit). The script handles both increment and
+          # re-anchor cases — see scripts/bump-cache-version.py.
+          python scripts/bump-cache-version.py
 
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
