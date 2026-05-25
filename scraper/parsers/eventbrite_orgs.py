@@ -22,8 +22,9 @@ How it works
      ``eventbrite.com/api/v3/organizers/{id}/events/?status=live&expand=venue,ticket_classes``.
      Pages until ``pagination.has_more_items`` is false (capped at
      ``PAGE_LIMIT`` as a safety net against runaway iteration).
-  3. Filter to Lunenburg + Riverport venues. Mahone Bay is intentionally
-     excluded — Mahone Bay is getting its own dedicated app.
+  3. Filter to Lunenburg-area venues — currently Lunenburg, Riverport,
+     Blue Rocks, and Stonehurst. Mahone Bay is intentionally excluded —
+     that town is getting its own dedicated app.
   4. Map to our event-dict schema, the same shape the other parsers
      return.
 
@@ -59,9 +60,10 @@ UA = "Mozilla/5.0 (lunenburg-events scraper; +https://github.com/)"
 TIMEOUT = 20
 PAGE_LIMIT = 5  # 250 future events per org is plenty; this is a runaway guard
 
-# Lunenburg + Riverport only. Mahone Bay is excluded by project policy
-# (separate app planned for that town).
-_ALLOWED_CITIES = {"lunenburg", "riverport"}
+# Lunenburg-area towns only — Lunenburg, Riverport, Blue Rocks, Stonehurst.
+# Mahone Bay is excluded by project policy (separate app planned for that
+# town). Match is case-insensitive against the venue's address.city field.
+_ALLOWED_CITIES = {"lunenburg", "riverport", "blue rocks", "stonehurst"}
 
 # Eventbrite category IDs → Lunapp categories. IDs from
 # https://www.eventbrite.com/platform/api#/reference/category. Anything

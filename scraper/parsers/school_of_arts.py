@@ -72,7 +72,7 @@ _BARE_TIME_RE = re.compile(
 )
 
 # Towns whose names may legitimately follow an address as the city part.
-_TOWNS_RE = r"Lunenburg|Mahone Bay|Riverport|Chester|Bridgewater|Halifax"
+_TOWNS_RE = r"Lunenburg|Mahone Bay|Riverport|Blue Rocks|Stonehurst|Chester|Bridgewater|Halifax"
 _ADDRESS_RE = re.compile(
     r"\b\d{1,5}\s+[A-Z][\w'-]+(?:\s+[A-Z][\w'-]+){0,3}\s+"
     r"(?:Street|St\.?|Avenue|Ave\.?|Road|Rd\.?|Boulevard|Blvd\.?|"

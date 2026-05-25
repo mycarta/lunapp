@@ -82,13 +82,14 @@ _STREET_RE = re.compile(
 # becomes "3831 Nova Scotia 332, Riverport".
 _KNOWN_TOWNS = [
     "Mahone Bay",  # multi-word entries must come first
-    "Lunenburg",
-    "Riverport",
-    "Chester",
-    "Bridgewater",
     "Blue Rocks",
     "Indian Path",
     "Garden Lots",
+    "Lunenburg",
+    "Riverport",
+    "Stonehurst",
+    "Chester",
+    "Bridgewater",
 ]
 
 

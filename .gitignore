@@ -23,6 +23,7 @@ yarn-error.log*
 _scrape_test/
 events.json.bak
 lunenburg-events-cc-prompt.md
+STATUS.md
 
 # Editor / tooling
 .claude/

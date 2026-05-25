@@ -2,9 +2,11 @@
 
 Musique Royale is a province-wide early-music / classical / jazz presenter.
 It runs concerts across Nova Scotia (Halifax, Wolfville, Cape Breton, Bell
-Island, Mahone Bay, ...). We only want shows in Lunenburg and Riverport —
-Mahone Bay venues are intentionally excluded because Mahone Bay will have
-its own app.
+Island, Mahone Bay, ...). We only keep shows whose venue is in Lunenburg,
+Riverport, Blue Rocks, or Stonehurst — Mahone Bay venues are intentionally
+excluded because Mahone Bay will have its own app. The allowlist below is
+venue-specific (we only enumerate venues we've actually seen them use); if
+a new town-appropriate venue appears, add a tuple for it.
 
 Two-step scrape:
 
