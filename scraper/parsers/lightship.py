@@ -46,9 +46,12 @@ TIMEOUT = 20
 WINDOW_DAYS = 14
 
 # Title keywords (case-insensitive substring) that mark a routine/
-# operational item rather than a discrete event. Extend as needed.
+# operational item rather than the kind of one-off "what's on" thing
+# the app exists to surface. Lunapp is curated for live music + arts +
+# community happenings, not weekly bar fixtures. Extend as needed.
 _ROUTINE_TITLE_KEYWORDS = (
     "happy hour",
+    "trivia",
 )
 
 
