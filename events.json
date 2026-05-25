@@ -1,21 +1,6 @@
 {
   "events": [
     {
-      "title": "Silent Film with Live Score: Metropolis",
-      "date": "2026-05-24",
-      "time": "2:00 PM",
-      "end_time": "4:30 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Andrew MacKelvie - saxophones, synth Andrew Jackson - trombone + effects Ellen Gibling - harp Gabriella Ciurcovich - bass Doug Cameron - drums Fritz Lang's German expressionist science fiction masterpiece, Metropolis, with a live improvised score. In a techno-future where the world is starkly divided between the elite and the workers, John Fredersen, a wealthy magnate uses unseemly methods to crush a worker uprising led by the charismatic Maria... who also happens to be the object of desire for his son Feder. Abstract set design, incredible practical effects, and hundreds of extras make…",
-      "url": "https://www.oldconfidence.ca/events/silent-film-riverport-andrew-mackelvie",
-      "ticket_url": "https://www.onstagedirect.com/buy/event_info.action?eventId=2890&token=0539456413",
-      "price": "$20; $12 for Ages 10-18",
-      "category": "film",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/silent-film-riverport-andrew-mackelvie?format=ical"
-    },
-    {
       "title": "Customer Service, Spirit of the Wildfire + Others",
       "date": "2026-05-29",
       "time": "7:00 PM",
@@ -169,7 +154,19 @@
       "price": "$25 advance, $30 at the door, youth free (18 and under)",
       "category": "music",
       "source": "musique_royale"
+    },
+    {
+      "title": "Tom Richards Trio - Live at Lightship - Tickets at the door!",
+      "date": "2026-06-07",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "description": "https://youtu.be/rn5jGR31atk https://youtu.be/05vZT49eeMY",
+      "url": "https://lightshipbrewery.ca/",
+      "category": "music",
+      "source": "lightship"
     }
   ],
-  "last_updated": "2026-05-24T19:26:13-03:00"
+  "last_updated": "2026-05-25T08:30:04-03:00"
 }
