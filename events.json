@@ -154,19 +154,7 @@
       "price": "$25 advance, $30 at the door, youth free (18 and under)",
       "category": "music",
       "source": "musique_royale"
-    },
-    {
-      "title": "Tom Richards Trio - Live at Lightship - Tickets at the door!",
-      "date": "2026-06-07",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "description": "https://youtu.be/rn5jGR31atk https://youtu.be/05vZT49eeMY",
-      "url": "https://lightshipbrewery.ca/",
-      "category": "music",
-      "source": "lightship"
     }
   ],
-  "last_updated": "2026-05-25T19:32:21-03:00"
+  "last_updated": "2026-05-26T08:58:24-03:00"
 }

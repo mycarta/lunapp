@@ -193,6 +193,99 @@ def deduplicate(events: list[dict]) -> list[dict]:
     return list(seen.values())
 
 
+# --- Second-pass dedupe: substring title overlap at same date + venue --------
+# The plain `deduplicate()` above keys on (date, alphanumeric-stripped title)
+# so it only catches *exact* title matches. Two parsers commonly capture the
+# same real-world event with different decoration — e.g. musique_royale
+# emits "Tom Richards Trio" while lightship emits "Tom Richards Trio – Live
+# at Lightship – Tickets at the door!". This pass collapses those.
+
+def _norm_title_loose(t: str | None) -> str:
+    """Lowercase + collapse whitespace. Unlike _dedupe_key it keeps word
+    boundaries so substring containment is meaningful."""
+    if not t:
+        return ""
+    return re.sub(r"\s+", " ", t.lower().strip())
+
+
+def _norm_venue(v: str | None) -> str:
+    if not v:
+        return ""
+    return re.sub(r"\s+", " ", v.lower().strip())
+
+
+def _title_substring_overlap(a: str | None, b: str | None) -> bool:
+    """True iff one normalized title is a substring of the other and both
+    are non-empty. Empty titles never match — we can't tell if they're
+    the same event."""
+    na, nb = _norm_title_loose(a), _norm_title_loose(b)
+    if not na or not nb:
+        return False
+    return na in nb or nb in na
+
+
+def _venue_overlap(a: str | None, b: str | None) -> bool:
+    """True iff normalized venue names match or one contains the other.
+    Handles cases like 'Lightship' vs 'Lightship Brewery'."""
+    na, nb = _norm_venue(a), _norm_venue(b)
+    if not na or not nb:
+        return False
+    return na in nb or nb in na
+
+
+def _richness_score(e: dict) -> tuple:
+    """Sort key (higher = richer) used to pick the winner between two
+    substring-duplicate events. Per spec:
+      1. has non-empty description
+      2. has non-empty price
+      3. shorter title (cleaner; less marketing decoration)
+    """
+    has_desc = bool((e.get("description") or "").strip())
+    has_price = bool((e.get("price") or "").strip())
+    neg_title_len = -len(e.get("title") or "")
+    return (has_desc, has_price, neg_title_len)
+
+
+def dedupe_substring_titles(events: list[dict]) -> list[dict]:
+    """Collapse events that share a date + overlapping venue when one
+    title is a substring of the other. Picks the richer event by
+    `_richness_score` and logs the drop so duplicates surface in the
+    workflow log.
+
+    O(n²) inside each date — fine for our scale (~15 events/window).
+    """
+    kept: list[dict] = []
+    for cand in events:
+        cand_date = cand.get("date", "")
+        dup_idx = None
+        for i, ex in enumerate(kept):
+            if ex.get("date") != cand_date:
+                continue
+            if not _venue_overlap(ex.get("venue"), cand.get("venue")):
+                continue
+            if not _title_substring_overlap(ex.get("title"), cand.get("title")):
+                continue
+            dup_idx = i
+            break
+        if dup_idx is None:
+            kept.append(cand)
+            continue
+
+        ex = kept[dup_idx]
+        if _richness_score(cand) > _richness_score(ex):
+            winner, loser = cand, ex
+            kept[dup_idx] = cand
+        else:
+            winner, loser = ex, cand
+        LOG.info(
+            "dedupe: dropping %r [%s] in favor of %r [%s] "
+            "(same date+venue, substring-overlap titles)",
+            loser.get("title"), loser.get("source"),
+            winner.get("title"), winner.get("source"),
+        )
+    return kept
+
+
 # --- SEO: schema.org JSON-LD + noscript fallback ------------------------------
 # Both are written into index.html by the scraper so search crawlers see real
 # event content without needing to execute JavaScript. JSON-LD goes in <head>
@@ -437,6 +530,7 @@ def main() -> int:
     now = datetime.now(HALIFAX)
     events = filter_to_window(events, now)
     events = deduplicate(events)
+    events = dedupe_substring_titles(events)
     events.sort(key=_time_sort_key)
 
     for e in events:
