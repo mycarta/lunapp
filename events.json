@@ -1,6 +1,19 @@
 {
   "events": [
     {
+      "title": "HANDMADE BOWL SALE",
+      "date": "2026-05-27",
+      "time": "2 PM",
+      "end_time": "5 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "151 Montague St, Lunenburg",
+      "description": "HANDMADE BOWL SALE More Bowls, More Opportunity to Support the Second Story Women’s Centre! Wednesday-Friday, May 27-29, 2026, 2-5pm 151 Montague Street, Lunenburg In continuation of our “RAMP IT UP!” fundraiser for “SSWC” earlier this month, we will be hosting a ceramic bowl sale. Bowls have been generously donated by artists in the community. Bowls: $25 each – We accept cash, cheque, or e-transfer (on-site). All proceeds go to the Second Story Women’s Centre.",
+      "url": "https://lunenburgarts.org/news-events/handmade-bowl-sale/",
+      "price": "$25 each – We accept cash, cheque, or e-transfer (on-site)",
+      "category": "community",
+      "source": "school_of_arts"
+    },
+    {
       "title": "Lunenburg Heritage Society – Public Talk",
       "date": "2026-05-28",
       "time": "7 PM",
@@ -167,5 +180,5 @@
       "source": "musique_royale"
     }
   ],
-  "last_updated": "2026-05-26T16:25:39-03:00"
+  "last_updated": "2026-05-26T19:34:49-03:00"
 }
