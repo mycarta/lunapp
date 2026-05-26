@@ -2,10 +2,11 @@ name: Scrape events
 
 on:
   schedule:
-    # Twice daily — 06:00 and 18:00 Atlantic Standard Time (UTC-4).
-    # GitHub Actions cron runs on UTC and does not follow DST, so during
-    # Atlantic Daylight Time (summer) these fire one local hour later.
-    - cron: "0 10,22 * * *"
+    # Three times daily — 07:00, 13:00, 19:00 Atlantic Standard Time
+    # (UTC-4). GitHub Actions cron runs on UTC and does not follow DST,
+    # so during Atlantic Daylight Time (summer) these fire one local
+    # hour later: 08:00 / 14:00 / 20:00 ADT.
+    - cron: "0 11,17,23 * * *"
   workflow_dispatch:
 
 permissions:
