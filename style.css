@@ -63,11 +63,13 @@ a:hover, a:focus { color: var(--green-dark); }
 /* Show the whole portrait image at its natural aspect ratio. On mobile we
    cap the width below the viewport edge so a ribbon of .hero's sky-blue
    gradient frames the drawing (background-size: cover was clipping the
-   bay window at the bottom). The 600px+ breakpoints just widen the cap. */
+   bay window at the bottom). The 600px+ breakpoints just widen the cap.
+   All three widths were reduced 25% from their original values so the
+   banner reads as a portrait detail rather than a full hero image. */
 .hero__image {
-  width: calc(100% - 2.5rem);   /* ~20px sky-blue ribbon each side on mobile */
+  width: calc(75% - 1.875rem);  /* mobile: 75% of viewport with a proportional ribbon */
   aspect-ratio: 960 / 1187;
-  max-width: 460px;
+  max-width: 345px;             /* was 460px */
   margin: 1rem auto 0;
   background-image: url("assets/banner_lunenburg.png");
   background-size: contain;
@@ -80,7 +82,7 @@ a:hover, a:focus { color: var(--green-dark); }
   .hero { padding-top: 1.5rem; }
   .hero__image {
     width: 100%;
-    max-width: 500px;
+    max-width: 375px;           /* was 500px */
     margin: 0 auto;
   }
 }
@@ -88,7 +90,7 @@ a:hover, a:focus { color: var(--green-dark); }
 @media (min-width: 900px) {
   .hero { padding-top: 2rem; }
   .hero__image {
-    max-width: 600px;
+    max-width: 450px;           /* was 600px */
   }
 }
 
