@@ -12,6 +12,17 @@
       "source": "school_of_arts"
     },
     {
+      "title": "Spring Community Concert — Lunenburg County Community Orchestra",
+      "date": "2026-05-29",
+      "time": "7:00 PM",
+      "venue": "Central United Church",
+      "location": "136 Cumberland St, Lunenburg",
+      "description": "Conducted by Haig Beylerian. Music from Pirates of the Caribbean & The Lord of the Rings, plus Shostakovich, Haydn, Joplin & more. Doors open 6:15 PM.",
+      "price": "From $15",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
       "title": "Customer Service, Spirit of the Wildfire + Others",
       "date": "2026-05-29",
       "time": "7:00 PM",
@@ -156,5 +167,5 @@
       "source": "musique_royale"
     }
   ],
-  "last_updated": "2026-05-26T14:53:36-03:00"
+  "last_updated": "2026-05-26T16:22:19-03:00"
 }
