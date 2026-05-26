@@ -27,6 +27,17 @@
       "source": "manual_seed"
     },
     {
+      "title": "Spring Community Concert — Lunenburg County Community Orchestra",
+      "date": "2026-05-29",
+      "time": "7:00 PM",
+      "venue": "Central United Church",
+      "location": "136 Cumberland St, Lunenburg",
+      "description": "Conducted by Haig Beylerian. Music from Pirates of the Caribbean & The Lord of the Rings, plus Shostakovich, Haydn, Joplin & more. Doors open 6:15 PM.",
+      "price": "From $15",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
       "title": "Henry Purcell's Dido and Aeneas in Concert",
       "date": "2026-06-18",
       "time": "7:30 PM",
