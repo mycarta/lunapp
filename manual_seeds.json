@@ -1,4 +1,12 @@
 {
+  "_annual_events": {
+    "_note": "Recurring events — update dates each January",
+    "events": [
+      {"name": "Lunenburg Craft & Food Festival", "typical_month": "July", "url": "https://lunenburgcraftandfoodfestival.com/"},
+      {"name": "Lunenburg Christmas Craft Festival", "typical_month": "December", "url": "https://lunenburgchristmascraftfestival.com/"},
+      {"name": "South Shore Shunpike", "typical_month": "June", "url": "https://southshoreshunpike.com/"}
+    ]
+  },
   "events": [
     {
       "title": "Capella Regalis Spring Concert",
