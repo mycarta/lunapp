@@ -48,6 +48,31 @@
       "price": "$39",
       "category": "music",
       "source": "manual"
+    },
+    {
+      "title": "50th Annual Lunenburg Craft & Food Festival",
+      "date": "2026-07-11",
+      "end_date": "2026-07-12",
+      "time": "TBA",
+      "venue": "Lunenburg War Memorial Arena",
+      "location": "15 Green Street, Lunenburg",
+      "description": "50th annual craft and food festival featuring Nova Scotian artisans, food trucks, and live outdoor music. Adults $6, Students/Seniors $5, children 12 and under free. Admission includes weekend pass.",
+      "url": "https://lunenburgcraftandfoodfestival.com/",
+      "price": "From $5",
+      "category": "festival",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Lunenburg Christmas Craft Festival",
+      "date": "2026-12-05",
+      "end_date": "2026-12-06",
+      "time": "TBA",
+      "venue": "Lunenburg War Memorial Arena",
+      "location": "15 Green Street, Lunenburg",
+      "description": "Annual holiday craft festival at the Lunenburg War Memorial Arena.",
+      "url": "https://lunenburgchristmascraftfestival.com/",
+      "category": "festival",
+      "source": "manual_seed"
     }
   ]
 }
