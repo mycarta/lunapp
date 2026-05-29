@@ -1,17 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Heritage Society – Public Talk",
-      "date": "2026-05-28",
-      "time": "7 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Come by the Lunenburg School of the Arts on May 28th at 7pm to hear the “Why?” and the “How?” of the Knaut-Rhuland House exterior renewal project from Architect Greg Munn and Project Lead, Kate Richardson. This event will also mark the official launch for Phase Three of the Knaut-Rhuland House renewal!",
-      "url": "https://lunenburgarts.org/news-events/lunenburg-heritage-society-public-talk/",
-      "category": "community",
-      "source": "school_of_arts"
-    },
-    {
       "title": "Spring Community Concert — Lunenburg County Community Orchestra",
       "date": "2026-05-29",
       "time": "7:00 PM",
@@ -167,5 +156,5 @@
       "source": "musique_royale"
     }
   ],
-  "last_updated": "2026-05-28T19:37:51-03:00"
+  "last_updated": "2026-05-29T08:14:48-03:00"
 }
