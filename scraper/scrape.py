@@ -28,13 +28,13 @@ MANUAL_SEEDS_PATH = REPO_ROOT / "manual_seeds.json"
 HALIFAX = ZoneInfo("America/Halifax")
 WINDOW_DAYS = 14
 
-SITE_URL = "https://mycarta.github.io/lunapp/"
+SITE_URL = "https://lunenburg.fingerpost.ca/"
 
 # Fallback image baked into every event's JSON-LD because none of our
 # parsers carry per-event imagery. Google's rich-result carousel uses
 # the site icon when nothing better is available — better than no image
 # at all, which Search Console flags as a recommended-field warning.
-DEFAULT_EVENT_IMAGE = "https://mycarta.github.io/lunapp/assets/icon-512.png"
+DEFAULT_EVENT_IMAGE = "https://lunenburg.fingerpost.ca/assets/icon-512.png"
 
 # Comment markers in index.html that bracket the regions the scraper rewrites
 # on each run. Keep these in sync with the placeholders in index.html.

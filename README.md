@@ -2,7 +2,7 @@
 
 Free, ad-free community events app for Lunenburg, Nova Scotia. Shows music, theatre, arts, and cultural events for the next two weeks.
 
-**Live app:** https://mycarta.github.io/lunapp/
+**Live app:** https://lunenburg.fingerpost.ca/ — also linked from the [fingerpost.ca](https://fingerpost.ca/) landing page.
 
 ## How it works
 
