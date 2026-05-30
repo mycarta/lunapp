@@ -1,32 +1,6 @@
 {
   "events": [
     {
-      "title": "Spring Community Concert — Lunenburg County Community Orchestra",
-      "date": "2026-05-29",
-      "time": "7:00 PM",
-      "venue": "Central United Church",
-      "location": "136 Cumberland St, Lunenburg",
-      "description": "Conducted by Haig Beylerian. Music from Pirates of the Caribbean & The Lord of the Rings, plus Shostakovich, Haydn, Joplin & more. Doors open 6:15 PM.",
-      "price": "From $15",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Customer Service, Spirit of the Wildfire + Others",
-      "date": "2026-05-29",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Get ready for a fun night at the Old Confidence Lodge ! Join us for an awesome lineup featuring Customer Service , Spirit of the Wildfire , hi,low & Blackout - going to be a fantastic show to showcase some of the amazing talent that Nova Scotia has to offer",
-      "url": "https://www.oldconfidence.ca/events/customer-service-riverport",
-      "ticket_url": "https://www.eventbrite.com/e/customer-service-spirit-of-the-wildfire-others-old-confidence-lodge-tickets-1984643966529?fbclid=IwY2xjawRvE0lleHRuA2FlbQIxMABicmlkETFreTI2OG9vR1A2cjVUekM3c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHgvPMFWPdJFKH462RUhbUHHV3phNsKVLErppdB1nWA7VK5dzm8FwdTfeAqUC_aem_j30drhF71aniBXdTu5v_Pg&brid=YWdncwFwhfeeGo8Cpu013SW3lkLk",
-      "price": "$15 in advance; $20 at the door",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/customer-service-riverport?format=ical"
-    },
-    {
       "title": "Jazz at LAMP: The Music of Charles Mingus",
       "date": "2026-05-30",
       "time": "5:30 PM",
@@ -154,7 +128,59 @@
       "price": "$25 advance, $30 at the door, youth free (18 and under)",
       "category": "music",
       "source": "musique_royale"
+    },
+    {
+      "title": "Big Fish - Live at Lightship!",
+      "date": "2026-06-12",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/",
+      "category": "music",
+      "source": "lightship"
+    },
+    {
+      "title": "South Shore Shunpike — Open Studio Crawl",
+      "date": "2026-06-13",
+      "time": "10:00 AM",
+      "end_time": "4:00 PM",
+      "venue": "Blue Rocks & Stonehurst",
+      "location": "Blue Rocks /, Stonehurst",
+      "description": "3rd annual open studio crawl featuring painters, photographers, printmakers, folk artists, rug hookers/weavers, and more. Free wharf-to-wharf water taxi between galleries.",
+      "url": "https://southshoreshunpike.com/",
+      "price": "Free",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Capella Regalis Spring Concert",
+      "date": "2026-06-13",
+      "time": "4:00 PM",
+      "end_time": "5:15 PM",
+      "venue": "St. John's Anglican Church",
+      "location": "64 Townsend St, Lunenburg",
+      "description": "Free concert featuring Halifax Men, Boys & Girls Choirs alongside Capella Regalis South Shore Program choristers. Directed by Nick Halley and Vanessa Halley, with Paul Halley on organ and piano. Free-will offering at the door, no reservation required.",
+      "url": "https://capellaregalis.com/",
+      "price": "Free (free-will offering)",
+      "category": "music",
+      "source": "manual"
+    },
+    {
+      "title": "Robert Thomas & the Sessionmen",
+      "date": "2026-06-13",
+      "time": "7:00 PM",
+      "end_time": "9:30 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "East Coast Music Awards “Entertainer of the Year” nominee Robert Thomas is a natural storyteller. With an energetic and welcoming voice, he highlights the stories of our lives with empathy, energy and humour. Based in Moncton, New Brunswick, Robert has written for artists across many genres including Bonnie Raitt, The Dixie Chicks, Kenny Rogers and Mister Mister, as well as for corporate advertising.",
+      "url": "https://www.oldconfidence.ca/events/robert-thomas-lunenburg",
+      "ticket_url": "https://www.eventbrite.ca/e/robert-thomas-the-session-men-at-the-old-confidence-lodge-tickets-1988891866111?aff=oddtdtcreator",
+      "price": "$25",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/robert-thomas-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-05-29T19:36:37-03:00"
+  "last_updated": "2026-05-30T07:40:21-03:00"
 }
