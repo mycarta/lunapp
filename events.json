@@ -80,6 +80,18 @@
       "source": "opera_house"
     },
     {
+      "title": "Sketches and Sound",
+      "date": "2026-06-06",
+      "time": "2:00 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "Join Musique Royale for our final Cookie Concert before summer break, “Sketches and Sound”. For this unique concert, young students in Grades 2 to 4 at Bridgewater Elementary School have drawn Graphic Scores that will be interpreted by the four featured musicians, Nicola Miller, saxophone; Tim Crofts, keys; Erin Donovan, percussion; and Pete Johnston, bass. The program will feature interpretations of these Graphic Scores along with other standard repertoire. Cookies are served following the hourlong concert, and all ages are welcome! Nicola Miller – saxophone Saxophonist and Composer Nicola…",
+      "url": "http://musiqueroyale.com/event/2026/2026-06-06-sketches-and-sound/",
+      "price": "$10 at the door (youth free, age 18 and under)",
+      "category": "music",
+      "source": "musique_royale"
+    },
+    {
       "title": "Duke Ellington Sacred Concert",
       "date": "2026-06-06",
       "time": "4:00 PM",
@@ -182,5 +194,5 @@
       "ics_url": "https://www.oldconfidence.ca/events/robert-thomas-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-05-30T07:40:21-03:00"
+  "last_updated": "2026-05-30T19:26:50-03:00"
 }
