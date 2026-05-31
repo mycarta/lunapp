@@ -23,6 +23,7 @@ at the brewery itself).
 """
 from __future__ import annotations
 
+import html
 import logging
 import re
 from datetime import date as _date, datetime, timedelta
@@ -78,6 +79,13 @@ def _format_date(dt) -> str:
 def _clean_description(raw: str, max_chars: int = 500) -> str | None:
     if not raw:
         return None
+    # Google Calendar's rich-text editor stores HTML in DESCRIPTION
+    # (<b>, <em>, <a href>, <br>, etc.). Strip tags before any other
+    # processing so the visible text is what we operate on. <br>/<p>
+    # become a space so adjacent words don't merge.
+    s = re.sub(r"<\s*(br|/p|/div)\s*/?\s*>", " ", raw, flags=re.IGNORECASE)
+    s = re.sub(r"<[^>]+>", "", s)
+    s = html.unescape(s)
     # Google Calendar auto-injects a "Join with Google Meet: <url> Learn
     # more about Meet at: <url>" block whenever an event has a Meet link
     # attached — but Lightship's calendar admin uses Meet links as a
@@ -85,7 +93,7 @@ def _clean_description(raw: str, max_chars: int = 500) -> str | None:
     # so brewery events don't look like Zoom calls in the listing.
     s = re.sub(
         r"-*\s*Join with Google Meet:\s*https?://\S+",
-        "", raw, flags=re.IGNORECASE,
+        "", s, flags=re.IGNORECASE,
     )
     s = re.sub(
         r"Learn more about Meet at:\s*https?://\S+",
