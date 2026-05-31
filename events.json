@@ -1,35 +1,6 @@
 {
   "events": [
     {
-      "title": "Jazz at LAMP: The Music of Charles Mingus",
-      "date": "2026-05-30",
-      "time": "5:30 PM",
-      "end_time": "7:00 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Whether you're a long-time jazz lover or new to the genre, the Jazz Concert Series at LAMP promises to be a musical experience that will leave you spellbound. The LAMP Libations bar will be open - have a drink, hear some great jazz, and then head out to one of the many incredible restaurants in Lunenburg, Mahone Bay or Chester. What a fabulous night out!",
-      "url": "https://www.lampns.ca/concert-schedule/jazzmay2026",
-      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/spring-jazz-at-lamp",
-      "price": "$35",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/concert-schedule/jazzmay2026?format=ical"
-    },
-    {
-      "title": "Gimme Shelter Fundraiser",
-      "date": "2026-05-30",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "290 Lincoln St, Lunenburg",
-      "description": "A benefit concert showcasing women supporting women to help raise funds for Second Story Women’s Center and Be the Peace Institute",
-      "url": "https://www.eventbrite.com/e/gimme-shelter-fundraiser-tickets-1984392949731",
-      "ticket_url": "https://www.eventbrite.com/e/gimme-shelter-fundraiser-tickets-1984392949731",
-      "price": "$35.00",
-      "category": "music",
-      "source": "eventbrite"
-    },
-    {
       "title": "\"MY HORAE\"   Exhibition by Erin Philp – Artist-in-Residence (Winter 2026)",
       "date": "2026-06-04",
       "time": "7:00 PM",
@@ -166,6 +137,18 @@
       "source": "manual_seed"
     },
     {
+      "title": "Story Songs of the 70s - with Tom DiMenna!",
+      "date": "2026-06-13",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "description": "<b><em>This is a ticketed event and can be purchased <a href=\"https://lightshipbrewery.ca/collections/events\">here</a>.</em></b><br><b><em><br></em></b><br><b><em>Story Songs of the 70s</em> </b>is a seasonal concert series by Maine-based singer/songwriter, Tom DiMenna, and features songs by 3 legendary songwriters of the vinyl era — Gordon Lightfoot, Cat Stevens, and Harry Chapin. This folk-rock act blends lush vocals, intricate guitar playing and iconic story songs into a sound that’s both…",
+      "url": "https://lightshipbrewery.ca/",
+      "category": "music",
+      "source": "lightship"
+    },
+    {
       "title": "Capella Regalis Spring Concert",
       "date": "2026-06-13",
       "time": "4:00 PM",
@@ -192,7 +175,18 @@
       "category": "music",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/robert-thomas-lunenburg?format=ical"
+    },
+    {
+      "title": "JP Cormier and Dave Gunning - Live at Lightship!",
+      "date": "2026-06-13",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/",
+      "category": "music",
+      "source": "lightship"
     }
   ],
-  "last_updated": "2026-05-30T19:26:50-03:00"
+  "last_updated": "2026-05-31T07:46:04-03:00"
 }
