@@ -186,7 +186,18 @@
       "url": "https://lightshipbrewery.ca/",
       "category": "music",
       "source": "lightship"
+    },
+    {
+      "title": "Open Mic with Kevin Boon!",
+      "date": "2026-06-14",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/",
+      "category": "community",
+      "source": "lightship"
     }
   ],
-  "last_updated": "2026-05-31T19:27:48-03:00"
+  "last_updated": "2026-06-01T09:06:17-03:00"
 }
