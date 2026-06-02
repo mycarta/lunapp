@@ -172,9 +172,14 @@ def _format_address(venue: dict) -> str | None:
     return ", ".join(p for p in parts if p) or None
 
 
-def _to_event_dict(eb: dict) -> dict | None:
+def _to_event_dict(eb: dict, include_all_venues: bool = False) -> dict | None:
     venue = eb.get("venue")
-    if not _is_lunenburg_area(venue):
+    # The default city filter keeps the app focused on Lunenburg-area venues.
+    # Organizers can opt out by setting "include_all_venues": true in
+    # eventbrite_organizers.json — used for county-wide community events
+    # (e.g. Lunenburg PRIDE) whose schedule intentionally spans the whole
+    # county and would otherwise be silently dropped.
+    if not include_all_venues and not _is_lunenburg_area(venue):
         return None
     start = eb.get("start") or {}
     local_start = start.get("local")
@@ -239,12 +244,14 @@ def fetch(session: requests.Session | None = None) -> list[dict]:
     out: list[dict] = []
     for org in organizers:
         raw = _fetch_organizer_events(sess, org)
+        include_all = bool(org.get("include_all_venues"))
         kept_for_org = 0
         for eb in raw:
-            mapped = _to_event_dict(eb)
+            mapped = _to_event_dict(eb, include_all_venues=include_all)
             if mapped:
                 out.append(mapped)
                 kept_for_org += 1
-        LOG.info("eventbrite [%s]: %d in-area events of %d raw",
-                 org.get("name") or org["id"], kept_for_org, len(raw))
+        LOG.info("eventbrite [%s]: %d %s events of %d raw",
+                 org.get("name") or org["id"], kept_for_org,
+                 "county-wide" if include_all else "in-area", len(raw))
     return out

@@ -1,6 +1,7 @@
 {
   "_note": "Add Eventbrite organizers here as you find them. To get an org's ID, open any of their event pages, view source, find the JSON-LD block; organizer.url ends with /o/<numeric id>. Each entry: {\"id\": \"...\", \"name\": \"...\"}. The name field is informational only - used in log output. The Lunenburg + Riverport venue filter happens automatically in eventbrite_orgs.py.",
   "organizers": [
-    {"id": "121085631468", "name": "Gimme Shelter / Second Story Women's Centre"}
+    {"id": "121085631468", "name": "Gimme Shelter / Second Story Women's Centre"},
+    {"id": "49882086373", "name": "Lunenburg PRIDE", "include_all_venues": true, "_note": "County-wide Pride Week — bypass the Lunenburg/Riverport/Blue Rocks/Stonehurst filter. Pride events are intentionally spread across the whole county (Mahone Bay, Bridgewater, etc.) and Lunapp treats the week as a single community event."}
   ]
 }
