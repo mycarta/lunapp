@@ -147,6 +147,38 @@ def collect_events(session: requests.Session) -> list[dict]:
     return all_events
 
 
+def _expand_recurring_seed(
+    seed: dict, today: _date, window_days: int
+) -> list[dict]:
+    """Expand a recurring seed into concrete dated occurrences within
+    ``[today, today + window_days]``. Non-recurring seeds pass through
+    unchanged as a single-item list.
+
+    Currently only ``"recurrence": "weekly"`` is supported. The seed
+    must specify ``day_of_week`` (e.g. ``"Thursday"``); recurrence and
+    day_of_week are stripped from the expanded entries so they look
+    identical to per-date seeds downstream.
+    """
+    if seed.get("recurrence") != "weekly":
+        return [seed]
+    dow_name = (seed.get("day_of_week") or "").strip().title()
+    if dow_name not in _WEEKDAY_LONG:
+        LOG.warning("recurring seed %r has invalid/missing day_of_week %r",
+                    seed.get("title"), seed.get("day_of_week"))
+        return []
+    target_dow = _WEEKDAY_LONG.index(dow_name)
+    template = {k: v for k, v in seed.items()
+                if k not in ("recurrence", "day_of_week")}
+    out: list[dict] = []
+    for offset in range(window_days + 1):
+        d = today + timedelta(days=offset)
+        if d.weekday() == target_dow:
+            entry = dict(template)
+            entry["date"] = d.strftime("%Y-%m-%d")
+            out.append(entry)
+    return out
+
+
 def load_manual_seeds() -> list[dict]:
     """Load human-curated events from manual_seeds.json at the repo root.
 
@@ -158,6 +190,11 @@ def load_manual_seeds() -> list[dict]:
     against any parser entry that happens to overlap on (date, title) —
     which is the contract: a manual seed persists until it's removed
     from the file, regardless of what the parsers say.
+
+    Recurring seeds (``"recurrence": "weekly"`` + ``"day_of_week"``)
+    are expanded here into one entry per matching day inside the 14-day
+    window, so per-date dedupe and windowing work identically for
+    recurring and one-off events.
     """
     if not MANUAL_SEEDS_PATH.exists():
         return []
@@ -167,7 +204,12 @@ def load_manual_seeds() -> list[dict]:
         LOG.error("manual_seeds.json failed to load: %s", exc)
         return []
     events = data.get("events", []) if isinstance(data, dict) else []
-    return [e for e in events if isinstance(e, dict)]
+    valid = [e for e in events if isinstance(e, dict)]
+    today = datetime.now(HALIFAX).date()
+    expanded: list[dict] = []
+    for seed in valid:
+        expanded.extend(_expand_recurring_seed(seed, today, WINDOW_DAYS))
+    return expanded
 
 
 def filter_to_window(events: list[dict], today: datetime) -> list[dict]:

@@ -5,10 +5,25 @@
       {"name": "Lunenburg Craft & Food Festival", "typical_month": "July", "url": "https://lunenburgcraftandfoodfestival.com/"},
       {"name": "Lunenburg Christmas Craft Festival", "typical_month": "December", "url": "https://lunenburgchristmascraftfestival.com/"},
       {"name": "South Shore Shunpike", "typical_month": "June", "url": "https://southshoreshunpike.com/"},
-      {"name": "Lunenburg County Pride Week", "typical_month": "July", "url": "https://lunenburgcountypride.com/pride-week-2026", "notes": "County-wide — all venues, no town filter. Eventbrite catches ticketed events; manual-seed the rest when the full schedule drops (~mid-June)."}
+      {"name": "Lunenburg County Pride Week", "typical_month": "July", "url": "https://lunenburgcountypride.com/pride-week-2026", "notes": "County-wide — all venues, no town filter. Eventbrite catches ticketed events; manual-seed the rest when the full schedule drops (~mid-June)."},
+      {"name": "Lunenburg Farmers Market", "typical_month": "May–November", "url": "https://lunenburgfarmersmarketns.ca/", "notes": "Weekly recurring seed (Thursdays 8 AM–12 PM). Remove the seed from events[] in late November and re-add it in early May. Vendor site is updated weekly and not structured for scraping."}
     ]
   },
   "events": [
+    {
+      "title": "Lunenburg Farmers Market",
+      "recurrence": "weekly",
+      "day_of_week": "Thursday",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
+    },
     {
       "title": "Capella Regalis Spring Concert",
       "date": "2026-06-13",
