@@ -197,7 +197,30 @@
       "url": "https://lightshipbrewery.ca/",
       "category": "community",
       "source": "lightship"
+    },
+    {
+      "title": "\"Wooden Building Pathology\" RAIC Public Lecture by Gregory MacNeil",
+      "date": "2026-06-18",
+      "time": "7:00 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "“Wooden Building Pathology” – Public Lecture Presented by the South Shore Network of the Royal Architectural Institute of Canada (RAIC) LECTURE BY GREGORY MACNEIL Thursday, June 18, 7:00 p.m. Buildings, like people, can develop problems as they age. “Building pathology” is the study of what goes wrong in buildings, why it happens, and how to fix it. It looks at leaks, cracks, decay, and other issues by examining how materials, structure, and people interact with weather and daily use. This…",
+      "url": "https://lunenburgarts.org/news-events/wooden-building-pathology-raic-public-lecture-by-gregory-macneil/",
+      "category": "arts",
+      "source": "school_of_arts"
+    },
+    {
+      "title": "Henry Purcell's Dido and Aeneas in Concert",
+      "date": "2026-06-18",
+      "time": "7:30 PM",
+      "venue": "Central United Church",
+      "location": "136 Cumberland St, Lunenburg",
+      "description": "Maritime Concert Opera presents Henry Purcell's Dido and Aeneas. Professional soloists joined by the MCO chorus and the Blue Engine String Quartet.",
+      "url": "https://www.maritimeconcertopera.com/",
+      "price": "$39",
+      "category": "music",
+      "source": "manual"
     }
   ],
-  "last_updated": "2026-06-03T19:48:46-03:00"
+  "last_updated": "2026-06-04T08:11:36-03:00"
 }
