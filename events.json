@@ -1,6 +1,19 @@
 {
   "events": [
     {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-06-04"
+    },
+    {
       "title": "\"MY HORAE\"   Exhibition by Erin Philp – Artist-in-Residence (Winter 2026)",
       "date": "2026-06-04",
       "time": "7:00 PM",
@@ -113,6 +126,19 @@
       "source": "musique_royale"
     },
     {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-06-11"
+    },
+    {
       "title": "Big Fish - Live at Lightship!",
       "date": "2026-06-12",
       "time": "7:00 PM",
@@ -199,6 +225,33 @@
       "source": "lightship"
     },
     {
+      "title": "Tunes on Tuesday: Composition Academy",
+      "date": "2026-06-16",
+      "time": "12:00 PM",
+      "end_time": "1:00 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Get a glimpse behind the scenes as the 2026 Composition Academy artists present their works in progress in this informal read-through session. Combining elements of a rehearsal and a masterclass, the event offers a unique opportunity to hear new music as it develops and to observe the collaborative process between composers, performers ( Jeff Reilly (bass), Peter Togni (piano), and India Gailey ) and faculty ( Matthias McIntire , Roydon Tse , and Dinuk Wijeratne ).",
+      "url": "https://www.lampns.ca/concert-schedule/totcomp",
+      "price": "$15 suggested)",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/concert-schedule/totcomp?format=ical"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-06-18"
+    },
+    {
       "title": "\"Wooden Building Pathology\" RAIC Public Lecture by Gregory MacNeil",
       "date": "2026-06-18",
       "time": "7:00 PM",
@@ -222,5 +275,5 @@
       "source": "manual"
     }
   ],
-  "last_updated": "2026-06-04T08:11:36-03:00"
+  "last_updated": "2026-06-04T14:44:27-03:00"
 }
