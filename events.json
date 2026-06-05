@@ -1,31 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "\"MY HORAE\"   Exhibition by Erin Philp – Artist-in-Residence (Winter 2026)",
-      "date": "2026-06-04",
-      "time": "7:00 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "“MY HORAE” Erin Philp, Artist in Residence EXHIBITION: June 4th to 28th, 2026. Gallery hours are by chance or appointment, Monday to Friday, 10am to 4pm. ARTIST TALK & OPENING RECEPTION: Thursday, June 4th, 2026 at 7:00pm. This is a free event, no registration required. My Horae (or “ My Hours “) explores the intersections of symbology, identity, and personal mythology. Drawing from the structural form and symbolic depth of the medieval text, the Book of Hours , the artist appropriates this…",
-      "url": "https://lunenburgarts.org/news-events/my-horae-exhibition-by-erin-philp-artist-in-residence-winter-2026/",
-      "price": "Free",
-      "category": "arts",
-      "source": "school_of_arts"
-    },
-    {
       "title": "OPEN MIC",
       "date": "2026-06-05",
       "time": "7:00 PM",
@@ -273,7 +248,22 @@
       "price": "$39",
       "category": "music",
       "source": "manual"
+    },
+    {
+      "title": "Jazz at LAMP: The Music of Miles Davis",
+      "date": "2026-06-19",
+      "time": "5:30 PM",
+      "end_time": "7:00 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Whether you're a long-time jazz lover or new to the genre, the Jazz Concert Series at LAMP promises to be a musical experience that will leave you spellbound. The LAMP Libations bar will be open - have a drink, hear some great jazz, and then head out to one of the many incredible restaurants in Lunenburg, Mahone Bay or Chester. What a fabulous night out!",
+      "url": "https://www.lampns.ca/concert-schedule/jazzjune2026",
+      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/spring-jazz-at-lamp-1",
+      "price": "$35",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/concert-schedule/jazzjune2026?format=ical"
     }
   ],
-  "last_updated": "2026-06-04T19:37:25-03:00"
+  "last_updated": "2026-06-05T08:14:06-03:00"
 }
