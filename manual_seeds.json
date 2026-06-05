@@ -6,7 +6,8 @@
       {"name": "Lunenburg Christmas Craft Festival", "typical_month": "December", "url": "https://lunenburgchristmascraftfestival.com/"},
       {"name": "South Shore Shunpike", "typical_month": "June", "url": "https://southshoreshunpike.com/"},
       {"name": "Lunenburg County Pride Week", "typical_month": "July", "url": "https://lunenburgcountypride.com/pride-week-2026", "notes": "County-wide — all venues, no town filter. Eventbrite catches ticketed events; manual-seed the rest when the full schedule drops (~mid-June)."},
-      {"name": "Lunenburg Farmers Market", "typical_month": "May–November", "url": "https://lunenburgfarmersmarketns.ca/", "notes": "Weekly recurring seed (Thursdays 8 AM–12 PM). Remove the seed from events[] in late November and re-add it in early May. Vendor site is updated weekly and not structured for scraping."}
+      {"name": "Lunenburg Farmers Market", "typical_month": "May–November", "url": "https://lunenburgfarmersmarketns.ca/", "notes": "Weekly recurring seed (Thursdays 8 AM–12 PM). Remove the seed from events[] in late November and re-add it in early May. Vendor site is updated weekly and not structured for scraping."},
+      {"name": "First Fridays Art Walk", "typical_month": "June–October (first Friday monthly)", "url": "", "notes": "AGAL event. 5 dates, seed all individually each year."}
     ]
   },
   "events": [
@@ -97,6 +98,11 @@
       "url": "https://lunenburgchristmascraftfestival.com/",
       "category": "festival",
       "source": "manual_seed"
-    }
+    },
+    {"title": "First Fridays Art Walk", "date": "2026-06-05", "time": "5:00 PM", "venue": "Downtown Lunenburg", "location": "Lunenburg", "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.", "url": "", "price": "Free", "category": "arts", "source": "manual_seed"},
+    {"title": "First Fridays Art Walk", "date": "2026-07-03", "time": "5:00 PM", "venue": "Downtown Lunenburg", "location": "Lunenburg", "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.", "url": "", "price": "Free", "category": "arts", "source": "manual_seed"},
+    {"title": "First Fridays Art Walk", "date": "2026-08-07", "time": "5:00 PM", "venue": "Downtown Lunenburg", "location": "Lunenburg", "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.", "url": "", "price": "Free", "category": "arts", "source": "manual_seed"},
+    {"title": "First Fridays Art Walk", "date": "2026-09-04", "time": "5:00 PM", "venue": "Downtown Lunenburg", "location": "Lunenburg", "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.", "url": "", "price": "Free", "category": "arts", "source": "manual_seed"},
+    {"title": "First Fridays Art Walk", "date": "2026-10-02", "time": "5:00 PM", "venue": "Downtown Lunenburg", "location": "Lunenburg", "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.", "url": "", "price": "Free", "category": "arts", "source": "manual_seed"}
   ]
 }
