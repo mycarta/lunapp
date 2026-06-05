@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "title": "First Fridays Art Walk",
+      "date": "2026-06-05",
+      "time": "5:00 PM",
+      "venue": "Downtown Lunenburg",
+      "location": "Lunenburg",
+      "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.",
+      "url": "",
+      "price": "Free",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
       "title": "OPEN MIC",
       "date": "2026-06-05",
       "time": "7:00 PM",
@@ -265,5 +277,5 @@
       "ics_url": "https://www.lampns.ca/concert-schedule/jazzjune2026?format=ical"
     }
   ],
-  "last_updated": "2026-06-05T19:32:23-03:00"
+  "last_updated": "2026-06-05T20:39:48-03:00"
 }
