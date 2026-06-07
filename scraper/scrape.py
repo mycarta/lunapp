@@ -347,9 +347,9 @@ def deduplicate(events: list[dict]) -> list[dict]:
 # --- Second-pass dedupe: substring title overlap at same date + venue --------
 # The plain `deduplicate()` above keys on (date, alphanumeric-stripped title)
 # so it only catches *exact* title matches. Two parsers commonly capture the
-# same real-world event with different decoration — e.g. musique_royale
-# emits "Tom Richards Trio" while lightship emits "Tom Richards Trio – Live
-# at Lightship – Tickets at the door!". This pass collapses those.
+# same real-world event with different decoration — e.g. one emits "Tom
+# Richards Trio" while another emits "Tom Richards Trio – Live at the Opera
+# House – Tickets at the door!". This pass collapses those.
 
 def _norm_title_loose(t: str | None) -> str:
     """Lowercase + collapse whitespace. Unlike _dedupe_key it keeps word

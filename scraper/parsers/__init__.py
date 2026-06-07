@@ -6,7 +6,6 @@ from . import (
     school_of_arts,
     heritage_society,
     eventbrite_orgs,
-    lightship,
 )
 
 ALL_PARSERS = [
@@ -17,5 +16,4 @@ ALL_PARSERS = [
     school_of_arts,
     heritage_society,
     eventbrite_orgs,
-    lightship,
 ]
