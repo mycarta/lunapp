@@ -1,17 +1,16 @@
 {
   "events": [
     {
-      "title": "Tom Richards Trio",
+      "title": "Tom Richards Trio - Live at Lightship - Tickets at the door!",
       "date": "2026-06-07",
       "time": "2:00 PM",
+      "end_time": "4:00 PM",
       "venue": "Lightship Brewery",
       "location": "93 Tannery Rd, Lunenburg",
-      "description": "Musique Royale invites you to Lightship Brewery to enjoy an outdoor show by the fantastic Tom Richards Trio (TRT). TRT takes you on a cinematic journey through vibrant landscapes, weaving stories of turmoil, love, and redemption. Instrumental music which spans genres such as jazz, cinematic, groove, and minimalist. Every performance includes a special twist - an immersive audience-outreach component where Tom leads a discussion about the music. Tom Richards Tom Richards presents a kaleidoscopic world of music through his piano trio. Inspired by artists like Bill Frisell and Khruangbin, TRT…",
-      "url": "http://musiqueroyale.com/event/2026/2026-06-07-tom-richards-trio/",
-      "ticket_url": "https://www.canadahelps.org/en/charities/musique-royale-a-treasury-of-music-from-our-historic-past/events/tom-richards-trio-at-lightship-brewery",
-      "price": "$25 advance, $30 at the door, youth free (18 and under)",
+      "description": "https://youtu.be/rn5jGR31atk https://youtu.be/05vZT49eeMY",
+      "url": "https://lightshipbrewery.ca/",
       "category": "music",
-      "source": "musique_royale"
+      "source": "lightship"
     },
     {
       "title": "Lunenburg Farmers Market",
@@ -242,5 +241,5 @@
       "source": "lightship"
     }
   ],
-  "last_updated": "2026-06-07T07:51:35-03:00"
+  "last_updated": "2026-06-07T11:18:01-03:00"
 }
