@@ -25,6 +25,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_PATH = REPO_ROOT / "events.json"
 INDEX_HTML_PATH = REPO_ROOT / "index.html"
 MANUAL_SEEDS_PATH = REPO_ROOT / "manual_seeds.json"
+PARKING_RULES_PATH = REPO_ROOT / "parking_rules.json"
 HALIFAX = ZoneInfo("America/Halifax")
 WINDOW_DAYS = 14
 
@@ -223,6 +224,114 @@ def filter_to_window(events: list[dict], today: datetime) -> list[dict]:
             continue
         if start <= d <= end:
             kept.append(e)
+    return kept
+
+
+# --- Parking lot: per-source suppression rules --------------------------------
+# parking_rules.json (repo root, gitignored) is an optional local tuning knob
+# for muting noisy sources without touching parser code. Each rule keys on a
+# source name and uses EXACTLY ONE of three mutually exclusive rule types:
+#   suppress_all  — park every event from this source
+#   suppress_if   — park events matching ANY listed condition (OR)
+#   allow_only    — park every event that does NOT match the listed conditions
+# Parked events are dropped from the output and logged as "PARKED: ..." so they
+# remain visible in the Actions logs. Missing/empty file => nothing parked.
+
+def load_parking_rules() -> list[dict]:
+    """Load suppression rules from parking_rules.json at the repo root.
+
+    Returns an empty list when the file is absent, unreadable, or malformed —
+    parking is strictly opt-in, so any problem degrades to "park nothing"
+    rather than failing the scrape.
+    """
+    if not PARKING_RULES_PATH.exists():
+        return []
+    try:
+        data = json.loads(PARKING_RULES_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        LOG.error("parking_rules.json failed to load: %s", exc)
+        return []
+    rules = data.get("rules", []) if isinstance(data, dict) else []
+    return [r for r in rules if isinstance(r, dict)]
+
+
+def _event_day_name(event: dict) -> str | None:
+    """Long weekday name ("Monday"...) for the event's date, or None if the
+    date is missing/unparseable."""
+    try:
+        d = datetime.strptime(event["date"], "%Y-%m-%d").date()
+    except (KeyError, ValueError):
+        return None
+    return _WEEKDAY_LONG[d.weekday()]
+
+
+def _matches_day(event: dict, days: list[str]) -> bool:
+    name = _event_day_name(event)
+    return name is not None and name in days
+
+
+def _matches_title(event: dict, substrings: list[str]) -> bool:
+    """Case-insensitive substring match: True if the title contains ANY of
+    the listed substrings."""
+    title = (event.get("title") or "").lower()
+    return any(str(s).lower() in title for s in substrings)
+
+
+def _should_park(event: dict, rule: dict) -> bool:
+    """Decide whether ``event`` is parked by ``rule``. The three rule types are
+    mutually exclusive; checked in priority order so a malformed rule with more
+    than one type still behaves predictably (suppress_all wins, then
+    suppress_if, then allow_only)."""
+    if rule.get("suppress_all"):
+        return True
+
+    cond = rule.get("suppress_if")
+    if isinstance(cond, dict):
+        # OR across conditions: matching ANY one parks the event.
+        days = cond.get("day_of_week")
+        if days and _matches_day(event, days):
+            return True
+        titles = cond.get("title_contains")
+        if titles and _matches_title(event, titles):
+            return True
+        return False
+
+    allow = rule.get("allow_only")
+    if isinstance(allow, dict):
+        # AND across conditions: every listed condition must match, else park.
+        days = allow.get("day_of_week")
+        if days is not None and not _matches_day(event, days):
+            return True
+        titles = allow.get("title_contains")
+        if titles is not None and not _matches_title(event, titles):
+            return True
+        return False
+
+    return False
+
+
+def apply_parking_rules(events: list[dict], rules: list[dict]) -> list[dict]:
+    """Drop events suppressed by their source's parking rule. Logs each parked
+    event as "PARKED: 'Title' [source] (reason)" so they surface in the
+    workflow logs. No rules => events pass through untouched."""
+    if not rules:
+        return events
+    by_source: dict[str, dict] = {}
+    for r in rules:
+        src = r.get("source")
+        if src:
+            by_source[src] = r  # last rule per source wins
+    kept: list[dict] = []
+    for e in events:
+        rule = by_source.get(e.get("source"))
+        if rule and _should_park(e, rule):
+            LOG.info(
+                "PARKED: %r [%s] (%s)",
+                e.get("title"), e.get("source"),
+                rule.get("reason", "no reason given"),
+            )
+            continue
+        kept.append(e)
     return kept
 
 
@@ -571,6 +680,16 @@ def main() -> int:
 
     now = datetime.now(HALIFAX)
     events = filter_to_window(events, now)
+
+    # Apply per-source parking rules before dedup so suppressed events never
+    # influence which duplicate wins. Optional file — absent => nothing parked.
+    parking_rules = load_parking_rules()
+    before = len(events)
+    events = apply_parking_rules(events, parking_rules)
+    if parking_rules:
+        LOG.info("parking: %d event(s) parked, %d remain",
+                 before - len(events), len(events))
+
     events = deduplicate(events)
     events = dedupe_substring_titles(events)
     events.sort(key=_time_sort_key)

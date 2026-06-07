@@ -24,6 +24,7 @@ _scrape_test/
 events.json.bak
 lunenburg-events-cc-prompt.md
 STATUS.md
+parking_rules.json
 
 # Editor / tooling
 .claude/
