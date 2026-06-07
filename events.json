@@ -27,17 +27,6 @@
       "date": "2026-06-11"
     },
     {
-      "title": "Big Fish - Live at Lightship!",
-      "date": "2026-06-12",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/",
-      "category": "music",
-      "source": "lightship"
-    },
-    {
       "title": "South Shore Shunpike — Open Studio Crawl",
       "date": "2026-06-13",
       "time": "10:00 AM",
@@ -49,18 +38,6 @@
       "price": "Free",
       "category": "arts",
       "source": "manual_seed"
-    },
-    {
-      "title": "Story Songs of the 70s - with Tom DiMenna!",
-      "date": "2026-06-13",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "description": "This is a ticketed event and can be purchased here. Story Songs of the 70s is a seasonal concert series by Maine-based singer/songwriter, Tom DiMenna, and features songs by 3 legendary songwriters of the vinyl era — Gordon Lightfoot, Cat Stevens, and Harry Chapin. This folk-rock act blends lush vocals, intricate guitar playing and iconic story songs into a sound that’s both intimate and powerful. While rooted in the folk tradition, this special Spring edition celebrates the first day of Spring…",
-      "url": "https://lightshipbrewery.ca/",
-      "category": "music",
-      "source": "lightship"
     },
     {
       "title": "Capella Regalis Spring Concert",
@@ -89,28 +66,6 @@
       "category": "music",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/robert-thomas-lunenburg?format=ical"
-    },
-    {
-      "title": "JP Cormier and Dave Gunning - Live at Lightship!",
-      "date": "2026-06-13",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/",
-      "category": "music",
-      "source": "lightship"
-    },
-    {
-      "title": "Open Mic with Kevin Boon!",
-      "date": "2026-06-14",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/",
-      "category": "community",
-      "source": "lightship"
     },
     {
       "title": "Tunes on Tuesday: Composition Academy",
@@ -178,29 +133,6 @@
       "ics_url": "https://www.lampns.ca/concert-schedule/jazzjune2026?format=ical"
     },
     {
-      "title": "Donair Supply - Live at Lightship!",
-      "date": "2026-06-19",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/",
-      "category": "music",
-      "source": "lightship"
-    },
-    {
-      "title": "Lunenburg Tea Dance at Lightship!  Featuring DJ Fawn Big Canoe!",
-      "date": "2026-06-20",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "description": "We’re not talking quiet afternoons and sleepy patio hangs — there’s something far more vibrant happening on the waterfront. Inspired by the iconic Tea Dance tradition born in LGBTQ+ resort communities like Provincetown, this is a daytime party built around music, connection, sunshine, and pure summer energy — and everyone’s invited. By 2 PM, the drinks are flowing, the music is rolling with DJ Fawn Big Canoe, and the patio starts filling with people ready to soak up the best part of the day.…",
-      "url": "https://lightshipbrewery.ca/",
-      "category": "community",
-      "source": "lightship"
-    },
-    {
       "title": "Shawna Caspi",
       "date": "2026-06-20",
       "time": "7:00 PM",
@@ -229,18 +161,7 @@
       "category": "music",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/concert-schedule/composition?format=ical"
-    },
-    {
-      "title": "Maximum Overdrive - Live at Lightship!",
-      "date": "2026-06-20",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/",
-      "category": "music",
-      "source": "lightship"
     }
   ],
-  "last_updated": "2026-06-07T13:03:16-03:00"
+  "last_updated": "2026-06-07T19:13:07-03:00"
 }
