@@ -99,6 +99,12 @@ def _clean_description(raw: str, max_chars: int = 500) -> str | None:
         r"Learn more about Meet at:\s*https?://\S+",
         "", s, flags=re.IGNORECASE,
     )
+    # Strip any remaining bare URLs. Admins sometimes paste a YouTube (or
+    # ticket) link straight into the description; once HTML is stripped it
+    # survives as bare text that's noise in the listing — and the event
+    # already carries its own `url` field. Covers both literal bare URLs
+    # and the case where an <a>'s visible text was the URL itself.
+    s = re.sub(r"https?://\S+", "", s)
     s = re.sub(r"\s+", " ", s).strip()
     if len(s) > max_chars:
         s = s[: max_chars - 1].rsplit(" ", 1)[0] + "…"
