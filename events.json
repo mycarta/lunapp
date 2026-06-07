@@ -1,55 +1,6 @@
 {
   "events": [
     {
-      "title": "Sketches and Sound",
-      "date": "2026-06-06",
-      "time": "2:00 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Join Musique Royale for our final Cookie Concert before summer break, “Sketches and Sound”. For this unique concert, young students in Grades 2 to 4 at Bridgewater Elementary School have drawn Graphic Scores that will be interpreted by the four featured musicians, Nicola Miller, saxophone; Tim Crofts, keys; Erin Donovan, percussion; and Pete Johnston, bass. The program will feature interpretations of these Graphic Scores along with other standard repertoire. Cookies are served following the hourlong concert, and all ages are welcome! Nicola Miller – saxophone Saxophonist and Composer Nicola…",
-      "url": "http://musiqueroyale.com/event/2026/2026-06-06-sketches-and-sound/",
-      "price": "$10 at the door (youth free, age 18 and under)",
-      "category": "music",
-      "source": "musique_royale"
-    },
-    {
-      "title": "Duke Ellington Sacred Concert",
-      "date": "2026-06-06",
-      "time": "4:00 PM",
-      "venue": "St. John's Anglican Church",
-      "location": "64 Townsend St, Lunenburg",
-      "description": "Hear one of the 20th century’s most visionary musical statements - where jazz meets the sacred, through community voices coming together in sound. Composed in the final decade of Duke Ellington’s life, his Sacred Concerts represent what he called “the most important thing I have done.” Designed for choir, soloists, and instrumental ensemble, these works fuse jazz, gospel, blues, and classical traditions into a vibrant and deeply human musical language. The Sacred Concerts move seamlessly from intimate prayer to exuberant celebration. The concert features soprano soloist Frances Farrell, and…",
-      "url": "http://musiqueroyale.com/event/2026/2026-06-06-duke-ellington-sacred-concert/",
-      "ticket_url": "https://www.canadahelps.org/en/charities/musique-royale-a-treasury-of-music-from-our-historic-past/events/duke-ellington-sacred-concert/",
-      "price": "$30 at the door, $25 advanced rate, youth free (ages 18 and under)",
-      "category": "music",
-      "source": "musique_royale"
-    },
-    {
-      "title": "No Curfew - Live at Lightship!",
-      "date": "2026-06-06",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/",
-      "category": "music",
-      "source": "lightship"
-    },
-    {
-      "title": "The Janzen Boys",
-      "date": "2026-06-06",
-      "time": "7:30 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "290 Lincoln St, Lunenburg",
-      "description": "Weekends at the Opera House concert series. Doors open at 6:45pm.",
-      "url": "https://folkharbour.ca/concerts",
-      "ticket_url": "https://lfhf.ticketpro.ca/en/pages/1680149065?aff=lfhf",
-      "price": "$15–$55; 50% off ages 25 & under",
-      "category": "music",
-      "source": "opera_house"
-    },
-    {
       "title": "Tom Richards Trio",
       "date": "2026-06-07",
       "time": "2:00 PM",
@@ -238,6 +189,18 @@
       "source": "lightship"
     },
     {
+      "title": "Lunenburg Tea Dance at Lightship!  Featuring DJ Fawn Big Canoe!",
+      "date": "2026-06-20",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "description": "We’re not talking quiet afternoons and sleepy patio hangs — there’s something far more vibrant happening on the waterfront. Inspired by the iconic Tea Dance tradition born in LGBTQ+ resort communities like Provincetown, this is a daytime party built around music, connection, sunshine, and pure summer energy — and everyone’s invited. By 2 PM, the drinks are flowing, the music is rolling with DJ Fawn Big Canoe, and the patio starts filling with people ready to soak up the best part of the day.…",
+      "url": "https://lightshipbrewery.ca/",
+      "category": "community",
+      "source": "lightship"
+    },
+    {
       "title": "Shawna Caspi",
       "date": "2026-06-20",
       "time": "7:00 PM",
@@ -266,7 +229,18 @@
       "category": "music",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/concert-schedule/composition?format=ical"
+    },
+    {
+      "title": "Maximum Overdrive - Live at Lightship!",
+      "date": "2026-06-20",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/",
+      "category": "music",
+      "source": "lightship"
     }
   ],
-  "last_updated": "2026-06-06T19:29:18-03:00"
+  "last_updated": "2026-06-07T07:51:35-03:00"
 }
