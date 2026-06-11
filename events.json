@@ -148,7 +148,32 @@
       "category": "music",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/concert-schedule/composition?format=ical"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "\"Art Projects for Schools\" Public Lecture by Terry Smith-Lamothe",
+      "date": "2026-06-25",
+      "time": "7:00 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "“Art Projects for Schools” Public Lecture by Terry Smith-Lamothe: Thursday, June 18th, 2026, at 7:00p.m. This is a free event, no registration required. Site specific art for schools offers an opportunity for local participation by students, staff and community members and nurtures a sense of pride and ownership in the building. Art produced for a school building can include references to local history and culture and identify the building as “belonging” to that particular…",
+      "url": "https://lunenburgarts.org/news-events/art-projects-for-schools-public-lecture-by-terry-smith-lamothe/",
+      "price": "Free",
+      "category": "arts",
+      "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-06-10T19:42:12-03:00"
+  "last_updated": "2026-06-11T08:40:11-03:00"
 }
