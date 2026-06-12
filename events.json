@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-06-11"
-    },
-    {
       "title": "South Shore Shunpike — Open Studio Crawl",
       "date": "2026-06-13",
       "time": "10:00 AM",
@@ -173,7 +160,22 @@
       "price": "Free",
       "category": "arts",
       "source": "school_of_arts"
+    },
+    {
+      "title": "POST FUN with Sadie Skinner & Caribou Run",
+      "date": "2026-06-26",
+      "time": "8:30 PM",
+      "end_time": "10:30 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Postfun: Halifax indie band Postfun is touring the Maritimes to promote their latest EP, “Hunting Music”. Seamlessly melding midwest emo, post-hardcore, and alt-country with distinct Maritime authenticity, Postfun revels in delivering infectious live energy, a love for storytelling, and unconventional takes on indie rock conventions. Caribou Run: Caribou Run is a 6-piece neofolk band based in Mahone Bay NS. Their songs are catchy and anthemic with lyrics that provoke emotion and thought in the listener. Their live performance is a dynamic experience that is a roller coaster of sing alongs…",
+      "url": "https://www.oldconfidence.ca/events/postfun-lunenburg",
+      "ticket_url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3032&token=5B0A92D18C",
+      "price": "$20",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/postfun-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-06-11T19:41:28-03:00"
+  "last_updated": "2026-06-12T08:24:07-03:00"
 }
