@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "title": "South Shore Shunpike — Open Studio Crawl",
-      "date": "2026-06-13",
-      "time": "10:00 AM",
-      "end_time": "4:00 PM",
-      "venue": "Blue Rocks & Stonehurst",
-      "location": "Blue Rocks /, Stonehurst",
-      "description": "3rd annual open studio crawl featuring painters, photographers, printmakers, folk artists, rug hookers/weavers, and more. Free wharf-to-wharf water taxi between galleries.",
-      "url": "https://southshoreshunpike.com/",
-      "price": "Free",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Capella Regalis Spring Concert",
-      "date": "2026-06-13",
-      "time": "4:00 PM",
-      "end_time": "5:15 PM",
-      "venue": "St. John's Anglican Church",
-      "location": "64 Townsend St, Lunenburg",
-      "description": "Free concert featuring Halifax Men, Boys & Girls Choirs alongside Capella Regalis South Shore Program choristers. Directed by Nick Halley and Vanessa Halley, with Paul Halley on organ and piano. Free-will offering at the door, no reservation required.",
-      "url": "https://capellaregalis.com/",
-      "price": "Free (free-will offering)",
-      "category": "music",
-      "source": "manual"
-    },
-    {
-      "title": "Robert Thomas & the Sessionmen",
-      "date": "2026-06-13",
-      "time": "7:00 PM",
-      "end_time": "9:30 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "East Coast Music Awards “Entertainer of the Year” nominee Robert Thomas is a natural storyteller. With an energetic and welcoming voice, he highlights the stories of our lives with empathy, energy and humour. Based in Moncton, New Brunswick, Robert has written for artists across many genres including Bonnie Raitt, The Dixie Chicks, Kenny Rogers and Mister Mister, as well as for corporate advertising.",
-      "url": "https://www.oldconfidence.ca/events/robert-thomas-lunenburg",
-      "ticket_url": "https://www.eventbrite.ca/e/robert-thomas-the-session-men-at-the-old-confidence-lodge-tickets-1988891866111?aff=oddtdtcreator",
-      "price": "$25",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/robert-thomas-lunenburg?format=ical"
-    },
-    {
       "title": "Tunes on Tuesday: Composition Academy",
       "date": "2026-06-16",
       "time": "12:00 PM",
@@ -190,5 +149,5 @@
       "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-06-13T19:29:56-03:00"
+  "last_updated": "2026-06-14T08:04:48-03:00"
 }
