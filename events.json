@@ -1,20 +1,6 @@
 {
   "events": [
     {
-      "title": "Tunes on Tuesday: Composition Academy",
-      "date": "2026-06-16",
-      "time": "12:00 PM",
-      "end_time": "1:00 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Get a glimpse behind the scenes as the 2026 Composition Academy artists present their works in progress in this informal read-through session. Combining elements of a rehearsal and a masterclass, the event offers a unique opportunity to hear new music as it develops and to observe the collaborative process between composers, performers ( Jeff Reilly (bass clarinet), Peter Togni (piano), and India Gailey ) and faculty ( Matthias McIntire , Roydon Tse , and Dinuk Wijeratne ).",
-      "url": "https://www.lampns.ca/concert-schedule/totcomp",
-      "price": "$15 suggested)",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/concert-schedule/totcomp?format=ical"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -149,5 +135,5 @@
       "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-06-16T08:52:20-03:00"
+  "last_updated": "2026-06-16T19:43:15-03:00"
 }
