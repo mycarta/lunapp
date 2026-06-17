@@ -133,7 +133,20 @@
       "price": "Free",
       "category": "community",
       "source": "school_of_arts"
+    },
+    {
+      "title": "CANADA DAY",
+      "date": "2026-07-01",
+      "time": "12:30 PM",
+      "end_time": "11:59 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Wed, July 1 12:30-2:30 - Watch the parade from our licensed patio 6:00-9:30 - ALL AGES DANCE PARTY 10-1 - 19+ DANCE PARTY",
+      "url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-dynd3",
+      "category": "dance",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-dynd3?format=ical"
     }
   ],
-  "last_updated": "2026-06-16T19:43:15-03:00"
+  "last_updated": "2026-06-17T08:40:21-03:00"
 }
