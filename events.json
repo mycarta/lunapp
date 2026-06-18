@@ -146,7 +146,20 @@
       "category": "dance",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-dynd3?format=ical"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-07-02"
     }
   ],
-  "last_updated": "2026-06-17T19:39:48-03:00"
+  "last_updated": "2026-06-18T08:30:21-03:00"
 }
