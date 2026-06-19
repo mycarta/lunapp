@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-06-18"
-    },
-    {
-      "title": "\"Wooden Building Pathology\" RAIC Public Lecture by Gregory MacNeil",
-      "date": "2026-06-18",
-      "time": "7:00 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "“Wooden Building Pathology” – Public Lecture Presented by the South Shore Network of the Royal Architectural Institute of Canada (RAIC) LECTURE BY GREGORY MACNEIL Thursday, June 18, 7:00 p.m. Buildings, like people, can develop problems as they age. “Building pathology” is the study of what goes wrong in buildings, why it happens, and how to fix it. It looks at leaks, cracks, decay, and other issues by examining how materials, structure, and people interact with weather and daily use. This…",
-      "url": "https://lunenburgarts.org/news-events/wooden-building-pathology-raic-public-lecture-by-gregory-macneil/",
-      "category": "arts",
-      "source": "school_of_arts"
-    },
-    {
-      "title": "Henry Purcell's Dido and Aeneas in Concert",
-      "date": "2026-06-18",
-      "time": "7:30 PM",
-      "venue": "Central United Church",
-      "location": "136 Cumberland St, Lunenburg",
-      "description": "Maritime Concert Opera presents Henry Purcell's Dido and Aeneas. Professional soloists joined by the MCO chorus and the Blue Engine String Quartet.",
-      "url": "https://www.maritimeconcertopera.com/",
-      "price": "$39",
-      "category": "music",
-      "source": "manual"
-    },
-    {
       "title": "Jazz at LAMP: The Music of Miles Davis",
       "date": "2026-06-19",
       "time": "5:30 PM",
@@ -159,7 +123,33 @@
       "category": "community",
       "source": "manual_seed",
       "date": "2026-07-02"
+    },
+    {
+      "title": "First Fridays Art Walk",
+      "date": "2026-07-03",
+      "time": "5:00 PM",
+      "venue": "Downtown Lunenburg",
+      "location": "Lunenburg",
+      "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.",
+      "url": "",
+      "price": "Free",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "OPEN MIC",
+      "date": "2026-07-03",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Audiences will enjoy a range of creative covers and original songs at Open Mic night, hosted by Liam Britten. Musicians will appreciate a welcoming crowd that just wants to get their toes tapping!",
+      "url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-9xlyc",
+      "price": "$10",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-9xlyc?format=ical"
     }
   ],
-  "last_updated": "2026-06-18T19:45:15-03:00"
+  "last_updated": "2026-06-19T08:38:26-03:00"
 }
