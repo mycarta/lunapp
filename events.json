@@ -1,36 +1,6 @@
 {
   "events": [
     {
-      "title": "Shawna Caspi",
-      "date": "2026-06-20",
-      "time": "7:00 PM",
-      "end_time": "9:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Shawna Caspi is a folk-roots singer-songwriter who can make a room full of people feel like they’re hanging out with an old friend in a plush corner booth. She takes her time crafting lyrics that are poetic and meaningful, often using unusual rhymes and surprising turns of phrase. Shawna spent years on the road, playing festivals and concert halls, train cars, backyards, and living rooms, supporting her warm voice with intricate fingerstyle guitar accompaniment, and drawing energy from shifting landscapes and long drives through Canada and the United States. Her songs resonate with stories…",
-      "url": "https://www.oldconfidence.ca/events/shawna-caspi",
-      "ticket_url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3030&token=5B0A92D18C",
-      "price": "$20",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/shawna-caspi?format=ical"
-    },
-    {
-      "title": "Composition Academy 2026 Showcase",
-      "date": "2026-06-20",
-      "time": "7:00 PM",
-      "end_time": "8:00 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Throughout the Academy, this year’s cohort of young and emerging composers will work closely with celebrated composers and educators Matthias McIntire , Roydon Tse , and Dinuk Wijeratne while developing original works to be performed by the Blackwood Trio . Featuring Jeff Reilly on bass clarinet, Peter Togni on piano, and India Gailey on cello, the Trio will bring a collaborative and improvisational approach to the composition process.",
-      "url": "https://www.lampns.ca/concert-schedule/composition",
-      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/composition-academy-concert",
-      "price": "$25",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/concert-schedule/composition?format=ical"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -163,5 +133,5 @@
       "ics_url": "https://www.lampns.ca/concert-schedule/julyjazz?format=ical"
     }
   ],
-  "last_updated": "2026-06-20T19:32:24-03:00"
+  "last_updated": "2026-06-21T08:09:37-03:00"
 }
