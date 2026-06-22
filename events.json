@@ -82,10 +82,11 @@
     {
       "title": "\"Interactions\" Exhibition by Joan Bruneau",
       "date": "2026-07-02",
-      "time": "7:00 PM",
+      "time": "10 AM",
+      "end_time": "4 PM",
       "venue": "Lunenburg School of the Arts",
       "location": "6 Prince St, Lunenburg",
-      "description": "“ Interactions” Joan Bruneau ARTIST TALK & OPENING RECEPTION: Thursday, Ju ly 2nd, 2026 at 7:00pm. This is a free event, no registration required. EXHIBITION: Ju ly 2 nd to August 2 nd , 2026. Gallery hours are by chance or appointment, Monday to Friday, 9am to 5pm. Joan Bruneau’s work celebrates beauty in daily lived experience. Each piece is interactive, inviting collaboration with the viewer for personal contemplation and social gatherings. Using Lantz, Nova Scotia Earthenware, her finely…",
+      "description": "“ Interactions” Joan Bruneau ARTIST TALK & OPENING RECEPTION: Thursday, Ju ly 2nd, 2026 at 7:00pm. This is a free event, no registration required. EXHIBITION: Ju ly 2 nd to August 2 nd , 2026. Gallery Hours: Monday to Friday, 9am to 5pm (by chance or appointment). Artist in attendance Saturdays 10am – 4pm. Joan Bruneau’s work celebrates beauty in daily lived experience. Her pieces are interactive, inviting collaboration with the viewer in use, contemplation and social gatherings. Using Lantz…",
       "url": "https://lunenburgarts.org/news-events/interactions-exhibition-by-joan-bruneau/",
       "price": "Free",
       "category": "arts",
@@ -133,5 +134,5 @@
       "ics_url": "https://www.lampns.ca/concert-schedule/julyjazz?format=ical"
     }
   ],
-  "last_updated": "2026-06-22T09:06:18-03:00"
+  "last_updated": "2026-06-22T19:39:36-03:00"
 }
