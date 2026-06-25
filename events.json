@@ -19,7 +19,7 @@
       "time": "7:00 PM",
       "venue": "Lunenburg School of the Arts",
       "location": "6 Prince St, Lunenburg",
-      "description": "“Art Projects for Schools” Public Lecture by Terry Smith-Lamothe: Thursday, June 18th, 2026, at 7:00p.m. This is a free event, no registration required. Site specific art for schools offers an opportunity for local participation by students, staff and community members and nurtures a sense of pride and ownership in the building. Art produced for a school building can include references to local history and culture and identify the building as “belonging” to that particular…",
+      "description": "“Art Projects for Schools” Public Lecture by Terry Smith-Lamothe: Thursday, June 25th, 2026, at 7:00p.m. This is a free event, no registration required. Site specific art for schools offers an opportunity for local participation by students, staff and community members and nurtures a sense of pride and ownership in the building. Art produced for a school building can include references to local history and culture and identify the building as “belonging” to that particular…",
       "url": "https://lunenburgarts.org/news-events/art-projects-for-schools-public-lecture-by-terry-smith-lamothe/",
       "price": "Free",
       "category": "arts",
@@ -52,6 +52,18 @@
       "price": "Free",
       "category": "community",
       "source": "school_of_arts"
+    },
+    {
+      "title": "Canada Day Concert",
+      "date": "2026-07-01",
+      "time": "12:00 PM",
+      "venue": "St. John's Anglican Church",
+      "location": "64 Townsend St, Lunenburg",
+      "description": "For Musique Royale’s opening concert of the Wednesdays at Noon series, hear a performance celebrating Canada Day featuring Nicola Miller, saxophone; Chris Donnelly, piano; Nicholas D’Amato, bass; and Nick Fraser, drums. Wednesdays at Noon is a series of music presentations at St. John’s Anglican Church in Lunenburg. Concerts are roughly 45 minutes in length and are held every Wednesday at 12 pm through July and August. Performances feature artists from the local and national scene in an eclectic mix of presentations. These performances will draw residents and tourists to enjoy music within…",
+      "url": "http://musiqueroyale.com/event/2026/2026-07-01-canada-day-concert/",
+      "price": "$10 at the door, youth free (ages 18 and under)",
+      "category": "music",
+      "source": "musique_royale"
     },
     {
       "title": "CANADA DAY",
@@ -134,6 +146,18 @@
       "ics_url": "https://www.lampns.ca/concert-schedule/julyjazz?format=ical"
     },
     {
+      "title": "Hannah Parks",
+      "date": "2026-07-08",
+      "time": "12:00 PM",
+      "venue": "St. John's Anglican Church",
+      "location": "64 Townsend St, Lunenburg",
+      "description": "Part of the Wednesdays at Noon series, Musique Royale welcomes pianist Hannah Parks to perform a solo piano performance on Wednesday July 8th at 12 pm. Wednesdays at Noon is a series of music presentations at St. John’s Anglican Church in Lunenburg. Concerts are roughly 45 minutes in length and are held every Wednesday at 12 pm through July and August. Performances feature artists from the local and national scene in an eclectic mix of presentations. These performances will draw residents and tourists to enjoy music within beautiful and historic setting of St John’s, the second-oldest…",
+      "url": "http://musiqueroyale.com/event/2026/2026-07-08-hannah-parks/",
+      "price": "$10 at the door, youth free (ages 18 and under)",
+      "category": "music",
+      "source": "musique_royale"
+    },
+    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -147,5 +171,5 @@
       "date": "2026-07-09"
     }
   ],
-  "last_updated": "2026-06-25T08:04:33-03:00"
+  "last_updated": "2026-06-25T19:37:02-03:00"
 }
