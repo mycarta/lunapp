@@ -1,86 +1,94 @@
-"""Lightship Brewery — public Google Calendar iCal feed parser.
+"""Lightship Brewery — Shopify products feed parser.
 
-Strict allowlist: only events whose title OR description contains the
-phrase "live music" (case-insensitive) are kept. Trivia, open mic,
-happy hour, tap takeovers, and anything else that doesn't say "live
-music" explicitly are dropped — this is an allowlist, not a denylist.
+Live music events are sold as products in the 'events' collection at
+``lightshipbrewery.ca/collections/events/products.json``. Each product
+has the band name and date in the title, time/description in body_html,
+and a per-product URL derived from its handle.
 
-The feed URL is the public Google Calendar iCal export for the brewery.
-``recurring-ical-events`` expands RRULE masters into discrete occurrences
-inside the 14-day window.
+Allowlist: keep only products whose title contains "Live at Lightship"
+or "live music" (case-insensitive). Everything else in the collection
+(any future non-music items) is silently dropped.
 """
 from __future__ import annotations
 
-import html
+import html as _html
 import logging
 import re
-from datetime import date as _date, datetime, timedelta
+from datetime import date as _date, datetime
 
 import requests
+from bs4 import BeautifulSoup
+from dateutil import parser as dateparser
 
 LOG = logging.getLogger(__name__)
 
 FEED_URL = (
-    "https://calendar.google.com/calendar/ical/"
-    "saltboxbrewingcompany.ca_70er6l41fcrskulncurr5k5rfc"
-    "%40group.calendar.google.com/public/basic.ics"
+    "https://lightshipbrewery.ca/collections/events/products.json?limit=250"
 )
 SOURCE = "lightship"
 VENUE = "Lightship Brewery"
 LOCATION = "93 Tannery Rd, Lunenburg"
-EVENTS_PAGE_URL = "https://lightshipbrewery.ca/pages/events"
+EVENTS_PAGE_URL = "https://lightshipbrewery.ca/pages/events-calendar"
+PRODUCT_BASE_URL = "https://lightshipbrewery.ca/products/"
 
 UA = "Mozilla/5.0 (lunenburg-events scraper; +https://github.com/)"
 TIMEOUT = 20
-WINDOW_DAYS = 14
 
-_LIVE_MUSIC_RE = re.compile(
-    r"\blive\s+music\b|\blive\s+at\s+lightship\b",
+_ALLOWLIST_RE = re.compile(
+    r"\blive\s+at\s+lightship\b|\blive\s+music\b",
+    re.IGNORECASE,
+)
+
+# "7-10pm", "7:30-10pm" — start may lack am/pm, end always has it
+_TIME_RANGE_RE = re.compile(
+    r"\b(\d{1,2}(?::\d{2})?)\s*(am|pm)?\s*[-–]\s*(\d{1,2}(?::\d{2})?)\s*(am|pm)\b",
+    re.IGNORECASE,
+)
+# "at 7pm" / "stars at 7pm" — but not "Doors at"
+_AT_RE = re.compile(
+    r"(?:show\s+(?:starts?|stars?)\s+)?at\s+(\d{1,2}(?::\d{2})?)\s*(am|pm)\b",
+    re.IGNORECASE,
+)
+_DOORS_RE = re.compile(
+    r"\bDoors?\s+(?:open\s+)?at\s+\d{1,2}(?::\d{2})?\s*(?:am|pm)\b",
     re.IGNORECASE,
 )
 
 
-def _is_live_music(title: str, description: str | None) -> bool:
-    return bool(
-        _LIVE_MUSIC_RE.search(title)
-        or (description and _LIVE_MUSIC_RE.search(description))
-    )
+def _normalize_hm(hhmm: str, mer: str) -> str:
+    """'7', 'PM' → '7:00 PM'; '7:30', 'PM' → '7:30 PM'."""
+    parts = hhmm.split(":")
+    hh = int(parts[0])
+    mm = parts[1] if len(parts) > 1 else "00"
+    return f"{hh}:{mm} {mer.upper()}"
 
 
-def _format_time(dt) -> str | None:
-    """Datetime → 'H:MM AM/PM'. All-day events (date only) return None."""
-    if isinstance(dt, datetime):
-        return dt.strftime("%I:%M %p").lstrip("0")
-    return None
+def _parse_times(body_text: str) -> tuple[str | None, str | None]:
+    """Return (start_time, end_time) from cleaned description text."""
+    # Strip "Doors at X" so it doesn't interfere with the "at" pattern.
+    cleaned = _DOORS_RE.sub("", body_text)
+
+    m = _TIME_RANGE_RE.search(cleaned)
+    if m:
+        start_hm, start_mer, end_hm, end_mer = m.group(1), m.group(2), m.group(3), m.group(4)
+        # Start inherits end's am/pm when omitted (e.g. "7-10pm").
+        effective_mer = start_mer if start_mer else end_mer
+        return _normalize_hm(start_hm, effective_mer), _normalize_hm(end_hm, end_mer)
+
+    m = _AT_RE.search(cleaned)
+    if m:
+        return _normalize_hm(m.group(1), m.group(2)), None
+
+    return None, None
 
 
-def _format_date(dt) -> str:
-    if isinstance(dt, datetime):
-        return dt.date().strftime("%Y-%m-%d")
-    if isinstance(dt, _date):
-        return dt.strftime("%Y-%m-%d")
-    return ""
-
-
-def _clean_description(raw: str, max_chars: int = 500) -> str | None:
-    if not raw:
+def _clean_body(body_html: str, max_chars: int = 400) -> str | None:
+    """Strip HTML, unescape entities, collapse whitespace, truncate."""
+    if not body_html:
         return None
-    # Google Calendar stores HTML in DESCRIPTION; turn block-level tags
-    # into spaces so adjacent words don't merge, then strip all tags.
-    s = re.sub(r"<\s*(br|/p|/div)\s*/?\s*>", " ", raw, flags=re.IGNORECASE)
-    s = re.sub(r"<[^>]+>", "", s)
-    s = html.unescape(s)
-    # Strip Google Meet boilerplate injected automatically by Calendar.
-    s = re.sub(
-        r"-*\s*Join with Google Meet:\s*https?://\S+",
-        "", s, flags=re.IGNORECASE,
-    )
-    s = re.sub(
-        r"Learn more about Meet at:\s*https?://\S+",
-        "", s, flags=re.IGNORECASE,
-    )
-    # Strip bare URLs — pasted links survive HTML-stripping as noise,
-    # and the event already carries its own `url` field.
+    s = re.sub(r"<\s*(br|/p|/div|/li)\s*/?\s*>", " ", body_html, flags=re.IGNORECASE)
+    s = BeautifulSoup(s, "html.parser").get_text(" ", strip=True)
+    s = _html.unescape(s)
     s = re.sub(r"https?://\S+", "", s)
     s = re.sub(r"\s+", " ", s).strip()
     if len(s) > max_chars:
@@ -88,72 +96,76 @@ def _clean_description(raw: str, max_chars: int = 500) -> str | None:
     return s or None
 
 
-def fetch(session: requests.Session | None = None) -> list[dict]:
+def _parse_date(title: str) -> str | None:
+    """Extract the event date from a product title like
+    'Band Name - Live at Lightship - July 3, 2026'."""
     try:
-        import icalendar
-        import recurring_ical_events
-    except ImportError as exc:
-        LOG.error("lightship: required deps not installed (%s); "
-                  "add icalendar + recurring-ical-events", exc)
-        return []
+        return dateparser.parse(title, fuzzy=True).strftime("%Y-%m-%d")
+    except (ValueError, TypeError):
+        return None
 
+
+def _format_price(variant: dict) -> str | None:
+    try:
+        amount = float(variant.get("price") or 0)
+    except (ValueError, TypeError):
+        return None
+    if amount == 0:
+        return "Free"
+    return f"${int(amount)}" if amount == int(amount) else f"${amount:.2f}"
+
+
+def fetch(session: requests.Session | None = None) -> list[dict]:
     sess = session or requests.Session()
     try:
         r = sess.get(FEED_URL, headers={"User-Agent": UA}, timeout=TIMEOUT)
         r.raise_for_status()
+        data = r.json()
     except Exception as exc:
         LOG.error("lightship: feed fetch failed: %s", exc)
         return []
 
-    try:
-        cal = icalendar.Calendar.from_ical(r.text)
-    except ValueError as exc:
-        LOG.error("lightship: iCal parse failed: %s", exc)
-        return []
-
-    today = _date.today()
-    end = today + timedelta(days=WINDOW_DAYS)
-    try:
-        occurrences = recurring_ical_events.of(cal).between(today, end)
-    except Exception as exc:
-        LOG.error("lightship: rrule expansion failed: %s", exc)
-        return []
-
+    products = data.get("products") or []
     out: list[dict] = []
-    for ev in occurrences:
-        title = str(ev.get("SUMMARY", "")).strip()
-        if not title:
+
+    for p in products:
+        title = (p.get("title") or "").strip()
+        if not _ALLOWLIST_RE.search(title):
+            LOG.debug("lightship: skipping (not live music) %r", title)
             continue
 
-        dtstart_prop = ev.get("DTSTART")
-        if not dtstart_prop:
-            continue
-        date_iso = _format_date(dtstart_prop.dt)
+        date_iso = _parse_date(title)
         if not date_iso:
+            LOG.debug("lightship: skipping %r (no parseable date)", title)
             continue
 
-        dtend_prop = ev.get("DTEND")
-        description = _clean_description(str(ev.get("DESCRIPTION", "")))
+        handle = p.get("handle") or ""
+        event_url = f"{PRODUCT_BASE_URL}{handle}" if handle else EVENTS_PAGE_URL
 
-        if not _is_live_music(title, description):
-            LOG.debug("lightship: skipping (no 'live music') %r", title)
-            continue
+        body_text = _clean_body(p.get("body_html") or "")
+        start_time, end_time = _parse_times(p.get("body_html") or "")
 
-        raw_url = str(ev.get("URL", "")).strip()
-        event_url = raw_url if raw_url.startswith("http") else EVENTS_PAGE_URL
+        variants = p.get("variants") or []
+        price = _format_price(variants[0]) if variants else None
 
-        event = {
+        event: dict = {
             "title": title,
             "date": date_iso,
-            "time": _format_time(dtstart_prop.dt),
-            "end_time": _format_time(dtend_prop.dt) if dtend_prop else None,
             "venue": VENUE,
             "location": LOCATION,
-            "description": description,
             "url": event_url,
             "category": "music",
             "source": SOURCE,
         }
-        out.append({k: v for k, v in event.items() if v is not None})
+        if start_time:
+            event["time"] = start_time
+        if end_time:
+            event["end_time"] = end_time
+        if body_text:
+            event["description"] = body_text
+        if price:
+            event["price"] = price
+
+        out.append(event)
 
     return out
