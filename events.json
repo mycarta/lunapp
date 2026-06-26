@@ -1,31 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-06-25"
-    },
-    {
-      "title": "\"Art Projects for Schools\" Public Lecture by Terry Smith-Lamothe",
-      "date": "2026-06-25",
-      "time": "7:00 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "“Art Projects for Schools” Public Lecture by Terry Smith-Lamothe: Thursday, June 25th, 2026, at 7:00p.m. This is a free event, no registration required. Site specific art for schools offers an opportunity for local participation by students, staff and community members and nurtures a sense of pride and ownership in the building. Art produced for a school building can include references to local history and culture and identify the building as “belonging” to that particular…",
-      "url": "https://lunenburgarts.org/news-events/art-projects-for-schools-public-lecture-by-terry-smith-lamothe/",
-      "price": "Free",
-      "category": "arts",
-      "source": "school_of_arts"
-    },
-    {
       "title": "TGIF Live Music: Fusion Swing & Jazz",
       "date": "2026-06-26",
       "time": "7:00 PM",
@@ -220,7 +195,49 @@
       "category": "community",
       "source": "manual_seed",
       "date": "2026-07-09"
+    },
+    {
+      "title": "TGIF Live Music: The Robinson Brothers",
+      "date": "2026-07-10",
+      "time": "7:00 PM",
+      "end_time": "9:00 PM",
+      "venue": "Lunenburg Yacht Club — Salt & Sail Gastropub",
+      "location": "734 Hermans Island Rd, Lunenburg",
+      "description": "Live music at the Lunenburg Yacht Club. No cover. Dinner reservations: 634-3745.",
+      "url": "https://www.lyc.ca/",
+      "price": "Free",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
+      "title": "LUNENBURG PRIDE - Comedy Show",
+      "date": "2026-07-10",
+      "time": "8:00 PM",
+      "end_time": "11:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "The Gay Agenda: An All-Queer Comedy Show is bringing a night of unapologetically queer stand-up comedy to the stage as part of the Lunenburg Pride Festival. Featuring a lineup of hilarious queer comedians, this show celebrates Pride through sharp stand-up, wild stories, unexpected games, and the kind of energy that only happens when queer performers take over the stage.",
+      "url": "https://www.oldconfidence.ca/events/lunenburg-pride-comedy",
+      "ticket_url": "https://www.eventbrite.ca/e/the-gay-agenda-an-all-queer-comedy-show-tickets-1990889213230?aff=oddtdtcreator",
+      "price": "$17.57",
+      "category": "festival",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/lunenburg-pride-comedy?format=ical"
+    },
+    {
+      "title": "The Gay Agenda: An All Queer Comedy Show",
+      "date": "2026-07-10",
+      "time": "8:00 PM",
+      "end_time": "9:30 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Come as you are, just be prepared to laugh and spread good vibes!",
+      "url": "https://www.eventbrite.ca/e/the-gay-agenda-an-all-queer-comedy-show-tickets-1990889213230",
+      "ticket_url": "https://www.eventbrite.ca/e/the-gay-agenda-an-all-queer-comedy-show-tickets-1990889213230",
+      "price": "$15.00",
+      "category": "community",
+      "source": "eventbrite"
     }
   ],
-  "last_updated": "2026-06-25T22:11:04-03:00"
+  "last_updated": "2026-06-26T08:07:58-03:00"
 }
