@@ -42,6 +42,28 @@
       "source": "school_of_arts"
     },
     {
+      "title": "The GameChangers - Live at Lightship!",
+      "date": "2026-06-27",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/pages/events",
+      "category": "music",
+      "source": "lightship"
+    },
+    {
+      "title": "Asia and Nu Gruv - Live at Lightship!",
+      "date": "2026-06-30",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/pages/events",
+      "category": "music",
+      "source": "lightship"
+    },
+    {
       "title": "Canada Day on the Lunenburg Waterfront",
       "date": "2026-07-01",
       "time": "10:30 AM",
@@ -132,6 +154,17 @@
       "ics_url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-9xlyc?format=ical"
     },
     {
+      "title": "Signal Hill - Live at Lightship!",
+      "date": "2026-07-03",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/pages/events",
+      "category": "music",
+      "source": "lightship"
+    },
+    {
       "title": "TGIF Live Music: Jane Chiasson",
       "date": "2026-07-03",
       "time": "8:00 PM",
@@ -170,6 +203,29 @@
       "category": "music",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/concert-schedule/julyjazz?format=ical"
+    },
+    {
+      "title": "Light and Shade - Live at Lightship!",
+      "date": "2026-07-04",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/pages/events",
+      "category": "music",
+      "source": "lightship"
+    },
+    {
+      "title": "The Fog - Live at Lightship!",
+      "date": "2026-07-05",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "description": "Playing together since 2021, these three seasoned musicians combined their musical backgrounds and through the collective haze of many musical evenings jamming together in a remote cabin nestled in the woods overlooking Digby Gut in southwest Nova Scotia, The Fog was born. With an eclectic repertoire that includes covers from Sinatra to Sublime and just about anything in between, as well as a growing catalogue of original material, these three have created a unique sound.",
+      "url": "https://lightshipbrewery.ca/pages/events",
+      "category": "music",
+      "source": "lightship"
     },
     {
       "title": "Hannah Parks",
@@ -239,5 +295,5 @@
       "source": "eventbrite"
     }
   ],
-  "last_updated": "2026-06-26T08:07:58-03:00"
+  "last_updated": "2026-06-26T10:16:18-03:00"
 }
