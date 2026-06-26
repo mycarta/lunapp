@@ -64,17 +64,17 @@
       "source": "lightship"
     },
     {
-      "title": "Canada Day on the Lunenburg Waterfront",
+      "title": "Canada Day (Museum Open House)",
       "date": "2026-07-01",
-      "time": "10:30 AM",
-      "end_time": "9:00 PM",
       "venue": "Fisheries Museum of the Atlantic",
       "location": "68 Bluenose Dr, Lunenburg",
-      "description": "Free family fun all day. Rotary Stage live music: 11am opening, 11:30 South Shore Malayalis Dancers, 11:45 Heartbeat Drummers, 12-1:30 Shawn Hebb, 2:30-4:30 Saucy Jack. Evening music at 7pm at LOFT. Family BBQ at noon (free hot dogs, cake). Glow inflatables, carnival games, face painting, mini golf, bingo, Museum Open House, Bluenose II Open Decks.",
-      "url": "https://townoflunenburg.ca/",
-      "price": "Free",
-      "category": "festival",
-      "source": "manual_seed"
+      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/canada-day-museum-open-house",
+      "category": "community",
+      "source": "fisheries_museum",
+      "time": "10:30 AM",
+      "end_time": "3:00 PM",
+      "price": "Free community event",
+      "description": "Join us for a vibrant Canada Day celebration filled with family-friendly activities, live entertainment, and community spirit. Enjoy inflatables, games, music, local performances, and delicious food—all set against the stunning backdrop of Lunenburg’s historic waterfront. Bring your friends, family, and Canadian pride for a day full of celebration and connection."
     },
     {
       "title": "Canada Day Concert",
@@ -295,5 +295,5 @@
       "source": "eventbrite"
     }
   ],
-  "last_updated": "2026-06-26T10:16:18-03:00"
+  "last_updated": "2026-06-26T10:20:39-03:00"
 }
