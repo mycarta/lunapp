@@ -1,46 +1,6 @@
 {
   "events": [
     {
-      "title": "TGIF Live Music: Fusion Swing & Jazz",
-      "date": "2026-06-26",
-      "time": "7:00 PM",
-      "end_time": "9:00 PM",
-      "venue": "Lunenburg Yacht Club — Salt & Sail Gastropub",
-      "location": "734 Hermans Island Rd, Lunenburg",
-      "description": "Live music at the Lunenburg Yacht Club. No cover. Dinner reservations: 634-3745.",
-      "url": "https://www.lyc.ca/",
-      "price": "Free",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "The Fabulously Rich - Live at Lightship - June 26, 2026",
-      "date": "2026-06-26",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/the-fabulously-rich-live-at-lightship-june-26-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "description": "Friday, June 26 Doors at 5pm Show stars at 7pm The Fabulously Rich is a live tribute to The Tragically Hip! The band formed in 2016 in Charlottetown, Prince Edward Island. The idea came about when the news broke that Gord Downie had been diagnosed with terminal brain cancer. The original idea was to reunite a group of old friends, who began their music careers playing together in high school, to…",
-      "price": "$35"
-    },
-    {
-      "title": "POST FUN with Sadie Skinner & Caribou Run",
-      "date": "2026-06-26",
-      "time": "8:30 PM",
-      "end_time": "10:30 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Postfun: Halifax indie band Postfun is touring the Maritimes to promote their latest EP, “Hunting Music”. Seamlessly melding midwest emo, post-hardcore, and alt-country with distinct Maritime authenticity, Postfun revels in delivering infectious live energy, a love for storytelling, and unconventional takes on indie rock conventions. Caribou Run: Caribou Run is a 6-piece neofolk band based in Mahone Bay NS. Their songs are catchy and anthemic with lyrics that provoke emotion and thought in the listener. Their live performance is a dynamic experience that is a roller coaster of sing alongs…",
-      "url": "https://www.oldconfidence.ca/events/postfun-lunenburg",
-      "ticket_url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3032&token=5B0A92D18C",
-      "price": "$20",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/postfun-lunenburg?format=ical"
-    },
-    {
       "title": "Medway Community Forest Cooperative – Forest Market",
       "date": "2026-06-27",
       "time": "10:00 AM",
@@ -299,7 +259,88 @@
       "source": "lightship",
       "description": "Join us for Shameless on July 10 Doors at 5pm SHAMELESS is Atlantic Canada’s best known party band! Fronted by the endless energy of singer/guitarist Shawn Birt, with some of the best musicians in all of Nova Scotia, SHAMELESS always bring an exciting energy to every show. The set list includes music from all genres: Rock n roll, country and even some Maritime favourites… SHAMELESS always…",
       "price": "$25"
+    },
+    {
+      "title": "50th Annual Lunenburg Craft & Food Festival",
+      "date": "2026-07-11",
+      "end_date": "2026-07-12",
+      "time": "10:00 AM",
+      "end_time": "4:00 PM",
+      "venue": "Lunenburg War Memorial Arena",
+      "location": "15 Green St, Lunenburg",
+      "description": "50th annual craft and food festival featuring Nova Scotian artisans, food trucks, and live outdoor music. Adults $6, Students/Seniors $5, children 12 and under free. Admission includes weekend pass.",
+      "url": "https://lunenburgcraftandfoodfestival.com/",
+      "price": "From $5",
+      "category": "festival",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Saturdays in the Park: The North Sound",
+      "date": "2026-07-11",
+      "time": "2:00 PM",
+      "venue": "Lunenburg Heritage Bandstand",
+      "location": "Lunenburg",
+      "description": "Folk Harbour Society free concert series at the newly renovated bandstand. Donations welcome.",
+      "url": "https://folkharbour.ca/concerts",
+      "price": "Free",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
+      "title": "All Ages Drag Show",
+      "date": "2026-07-11",
+      "time": "6:30 PM",
+      "end_time": "7:30 PM",
+      "venue": "Oakhill & District Fire Department",
+      "location": "2104 Nova Scotia 325, Whynotts Settlement",
+      "description": "Get ready for a fun, family-friendly evening full of fabulous performances and good vibes!",
+      "url": "https://www.eventbrite.ca/e/all-ages-drag-show-tickets-1990981905475",
+      "ticket_url": "https://www.eventbrite.ca/e/all-ages-drag-show-tickets-1990981905475",
+      "price": "$10.00",
+      "category": "community",
+      "source": "eventbrite"
+    },
+    {
+      "title": "Pianocean - NOVA SCOTIA TOUR",
+      "date": "2026-07-11",
+      "time": "7:00 PM",
+      "end_time": "8:30 PM",
+      "venue": "LAMP",
+      "location": "146 Bluenose Dr Lunenburg, Nova Scotia",
+      "description": "This summer, the internationally acclaimed Pianocean project arrives in Nova Scotia as part of its ongoing round-the-world sailing voyage, celebrating ten years of music, adventure, and cultural exchange across the world's oceans. This unique sailing-and-music project will bring floating piano concerts first to Lunenburg, then to Halifax, St. Peters, and Baddeck.",
+      "url": "https://www.lampns.ca/concert-schedule/pianocean",
+      "price": "Free",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/concert-schedule/pianocean?format=ical"
+    },
+    {
+      "title": "Dancing Queen ABBA Tribute Band - Live at Lightship - July 11, 2026",
+      "date": "2026-07-11",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/products/dancing-queen-abba-tribute-band-live-at-lightship-july-11-2026",
+      "category": "music",
+      "source": "lightship",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "description": "Join us for Dancing Queen on July 11th! 7-10pm Doors at 5pm Dancing Queen at Lightship! Three sets of your favourite ABBA hits, with a few sly nods to our danciest favs. Come sing your heart out and dance the night away. You know that really fancy, glittery thing you own but could never find a reason to wear? Tonight's the night! Dance, jive, come have the time of your life! *Show is rain or shine",
+      "price": "$35"
+    },
+    {
+      "title": "PROUD Drag Show & Dance",
+      "date": "2026-07-11",
+      "time": "8:30 PM",
+      "end_time": "12:30 AM",
+      "venue": "Oakhill & District Fire Department",
+      "location": "2104 Nova Scotia 325, Whynotts Settlement",
+      "description": "A night of drag and dancing! Everyone is welcome!",
+      "url": "https://www.eventbrite.ca/e/proud-drag-show-dance-tickets-1991592466680",
+      "ticket_url": "https://www.eventbrite.ca/e/proud-drag-show-dance-tickets-1991592466680",
+      "price": "$25.00",
+      "category": "theater",
+      "source": "eventbrite"
     }
   ],
-  "last_updated": "2026-06-26T19:33:04-03:00"
+  "last_updated": "2026-06-27T07:45:41-03:00"
 }
