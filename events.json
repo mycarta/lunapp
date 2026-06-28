@@ -1,32 +1,6 @@
 {
   "events": [
     {
-      "title": "Medway Community Forest Cooperative – Forest Market",
-      "date": "2026-06-27",
-      "time": "10:00 AM",
-      "end_time": "2:00 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Medway Community Forest Cooperative – Forest Market Saturday, June 27, 10:00a.m – 2:00p.m. This is a free event, no registration required. We’re bringing the Forest Market to Lunenburg for the first time! 🌲 Join us for a special spring edition of...",
-      "url": "https://lunenburgarts.org/news-events/medway-community-forest-cooperative-forest-market/",
-      "price": "Free",
-      "category": "community",
-      "source": "school_of_arts"
-    },
-    {
-      "title": "The GameChangers - Live at Lightship - June 27, 2026",
-      "date": "2026-06-27",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/the-gamechangers-live-at-lightship-june-26-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Join us for GameChangers on June 27th! 7-10pm Doors at 5pm GameChangers is a group of good friends that perform a tasteful Groove-Blues mix that's \"Judiciously Obscure, yet Captivatingly Familiar\". Their playlist includes selections from such notable artists as: Alan Parsons Project, Atlanta Rhythm Section, Bill Withers, Billy Preston, Bob Marley, Boz Scaggs, Chris Rea, Colin James, Dean Martin,…",
-      "price": "$10"
-    },
-    {
       "title": "Asia and Nu Gruv - Live at Lightship - June 30, 2026",
       "date": "2026-06-30",
       "venue": "Lightship Brewery",
@@ -340,7 +314,21 @@
       "price": "$25.00",
       "category": "theater",
       "source": "eventbrite"
+    },
+    {
+      "title": "Pianocean - NOVA SCOTIA TOUR",
+      "date": "2026-07-12",
+      "time": "7:00 PM",
+      "end_time": "8:30 PM",
+      "venue": "LAMP",
+      "location": "146 Bluenose Dr Lunenburg, Nova Scotia",
+      "description": "This summer, the internationally acclaimed Pianocean project arrives in Nova Scotia as part of its ongoing round-the-world sailing voyage, celebrating ten years of music, adventure, and cultural exchange across the world's oceans. This unique sailing-and-music project will bring floating piano concerts first to Lunenburg, then to Halifax, St. Peters, and Baddeck.",
+      "url": "https://www.lampns.ca/concert-schedule/pianoceanday2",
+      "price": "Free",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/concert-schedule/pianoceanday2?format=ical"
     }
   ],
-  "last_updated": "2026-06-27T19:28:58-03:00"
+  "last_updated": "2026-06-28T07:50:52-03:00"
 }
