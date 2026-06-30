@@ -27,6 +27,19 @@
       "description": "Join us for a vibrant Canada Day celebration filled with family-friendly activities, live entertainment, and community spirit. Enjoy inflatables, games, music, local performances, and delicious food—all set against the stunning backdrop of Lunenburg’s historic waterfront. Bring your friends, family, and Canadian pride for a day full of celebration and connection."
     },
     {
+      "title": "CANADA DAY",
+      "date": "2026-07-01",
+      "time": "11:30 AM",
+      "end_time": "11:59 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Wed, July 1 12:30-2:30 - Watch the parade from our licensed patio 6:00-9:30 - ALL AGES DANCE PARTY 10-1 - 19+ DANCE PARTY",
+      "url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-dynd3",
+      "category": "dance",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-dynd3?format=ical"
+    },
+    {
       "title": "Canada Day Concert",
       "date": "2026-07-01",
       "time": "12:00 PM",
@@ -37,19 +50,6 @@
       "price": "$10 at the door, youth free (ages 18 and under)",
       "category": "music",
       "source": "musique_royale"
-    },
-    {
-      "title": "CANADA DAY",
-      "date": "2026-07-01",
-      "time": "12:30 PM",
-      "end_time": "11:59 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Wed, July 1 12:30-2:30 - Watch the parade from our licensed patio 6:00-9:30 - ALL AGES DANCE PARTY 10-1 - 19+ DANCE PARTY",
-      "url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-dynd3",
-      "category": "dance",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-dynd3?format=ical"
     },
     {
       "title": "Lunenburg Farmers Market",
@@ -328,7 +328,19 @@
       "category": "music",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/concert-schedule/pianoceanday2?format=ical"
+    },
+    {
+      "title": "Half-Cracked — Lunenburg Theatre Collective",
+      "date": "2026-07-14",
+      "time": "7:30 PM",
+      "venue": "Lunenburg Opera House",
+      "location": "Lunenburg",
+      "description": "A comedy by Mary Colin-Chisholm. $35.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-06-29T19:29:24-03:00"
+  "last_updated": "2026-06-30T08:09:09-03:00"
 }
