@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "Asia and Nu Gruv - Live at Lightship - June 30, 2026",
-      "date": "2026-06-30",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/asia-and-nu-gruv-live-at-lightship-june-30-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Join us for Asia and Nu Gruv to kick off your Canada Day weekend! June 30, 2026, 7-10pm Doors at 5pm Hot Gruvs, high energy and a lead singer whose dynamic vocals and soulful, passionate style has the audience dancing in the aisles make Asia and Nu Gruv the freshest R & B dance machine this side of the Big Smoke. If Asia and Nu Gruv don’t make you get up and shake everything you’ve got – it’s…",
-      "price": "$25"
-    },
-    {
       "title": "Canada Day (Museum Open House)",
       "date": "2026-07-01",
       "venue": "Fisheries Museum of the Atlantic",
@@ -340,7 +327,19 @@
       "price": "$35",
       "category": "arts",
       "source": "manual_seed"
+    },
+    {
+      "title": "Alexander Straus-Fausto",
+      "date": "2026-07-15",
+      "time": "12:00 PM",
+      "venue": "St. John's Anglican Church",
+      "location": "64 Townsend St, Lunenburg",
+      "description": "Part of the Wednesdays at Noon series, Musique Royale welcomes organist Alexander Straus-Fausto on Wednesday July 15th at 12 pm to give a concert at St John’s Anglican Church in Lunenburg. Wednesdays at Noon is a series of music presentations at St. John’s Anglican Church in Lunenburg. Concerts are roughly 45 minutes in length and are held every Wednesday at 12 pm through July and August. Performances feature artists from the local and national scene in an eclectic mix of presentations. These performances will draw residents and tourists to enjoy music within beautiful and historic setting…",
+      "url": "http://musiqueroyale.com/event/2026/2026-07-15-alexander-straus-fausto/",
+      "price": "$10 at the door, youth free (ages 18 and under)",
+      "category": "music",
+      "source": "musique_royale"
     }
   ],
-  "last_updated": "2026-06-30T19:33:37-03:00"
+  "last_updated": "2026-07-01T08:12:54-03:00"
 }
