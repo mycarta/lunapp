@@ -79,6 +79,18 @@
       "source": "manual_seed"
     },
     {
+      "title": "The Mom Market — Zwicker Wharf",
+      "date": "2026-07-03",
+      "time": "TBA",
+      "venue": "Zwicker Wharf, Lunenburg Waterfront",
+      "location": "Lunenburg",
+      "description": "Pop-up artisan market on the Lunenburg Waterfront. Hours weather dependent — follow The Mom Market South Shore on Facebook for updates.",
+      "url": "",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
+    },
+    {
       "title": "Saturdays in the Park: Eliza Rhinelander",
       "date": "2026-07-04",
       "time": "2:00 PM",
@@ -104,6 +116,30 @@
       "category": "music",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/concert-schedule/julyjazz?format=ical"
+    },
+    {
+      "title": "The Mom Market — Zwicker Wharf",
+      "date": "2026-07-04",
+      "time": "TBA",
+      "venue": "Zwicker Wharf, Lunenburg Waterfront",
+      "location": "Lunenburg",
+      "description": "Pop-up artisan market on the Lunenburg Waterfront. Hours weather dependent — follow The Mom Market South Shore on Facebook for updates.",
+      "url": "",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
+    },
+    {
+      "title": "The Mom Market — Zwicker Wharf",
+      "date": "2026-07-05",
+      "time": "TBA",
+      "venue": "Zwicker Wharf, Lunenburg Waterfront",
+      "location": "Lunenburg",
+      "description": "Pop-up artisan market on the Lunenburg Waterfront. Hours weather dependent — follow The Mom Market South Shore on Facebook for updates.",
+      "url": "",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
     },
     {
       "title": "Hannah Parks",
@@ -316,6 +352,20 @@
       "date": "2026-07-16"
     },
     {
+      "title": "Arts Funding Information Session",
+      "date": "2026-07-16",
+      "time": "1:30 PM",
+      "end_time": "3:30 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St 3rd floor, Lunenburg",
+      "description": "Join us to meet program officers and fellow artists, and take part in informal information sessions in order to: •learn more about available funding opportunities •ask questions about grants •connect directly with employees from both organizations Whether this is your first time connecting with the Canada Council and Arts Nova Scotia or you’re returning with new ideas, you are welcome to join us. Space is limited, and advance registration is required. Click on the button below to reserve your spot.",
+      "url": "https://www.lampns.ca/concert-schedule/artsinfo",
+      "ticket_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=k_Ui3Df0x06eHDO5XZJDYfzVzLk6afJLh4TOfvqFpTVUMDNYWEtaUEdMSkY5QUNNMUdNNFhTVVBSUC4u&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnSqZP9HklGmMM6rz9G5gStydrVfrt9ygg56Y3PE7ZGeLJonUudy3fu4whJ8s_aem_5WjAN-iBNezH2Uc9vQ9fxg",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/concert-schedule/artsinfo?format=ical"
+    },
+    {
       "title": "Half-Cracked — Lunenburg Theatre Collective",
       "date": "2026-07-16",
       "time": "7:30 PM",
@@ -328,5 +378,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-02T07:59:52-03:00"
+  "last_updated": "2026-07-02T15:05:01-03:00"
 }
