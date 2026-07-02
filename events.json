@@ -1,44 +1,6 @@
 {
   "events": [
     {
-      "title": "Canada Day (Museum Open House)",
-      "date": "2026-07-01",
-      "venue": "Fisheries Museum of the Atlantic",
-      "location": "68 Bluenose Dr, Lunenburg",
-      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/canada-day-museum-open-house",
-      "category": "community",
-      "source": "fisheries_museum",
-      "time": "10:30 AM",
-      "end_time": "3:00 PM",
-      "price": "Free community event",
-      "description": "Join us for a vibrant Canada Day celebration filled with family-friendly activities, live entertainment, and community spirit. Enjoy inflatables, games, music, local performances, and delicious food—all set against the stunning backdrop of Lunenburg’s historic waterfront. Bring your friends, family, and Canadian pride for a day full of celebration and connection."
-    },
-    {
-      "title": "CANADA DAY",
-      "date": "2026-07-01",
-      "time": "11:30 AM",
-      "end_time": "11:59 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Wed, July 1 12:30-2:30 - Watch the parade from our licensed patio 6:00-9:30 - ALL AGES DANCE PARTY 10-1 - 19+ DANCE PARTY",
-      "url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-dynd3",
-      "category": "dance",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-dynd3?format=ical"
-    },
-    {
-      "title": "Canada Day Concert",
-      "date": "2026-07-01",
-      "time": "12:00 PM",
-      "venue": "St. John's Anglican Church",
-      "location": "64 Townsend St, Lunenburg",
-      "description": "For Musique Royale’s opening concert of the Wednesdays at Noon series, hear a performance celebrating Canada Day featuring Nicola Miller, saxophone; Chris Donnelly, piano; Nicholas D’Amato, bass; and Nick Fraser, drums. Wednesdays at Noon is a series of music presentations at St. John’s Anglican Church in Lunenburg. Concerts are roughly 45 minutes in length and are held every Wednesday at 12 pm through July and August. Performances feature artists from the local and national scene in an eclectic mix of presentations. These performances will draw residents and tourists to enjoy music within…",
-      "url": "http://musiqueroyale.com/event/2026/2026-07-01-canada-day-concert/",
-      "price": "$10 at the door, youth free (ages 18 and under)",
-      "category": "music",
-      "source": "musique_royale"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -339,7 +301,32 @@
       "price": "$10 at the door, youth free (ages 18 and under)",
       "category": "music",
       "source": "musique_royale"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-07-16"
+    },
+    {
+      "title": "Half-Cracked — Lunenburg Theatre Collective",
+      "date": "2026-07-16",
+      "time": "7:30 PM",
+      "venue": "Lunenburg Opera House",
+      "location": "Lunenburg",
+      "description": "A comedy by Mary Colin-Chisholm. $35.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-01T19:35:41-03:00"
+  "last_updated": "2026-07-02T07:59:52-03:00"
 }
