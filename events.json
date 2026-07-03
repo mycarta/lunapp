@@ -116,6 +116,18 @@
       "source": "manual_seed"
     },
     {
+      "title": "Town of Lunenburg Pride Flag Raising & BBQ",
+      "date": "2026-07-07",
+      "time": "12:30 PM",
+      "venue": "UNESCO Monument",
+      "location": "Prince & Townsend St, Lunenburg",
+      "description": "Pride Week kickoff. Flag raising followed by cake and BBQ. All welcome.",
+      "url": "https://lunenburgcountypride.com/pride-week-2026",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
+    },
+    {
       "title": "Hannah Parks",
       "date": "2026-07-08",
       "time": "12:00 PM",
@@ -313,6 +325,18 @@
       "source": "musique_royale"
     },
     {
+      "title": "Summer Melodies — Chester Brass Band & Weston Silver Band",
+      "date": "2026-07-15",
+      "time": "7:00 PM",
+      "venue": "St. John's Anglican Church",
+      "location": "Lunenburg",
+      "description": "Chester Brass Band with Toronto's Weston Silver Band. Adults $25, Students $10, children 12 and under free. Tickets at the door or in advance at chesterbrass.com. All proceeds in support of Chester Brass Band.",
+      "url": "https://chesterbrass.com",
+      "price": "From $10",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -365,5 +389,5 @@
       "price": "$15"
     }
   ],
-  "last_updated": "2026-07-03T07:59:19-03:00"
+  "last_updated": "2026-07-03T09:21:51-03:00"
 }
