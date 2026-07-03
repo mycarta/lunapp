@@ -952,7 +952,13 @@
 </head>
 <body>
   <header class="hero" role="banner">
-    <div class="hero__image" aria-hidden="true"></div>
+    <div class="hero__image" aria-hidden="true">
+      <picture>
+        <source srcset="assets/banner_lunenburg.webp" type="image/webp">
+        <img src="assets/banner_lunenburg.png" alt="" width="1033" height="1482"
+             fetchpriority="high">
+      </picture>
+    </div>
     <div class="hero__text">
       <h1 class="hero__title">Lunenburg Events</h1>
       <p class="hero__tagline">Music, theatre, arts, and community — for the next two weeks.</p>

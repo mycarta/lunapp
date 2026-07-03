@@ -68,14 +68,13 @@ a:hover, a:focus { color: var(--green-dark); }
    banner reads as a portrait detail rather than a full hero image. */
 .hero__image {
   width: calc(75% - 1.875rem);  /* mobile: 75% of viewport with a proportional ribbon */
-  aspect-ratio: 960 / 1187;
   max-width: 345px;             /* was 460px */
   margin: 1rem auto 0;
-  background-image: url("assets/banner_lunenburg.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: transparent;
+}
+.hero__image img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 @media (min-width: 600px) {
