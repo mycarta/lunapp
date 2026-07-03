@@ -123,6 +123,11 @@ a:hover, a:focus { color: var(--green-dark); }
   padding: 1.5rem 1rem 2.5rem;
 }
 
+/* Reserve space before event cards render to prevent CLS. */
+#events {
+  min-height: 80vh;
+}
+
 .status {
   text-align: center;
   color: var(--ink-soft);
