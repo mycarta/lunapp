@@ -1,32 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "\"Interactions\" Exhibition by Joan Bruneau",
-      "date": "2026-07-02",
-      "time": "10 AM",
-      "end_time": "4 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "“ Interactions” Joan Bruneau ARTIST TALK & OPENING RECEPTION: Thursday, Ju ly 2nd, 2026 at 7:00pm. This is a free event, no registration required. EXHIBITION: Ju ly 2 nd to August 2 nd , 2026. Gallery Hours: Monday to Friday, 9am to 5pm (by chance or appointment). Artist in attendance Saturdays 10am – 4pm. Joan Bruneau’s work celebrates beauty in daily lived experience. Her pieces are interactive, inviting collaboration with the viewer in use, contemplation and social gatherings. Using Lantz…",
-      "url": "https://lunenburgarts.org/news-events/interactions-exhibition-by-joan-bruneau/",
-      "price": "Free",
-      "category": "arts",
-      "source": "school_of_arts"
-    },
-    {
       "title": "First Fridays Art Walk",
       "date": "2026-07-03",
       "time": "5:00 PM",
@@ -376,7 +350,20 @@
       "price": "$35",
       "category": "arts",
       "source": "manual_seed"
+    },
+    {
+      "title": "The GameChangers - Live at Lightship - July 17, 2026",
+      "date": "2026-07-17",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/products/the-gamechangers-live-at-lightship-july-17-2026",
+      "category": "music",
+      "source": "lightship",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "description": "Join us for GameChangers on July 17th! 7-10pm Doors at 5pm GameChangers is a group of good friends that perform a tasteful Groove-Blues mix that's \"Judiciously Obscure, yet Captivatingly Familiar\". Their playlist includes selections from such notable artists as: Alan Parsons Project, Atlanta Rhythm Section, Bill Withers, Billy Preston, Bob Marley, Boz Scaggs, Chris Rea, Colin James, Dean Martin,…",
+      "price": "$15"
     }
   ],
-  "last_updated": "2026-07-02T19:27:42-03:00"
+  "last_updated": "2026-07-03T07:59:19-03:00"
 }
