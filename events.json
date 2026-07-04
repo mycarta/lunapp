@@ -1,70 +1,6 @@
 {
   "events": [
     {
-      "title": "First Fridays Art Walk",
-      "date": "2026-07-03",
-      "time": "5:00 PM",
-      "venue": "Downtown Lunenburg",
-      "location": "Lunenburg",
-      "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.",
-      "url": "",
-      "price": "Free",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
-      "title": "OPEN MIC",
-      "date": "2026-07-03",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Audiences will enjoy a range of creative covers and original songs at Open Mic night, hosted by Liam Britten. Musicians will appreciate a welcoming crowd that just wants to get their toes tapping!",
-      "url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-9xlyc",
-      "price": "$10",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/june-open-mic-lunenburg-9xlyc?format=ical"
-    },
-    {
-      "title": "Signal Hill - Live at Lightship - July 3, 2026",
-      "date": "2026-07-03",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/signal-hill-live-at-lightship-july-3-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Join us for Signal Hill on July 3rd! 7-10pm Doors at 5pm Signal Hill is a four man acoustic rock band from St. John’s, NL, currently based out of Halifax, NS, Canada. Since 1991 they have toured Canada and beyond, to places such as the Dominican Republic and Moscow, Russia. Signal Hill has been a mainstay in the east coast music scene for years. The formula is simple: great songs you know and…",
-      "price": "$35"
-    },
-    {
-      "title": "TGIF Live Music: Jane Chiasson",
-      "date": "2026-07-03",
-      "time": "8:00 PM",
-      "end_time": "10:00 PM",
-      "venue": "Lunenburg Yacht Club — Salt & Sail Gastropub",
-      "location": "734 Hermans Island Rd, Lunenburg",
-      "description": "Live music at the Lunenburg Yacht Club. No cover. Dinner reservations: 634-3745.",
-      "url": "https://www.lyc.ca/",
-      "price": "Free",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "The Mom Market — Zwicker Wharf",
-      "date": "2026-07-03",
-      "time": "TBA",
-      "venue": "Zwicker Wharf, Lunenburg Waterfront",
-      "location": "Lunenburg",
-      "description": "Pop-up artisan market on the Lunenburg Waterfront. Hours weather dependent — follow The Mom Market South Shore on Facebook for updates.",
-      "url": "",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed"
-    },
-    {
       "title": "75th Annual Canadian Elimination Races",
       "date": "2026-07-04",
       "time": "9:00 AM",
@@ -411,7 +347,85 @@
       "end_time": "10:00 PM",
       "description": "Join us for GameChangers on July 17th! 7-10pm Doors at 5pm GameChangers is a group of good friends that perform a tasteful Groove-Blues mix that's \"Judiciously Obscure, yet Captivatingly Familiar\". Their playlist includes selections from such notable artists as: Alan Parsons Project, Atlanta Rhythm Section, Bill Withers, Billy Preston, Bob Marley, Boz Scaggs, Chris Rea, Colin James, Dean Martin,…",
       "price": "$15"
+    },
+    {
+      "title": "Saturdays in the Park: Christian Kirby",
+      "date": "2026-07-18",
+      "time": "2:00 PM",
+      "venue": "Lunenburg Heritage Bandstand",
+      "location": "Lunenburg",
+      "description": "Folk Harbour Society free concert series at the newly renovated bandstand. Donations welcome.",
+      "url": "https://folkharbour.ca/concerts",
+      "price": "Free",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Jazz at LAMP: The Music of Jobim",
+      "date": "2026-07-18",
+      "time": "5:30 PM",
+      "end_time": "7:30 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Whether you're a long-time jazz lover or new to the genre, the Jazz Concert Series at LAMP promises to be a musical experience that will leave you spellbound. The LAMP Libations bar will be open - have a drink, hear some great jazz, and then head out to one of the many incredible restaurants in Lunenburg, Mahone Bay or Chester. What a fabulous night out!",
+      "url": "https://www.lampns.ca/concert-schedule/julyjazz2",
+      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/summer-jazz-at-lamp",
+      "price": "$35",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/concert-schedule/julyjazz2?format=ical"
+    },
+    {
+      "title": "Good Vibrations Summer Dance: The Rec Room",
+      "date": "2026-07-18",
+      "time": "7:00 PM",
+      "venue": "Lunenburg Yacht Club — Salt & Sail Gastropub",
+      "location": "734 Hermans Island Rd, Lunenburg",
+      "description": "Family dance night — Top 40 dance tunes from the 70s to today. No cover.",
+      "url": "https://www.lyc.ca/",
+      "price": "Free",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
+      "title": "KARAOKE NIGHT",
+      "date": "2026-07-18",
+      "time": "7:00 PM",
+      "end_time": "11:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Whether you’re a karaoke beginner or a seasoned South Shore karaoke star, this is the place for you! From pop & rock to Disney & Broadway, anything goes!",
+      "url": "https://www.oldconfidence.ca/events/karaoke-lunenburg-county-july",
+      "price": "$10 Suggested Admission",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/karaoke-lunenburg-county-july?format=ical"
+    },
+    {
+      "title": "Homegrown - Live at Lightship - July 18, 2026",
+      "date": "2026-07-18",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/products/homegrown-live-at-lightship-july-18-2026",
+      "category": "music",
+      "source": "lightship",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "description": "Join us for Homegrown on July 18th! 7-10pm Doors open at 5pm If you have had the chance recently to see Homegrown perform live, you may hear a slick cover version of a Sean Mendez tune, a few Fleetwood Mac classics, or even the A Capella rendition of Seven Bridges Road by the Eagles. The vocal cleverness and musicianship of this group defines the creativity of their live performances. Homegrown…",
+      "price": "$25"
+    },
+    {
+      "title": "Half-Cracked — Lunenburg Theatre Collective",
+      "date": "2026-07-18",
+      "time": "7:30 PM",
+      "venue": "Lunenburg Opera House",
+      "location": "Lunenburg",
+      "description": "A comedy by Mary Colin-Chisholm. $35.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-03T19:26:30-03:00"
+  "last_updated": "2026-07-04T07:42:41-03:00"
 }
