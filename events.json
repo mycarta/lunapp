@@ -1,69 +1,6 @@
 {
   "events": [
     {
-      "title": "75th Annual Canadian Elimination Races",
-      "date": "2026-07-04",
-      "time": "9:00 AM",
-      "venue": "Adams & Knickle Wharf",
-      "location": "Lunenburg",
-      "description": "75th annual dory races. Registration begins at 8:15 AM. $20 per team, juniors are free. Categories: Juniors, Women's, Mixed, Women's Over 50, Men's Over 50, and Men's. All races .5 mile except Men's 1 mile.",
-      "url": "",
-      "price": "$20/team (juniors free)",
-      "category": "community",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Saturdays in the Park: Eliza Rhinelander",
-      "date": "2026-07-04",
-      "time": "2:00 PM",
-      "venue": "Lunenburg Heritage Bandstand",
-      "location": "Lunenburg",
-      "description": "Folk Harbour Society free concert series at the newly renovated bandstand. Donations welcome.",
-      "url": "https://folkharbour.ca/concerts",
-      "price": "Free",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Exhibition Opening: Artist Jeannette Plamondon",
-      "date": "2026-07-04",
-      "time": "7:00 PM",
-      "venue": "Knaut-Rhuland House Museum",
-      "location": "125 Pelham St, Lunenburg",
-      "description": "Jeannette Plamondon Returns to the Knaut-Rhuland House — Her Art Pays Homage to Lunenburg-born Artist Joseph Comingo. Hosted by Lunenburg Heritage Society.",
-      "url": "https://facebook.com/events/s/exhibition-opening-artist-jean/1640478383680253/",
-      "price": "Free",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Jazz at LAMP: Monk ‘n More",
-      "date": "2026-07-04",
-      "time": "7:00 PM",
-      "end_time": "8:30 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Join us for a vibrant evening of jazz as drummer Nick Fraser , bassist Nicholas D'Amato , saxophonist Nicola Miller , and pianist Chris Donnelly come together to perform the works of Thelonious Monk and other jazz greats!",
-      "url": "https://www.lampns.ca/concert-schedule/julyjazz",
-      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/jazz-night-monk-n-more",
-      "price": "$25",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/concert-schedule/julyjazz?format=ical"
-    },
-    {
-      "title": "The Mom Market — Zwicker Wharf",
-      "date": "2026-07-04",
-      "time": "TBA",
-      "venue": "Zwicker Wharf, Lunenburg Waterfront",
-      "location": "Lunenburg",
-      "description": "Pop-up artisan market on the Lunenburg Waterfront. Hours weather dependent — follow The Mom Market South Shore on Facebook for updates.",
-      "url": "",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed"
-    },
-    {
       "title": "The Mom Market — Zwicker Wharf",
       "date": "2026-07-05",
       "time": "TBA",
@@ -427,5 +364,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-04T19:23:30-03:00"
+  "last_updated": "2026-07-05T07:47:39-03:00"
 }
