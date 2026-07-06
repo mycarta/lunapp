@@ -172,6 +172,19 @@
       "source": "eventbrite"
     },
     {
+      "title": "Free Swim at LDSP — sponsored by High Liner",
+      "date": "2026-07-12",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Lunenburg and District Swimming Pool",
+      "location": "Lunenburg",
+      "description": "Free public swim sponsored by High Liner Foods.",
+      "url": "",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
+    },
+    {
       "title": "Pianocean - NOVA SCOTIA TOUR",
       "date": "2026-07-12",
       "time": "7:00 PM",
@@ -239,14 +252,13 @@
       "date": "2026-07-16",
       "time": "1:30 PM",
       "end_time": "3:30 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St 3rd floor, Lunenburg",
-      "description": "Join us to meet program officers and fellow artists, and take part in informal information sessions in order to: •learn more about available funding opportunities •ask questions about grants •connect directly with employees from both organizations Whether this is your first time connecting with the Canada Council and Arts Nova Scotia or you’re returning with new ideas, you are welcome to join us. Space is limited, and advance registration is required. Click on the button below to reserve your spot.",
-      "url": "https://www.lampns.ca/concert-schedule/artsinfo",
-      "ticket_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=k_Ui3Df0x06eHDO5XZJDYfzVzLk6afJLh4TOfvqFpTVUMDNYWEtaUEdMSkY5QUNNMUdNNFhTVVBSUC4u&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnSqZP9HklGmMM6rz9G5gStydrVfrt9ygg56Y3PE7ZGeLJonUudy3fu4whJ8s_aem_5WjAN-iBNezH2Uc9vQ9fxg",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/concert-schedule/artsinfo?format=ical"
+      "venue": "Lunenburg Academy Building",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Arts Nova Scotia and Canada Council for the Arts funding info session. Hosted by LAMP.",
+      "url": "",
+      "price": "Free",
+      "category": "arts",
+      "source": "manual_seed"
     },
     {
       "title": "Half-Cracked — Lunenburg Theatre Collective",
@@ -350,7 +362,20 @@
       "price": "$35",
       "category": "arts",
       "source": "manual_seed"
+    },
+    {
+      "title": "Free Swim at LDSP — sponsored by High Liner",
+      "date": "2026-07-19",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Lunenburg and District Swimming Pool",
+      "location": "Lunenburg",
+      "description": "Free public swim sponsored by High Liner Foods.",
+      "url": "",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-06T08:36:57-03:00"
+  "last_updated": "2026-07-06T19:09:28-03:00"
 }
