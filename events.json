@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "The Mom Market — Zwicker Wharf",
-      "date": "2026-07-05",
-      "time": "TBA",
-      "venue": "Zwicker Wharf, Lunenburg Waterfront",
-      "location": "Lunenburg",
-      "description": "Pop-up artisan market on the Lunenburg Waterfront. Hours weather dependent — follow The Mom Market South Shore on Facebook for updates.",
-      "url": "",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed"
-    },
-    {
       "title": "Town of Lunenburg Pride Flag Raising & BBQ",
       "date": "2026-07-07",
       "time": "12:30 PM",
@@ -364,5 +352,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-05T19:25:44-03:00"
+  "last_updated": "2026-07-06T08:36:57-03:00"
 }
