@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "Town of Lunenburg Pride Flag Raising & BBQ",
-      "date": "2026-07-07",
-      "time": "12:30 PM",
-      "venue": "UNESCO Monument",
-      "location": "Prince & Townsend St, Lunenburg",
-      "description": "Pride Week kickoff. Flag raising followed by cake and BBQ. All welcome.",
-      "url": "https://lunenburgcountypride.com/pride-week-2026",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed"
-    },
-    {
       "title": "Hannah Parks",
       "date": "2026-07-08",
       "time": "12:00 PM",
@@ -400,7 +388,47 @@
       "end_time": "10:00 PM",
       "description": "Join us for The Harpoonist July 21! 8-10pm Harpoonist is releasing a new album, “Did We Come Here to Dance” — a collaboration with Gordie Johnson of Big Sugar. Recorded on Johnson’s ranch outside Austin, Texas. It’s a collection of swampy, funky, blues-related rock and roll. If you didn’t come to dance, you probably will anyway. FAQ Frequently Asked Questions Question: Harpoonist – that’s a…",
       "price": "$25"
+    },
+    {
+      "title": "C.D. Saint and Hannah Parks",
+      "date": "2026-07-22",
+      "time": "12:00 PM",
+      "venue": "St. John's Anglican Church",
+      "location": "64 Townsend St, Lunenburg",
+      "description": "Part of the Wednesdays at Noon series, Musique Royale welcomes tenor C.D. Saint and pianist Hannah Parks to perform together on Wednesday July 22nd at 12 pm at St John’s Anglican Church in Lunenburg. The concert will feature a myriad of works by Berlioz, Hahn, Faure, Dowland and Monteverdi. Wednesdays at Noon is a series of music presentations at St. John’s Anglican Church in Lunenburg. Concerts are roughly 45 minutes in length and are held every Wednesday at 12 pm through July and August. Performances feature artists from the local and national scene in an eclectic mix of presentations.…",
+      "url": "http://musiqueroyale.com/event/2026/2026-07-22-cd-and-hannah/",
+      "ticket_url": "https://",
+      "price": "$10 at the door, youth free (ages 18 and under)",
+      "category": "music",
+      "source": "musique_royale"
+    },
+    {
+      "title": "Hedwig — Lunenburg Theatre Collective",
+      "date": "2026-07-22",
+      "time": "8:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "Riverport",
+      "description": "Professional theatre on the South Shore.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=2971",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Hedwig and the Angry Inch",
+      "date": "2026-07-22",
+      "time": "8:00 PM",
+      "end_time": "9:30 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Dinner & Show • 6:00 pm $92 Whether you like it or not, it’s Hedwig and the Angry Inch! This outrageous rock musical is inching back to Old Confidence Lodge, following a sold-out run at the Bus Stop Theatre! Recommended for ages 18+; No admittance for ages 15 & under",
+      "url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-wed-22",
+      "ticket_url": "https://www.eventbrite.ca/e/hedwig-and-the-angry-inch-tickets-1992951744316?aff=efbevent&fbclid=IwY2xjawSyULpleHRuA2FlbQIxMABicmlkETFxck94R2w1aktSTGhIZUUzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjpOO0eI2e3Lkonb6WHhOGE1XtDwSj0BUPy7uaqt9YUyE5BXRXKBqAv5w7Zy_aem_OXxhpoJfO7ph0SeFHXXj-g",
+      "price": "$35 + fees",
+      "category": "theater",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-wed-22?format=ical"
     }
   ],
-  "last_updated": "2026-07-07T19:28:37-03:00"
+  "last_updated": "2026-07-08T07:46:19-03:00"
 }
