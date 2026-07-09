@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "Hannah Parks",
-      "date": "2026-07-08",
-      "time": "12:00 PM",
-      "venue": "St. John's Anglican Church",
-      "location": "64 Townsend St, Lunenburg",
-      "description": "Part of the Wednesdays at Noon series, Musique Royale welcomes pianist Hannah Parks to perform a solo piano performance on Wednesday July 8th at 12 pm. Wednesdays at Noon is a series of music presentations at St. John’s Anglican Church in Lunenburg. Concerts are roughly 45 minutes in length and are held every Wednesday at 12 pm through July and August. Performances feature artists from the local and national scene in an eclectic mix of presentations. These performances will draw residents and tourists to enjoy music within beautiful and historic setting of St John’s, the second-oldest…",
-      "url": "http://musiqueroyale.com/event/2026/2026-07-08-hannah-parks/",
-      "price": "$10 at the door, youth free (ages 18 and under)",
-      "category": "music",
-      "source": "musique_royale"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -428,7 +416,32 @@
       "category": "theater",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-wed-22?format=ical"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-07-23"
+    },
+    {
+      "title": "Half-Cracked — Lunenburg Theatre Collective",
+      "date": "2026-07-23",
+      "time": "7:30 PM",
+      "venue": "Lunenburg Opera House",
+      "location": "Lunenburg",
+      "description": "A comedy by Mary Colin-Chisholm. $35.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-08T19:25:47-03:00"
+  "last_updated": "2026-07-09T08:11:08-03:00"
 }
