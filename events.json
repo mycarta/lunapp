@@ -56,17 +56,6 @@
       "source": "eventbrite"
     },
     {
-      "title": "Shameless - Live at Lightship - July 10, 2026",
-      "date": "2026-07-10",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/shameless-live-at-lightship-july-10-2026",
-      "category": "music",
-      "source": "lightship",
-      "description": "Join us for Shameless on July 10 Doors at 5pm SHAMELESS is Atlantic Canada’s best known party band! Fronted by the endless energy of singer/guitarist Shawn Birt, with some of the best musicians in all of Nova Scotia, SHAMELESS always bring an exciting energy to every show. The set list includes music from all genres: Rock n roll, country and even some Maritime favourites… SHAMELESS always…",
-      "price": "$25"
-    },
-    {
       "title": "50th Annual Lunenburg Craft & Food Festival",
       "date": "2026-07-11",
       "end_date": "2026-07-12",
@@ -107,20 +96,6 @@
       "source": "eventbrite"
     },
     {
-      "title": "Pianocean - NOVA SCOTIA TOUR",
-      "date": "2026-07-11",
-      "time": "7:00 PM",
-      "end_time": "8:30 PM",
-      "venue": "LAMP",
-      "location": "146 Bluenose Dr Lunenburg, Nova Scotia",
-      "description": "This summer, the internationally acclaimed Pianocean project arrives in Nova Scotia as part of its ongoing round-the-world sailing voyage, celebrating ten years of music, adventure, and cultural exchange across the world's oceans. This unique sailing-and-music project will bring floating piano concerts first to Lunenburg, then to Halifax, St. Peters, and Baddeck.",
-      "url": "https://www.lampns.ca/concert-schedule/pianocean",
-      "price": "Free",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/concert-schedule/pianocean?format=ical"
-    },
-    {
       "title": "Dancing Queen ABBA Tribute Band - Live at Lightship - July 11, 2026",
       "date": "2026-07-11",
       "venue": "Lightship Brewery",
@@ -159,20 +134,6 @@
       "price": "Free",
       "category": "community",
       "source": "manual_seed"
-    },
-    {
-      "title": "Pianocean - NOVA SCOTIA TOUR",
-      "date": "2026-07-12",
-      "time": "7:00 PM",
-      "end_time": "8:30 PM",
-      "venue": "LAMP",
-      "location": "146 Bluenose Dr Lunenburg, Nova Scotia",
-      "description": "This summer, the internationally acclaimed Pianocean project arrives in Nova Scotia as part of its ongoing round-the-world sailing voyage, celebrating ten years of music, adventure, and cultural exchange across the world's oceans. This unique sailing-and-music project will bring floating piano concerts first to Lunenburg, then to Halifax, St. Peters, and Baddeck.",
-      "url": "https://www.lampns.ca/concert-schedule/pianoceanday2",
-      "price": "Free",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/concert-schedule/pianoceanday2?format=ical"
     },
     {
       "title": "Half-Cracked — Lunenburg Theatre Collective",
@@ -272,21 +233,6 @@
       "price": "Free",
       "category": "music",
       "source": "manual_seed"
-    },
-    {
-      "title": "Jazz at LAMP: The Music of Jobim",
-      "date": "2026-07-18",
-      "time": "5:30 PM",
-      "end_time": "7:30 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Whether you're a long-time jazz lover or new to the genre, the Jazz Concert Series at LAMP promises to be a musical experience that will leave you spellbound. The LAMP Libations bar will be open - have a drink, hear some great jazz, and then head out to one of the many incredible restaurants in Lunenburg, Mahone Bay or Chester. What a fabulous night out!",
-      "url": "https://www.lampns.ca/concert-schedule/julyjazz2",
-      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/summer-jazz-at-lamp",
-      "price": "$35",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/concert-schedule/julyjazz2?format=ical"
     },
     {
       "title": "Good Vibrations Summer Dance: The Rec Room",
@@ -443,5 +389,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-09T08:11:08-03:00"
+  "last_updated": "2026-07-09T19:35:12-03:00"
 }
