@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-07-09"
-    },
-    {
       "title": "TGIF Live Music: The Robinson Brothers",
       "date": "2026-07-10",
       "time": "7:00 PM",
@@ -387,7 +374,60 @@
       "price": "$35",
       "category": "arts",
       "source": "manual_seed"
+    },
+    {
+      "title": "TGIF Live Music: The Fog",
+      "date": "2026-07-24",
+      "time": "7:00 PM",
+      "end_time": "9:00 PM",
+      "venue": "Lunenburg Yacht Club — Salt & Sail Gastropub",
+      "location": "734 Hermans Island Rd, Lunenburg",
+      "description": "Live music at the Lunenburg Yacht Club. No cover.",
+      "url": "https://www.lyc.ca/",
+      "price": "Free",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Merimac - Live at Lightship - July 24, 2026",
+      "date": "2026-07-24",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/products/merimac-live-at-lightship-july-24-2026",
+      "category": "music",
+      "source": "lightship",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "description": "Join us for Merimac on July 24th! 7-10pm Doors at 5pm Merimac is a 4 piece group (often 5 with fiddle/piano) based in Halifax, NS, playing Current Pop, Classic Rock, EDM/Dance, Maritime/Celtic, Country, Reggae, R&B and more! Its well-known, seasoned members bring a variety of influences and are sure to please any crowd from the Maritimes and Atlantic Canada, as well as the United States. Merimac…",
+      "price": "$25"
+    },
+    {
+      "title": "Hedwig — Lunenburg Theatre Collective",
+      "date": "2026-07-24",
+      "time": "8:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "Riverport",
+      "description": "Professional theatre on the South Shore.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=2971",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Hedwig and the Angry Inch",
+      "date": "2026-07-24",
+      "time": "8:00 PM",
+      "end_time": "9:30 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Dinner & Show • 6:00 pm $92 Whether you like it or not, it’s Hedwig and the Angry Inch! This outrageous rock musical is inching back to Old Confidence Lodge, following a sold-out run at the Bus Stop Theatre! Recommended for ages 18+; No admittance for ages 15 & under",
+      "url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-fri-24",
+      "ticket_url": "https://www.eventbrite.ca/e/hedwig-and-the-angry-inch-tickets-1992951744316?aff=efbevent&fbclid=IwY2xjawSyULpleHRuA2FlbQIxMABicmlkETFxck94R2w1aktSTGhIZUUzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjpOO0eI2e3Lkonb6WHhOGE1XtDwSj0BUPy7uaqt9YUyE5BXRXKBqAv5w7Zy_aem_OXxhpoJfO7ph0SeFHXXj-g",
+      "price": "$35 + fees",
+      "category": "theater",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-fri-24?format=ical"
     }
   ],
-  "last_updated": "2026-07-09T19:35:12-03:00"
+  "last_updated": "2026-07-10T08:06:14-03:00"
 }
