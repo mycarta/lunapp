@@ -5,7 +5,7 @@ import requests
 
 from ._squarespace import parse_squarespace_events
 
-PAGE_URL = "https://www.lampns.ca/concert-schedule"
+PAGE_URL = "https://www.lampns.ca/events"
 SOURCE = "lamp"
 # Squarespace lists the full business name; the app shows the short label.
 VENUE_DISPLAY = "LAMP"
