@@ -83,6 +83,20 @@
       "source": "eventbrite"
     },
     {
+      "title": "Pianocean - NOVA SCOTIA TOUR",
+      "date": "2026-07-11",
+      "time": "7:00 PM",
+      "end_time": "8:30 PM",
+      "venue": "LAMP",
+      "location": "146 Bluenose Dr Lunenburg, Nova Scotia",
+      "description": "This summer, the internationally acclaimed Pianocean project arrives in Nova Scotia as part of its ongoing round-the-world sailing voyage, celebrating ten years of music, adventure, and cultural exchange across the world's oceans. This unique sailing-and-music project will bring floating piano concerts first to Lunenburg, then to Halifax, St. Peters, and Baddeck.",
+      "url": "https://www.lampns.ca/events/pianocean",
+      "price": "Free",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/pianocean?format=ical"
+    },
+    {
       "title": "Dancing Queen ABBA Tribute Band - Live at Lightship - July 11, 2026",
       "date": "2026-07-11",
       "venue": "Lightship Brewery",
@@ -121,6 +135,20 @@
       "price": "Free",
       "category": "community",
       "source": "manual_seed"
+    },
+    {
+      "title": "Pianocean - NOVA SCOTIA TOUR",
+      "date": "2026-07-12",
+      "time": "7:00 PM",
+      "end_time": "8:30 PM",
+      "venue": "LAMP",
+      "location": "146 Bluenose Dr Lunenburg, Nova Scotia",
+      "description": "This summer, the internationally acclaimed Pianocean project arrives in Nova Scotia as part of its ongoing round-the-world sailing voyage, celebrating ten years of music, adventure, and cultural exchange across the world's oceans. This unique sailing-and-music project will bring floating piano concerts first to Lunenburg, then to Halifax, St. Peters, and Baddeck.",
+      "url": "https://www.lampns.ca/events/pianoceanday2",
+      "price": "Free",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/pianoceanday2?format=ical"
     },
     {
       "title": "Half-Cracked — Lunenburg Theatre Collective",
@@ -220,6 +248,21 @@
       "price": "Free",
       "category": "music",
       "source": "manual_seed"
+    },
+    {
+      "title": "Jazz at LAMP: The Music of Jobim",
+      "date": "2026-07-18",
+      "time": "5:30 PM",
+      "end_time": "7:30 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Whether you're a long-time jazz lover or new to the genre, the Jazz Concert Series at LAMP promises to be a musical experience that will leave you spellbound. The LAMP Libations bar will be open - have a drink, hear some great jazz, and then head out to one of the many incredible restaurants in Lunenburg, Mahone Bay or Chester. What a fabulous night out!",
+      "url": "https://www.lampns.ca/events/julyjazz2",
+      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/summer-jazz-at-lamp",
+      "price": "$35",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/julyjazz2?format=ical"
     },
     {
       "title": "Good Vibrations Summer Dance: The Rec Room",
@@ -429,5 +472,5 @@
       "ics_url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-fri-24?format=ical"
     }
   ],
-  "last_updated": "2026-07-10T08:06:14-03:00"
+  "last_updated": "2026-07-10T08:28:46-03:00"
 }
