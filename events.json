@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "title": "TGIF Live Music: The Robinson Brothers",
-      "date": "2026-07-10",
-      "time": "7:00 PM",
-      "end_time": "9:00 PM",
-      "venue": "Lunenburg Yacht Club — Salt & Sail Gastropub",
-      "location": "734 Hermans Island Rd, Lunenburg",
-      "description": "Live music at the Lunenburg Yacht Club. No cover. Dinner reservations: 634-3745.",
-      "url": "https://www.lyc.ca/",
-      "price": "Free",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "LUNENBURG PRIDE - Comedy Show",
-      "date": "2026-07-10",
-      "time": "8:00 PM",
-      "end_time": "11:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "The Gay Agenda: An All-Queer Comedy Show is bringing a night of unapologetically queer stand-up comedy to the stage as part of the Lunenburg Pride Festival. Featuring a lineup of hilarious queer comedians, this show celebrates Pride through sharp stand-up, wild stories, unexpected games, and the kind of energy that only happens when queer performers take over the stage.",
-      "url": "https://www.oldconfidence.ca/events/lunenburg-pride-comedy",
-      "ticket_url": "https://www.eventbrite.ca/e/the-gay-agenda-an-all-queer-comedy-show-tickets-1990889213230?aff=oddtdtcreator",
-      "price": "$17.57",
-      "category": "festival",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/lunenburg-pride-comedy?format=ical"
-    },
-    {
-      "title": "The Gay Agenda: An All Queer Comedy Show",
-      "date": "2026-07-10",
-      "time": "8:00 PM",
-      "end_time": "9:30 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Come as you are, just be prepared to laugh and spread good vibes!",
-      "url": "https://www.eventbrite.ca/e/the-gay-agenda-an-all-queer-comedy-show-tickets-1990889213230",
-      "ticket_url": "https://www.eventbrite.ca/e/the-gay-agenda-an-all-queer-comedy-show-tickets-1990889213230",
-      "price": "$15.00",
-      "category": "community",
-      "source": "eventbrite"
-    },
-    {
       "title": "50th Annual Lunenburg Craft & Food Festival",
       "date": "2026-07-11",
       "end_date": "2026-07-12",
@@ -470,7 +428,57 @@
       "category": "theater",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-fri-24?format=ical"
+    },
+    {
+      "title": "Under the Sea",
+      "date": "2026-07-25",
+      "venue": "Fisheries Museum of the Atlantic",
+      "location": "68 Bluenose Dr, Lunenburg",
+      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/under-sea",
+      "category": "community",
+      "source": "fisheries_museum",
+      "time": "11:00 AM",
+      "end_time": "3:00 PM",
+      "price": "Included with admission /Free outdoor components",
+      "description": "“Under the Sea” is a family-friendly event designed to spark curiosity about marine life. Through hands-on activities, interactive displays, and engaging storytelling, visitors will explore the wonders beneath the ocean’s surface. Perfect for children and families looking for a fun and educational day at the museum."
+    },
+    {
+      "title": "Saturdays in the Park: Heather MacIsaac & Mary Beth Carty",
+      "date": "2026-07-25",
+      "time": "2:00 PM",
+      "venue": "Lunenburg Heritage Bandstand",
+      "location": "Lunenburg",
+      "description": "Folk Harbour Society free concert series at the newly renovated bandstand. Donations welcome.",
+      "url": "https://folkharbour.ca/concerts",
+      "price": "Free",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Twist of Fate - Live at Lightship!   July 25, 2026",
+      "date": "2026-07-25",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/products/twist-of-fate-live-at-lightship-july-4-2025",
+      "category": "music",
+      "source": "lightship",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "description": "Join us at Lightship Brewery from 7 - 10 pm ! Twist of Fate has been bringing energy, talent, and good vibes to the stage for over 20 years. Known for delivering a fun night of great music, dancing, and unforgettable memories, the band mixes crowd-pleasing favorites with their own signature style. Whether you’re looking to sing along, hit the dance floor, or just enjoy a fantastic live…",
+      "price": "$15"
+    },
+    {
+      "title": "Half-Cracked — Lunenburg Theatre Collective",
+      "date": "2026-07-25",
+      "time": "7:30 PM",
+      "venue": "Lunenburg Opera House",
+      "location": "Lunenburg",
+      "description": "A comedy by Mary Colin-Chisholm. $35.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-10T19:26:00-03:00"
+  "last_updated": "2026-07-11T07:31:10-03:00"
 }
