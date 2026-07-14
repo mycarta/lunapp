@@ -17,7 +17,8 @@
       {"name": "Ovens Natural Park summer music series", "typical_month": "June–September (nightly)", "url": "https://www.ovenspark.com/music", "notes": "Squarespace site. Only August shows in HTML; June-July in calendar images. Seed HTML-scrapable ones only."},
       {"name": "Chapin Family Concert", "typical_month": "August (3rd weekend)", "url": "https://www.ovenspark.com/music", "notes": "At the Lunenburg Opera House, not the park. $50 tickets, book early."},
       {"name": "The Mom Market South Shore", "typical_month": "Summer (follows Bluenose II schedule)", "url": "", "notes": "Facebook-only. Pop-up at Zwicker Wharf when Bluenose is in port. Hours weather dependent. Manual seed when dates announced."},
-      {"name": "Canadian Elimination Races", "typical_month": "July (first Saturday)", "url": "", "notes": "Dory races at Adams & Knickle Wharf. 75th in 2026. Facebook-only announcement."}
+      {"name": "Canadian Elimination Races", "typical_month": "July (first Saturday)", "url": "", "notes": "Dory races at Adams & Knickle Wharf. 75th in 2026. Facebook-only announcement."},
+      {"name": "International Dory Races", "typical_month": "July (last Saturday)", "url": "", "notes": "Gloucester vs Lunenburg. Adams & Knickle Wharf. Facebook-only (Canadian DoryRacing Association)."}
     ]
   },
   "events": [
@@ -164,6 +165,7 @@
     {"title": "Free Swim at LDSP — sponsored by High Liner", "date": "2026-07-19", "time": "2:00 PM", "end_time": "4:00 PM", "venue": "Lunenburg and District Swimming Pool", "location": "Lunenburg", "description": "Free public swim sponsored by High Liner Foods.", "url": "", "price": "Free", "category": "community", "source": "manual_seed"},
     {"title": "Free Swim at LDSP — sponsored by High Liner", "date": "2026-07-26", "time": "2:00 PM", "end_time": "4:00 PM", "venue": "Lunenburg and District Swimming Pool", "location": "Lunenburg", "description": "Free public swim sponsored by High Liner Foods.", "url": "", "price": "Free", "category": "community", "source": "manual_seed"},
     {"title": "Arts Funding Information Session", "date": "2026-07-16", "time": "1:30 PM", "end_time": "3:30 PM", "venue": "Lunenburg Academy Building", "location": "97 Kaulbach St, Lunenburg", "description": "Arts Nova Scotia and Canada Council for the Arts funding info session. Hosted by LAMP.", "url": "", "price": "Free", "category": "arts", "source": "manual_seed"},
-    {"title": "Exploring Cultural Roots Through Music — Julia Tynes", "date": "2026-08-13", "time": "2:00 PM", "venue": "Lunenburg Library", "location": "97 Kaulbach St, Lunenburg", "description": "Free family friendly concert. Join in, sing along, dance to the beat. Part of a provincial library tour supported by Nova Scotia.", "url": "", "price": "Free", "category": "music", "source": "manual_seed"}
+    {"title": "Exploring Cultural Roots Through Music — Julia Tynes", "date": "2026-08-13", "time": "2:00 PM", "venue": "Lunenburg Library", "location": "97 Kaulbach St, Lunenburg", "description": "Free family friendly concert. Join in, sing along, dance to the beat. Part of a provincial library tour supported by Nova Scotia.", "url": "", "price": "Free", "category": "music", "source": "manual_seed"},
+    {"title": "75th Annual International Dory Races", "date": "2026-07-25", "time": "10:00 AM", "venue": "Adams & Knickle Wharf", "location": "Lunenburg Waterfront, Lunenburg", "description": "International Dory Races — Gloucester vs Lunenburg. Come cheer on the competitors on the waterfront!", "url": "", "price": "Free", "category": "community", "source": "manual_seed"}
   ]
 }
