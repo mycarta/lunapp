@@ -437,13 +437,138 @@ def dedupe_substring_titles(events: list[dict]) -> list[dict]:
     return kept
 
 
+# --- Third-pass dedupe: shared distinctive word at same date+venue+time ------
+# The substring pass above misses duplicates where the two titles decorate
+# the same show differently enough that neither is a substring of the
+# other — e.g. a sparse manual seed "Hedwig — Lunenburg Theatre Collective"
+# vs a rich parser entry "Hedwig and the Angry Inch" for the same night at
+# Old Confidence Lodge. They only share the word "Hedwig". Requiring a
+# shared distinctive (non-boilerplate) word *plus* date+venue+time
+# agreement is the signal — deliberately not a fuzzy/similarity match.
+
+_KEYWORD_STOPWORDS = {
+    "the", "and", "at", "in", "of", "a", "live", "show", "night", "presents",
+    "an", "to", "for", "with", "on",
+    # Recurring company/venue boilerplate — several distinct Lunenburg
+    # Theatre Collective productions all carry this suffix, so these words
+    # alone would produce false collisions between different shows.
+    "lunenburg", "theatre", "theater", "collective",
+}
+
+_SIGNIFICANT_WORD_RE = re.compile(r"[a-zA-Z]+")
+
+
+def _significant_words(title: str | None) -> set[str]:
+    """Lowercased words of 4+ letters, minus `_KEYWORD_STOPWORDS`."""
+    if not title:
+        return set()
+    return {
+        w for w in (m.lower() for m in _SIGNIFICANT_WORD_RE.findall(title))
+        if len(w) >= 4 and w not in _KEYWORD_STOPWORDS
+    }
+
+
+def _shared_significant_word(a: str | None, b: str | None) -> bool:
+    return bool(_significant_words(a) & _significant_words(b))
+
+
+_TIME_PARSE_RE = re.compile(r"^(\d{1,2})(?::(\d{2}))?\s*(AM|PM)?\s*$", re.IGNORECASE)
+
+
+def _parse_time_minutes(t: str | None) -> int | None:
+    """"7:30 PM"-style string -> minutes since midnight, or None if
+    unparseable (e.g. "TBA")."""
+    if not t:
+        return None
+    m = _TIME_PARSE_RE.match(t.strip())
+    if not m:
+        return None
+    hh = int(m.group(1))
+    mm = int(m.group(2) or 0)
+    mer = (m.group(3) or "").upper()
+    if mer == "PM" and hh != 12:
+        hh += 12
+    elif mer == "AM" and hh == 12:
+        hh = 0
+    if not (0 <= hh <= 23 and 0 <= mm <= 59):
+        return None
+    return hh * 60 + mm
+
+
+def _time_interval(e: dict) -> tuple[int, int] | None:
+    """(start, end) in minutes-since-midnight, using `_TIME_PARSE_RE`. A
+    missing/unparseable end (or one that precedes start) collapses to a
+    zero-width interval at start. None if start itself doesn't parse —
+    we can't compare what we can't read."""
+    start = _parse_time_minutes(e.get("time"))
+    if start is None:
+        return None
+    end = _parse_time_minutes(e.get("end_time"))
+    if end is None or end < start:
+        end = start
+    return start, end
+
+
+def _times_overlap(a: dict, b: dict) -> bool:
+    """True iff both events have a parseable start time and their
+    [start, end] intervals intersect. Covers exact-start matches (two
+    points) and single-time-vs-range matches alike."""
+    ia, ib = _time_interval(a), _time_interval(b)
+    if ia is None or ib is None:
+        return False
+    return ia[0] <= ib[1] and ib[0] <= ia[1]
+
+
+def dedupe_shared_keyword_titles(events: list[dict]) -> list[dict]:
+    """Collapse events that share a date + overlapping venue + overlapping
+    start time when their titles share at least one significant word.
+    Run after `dedupe_substring_titles`, which only catches the substring
+    case. Picks the richer event by the same `_richness_score` used there,
+    and logs both events' titles *and* `source` so the actual parser pair
+    producing the duplicate can be confirmed from the run log.
+
+    O(n²) inside each date — fine for our scale (~15 events/window).
+    """
+    kept: list[dict] = []
+    for cand in events:
+        cand_date = cand.get("date", "")
+        dup_idx = None
+        for i, ex in enumerate(kept):
+            if ex.get("date") != cand_date:
+                continue
+            if not _venue_overlap(ex.get("venue"), cand.get("venue")):
+                continue
+            if not _times_overlap(ex, cand):
+                continue
+            if not _shared_significant_word(ex.get("title"), cand.get("title")):
+                continue
+            dup_idx = i
+            break
+        if dup_idx is None:
+            kept.append(cand)
+            continue
+
+        ex = kept[dup_idx]
+        if _richness_score(cand) > _richness_score(ex):
+            winner, loser = cand, ex
+            kept[dup_idx] = cand
+        else:
+            winner, loser = ex, cand
+        LOG.info(
+            "dedupe: dropping %r [%s] in favor of %r [%s] "
+            "(same date+venue+time, shared-keyword titles)",
+            loser.get("title"), loser.get("source"),
+            winner.get("title"), winner.get("source"),
+        )
+    return kept
+
+
 # --- SEO: schema.org JSON-LD + noscript fallback ------------------------------
 # Both are written into index.html by the scraper so search crawlers see real
 # event content without needing to execute JavaScript. JSON-LD goes in <head>
 # for Google's structured-data parser; the noscript block sits in <main> for
 # any crawler that ignores JSON-LD but reads visible body text.
 
-_TIME_PARSE_RE = re.compile(r"^(\d{1,2})(?::(\d{2}))?\s*(AM|PM)?\s*$", re.IGNORECASE)
 _PRICE_NUM_RE = re.compile(r"\$\s*(\d+(?:\.\d{1,2})?)")
 _FREE_RE = re.compile(r"\bfree\b", re.IGNORECASE)
 _PWYC_RE = re.compile(r"\b(pwyc|pay[- ]what[- ]you[- ]can)\b", re.IGNORECASE)
@@ -692,6 +817,7 @@ def main() -> int:
 
     events = deduplicate(events)
     events = dedupe_substring_titles(events)
+    events = dedupe_shared_keyword_titles(events)
     events.sort(key=_time_sort_key)
 
     for e in events:
