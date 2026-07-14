@@ -394,7 +394,45 @@
       "category": "festival",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/events/boxwood?format=ical"
+    },
+    {
+      "title": "Boxwood Festival",
+      "date": "2026-07-28",
+      "venue": "Fisheries Museum of the Atlantic",
+      "location": "68 Bluenose Dr, Lunenburg",
+      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/boxwood-festival",
+      "category": "festival",
+      "source": "fisheries_museum",
+      "time": "2:30 PM",
+      "end_time": "6:00 PM",
+      "price": "Free",
+      "description": "The Boxwood Festival brings exceptional musicians from around the world to Lunenburg for a celebration of traditional music. Enjoy live performances featuring fiddle, flute, and more, all set in an intimate and inspiring setting. Whether you’re a longtime fan or new to traditional music, this event offers an unforgettable cultural experience."
+    },
+    {
+      "title": "Queen Kong",
+      "date": "2026-07-28",
+      "time": "7:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831-332, Riverport",
+      "description": "Musique Royale welcomes contemporary klezmer band Queen Kong to perform at the Old Confidence Lodge in Riverport on Tuesday July 28 at 7 pm. Queen Kong is a Toronto-based ensemble known for its explosive blend of contemporary klezmer, jazz, and modern folk traditions. Queen Kong has earned national recognition in Canada, winning the Canadian Folk Music Award for Instrumental Group of the Year. The band features Lorie Wolf (drums, bandleader, composer), Max Forster (trumpet), Josseé MacInnes (clarinet), Nathan Dell-Vandenberg (trombone), Graham Campbell (guitar) and Tom Richards (sousaphone).…",
+      "url": "http://musiqueroyale.com/event/2026/2026-07-28-queen-kong/",
+      "ticket_url": "https://www.canadahelps.org/en/charities/musique-royale-a-treasury-of-music-from-our-historic-past/events/queen-kong-in-riverport",
+      "price": "$25 advance, $30 at the door, youth free (18 and under)",
+      "category": "music",
+      "source": "musique_royale"
+    },
+    {
+      "title": "Half-Cracked — Lunenburg Theatre Collective",
+      "date": "2026-07-28",
+      "time": "7:30 PM",
+      "venue": "Lunenburg Opera House",
+      "location": "Lunenburg",
+      "description": "A comedy by Mary Colin-Chisholm. $35.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-13T19:23:24-03:00"
+  "last_updated": "2026-07-14T07:37:35-03:00"
 }
