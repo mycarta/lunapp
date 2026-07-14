@@ -322,6 +322,18 @@
       "ics_url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-fri-24?format=ical"
     },
     {
+      "title": "75th Annual International Dory Races",
+      "date": "2026-07-25",
+      "time": "10:00 AM",
+      "venue": "Adams & Knickle Wharf",
+      "location": "Lunenburg Waterfront, Lunenburg",
+      "description": "International Dory Races — Gloucester vs Lunenburg. Come cheer on the competitors on the waterfront!",
+      "url": "",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
+    },
+    {
       "title": "Under the Sea",
       "date": "2026-07-25",
       "venue": "Fisheries Museum of the Atlantic",
@@ -434,5 +446,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-14T07:37:35-03:00"
+  "last_updated": "2026-07-14T13:12:19-03:00"
 }
