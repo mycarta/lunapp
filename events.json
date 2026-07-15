@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "Half-Cracked — Lunenburg Theatre Collective",
-      "date": "2026-07-14",
-      "time": "7:30 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "Lunenburg",
-      "description": "A comedy by Mary Colin-Chisholm. $35.",
-      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "Alexander Straus-Fausto",
       "date": "2026-07-15",
       "time": "12:00 PM",
@@ -444,7 +432,46 @@
       "price": "$35",
       "category": "arts",
       "source": "manual_seed"
+    },
+    {
+      "title": "HITEM Trad Ensemble",
+      "date": "2026-07-29",
+      "time": "12:00 PM",
+      "venue": "St. John's Anglican Church",
+      "location": "64 Townsend St, Lunenburg",
+      "description": "Part of the Wednesdays at Noon series, Musique Royale welcomes the Trad Ensemble from the Halifax Institute of Traditional and Early Music to perform on Wednesday July 29th at 12 pm at St John’s Anglican Church in Lunenburg. The Trad Ensemble is an inter-generational group from all walks of life exploring traditional music genres together. The concert will also feature a cameo collaboration from surprise guests from the Boxwood Festival. The concert is directed by Jennifer Publicover and the Trad Ensemble will play music from Sweden and Ireland, with Maritime and Cape Breton old time tunes…",
+      "url": "http://musiqueroyale.com/event/2026/2026-07-29-hitem-trad-ensemble/",
+      "price": "$10 at the door, youth free (ages 18 and under)",
+      "category": "music",
+      "source": "musique_royale"
+    },
+    {
+      "title": "Hedwig — Lunenburg Theatre Collective",
+      "date": "2026-07-29",
+      "time": "8:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "Riverport",
+      "description": "Professional theatre on the South Shore.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=2971",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Hedwig and the Angry Inch",
+      "date": "2026-07-29",
+      "time": "8:00 PM",
+      "end_time": "9:30 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Dinner & Show • 6:00 pm $92 Whether you like it or not, it’s Hedwig and the Angry Inch! This outrageous rock musical is inching back to Old Confidence Lodge, following a sold-out run at the Bus Stop Theatre! Recommended for ages 18+; No admittance for ages 15 & under",
+      "url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-wed-29",
+      "ticket_url": "https://www.eventbrite.ca/e/hedwig-and-the-angry-inch-tickets-1992951744316?aff=efbevent&fbclid=IwY2xjawSyULpleHRuA2FlbQIxMABicmlkETFxck94R2w1aktSTGhIZUUzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjpOO0eI2e3Lkonb6WHhOGE1XtDwSj0BUPy7uaqt9YUyE5BXRXKBqAv5w7Zy_aem_OXxhpoJfO7ph0SeFHXXj-g",
+      "price": "$35 + fees",
+      "category": "theater",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-wed-29?format=ical"
     }
   ],
-  "last_updated": "2026-07-14T19:25:11-03:00"
+  "last_updated": "2026-07-15T07:38:28-03:00"
 }
