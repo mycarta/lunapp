@@ -115,15 +115,14 @@
       "source": "manual_seed"
     },
     {
-      "title": "KARAOKE NIGHT",
+      "title": "POSTPONED - KARAOKE NIGHT",
       "date": "2026-07-18",
       "time": "7:00 PM",
       "end_time": "11:00 PM",
       "venue": "Old Confidence Lodge",
       "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Whether you’re a karaoke beginner or a seasoned South Shore karaoke star, this is the place for you! From pop & rock to Disney & Broadway, anything goes!",
+      "description": "POSTPONED Stay tuned for a new date!",
       "url": "https://www.oldconfidence.ca/events/karaoke-lunenburg-county-july",
-      "price": "$10 Suggested Admission",
       "category": "music",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/karaoke-lunenburg-county-july?format=ical"
@@ -437,5 +436,5 @@
       "ics_url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-wed-29?format=ical"
     }
   ],
-  "last_updated": "2026-07-15T14:14:24-03:00"
+  "last_updated": "2026-07-15T19:24:50-03:00"
 }
