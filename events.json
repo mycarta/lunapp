@@ -205,18 +205,6 @@
       "source": "musique_royale"
     },
     {
-      "title": "Hedwig — Lunenburg Theatre Collective",
-      "date": "2026-07-22",
-      "time": "8:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "Riverport",
-      "description": "Professional theatre on the South Shore.",
-      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=2971",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "Hedwig and the Angry Inch",
       "date": "2026-07-22",
       "time": "8:00 PM",
@@ -281,18 +269,6 @@
       "end_time": "10:00 PM",
       "description": "Join us for Merimac on July 24th! 7-10pm Doors at 5pm Merimac is a 4 piece group (often 5 with fiddle/piano) based in Halifax, NS, playing Current Pop, Classic Rock, EDM/Dance, Maritime/Celtic, Country, Reggae, R&B and more! Its well-known, seasoned members bring a variety of influences and are sure to please any crowd from the Maritimes and Atlantic Canada, as well as the United States. Merimac…",
       "price": "$25"
-    },
-    {
-      "title": "Hedwig — Lunenburg Theatre Collective",
-      "date": "2026-07-24",
-      "time": "8:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "Riverport",
-      "description": "Professional theatre on the South Shore.",
-      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=2971",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
     },
     {
       "title": "Hedwig and the Angry Inch",
@@ -406,7 +382,7 @@
       "time": "2:30 PM",
       "end_time": "6:00 PM",
       "price": "Free",
-      "description": "The Boxwood Festival brings exceptional musicians from around the world to Lunenburg for a celebration of traditional music. Enjoy live performances featuring fiddle, flute, and more, all set in an intimate and inspiring setting. Whether you’re a longtime fan or new to traditional music, this event offers an unforgettable cultural experience."
+      "description": "The Boxwood Festival brings exceptional musicians from around the world to Lunenburg for a celebration of traditional music. Enjoy live performances featuring fiddle, flute, and more, all set in an intimate and inspiring setting. Whether you’re a longtime fan or new to traditional music, this event offers an unforgettable cultural experience Please note, in the event of rain, the event will be cancelled."
     },
     {
       "title": "Queen Kong",
@@ -446,18 +422,6 @@
       "source": "musique_royale"
     },
     {
-      "title": "Hedwig — Lunenburg Theatre Collective",
-      "date": "2026-07-29",
-      "time": "8:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "Riverport",
-      "description": "Professional theatre on the South Shore.",
-      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=2971",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "Hedwig and the Angry Inch",
       "date": "2026-07-29",
       "time": "8:00 PM",
@@ -473,5 +437,5 @@
       "ics_url": "https://www.oldconfidence.ca/events/hedwig-lunenburg-wed-29?format=ical"
     }
   ],
-  "last_updated": "2026-07-15T07:38:28-03:00"
+  "last_updated": "2026-07-15T14:14:24-03:00"
 }
