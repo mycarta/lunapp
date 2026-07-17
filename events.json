@@ -1,44 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Arts Funding Information Session",
-      "date": "2026-07-16",
-      "time": "1:30 PM",
-      "end_time": "3:30 PM",
-      "venue": "Lunenburg Academy Building",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Arts Nova Scotia and Canada Council for the Arts funding info session. Hosted by LAMP.",
-      "url": "",
-      "price": "Free",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Half-Cracked — Lunenburg Theatre Collective",
-      "date": "2026-07-16",
-      "time": "7:30 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "Lunenburg",
-      "description": "A comedy by Mary Colin-Chisholm. $35.",
-      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "The GameChangers - Live at Lightship - July 17, 2026",
       "date": "2026-07-17",
       "venue": "Lightship Brewery",
@@ -450,7 +412,45 @@
       "price": "$35",
       "category": "arts",
       "source": "manual_seed"
+    },
+    {
+      "title": "TGIF Live Music: Felix & Quinn",
+      "date": "2026-07-31",
+      "time": "7:00 PM",
+      "end_time": "9:00 PM",
+      "venue": "Lunenburg Yacht Club — Salt & Sail Gastropub",
+      "location": "734 Hermans Island Rd, Lunenburg",
+      "description": "Live music at the Lunenburg Yacht Club. No cover.",
+      "url": "https://www.lyc.ca/",
+      "price": "Free",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Cameron Dawes Band (with opener Brynn Currie) - Live at Lightship - July 31, 2026",
+      "date": "2026-07-31",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/products/cameron-hawes-band-live-at-lightship-july-31-2026",
+      "category": "music",
+      "source": "lightship",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "description": "Cameron Hawes is a Nova Scotian singer-songwriter who blends folk and roots with blues-soaked grit and a hook-forward writing style that stays with you long after the last note fades. His songs are rich with vivid storytelling — equal parts heartfelt and hard-hitting — delivered with a raw, magnetic energy that fills the room. Whether he’s pulling you in with an intimate acoustic moment or…",
+      "price": "$15"
+    },
+    {
+      "title": "Hedwig — Lunenburg Theatre Collective",
+      "date": "2026-07-31",
+      "time": "8:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "Riverport",
+      "description": "Professional theatre on the South Shore.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=2971",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-16T19:24:56-03:00"
+  "last_updated": "2026-07-17T07:37:31-03:00"
 }
