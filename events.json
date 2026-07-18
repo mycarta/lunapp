@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "The GameChangers - Live at Lightship - July 17, 2026",
-      "date": "2026-07-17",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/the-gamechangers-live-at-lightship-july-17-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Join us for GameChangers on July 17th! 7-10pm Doors at 5pm GameChangers is a group of good friends that perform a tasteful Groove-Blues mix that's \"Judiciously Obscure, yet Captivatingly Familiar\". Their playlist includes selections from such notable artists as: Alan Parsons Project, Atlanta Rhythm Section, Bill Withers, Billy Preston, Bob Marley, Boz Scaggs, Chris Rea, Colin James, Dean Martin,…",
-      "price": "$10"
-    },
-    {
       "title": "Saturdays in the Park: Christian Kirby",
       "date": "2026-07-18",
       "time": "2:00 PM",
@@ -450,7 +437,32 @@
       "price": "$35",
       "category": "arts",
       "source": "manual_seed"
+    },
+    {
+      "title": "Signal Hill - Live at Lightship - August 1, 2026",
+      "date": "2026-08-01",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/products/signal-hill-live-at-lightship-august-1-2026",
+      "category": "music",
+      "source": "lightship",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "description": "Join us for Signal Hill on August 1st! 7-10pm Doors at 5pm Signal Hill is a four man acoustic rock band from St. John’s, NL, currently based out of Halifax, NS, Canada. Since 1991 they have toured Canada and beyond, to places such as the Dominican Republic and Moscow, Russia. Signal Hill has been a mainstay in the east coast music scene for years. The formula is simple: great songs you know and…",
+      "price": "$35"
+    },
+    {
+      "title": "Half-Cracked — Lunenburg Theatre Collective",
+      "date": "2026-08-01",
+      "time": "7:30 PM",
+      "venue": "Lunenburg Opera House",
+      "location": "Lunenburg",
+      "description": "A comedy by Mary Colin-Chisholm. $35.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-17T19:19:49-03:00"
+  "last_updated": "2026-07-18T07:33:11-03:00"
 }
