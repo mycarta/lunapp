@@ -1,83 +1,6 @@
 {
   "events": [
     {
-      "title": "Saturdays in the Park: Christian Kirby",
-      "date": "2026-07-18",
-      "time": "2:00 PM",
-      "venue": "Lunenburg Heritage Bandstand",
-      "location": "Lunenburg",
-      "description": "Folk Harbour Society free concert series at the newly renovated bandstand. Donations welcome.",
-      "url": "https://folkharbour.ca/concerts",
-      "price": "Free",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Jazz at LAMP: The Music of Jobim",
-      "date": "2026-07-18",
-      "time": "5:30 PM",
-      "end_time": "7:30 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Whether you're a long-time jazz lover or new to the genre, the Jazz Concert Series at LAMP promises to be a musical experience that will leave you spellbound. The LAMP Libations bar will be open - have a drink, hear some great jazz, and then head out to one of the many incredible restaurants in Lunenburg, Mahone Bay or Chester. What a fabulous night out!",
-      "url": "https://www.lampns.ca/events/julyjazz2",
-      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/summer-jazz-at-lamp",
-      "price": "$35",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/julyjazz2?format=ical"
-    },
-    {
-      "title": "Good Vibrations Summer Dance: The Rec Room",
-      "date": "2026-07-18",
-      "time": "7:00 PM",
-      "venue": "Lunenburg Yacht Club — Salt & Sail Gastropub",
-      "location": "734 Hermans Island Rd, Lunenburg",
-      "description": "Family dance night — Top 40 dance tunes from the 70s to today. No cover.",
-      "url": "https://www.lyc.ca/",
-      "price": "Free",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "POSTPONED - KARAOKE NIGHT",
-      "date": "2026-07-18",
-      "time": "7:00 PM",
-      "end_time": "11:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "POSTPONED Stay tuned for a new date!",
-      "url": "https://www.oldconfidence.ca/events/karaoke-lunenburg-county-july",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/karaoke-lunenburg-county-july?format=ical"
-    },
-    {
-      "title": "Homegrown - Live at Lightship - July 18, 2026",
-      "date": "2026-07-18",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/homegrown-live-at-lightship-july-18-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Join us for Homegrown on July 18th! 7-10pm Doors open at 5pm If you have had the chance recently to see Homegrown perform live, you may hear a slick cover version of a Sean Mendez tune, a few Fleetwood Mac classics, or even the A Capella rendition of Seven Bridges Road by the Eagles. The vocal cleverness and musicianship of this group defines the creativity of their live performances. Homegrown…",
-      "price": "$25"
-    },
-    {
-      "title": "Half-Cracked — Lunenburg Theatre Collective",
-      "date": "2026-07-18",
-      "time": "7:30 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "Lunenburg",
-      "description": "A comedy by Mary Colin-Chisholm. $35.",
-      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "Free Swim at LDSP — sponsored by High Liner",
       "date": "2026-07-19",
       "time": "2:00 PM",
@@ -462,7 +385,32 @@
       "price": "$35",
       "category": "arts",
       "source": "manual_seed"
+    },
+    {
+      "title": "36th Annual Nova Scotia Folk Art Festival",
+      "date": "2026-08-02",
+      "time": "12:00 PM",
+      "end_time": "4 PM",
+      "venue": "Lunenburg Heritage Society",
+      "location": "Lunenburg",
+      "description": "Get ready for another exciting day of Nova Scotia's most entertaining folk art and artists! This is the most energized 4 hours you will have all summer! Come early to get in line and bring cash and a friend! Lunenburg Heritage Society's premiere event! August 2, 2026 noon to 4 pm Admission tickets go on sale at 11 am - $5 per person, children under 12 are free. Doors open at noon Artwork may not be removed from display until after 1 pm to allow time for viewing Door prizes are drawn at 1 pm…",
+      "url": "https://lunenburgheritagesociety.ca/blogs/events/36th-annual-nova-scotia-folk-art-festival",
+      "price": "$5",
+      "category": "festival",
+      "source": "heritage_society"
+    },
+    {
+      "title": "Half-Cracked — Lunenburg Theatre Collective",
+      "date": "2026-08-02",
+      "time": "2:00 PM",
+      "venue": "Lunenburg Opera House",
+      "location": "Lunenburg",
+      "description": "A comedy by Mary Colin-Chisholm. Matinee. $35.",
+      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
+      "price": "$35",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-18T19:20:49-03:00"
+  "last_updated": "2026-07-19T07:34:09-03:00"
 }
