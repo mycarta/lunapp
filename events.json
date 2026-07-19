@@ -39,19 +39,6 @@
       "price": "$25"
     },
     {
-      "title": "C.D. Saint and Hannah Parks",
-      "date": "2026-07-22",
-      "time": "12:00 PM",
-      "venue": "St. John's Anglican Church",
-      "location": "64 Townsend St, Lunenburg",
-      "description": "Part of the Wednesdays at Noon series, Musique Royale welcomes tenor C.D. Saint and pianist Hannah Parks to perform together on Wednesday July 22nd at 12 pm at St John’s Anglican Church in Lunenburg. The concert will feature a myriad of works by Berlioz, Hahn, Faure, Dowland and Monteverdi. Wednesdays at Noon is a series of music presentations at St. John’s Anglican Church in Lunenburg. Concerts are roughly 45 minutes in length and are held every Wednesday at 12 pm through July and August. Performances feature artists from the local and national scene in an eclectic mix of presentations.…",
-      "url": "http://musiqueroyale.com/event/2026/2026-07-22-cd-and-hannah/",
-      "ticket_url": "https://",
-      "price": "$10 at the door, youth free (ages 18 and under)",
-      "category": "music",
-      "source": "musique_royale"
-    },
-    {
       "title": "Hedwig and the Angry Inch",
       "date": "2026-07-22",
       "time": "8:00 PM",
@@ -232,19 +219,6 @@
       "description": "The Boxwood Festival brings exceptional musicians from around the world to Lunenburg for a celebration of traditional music. Enjoy live performances featuring fiddle, flute, and more, all set in an intimate and inspiring setting. Whether you’re a longtime fan or new to traditional music, this event offers an unforgettable cultural experience Please note, in the event of rain, the event will be cancelled."
     },
     {
-      "title": "Queen Kong",
-      "date": "2026-07-28",
-      "time": "7:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831-332, Riverport",
-      "description": "Musique Royale welcomes contemporary klezmer band Queen Kong to perform at the Old Confidence Lodge in Riverport on Tuesday July 28 at 7 pm. Queen Kong is a Toronto-based ensemble known for its explosive blend of contemporary klezmer, jazz, and modern folk traditions. Queen Kong has earned national recognition in Canada, winning the Canadian Folk Music Award for Instrumental Group of the Year. The band features Lorie Wolf (drums, bandleader, composer), Max Forster (trumpet), Josseé MacInnes (clarinet), Nathan Dell-Vandenberg (trombone), Graham Campbell (guitar) and Tom Richards (sousaphone).…",
-      "url": "http://musiqueroyale.com/event/2026/2026-07-28-queen-kong/",
-      "ticket_url": "https://www.canadahelps.org/en/charities/musique-royale-a-treasury-of-music-from-our-historic-past/events/queen-kong-in-riverport",
-      "price": "$25 advance, $30 at the door, youth free (18 and under)",
-      "category": "music",
-      "source": "musique_royale"
-    },
-    {
       "title": "Half-Cracked — Lunenburg Theatre Collective",
       "date": "2026-07-28",
       "time": "7:30 PM",
@@ -255,18 +229,6 @@
       "price": "$35",
       "category": "arts",
       "source": "manual_seed"
-    },
-    {
-      "title": "HITEM Trad Ensemble",
-      "date": "2026-07-29",
-      "time": "12:00 PM",
-      "venue": "St. John's Anglican Church",
-      "location": "64 Townsend St, Lunenburg",
-      "description": "Part of the Wednesdays at Noon series, Musique Royale welcomes the Trad Ensemble from the Halifax Institute of Traditional and Early Music to perform on Wednesday July 29th at 12 pm at St John’s Anglican Church in Lunenburg. The Trad Ensemble is an inter-generational group from all walks of life exploring traditional music genres together. The concert will also feature a cameo collaboration from surprise guests from the Boxwood Festival. The concert is directed by Jennifer Publicover and the Trad Ensemble will play music from Sweden and Ireland, with Maritime and Cape Breton old time tunes…",
-      "url": "http://musiqueroyale.com/event/2026/2026-07-29-hitem-trad-ensemble/",
-      "price": "$10 at the door, youth free (ages 18 and under)",
-      "category": "music",
-      "source": "musique_royale"
     },
     {
       "title": "Hedwig and the Angry Inch",
@@ -412,5 +374,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-19T07:34:09-03:00"
+  "last_updated": "2026-07-19T19:21:52-03:00"
 }
