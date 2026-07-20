@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "Free Swim at LDSP — sponsored by High Liner",
-      "date": "2026-07-19",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Lunenburg and District Swimming Pool",
-      "location": "Lunenburg",
-      "description": "Free public swim sponsored by High Liner Foods.",
-      "url": "",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed"
-    },
-    {
       "title": "Half-Cracked — Lunenburg Theatre Collective",
       "date": "2026-07-21",
       "time": "7:30 PM",
@@ -374,5 +361,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-19T19:21:52-03:00"
+  "last_updated": "2026-07-20T08:05:30-03:00"
 }
