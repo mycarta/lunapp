@@ -23,7 +23,7 @@
       "time": "8:00 PM",
       "end_time": "10:00 PM",
       "description": "Join us for The Harpoonist July 21! 8-10pm Harpoonist is releasing a new album, “Did We Come Here to Dance” — a collaboration with Gordie Johnson of Big Sugar. Recorded on Johnson’s ranch outside Austin, Texas. It’s a collection of swampy, funky, blues-related rock and roll. If you didn’t come to dance, you probably will anyway. FAQ Frequently Asked Questions Question: Harpoonist – that’s a…",
-      "price": "$25"
+      "price": "$15"
     },
     {
       "title": "Hedwig and the Angry Inch",
@@ -361,5 +361,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-21T07:45:56-03:00"
+  "last_updated": "2026-07-21T19:22:37-03:00"
 }
