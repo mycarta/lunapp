@@ -1,31 +1,6 @@
 {
   "events": [
     {
-      "title": "Half-Cracked — Lunenburg Theatre Collective",
-      "date": "2026-07-21",
-      "time": "7:30 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "Lunenburg",
-      "description": "A comedy by Mary Colin-Chisholm. $35.",
-      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
-      "title": "The Harpoonist - Live at Lightship - July 21, 2026",
-      "date": "2026-07-21",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/the-harpoonist-live-at-lightship-july-21-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "8:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Join us for The Harpoonist July 21! 8-10pm Harpoonist is releasing a new album, “Did We Come Here to Dance” — a collaboration with Gordie Johnson of Big Sugar. Recorded on Johnson’s ranch outside Austin, Texas. It’s a collection of swampy, funky, blues-related rock and roll. If you didn’t come to dance, you probably will anyway. FAQ Frequently Asked Questions Question: Harpoonist – that’s a…",
-      "price": "$15"
-    },
-    {
       "title": "Hedwig and the Angry Inch",
       "date": "2026-07-22",
       "time": "8:00 PM",
@@ -361,5 +336,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-21T19:22:37-03:00"
+  "last_updated": "2026-07-22T07:47:34-03:00"
 }
