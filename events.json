@@ -67,6 +67,19 @@
       "description": "“Under the Sea” is a family-friendly event designed to spark curiosity about marine life. Through hands-on activities, interactive displays, and engaging storytelling, visitors will explore the wonders beneath the ocean’s surface. Perfect for children and families looking for a fun and educational day at the museum."
     },
     {
+      "title": "Old Town Lunenburg Celebration — 50th Anniversary of the World Heritage Convention",
+      "date": "2026-07-25",
+      "time": "1:00 PM",
+      "end_time": "5:00 PM",
+      "venue": "King Street",
+      "location": "King St, between Lincoln and Cumberland Streets, Lunenburg",
+      "description": "The National Trust for Canada and the Town of Lunenburg mark the 50th anniversary of the UNESCO World Heritage Convention with a free afternoon celebration on King Street, closed to vehicles between Lincoln and Cumberland Streets. The program includes an opening ceremony with remarks from national, provincial and municipal representatives and a Peace Chant for Truth and Reconciliation by Mi'kmaw linguist Dr. Bernard Francis; a Heritage Bandstand concert by Heather MacIsaac and Mary Beth Carty; guided Old Town walking tours with live French interpretation; a historic cemetery tour; an afternoon fireside chat with Dr. Francis; interactive World Heritage quizzes and an expert Q&A in the Multimedia Tent; and a Heritage Marketplace with the Fisheries Museum of the Atlantic, the Lunenburg Academy Foundation, and other local heritage partners.",
+      "url": "https://nationaltrustcanada.ca/where-to-visit/world-heritage",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
+    },
+    {
       "title": "Saturdays in the Park: Heather MacIsaac & Mary Beth Carty",
       "date": "2026-07-25",
       "time": "2:00 PM",
@@ -126,6 +139,18 @@
       "category": "festival",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/events/boxwood?format=ical"
+    },
+    {
+      "title": "Office Closure: Monday, July 27 – Friday, July 31",
+      "date": "2026-07-27",
+      "time": "10 AM",
+      "end_time": "4 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "Please note that our office will be closed Monday, July 27 through Friday, July 31, and will reopen on Monday, August 3. Summer registration will remain available through our website at lunenburgarts.org. Our Gallery will be open Saturday July 25 th and August 1 st from 10am – 4pm. Our exhibiting artist, Joan Bruneau will be in attendance. Leave us a message via phone or email: learn@lunenburgarts.org 902.640.2013, we will be checking messages periodically during this time. Thank you for your…",
+      "url": "https://lunenburgarts.org/news-events/please-note-that-our-office-will-be-closed-monday-july-27-through-friday-july-31/",
+      "category": "arts",
+      "source": "school_of_arts"
     },
     {
       "title": "Boxwood Festival",
@@ -335,5 +360,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-24T07:45:33-03:00"
+  "last_updated": "2026-07-24T13:38:13-03:00"
 }
