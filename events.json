@@ -1,31 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-07-23"
-    },
-    {
-      "title": "Half-Cracked — Lunenburg Theatre Collective",
-      "date": "2026-07-23",
-      "time": "7:30 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "Lunenburg",
-      "description": "A comedy by Mary Colin-Chisholm. $35.",
-      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "TGIF Live Music: The Fog",
       "date": "2026-07-24",
       "time": "7:00 PM",
@@ -346,7 +321,19 @@
       "price": "Pass $190 (youth half price)",
       "category": "festival",
       "source": "manual_seed"
+    },
+    {
+      "title": "First Fridays Art Walk",
+      "date": "2026-08-07",
+      "time": "5:00 PM",
+      "venue": "Downtown Lunenburg",
+      "location": "Lunenburg",
+      "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.",
+      "url": "",
+      "price": "Free",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-23T19:25:57-03:00"
+  "last_updated": "2026-07-24T07:45:33-03:00"
 }
