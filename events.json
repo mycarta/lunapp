@@ -25,18 +25,6 @@
       "ics_url": "https://www.lampns.ca/events/boxwood?format=ical"
     },
     {
-      "title": "Office Closure: Monday, July 27 – Friday, July 31",
-      "date": "2026-07-27",
-      "time": "10 AM",
-      "end_time": "4 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Please note that our office will be closed Monday, July 27 through Friday, July 31, and will reopen on Monday, August 3. Summer registration will remain available through our website at lunenburgarts.org. Our Gallery will be open Saturday July 25 th and August 1 st from 10am – 4pm. Our exhibiting artist, Joan Bruneau will be in attendance. Leave us a message via phone or email: learn@lunenburgarts.org 902.640.2013, we will be checking messages periodically during this time. Thank you for your…",
-      "url": "https://lunenburgarts.org/news-events/please-note-that-our-office-will-be-closed-monday-july-27-through-friday-july-31/",
-      "category": "arts",
-      "source": "school_of_arts"
-    },
-    {
       "title": "Boxwood Festival",
       "date": "2026-07-28",
       "venue": "Fisheries Museum of the Atlantic",
@@ -255,5 +243,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-26T07:36:20-03:00"
+  "last_updated": "2026-07-26T12:13:36-03:00"
 }
