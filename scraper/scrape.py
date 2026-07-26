@@ -26,6 +26,7 @@ OUTPUT_PATH = REPO_ROOT / "events.json"
 INDEX_HTML_PATH = REPO_ROOT / "index.html"
 MANUAL_SEEDS_PATH = REPO_ROOT / "manual_seeds.json"
 PARKING_RULES_PATH = REPO_ROOT / "parking_rules.json"
+EXCLUSION_RULES_PATH = REPO_ROOT / "exclusion_rules.json"
 HALIFAX = ZoneInfo("America/Halifax")
 WINDOW_DAYS = 14
 
@@ -224,6 +225,57 @@ def filter_to_window(events: list[dict], today: datetime) -> list[dict]:
             continue
         if start <= d <= end:
             kept.append(e)
+    return kept
+
+
+# --- Title-based exclusion filter ----------------------------------------------
+# exclusion_rules.json (repo root, tracked in git — unlike the local-only
+# parking_rules.json) is a config-driven list of title substrings that mark
+# an item as administrative noise rather than a real event, e.g. a venue's
+# blog/post feed picking up "Office Closure: Monday, July 27 – Friday, July
+# 31" as if it were a listing. Applied to every manual-seeded + parsed event
+# before dedup, so excluded items never influence which duplicate wins.
+# TITLE only, case-insensitive substring match. Terms are kept narrow and
+# multi-word on purpose — a bare "closed" or "closure" would also catch real
+# event titles like "Closing Reception" or "Season Closing Concert".
+
+def load_exclusion_rules() -> list[str]:
+    """Load title-substring exclusion terms from exclusion_rules.json.
+
+    Returns an empty list when the file is absent, unreadable, or
+    malformed — exclusion is strictly opt-in, so any problem degrades to
+    "exclude nothing" rather than failing the scrape.
+    """
+    if not EXCLUSION_RULES_PATH.exists():
+        return []
+    try:
+        data = json.loads(EXCLUSION_RULES_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        LOG.error("exclusion_rules.json failed to load: %s", exc)
+        return []
+    terms = data.get("title_contains", []) if isinstance(data, dict) else []
+    return [t for t in terms if isinstance(t, str) and t.strip()]
+
+
+def apply_exclusion_rules(events: list[dict], terms: list[str]) -> list[dict]:
+    """Drop events whose title contains any exclusion term (case-insensitive
+    substring match). Logs each drop as "EXCLUDED: 'Title' [source]
+    (matched 'term')" so filtered items stay visible in the workflow logs.
+    No terms => events pass through untouched."""
+    if not terms:
+        return events
+    lowered_terms = [t.lower() for t in terms]
+    kept: list[dict] = []
+    for e in events:
+        title = (e.get("title") or "").lower()
+        hit = next((t for t in lowered_terms if t in title), None)
+        if hit is not None:
+            LOG.info(
+                "EXCLUDED: %r [%s] (matched %r)",
+                e.get("title"), e.get("source"), hit,
+            )
+            continue
+        kept.append(e)
     return kept
 
 
@@ -802,6 +854,15 @@ def main() -> int:
     # entry that happens to share (date, title). They're still subject to the
     # 14-day window — seeds dated outside it just don't appear yet.
     events = manual + parser_events
+
+    # Drop administrative noise (e.g. "Office Closure: ...") before anything
+    # else touches the list — see load_exclusion_rules() docstring.
+    exclusion_terms = load_exclusion_rules()
+    before_excl = len(events)
+    events = apply_exclusion_rules(events, exclusion_terms)
+    if exclusion_terms:
+        LOG.info("exclusion: %d event(s) excluded, %d remain",
+                 before_excl - len(events), len(events))
 
     now = datetime.now(HALIFAX)
     events = filter_to_window(events, now)
