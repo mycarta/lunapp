@@ -1,30 +1,6 @@
 {
   "events": [
     {
-      "title": "Free Swim at LDSP — sponsored by High Liner",
-      "date": "2026-07-26",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Lunenburg and District Swimming Pool",
-      "location": "Lunenburg",
-      "description": "Free public swim sponsored by High Liner Foods.",
-      "url": "",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Boxwood Festival 2026",
-      "date": "2026-07-26",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St 3rd floor, Lunenburg",
-      "description": "Boxwood Festival Canada brings a week of concerts, dances, sessions, and immersive hands-on workshops in traditional and early music to the town of Lunenburg. Whether you join for a single event, a day, or the entire week, you'll be part of an unforgettable celebration of musical discovery. Explore the roots and branches of our shared musical heritage alongside a community of world-class tradition bearers.",
-      "url": "https://www.lampns.ca/events/boxwood",
-      "category": "festival",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/boxwood?format=ical"
-    },
-    {
       "title": "Boxwood Festival",
       "date": "2026-07-28",
       "venue": "Fisheries Museum of the Atlantic",
@@ -243,5 +219,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-26T19:24:17-03:00"
+  "last_updated": "2026-07-27T08:08:04-03:00"
 }
