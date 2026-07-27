@@ -217,7 +217,18 @@
       "url": "https://www.lyc.ca/",
       "category": "music",
       "source": "manual_seed"
+    },
+    {
+      "title": "\"Wallflowers\" Exhibition by Heather Sayeau",
+      "date": "2026-08-08",
+      "time": "2 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "Join us for the Artist Talk and Opening Reception for “Wallflowers,” an exhibition by Heather Sayeau, on Saturday, August 8, 2026, at 2pm. “I believe in the power of Beauty. Seeing the world through nature’s lens has kept me inspired, grounded, and always in awe. In my work, I want to provide an impression of the loveliness I find everywhere and remember in these times that Earth is filled with Beauty.” Heather Sayeau received her Bachelor of Fine Art and Bachelor of Education from NSCAD…",
+      "url": "https://lunenburgarts.org/news-events/wallflowers-exhibition-by-heather-sayeau/",
+      "category": "arts",
+      "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-07-27T08:08:04-03:00"
+  "last_updated": "2026-07-27T19:27:19-03:00"
 }
