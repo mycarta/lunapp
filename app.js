@@ -135,7 +135,7 @@ function renderEvent(evt) {
       href: evt.url,
       target: "_blank",
       rel: "noopener noreferrer",
-      text: "Details"
+      text: evt.url_label || "Details"
     }));
   }
 
