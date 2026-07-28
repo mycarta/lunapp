@@ -94,7 +94,7 @@
       "source": "manual_seed"
     },
     {
-      "title": "Cameron Dawes Band (with opener Brynn Currie) - Live at Lightship - July 31, 2026",
+      "title": "Cameron Hawes Band (with opener Brynn Currie) - Live at Lightship - July 31, 2026",
       "date": "2026-07-31",
       "venue": "Lightship Brewery",
       "location": "93 Tannery Rd, Lunenburg",
@@ -184,13 +184,12 @@
     {
       "title": "Lunenburg Folk Harbour Festival 2026",
       "date": "2026-08-06",
-      "end_date": "2026-08-09",
-      "time": "1:00 PM",
-      "end_time": "11:00 PM",
+      "time": "All Day",
       "venue": "Multiple venues — Blockhouse Hill, Opera House, churches, Wharf Stage",
       "location": "Lunenburg",
       "description": "Nova Scotia's longest-running folk music festival. 4 days, 7 intimate venues, all walkable. Headliners include Sarah Harmer, Colin Linden, Grace Petrie, Danny Michel, Morgan Toney, Ndidi O, and many more. Workshops, concerts, circles, and Main Stage evening shows. Festival pass $190. Youth 25 and under half price.",
-      "url": "https://folkharbour.ca/",
+      "url": "https://img1.wsimg.com/blobby/go/7e491450-7eae-44a0-852f-2c42fb3c5879/2026%20ONE%20PAGE%20LFHF%20FULL%20SCHEDULE%20as%20of%20July%208.pdf",
+      "url_label": "Event program",
       "price": "Pass $190 (youth half price)",
       "category": "festival",
       "source": "manual_seed"
@@ -208,6 +207,19 @@
       "source": "manual_seed"
     },
     {
+      "title": "Lunenburg Folk Harbour Festival 2026",
+      "date": "2026-08-07",
+      "time": "All Day",
+      "venue": "Multiple venues — Blockhouse Hill, Opera House, churches, Wharf Stage",
+      "location": "Lunenburg",
+      "description": "Nova Scotia's longest-running folk music festival. 4 days, 7 intimate venues, all walkable. Headliners include Sarah Harmer, Colin Linden, Grace Petrie, Danny Michel, Morgan Toney, Ndidi O, and many more. Workshops, concerts, circles, and Main Stage evening shows. Festival pass $190. Youth 25 and under half price.",
+      "url": "https://img1.wsimg.com/blobby/go/7e491450-7eae-44a0-852f-2c42fb3c5879/2026%20ONE%20PAGE%20LFHF%20FULL%20SCHEDULE%20as%20of%20July%208.pdf",
+      "url_label": "Event program",
+      "price": "Pass $190 (youth half price)",
+      "category": "festival",
+      "source": "manual_seed"
+    },
+    {
       "title": "Neon Waves 80s Glow Night: Height Requirement",
       "date": "2026-08-08",
       "time": "7:00 PM",
@@ -216,6 +228,19 @@
       "description": "80s dance night with Height Requirement — the '80s Party Machine. 19+ event. Tickets on sale.",
       "url": "https://www.lyc.ca/",
       "category": "music",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Lunenburg Folk Harbour Festival 2026",
+      "date": "2026-08-08",
+      "time": "All Day",
+      "venue": "Multiple venues — Blockhouse Hill, Opera House, churches, Wharf Stage",
+      "location": "Lunenburg",
+      "description": "Nova Scotia's longest-running folk music festival. 4 days, 7 intimate venues, all walkable. Headliners include Sarah Harmer, Colin Linden, Grace Petrie, Danny Michel, Morgan Toney, Ndidi O, and many more. Workshops, concerts, circles, and Main Stage evening shows. Festival pass $190. Youth 25 and under half price.",
+      "url": "https://img1.wsimg.com/blobby/go/7e491450-7eae-44a0-852f-2c42fb3c5879/2026%20ONE%20PAGE%20LFHF%20FULL%20SCHEDULE%20as%20of%20July%208.pdf",
+      "url_label": "Event program",
+      "price": "Pass $190 (youth half price)",
+      "category": "festival",
       "source": "manual_seed"
     },
     {
@@ -230,6 +255,19 @@
       "source": "school_of_arts"
     },
     {
+      "title": "Lunenburg Folk Harbour Festival 2026",
+      "date": "2026-08-09",
+      "time": "All Day",
+      "venue": "Multiple venues — Blockhouse Hill, Opera House, churches, Wharf Stage",
+      "location": "Lunenburg",
+      "description": "Nova Scotia's longest-running folk music festival. 4 days, 7 intimate venues, all walkable. Headliners include Sarah Harmer, Colin Linden, Grace Petrie, Danny Michel, Morgan Toney, Ndidi O, and many more. Workshops, concerts, circles, and Main Stage evening shows. Festival pass $190. Youth 25 and under half price.",
+      "url": "https://img1.wsimg.com/blobby/go/7e491450-7eae-44a0-852f-2c42fb3c5879/2026%20ONE%20PAGE%20LFHF%20FULL%20SCHEDULE%20as%20of%20July%208.pdf",
+      "url_label": "Event program",
+      "price": "Pass $190 (youth half price)",
+      "category": "festival",
+      "source": "manual_seed"
+    },
+    {
       "title": "Stealing Sam — Lunenburg Theatre Collective",
       "date": "2026-08-11",
       "time": "7:30 PM",
@@ -242,5 +280,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-28T07:53:29-03:00"
+  "last_updated": "2026-07-28T13:19:25-03:00"
 }
