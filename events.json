@@ -1,31 +1,6 @@
 {
   "events": [
     {
-      "title": "Boxwood Festival",
-      "date": "2026-07-28",
-      "venue": "Fisheries Museum of the Atlantic",
-      "location": "68 Bluenose Dr, Lunenburg",
-      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/boxwood-festival",
-      "category": "festival",
-      "source": "fisheries_museum",
-      "time": "2:30 PM",
-      "end_time": "6:00 PM",
-      "price": "Free",
-      "description": "The Boxwood Festival brings exceptional musicians from around the world to Lunenburg for a celebration of traditional music. Enjoy live performances featuring fiddle, flute, and more, all set in an intimate and inspiring setting. Whether you’re a longtime fan or new to traditional music, this event offers an unforgettable cultural experience Please note, in the event of rain, the event will be cancelled."
-    },
-    {
-      "title": "Half-Cracked — Lunenburg Theatre Collective",
-      "date": "2026-07-28",
-      "time": "7:30 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "Lunenburg",
-      "description": "A comedy by Mary Colin-Chisholm. $35.",
-      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "Hedwig and the Angry Inch",
       "date": "2026-07-29",
       "time": "8:00 PM",
@@ -280,5 +255,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-07-28T19:25:58-03:00"
+  "last_updated": "2026-07-29T07:56:33-03:00"
 }
