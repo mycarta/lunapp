@@ -14,19 +14,6 @@
       "source": "manual_seed"
     },
     {
-      "title": "Cameron Hawes Band (with opener Brynn Currie) - Live at Lightship - July 31, 2026",
-      "date": "2026-07-31",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/cameron-hawes-band-live-at-lightship-july-31-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Cameron Hawes is a Nova Scotian singer-songwriter who blends folk and roots with blues-soaked grit and a hook-forward writing style that stays with you long after the last note fades. His songs are rich with vivid storytelling — equal parts heartfelt and hard-hitting — delivered with a raw, magnetic energy that fills the room. Whether he’s pulling you in with an intimate acoustic moment or…",
-      "price": "$15"
-    },
-    {
       "title": "Hedwig — Lunenburg Theatre Collective",
       "date": "2026-07-31",
       "time": "8:00 PM",
@@ -300,5 +287,5 @@
       "price": "$15"
     }
   ],
-  "last_updated": "2026-07-31T07:57:46-03:00"
+  "last_updated": "2026-07-31T19:25:14-03:00"
 }
