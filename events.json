@@ -1,31 +1,6 @@
 {
   "events": [
     {
-      "title": "Signal Hill - Live at Lightship - August 1, 2026",
-      "date": "2026-08-01",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/signal-hill-live-at-lightship-august-1-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Join us for Signal Hill on August 1st! 7-10pm Doors at 5pm Signal Hill is a four man acoustic rock band from St. John’s, NL, currently based out of Halifax, NS, Canada. Since 1991 they have toured Canada and beyond, to places such as the Dominican Republic and Moscow, Russia. Signal Hill has been a mainstay in the east coast music scene for years. The formula is simple: great songs you know and…",
-      "price": "$35"
-    },
-    {
-      "title": "Half-Cracked — Lunenburg Theatre Collective",
-      "date": "2026-08-01",
-      "time": "7:30 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "Lunenburg",
-      "description": "A comedy by Mary Colin-Chisholm. $35.",
-      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "36th Annual Nova Scotia Folk Art Festival",
       "date": "2026-08-02",
       "time": "12:00 PM",
@@ -311,7 +286,47 @@
       "price": "$50",
       "category": "music",
       "source": "manual_seed"
+    },
+    {
+      "title": "Joseph and the Amazing Technicolor Dreamcoat",
+      "date": "2026-08-16",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Dinner & Show • 5:00 pm $82 Live theatre in the heart of Nova Scotia's South Shore! Don't miss this classic story of \"the boy whose dreams came true\", featuring an all South Shore cast of kids and adults!",
+      "url": "https://www.oldconfidence.ca/events/joseph-sun-mat",
+      "ticket_url": "https://www.eventbrite.ca/e/joseph-and-the-amazing-technicolor-dreamcoat-tickets-1992890332632?aff=oddtdtcreator&keep_tld=true",
+      "price": "$25 | $15 for kids & teens",
+      "category": "theater",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/joseph-sun-mat?format=ical"
+    },
+    {
+      "title": "One Eyed Johnny at Ovens Natural Park",
+      "date": "2026-08-16",
+      "time": "6:00 PM",
+      "venue": "Ovens Natural Park",
+      "location": "326 Ovens Park Rd, Riverport",
+      "description": "Live music at the Ol' Miner Diner. Reservations recommended: 902-766-4621.",
+      "url": "https://www.ovenspark.com/music",
+      "price": "$10",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Acadian Days",
+      "date": "2026-08-16",
+      "venue": "Fisheries Museum of the Atlantic",
+      "location": "68 Bluenose Dr, Lunenburg",
+      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/acadian-days",
+      "category": "community",
+      "source": "fisheries_museum",
+      "time": "6:00 PM",
+      "end_time": "8:00 PM",
+      "price": "Included with admission / free outdoor components",
+      "description": "Join us for an evening celebrating Acadian heritage through music, storytelling, and cultural experiences. This lively event highlights the rich traditions and vibrant history of Acadian communities in Nova Scotia. Expect great music, community spirit, and an unforgettable cultural celebration."
     }
   ],
-  "last_updated": "2026-08-01T19:22:28-03:00"
+  "last_updated": "2026-08-02T07:35:02-03:00"
 }
