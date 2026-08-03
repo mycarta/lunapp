@@ -1,31 +1,6 @@
 {
   "events": [
     {
-      "title": "36th Annual Nova Scotia Folk Art Festival",
-      "date": "2026-08-02",
-      "time": "12:00 PM",
-      "end_time": "4 PM",
-      "venue": "Lunenburg Heritage Society",
-      "location": "Lunenburg",
-      "description": "Get ready for another exciting day of Nova Scotia's most entertaining folk art and artists! This is the most energized 4 hours you will have all summer! Come early to get in line and bring cash and a friend! Lunenburg Heritage Society's premiere event! August 2, 2026 noon to 4 pm Admission tickets go on sale at 11 am - $5 per person, children under 12 are free. Doors open at noon Artwork may not be removed from display until after 1 pm to allow time for viewing Door prizes are drawn at 1 pm…",
-      "url": "https://lunenburgheritagesociety.ca/blogs/events/36th-annual-nova-scotia-folk-art-festival",
-      "price": "$5",
-      "category": "festival",
-      "source": "heritage_society"
-    },
-    {
-      "title": "Half-Cracked — Lunenburg Theatre Collective",
-      "date": "2026-08-02",
-      "time": "2:00 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "Lunenburg",
-      "description": "A comedy by Mary Colin-Chisholm. Matinee. $35.",
-      "url": "https://www.onstagedirect.com/buy/event_info.action?eventId=3049",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -328,5 +303,5 @@
       "description": "Join us for an evening celebrating Acadian heritage through music, storytelling, and cultural experiences. This lively event highlights the rich traditions and vibrant history of Acadian communities in Nova Scotia. Expect great music, community spirit, and an unforgettable cultural celebration."
     }
   ],
-  "last_updated": "2026-08-02T19:22:34-03:00"
+  "last_updated": "2026-08-03T08:08:17-03:00"
 }
