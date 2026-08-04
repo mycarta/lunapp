@@ -301,7 +301,19 @@
       "end_time": "8:00 PM",
       "price": "Included with admission / free outdoor components",
       "description": "Join us for an evening celebrating Acadian heritage through music, storytelling, and cultural experiences. This lively event highlights the rich traditions and vibrant history of Acadian communities in Nova Scotia. Expect great music, community spirit, and an unforgettable cultural celebration."
+    },
+    {
+      "title": "Jen Chapin Trio at Ovens Natural Park",
+      "date": "2026-08-18",
+      "time": "6:00 PM",
+      "venue": "Ovens Natural Park",
+      "location": "326 Ovens Park Rd, Riverport",
+      "description": "Live music at the Ol' Miner Diner. Reservations recommended: 902-766-4621.",
+      "url": "https://www.ovenspark.com/music",
+      "price": "$20",
+      "category": "music",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-08-03T19:26:42-03:00"
+  "last_updated": "2026-08-04T07:56:21-03:00"
 }
