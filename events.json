@@ -313,7 +313,19 @@
       "price": "$20",
       "category": "music",
       "source": "manual_seed"
+    },
+    {
+      "title": "Jamie Fox — Jambalaya Night at Ovens Natural Park",
+      "date": "2026-08-19",
+      "time": "6:00 PM",
+      "venue": "Ovens Natural Park",
+      "location": "326 Ovens Park Rd, Riverport",
+      "description": "Live music and Jambalaya Night at the Ol' Miner Diner. Reservations recommended: 902-766-4621.",
+      "url": "https://www.ovenspark.com/music",
+      "price": "$20",
+      "category": "music",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-08-04T19:28:03-03:00"
+  "last_updated": "2026-08-05T07:54:20-03:00"
 }
