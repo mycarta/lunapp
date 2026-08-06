@@ -325,7 +325,20 @@
       "price": "$20",
       "category": "music",
       "source": "manual_seed"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-08-20"
     }
   ],
-  "last_updated": "2026-08-05T19:27:06-03:00"
+  "last_updated": "2026-08-06T07:55:36-03:00"
 }
