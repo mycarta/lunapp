@@ -1,32 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-08-06"
-    },
-    {
-      "title": "Lunenburg Folk Harbour Festival 2026",
-      "date": "2026-08-06",
-      "time": "All Day",
-      "venue": "Multiple venues — Blockhouse Hill, Opera House, churches, Wharf Stage",
-      "location": "Lunenburg",
-      "description": "Nova Scotia's longest-running folk music festival. 4 days, 7 intimate venues, all walkable. Headliners include Sarah Harmer, Colin Linden, Grace Petrie, Danny Michel, Morgan Toney, Ndidi O, and many more. Workshops, concerts, circles, and Main Stage evening shows. Festival pass $190. Youth 25 and under half price.",
-      "url": "https://img1.wsimg.com/blobby/go/7e491450-7eae-44a0-852f-2c42fb3c5879/2026%20ONE%20PAGE%20LFHF%20FULL%20SCHEDULE%20as%20of%20July%208.pdf",
-      "url_label": "Event program",
-      "price": "Pass $190 (youth half price)",
-      "category": "festival",
-      "source": "manual_seed"
-    },
-    {
       "title": "First Fridays Art Walk",
       "date": "2026-08-07",
       "time": "5:00 PM",
@@ -338,7 +312,35 @@
       "category": "community",
       "source": "manual_seed",
       "date": "2026-08-20"
+    },
+    {
+      "title": "Square Dance",
+      "date": "2026-08-21",
+      "time": "6:00 PM",
+      "end_time": "11:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Fri, Aug 21 6:00 PM: Family Dance 8:30 PM: 19+ Dance Adults $20 • Teens/Kids $10 • Both dances $30",
+      "url": "https://www.oldconfidence.ca/events/squaredance",
+      "ticket_url": "https://www.eventbrite.ca/e/square-dance-tickets-1993015836016?aff=oddtdtcreator&keep_tld=true",
+      "price": "$20 • Teens/Kids $10 • Both dances $30",
+      "category": "dance",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/squaredance?format=ical"
+    },
+    {
+      "title": "Big Fish - Live at Lightship - August 21, 2026",
+      "date": "2026-08-21",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/products/big-fish-live-at-lightship-august-21-2026",
+      "category": "music",
+      "source": "lightship",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "description": "Join us for Big Fish on June 12th! 7-10pm Doors at 5pm Big Fish is a 5 piece band out of Halifax. Members are Dale Letcher, Andy Gallant, Sarah Letcher, Peter Janes, Brad Davidge and sometimes our good friend Glen MacIsaac. . *Show is rain or shine",
+      "price": "$30"
     }
   ],
-  "last_updated": "2026-08-06T21:03:40-03:00"
+  "last_updated": "2026-08-07T07:22:22-03:00"
 }
