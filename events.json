@@ -1,31 +1,6 @@
 {
   "events": [
     {
-      "title": "First Fridays Art Walk",
-      "date": "2026-08-07",
-      "time": "5:00 PM",
-      "venue": "Downtown Lunenburg",
-      "location": "Lunenburg",
-      "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.",
-      "url": "",
-      "price": "Free",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Lunenburg Folk Harbour Festival 2026",
-      "date": "2026-08-07",
-      "time": "All Day",
-      "venue": "Multiple venues — Blockhouse Hill, Opera House, churches, Wharf Stage",
-      "location": "Lunenburg",
-      "description": "Nova Scotia's longest-running folk music festival. 4 days, 7 intimate venues, all walkable. Headliners include Sarah Harmer, Colin Linden, Grace Petrie, Danny Michel, Morgan Toney, Ndidi O, and many more. Workshops, concerts, circles, and Main Stage evening shows. Festival pass $190. Youth 25 and under half price.",
-      "url": "https://img1.wsimg.com/blobby/go/7e491450-7eae-44a0-852f-2c42fb3c5879/2026%20ONE%20PAGE%20LFHF%20FULL%20SCHEDULE%20as%20of%20July%208.pdf",
-      "url_label": "Event program",
-      "price": "Pass $190 (youth half price)",
-      "category": "festival",
-      "source": "manual_seed"
-    },
-    {
       "title": "Neon Waves 80s Glow Night: Height Requirement",
       "date": "2026-08-08",
       "time": "7:00 PM",
@@ -340,7 +315,20 @@
       "end_time": "10:00 PM",
       "description": "Join us for Big Fish on June 12th! 7-10pm Doors at 5pm Big Fish is a 5 piece band out of Halifax. Members are Dale Letcher, Andy Gallant, Sarah Letcher, Peter Janes, Brad Davidge and sometimes our good friend Glen MacIsaac. . *Show is rain or shine",
       "price": "$30"
+    },
+    {
+      "title": "The GameChangers - Live at Lightship - August 22, 2026",
+      "date": "2026-08-22",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/products/the-gamechangers-live-at-lightship-august-22-2026",
+      "category": "music",
+      "source": "lightship",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "description": "Join us for GameChangers on August 22nd! 7-10pm Doors at 5pm GameChangers is a group of good friends that perform a tasteful Groove-Blues mix that's \"Judiciously Obscure, yet Captivatingly Familiar\". Their playlist includes selections from such notable artists as: Alan Parsons Project, Atlanta Rhythm Section, Bill Withers, Billy Preston, Bob Marley, Boz Scaggs, Chris Rea, Colin James, Dean…",
+      "price": "$15"
     }
   ],
-  "last_updated": "2026-08-07T19:15:06-03:00"
+  "last_updated": "2026-08-08T07:12:27-03:00"
 }
