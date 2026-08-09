@@ -1,41 +1,6 @@
 {
   "events": [
     {
-      "title": "Neon Waves 80s Glow Night: Height Requirement",
-      "date": "2026-08-08",
-      "time": "7:00 PM",
-      "venue": "Lunenburg Yacht Club — Salt & Sail Gastropub",
-      "location": "734 Hermans Island Rd, Lunenburg",
-      "description": "80s dance night with Height Requirement — the '80s Party Machine. 19+ event. Tickets on sale.",
-      "url": "https://www.lyc.ca/",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Lunenburg Folk Harbour Festival 2026",
-      "date": "2026-08-08",
-      "time": "All Day",
-      "venue": "Multiple venues — Blockhouse Hill, Opera House, churches, Wharf Stage",
-      "location": "Lunenburg",
-      "description": "Nova Scotia's longest-running folk music festival. 4 days, 7 intimate venues, all walkable. Headliners include Sarah Harmer, Colin Linden, Grace Petrie, Danny Michel, Morgan Toney, Ndidi O, and many more. Workshops, concerts, circles, and Main Stage evening shows. Festival pass $190. Youth 25 and under half price.",
-      "url": "https://img1.wsimg.com/blobby/go/7e491450-7eae-44a0-852f-2c42fb3c5879/2026%20ONE%20PAGE%20LFHF%20FULL%20SCHEDULE%20as%20of%20July%208.pdf",
-      "url_label": "Event program",
-      "price": "Pass $190 (youth half price)",
-      "category": "festival",
-      "source": "manual_seed"
-    },
-    {
-      "title": "\"Wallflowers\" Exhibition by Heather Sayeau",
-      "date": "2026-08-08",
-      "time": "2 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Join us for the Artist Talk and Opening Reception for “Wallflowers,” an exhibition by Heather Sayeau, on Saturday, August 8, 2026, at 2pm. “I believe in the power of Beauty. Seeing the world through nature’s lens has kept me inspired, grounded, and always in awe. In my work, I want to provide an impression of the loveliness I find everywhere and remember in these times that Earth is filled with Beauty.” Heather Sayeau received her Bachelor of Fine Art and Bachelor of Education from NSCAD…",
-      "url": "https://lunenburgarts.org/news-events/wallflowers-exhibition-by-heather-sayeau/",
-      "category": "arts",
-      "source": "school_of_arts"
-    },
-    {
       "title": "Lunenburg Folk Harbour Festival 2026",
       "date": "2026-08-09",
       "time": "All Day",
@@ -330,5 +295,5 @@
       "price": "$15"
     }
   ],
-  "last_updated": "2026-08-08T19:09:38-03:00"
+  "last_updated": "2026-08-09T07:13:25-03:00"
 }
