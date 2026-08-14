@@ -258,6 +258,18 @@
       "date": "2026-08-27"
     },
     {
+      "title": "Public Lecture by Artist, Yves Paquette",
+      "date": "2026-08-27",
+      "time": "7:00 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "Public Lecture by Artist, Yves Paquette Thursday, August 27th, 2026 at 7:00pm. This is a free event, no registration required. “Moving Parts explores the connection between my artistic career and my teaching philosophy. In this talk, I map my evolution as both a working artist and an educator, sharing how studio breakthroughs and classroom insights constantly shape and redefine each other.”",
+      "url": "https://lunenburgarts.org/news-events/yves-paquette-lecture/",
+      "price": "Free",
+      "category": "arts",
+      "source": "school_of_arts"
+    },
+    {
       "title": "Dancing Queen ABBA Tribute Band - Live at Lightship - August 28, 2026",
       "date": "2026-08-28",
       "venue": "Lightship Brewery",
@@ -271,5 +283,5 @@
       "price": "$35"
     }
   ],
-  "last_updated": "2026-08-14T07:25:11-03:00"
+  "last_updated": "2026-08-14T19:07:38-03:00"
 }
