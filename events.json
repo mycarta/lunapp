@@ -1,69 +1,6 @@
 {
   "events": [
     {
-      "title": "Chapin Sisters at Ovens Natural Park",
-      "date": "2026-08-14",
-      "time": "6:00 PM",
-      "venue": "Ovens Natural Park",
-      "location": "326 Ovens Park Rd, Riverport",
-      "description": "Live music at the Ol' Miner Diner. Reservations recommended: 902-766-4621.",
-      "url": "https://www.ovenspark.com/music",
-      "price": "$20",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "TGIF Live Music: The Robinson Brothers",
-      "date": "2026-08-14",
-      "time": "6:30 PM",
-      "end_time": "9:00 PM",
-      "venue": "Lunenburg Yacht Club — Salt & Sail Gastropub",
-      "location": "734 Hermans Island Rd, Lunenburg",
-      "description": "Live music at the Lunenburg Yacht Club. No cover.",
-      "url": "https://www.lyc.ca/",
-      "price": "Free",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Joseph and the Amazing Technicolor Dreamcoat",
-      "date": "2026-08-14",
-      "time": "7:00 PM",
-      "end_time": "9:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Dinner & Show • 5:00 pm $82 Live theatre in the heart of Nova Scotia's South Shore! Don't miss this classic story of \"the boy whose dreams came true\", featuring an all South Shore cast of kids and adults!",
-      "url": "https://www.oldconfidence.ca/events/joseph-friday",
-      "ticket_url": "https://www.eventbrite.ca/e/joseph-and-the-amazing-technicolor-dreamcoat-tickets-1992890332632?aff=oddtdtcreator&keep_tld=true",
-      "price": "$25 | $15 for kids & teens",
-      "category": "theater",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/joseph-friday?format=ical"
-    },
-    {
-      "title": "Stealing Sam — Lunenburg Theatre Collective",
-      "date": "2026-08-14",
-      "time": "7:30 PM",
-      "venue": "LAMP",
-      "location": "Lunenburg",
-      "description": "Professional theatre on the South Shore.",
-      "url": "https://www.lunenburgtheatre.ca/shows",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Shameless - Live at Lightship - August 14, 2026",
-      "date": "2026-08-14",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/shameless-live-at-lightship-august-14-2026",
-      "category": "music",
-      "source": "lightship",
-      "description": "Join us for Shameless on August 14 Doors at 5pm SHAMELESS is Atlantic Canada’s best known party band! Fronted by the endless energy of singer/guitarist Shawn Birt, with some of the best musicians in all of Nova Scotia, SHAMELESS always bring an exciting energy to every show. The set list includes music from all genres: Rock n roll, country and even some Maritime favourites… SHAMELESS always…",
-      "price": "$15"
-    },
-    {
       "title": "Joseph and the Amazing Technicolor Dreamcoat",
       "date": "2026-08-15",
       "time": "2:00 PM",
@@ -281,7 +218,35 @@
       "end_time": "10:00 PM",
       "description": "Join us for Dancing Queen on August 28th! 7-10pm Doors at 5pm Dancing Queen at Lightship! Three sets of your favourite ABBA hits, with a few sly nods to our danciest favs. Come sing your heart out and dance the night away. You know that really fancy, glittery thing you own but could never find a reason to wear? Tonight's the night! Dance, jive, come have the time of your life! *Show is rain or…",
       "price": "$35"
+    },
+    {
+      "title": "Jazz at LAMP: In Memory of Sonny Rollins",
+      "date": "2026-08-29",
+      "time": "5:30 PM",
+      "end_time": "7:30 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "On August 29 , join Mike Murley (sax), Tom Easley (bass), Nick Halley (drums), and Richard White (guitar) for a special performance in memory of legendary saxophonist and jazz icon Sonny Rollins (1930-2026) . Through a selection of music inspired by Rollins’ extraordinary career and enduring influence, the quartet will celebrate one of the most important voices in jazz history with their artistry and improvisation.",
+      "url": "https://www.lampns.ca/events/jazzaugust",
+      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/AugustJazz/",
+      "price": "$35",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/jazzaugust?format=ical"
+    },
+    {
+      "title": "Maximum Overdrive - Live at Lightship - August 29, 2026",
+      "date": "2026-08-29",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/products/maximum-overdrive-live-at-lightship-august-29-2026",
+      "category": "music",
+      "source": "lightship",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "description": "Join us for Maximum Overdrive on August 29th! 7-10pm Doors at 5pm Maximum Overdrive is the east coast’s hottest new party band - playing a diverse selection of 80s gems from artists like INXS, Duran Duran, The Pixies, Cindy Lauper, The Cure, Madonna, Billy Idol, New Order, DEVO, Tears for Fears, and many more. You’ve seen them all on stages across Canada and beyond with a host of awesome…",
+      "price": "$25"
     }
   ],
-  "last_updated": "2026-08-14T19:07:38-03:00"
+  "last_updated": "2026-08-15T07:07:49-03:00"
 }
