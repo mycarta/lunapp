@@ -2,57 +2,6 @@
   "events": [
     {
       "title": "Joseph and the Amazing Technicolor Dreamcoat",
-      "date": "2026-08-15",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Dinner & Show • 5:00 pm $82 Live theatre in the heart of Nova Scotia's South Shore! Don't miss this classic story of \"the boy whose dreams came true\", featuring an all South Shore cast of kids and adults!",
-      "url": "https://www.oldconfidence.ca/events/joseph-sat-mat",
-      "ticket_url": "https://www.eventbrite.ca/e/joseph-and-the-amazing-technicolor-dreamcoat-tickets-1992890332632?aff=oddtdtcreator&keep_tld=true",
-      "price": "$25 | $15 for kids & teens",
-      "category": "theater",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/joseph-sat-mat?format=ical"
-    },
-    {
-      "title": "Art Cole at Ovens Natural Park",
-      "date": "2026-08-15",
-      "time": "5:30 PM",
-      "venue": "Ovens Natural Park",
-      "location": "326 Ovens Park Rd, Riverport",
-      "description": "Live music at the Ol' Miner Diner. Earlier start time: 5:30 PM.",
-      "url": "https://www.ovenspark.com/music",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Homegrown - Live at Lightship - August 15, 2026",
-      "date": "2026-08-15",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/homegrown-live-at-lightship-august-15-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Join us for Homegrown on July 18th! 7-10pm Doors open at 5pm If you have had the chance recently to see Homegrown perform live, you may hear a slick cover version of a Sean Mendez tune, a few Fleetwood Mac classics, or even the A Capella rendition of Seven Bridges Road by the Eagles. The vocal cleverness and musicianship of this group defines the creativity of their live performances. Homegrown…",
-      "price": "$25"
-    },
-    {
-      "title": "40th Annual Chapin Family Concert",
-      "date": "2026-08-15",
-      "time": "7:30 PM",
-      "venue": "Lunenburg Opera House",
-      "location": "290 Lincoln St, Lunenburg",
-      "description": "40th annual Chapin Family Concert featuring Steve Chapin, Tom Chapin, Big John Wallace, Jen Chapin Trio, The Chapin Sisters, and Jonathan Chapin. Book early — space is limited. Call 902-766-4621 or email info@ovenspark.com.",
-      "url": "https://www.ovenspark.com/music",
-      "price": "$50",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Joseph and the Amazing Technicolor Dreamcoat",
       "date": "2026-08-16",
       "time": "2:00 PM",
       "end_time": "4:00 PM",
@@ -248,5 +197,5 @@
       "price": "$25"
     }
   ],
-  "last_updated": "2026-08-15T19:06:34-03:00"
+  "last_updated": "2026-08-16T07:08:03-03:00"
 }
