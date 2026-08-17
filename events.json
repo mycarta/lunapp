@@ -1,46 +1,6 @@
 {
   "events": [
     {
-      "title": "Joseph and the Amazing Technicolor Dreamcoat",
-      "date": "2026-08-16",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Dinner & Show • 5:00 pm $82 Live theatre in the heart of Nova Scotia's South Shore! Don't miss this classic story of \"the boy whose dreams came true\", featuring an all South Shore cast of kids and adults!",
-      "url": "https://www.oldconfidence.ca/events/joseph-sun-mat",
-      "ticket_url": "https://www.eventbrite.ca/e/joseph-and-the-amazing-technicolor-dreamcoat-tickets-1992890332632?aff=oddtdtcreator&keep_tld=true",
-      "price": "$25 | $15 for kids & teens",
-      "category": "theater",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/joseph-sun-mat?format=ical"
-    },
-    {
-      "title": "One Eyed Johnny at Ovens Natural Park",
-      "date": "2026-08-16",
-      "time": "6:00 PM",
-      "venue": "Ovens Natural Park",
-      "location": "326 Ovens Park Rd, Riverport",
-      "description": "Live music at the Ol' Miner Diner. Reservations recommended: 902-766-4621.",
-      "url": "https://www.ovenspark.com/music",
-      "price": "$10",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Acadian Days",
-      "date": "2026-08-16",
-      "venue": "Fisheries Museum of the Atlantic",
-      "location": "68 Bluenose Dr, Lunenburg",
-      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/acadian-days",
-      "category": "community",
-      "source": "fisheries_museum",
-      "time": "6:00 PM",
-      "end_time": "8:00 PM",
-      "price": "Included with admission / free outdoor components",
-      "description": "Join us for an evening celebrating Acadian heritage through music, storytelling, and cultural experiences. This lively event highlights the rich traditions and vibrant history of Acadian communities in Nova Scotia. Expect great music, community spirit, and an unforgettable cultural celebration."
-    },
-    {
       "title": "Jen Chapin Trio at Ovens Natural Park",
       "date": "2026-08-18",
       "time": "6:00 PM",
@@ -197,5 +157,5 @@
       "price": "$25"
     }
   ],
-  "last_updated": "2026-08-16T19:06:29-03:00"
+  "last_updated": "2026-08-17T07:13:32-03:00"
 }
