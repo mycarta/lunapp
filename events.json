@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "Jen Chapin Trio at Ovens Natural Park",
-      "date": "2026-08-18",
-      "time": "6:00 PM",
-      "venue": "Ovens Natural Park",
-      "location": "326 Ovens Park Rd, Riverport",
-      "description": "Live music at the Ol' Miner Diner. Reservations recommended: 902-766-4621.",
-      "url": "https://www.ovenspark.com/music",
-      "price": "$20",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
       "title": "Jamie Fox — Jambalaya Night at Ovens Natural Park",
       "date": "2026-08-19",
       "time": "6:00 PM",
@@ -157,5 +145,5 @@
       "price": "$25"
     }
   ],
-  "last_updated": "2026-08-18T19:07:04-03:00"
+  "last_updated": "2026-08-19T07:10:13-03:00"
 }
