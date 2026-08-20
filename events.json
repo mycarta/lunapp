@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "Jamie Fox — Jambalaya Night at Ovens Natural Park",
-      "date": "2026-08-19",
-      "time": "6:00 PM",
-      "venue": "Ovens Natural Park",
-      "location": "326 Ovens Park Rd, Riverport",
-      "description": "Live music and Jambalaya Night at the Ol' Miner Diner. Reservations recommended: 902-766-4621.",
-      "url": "https://www.ovenspark.com/music",
-      "price": "$20",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -143,7 +131,20 @@
       "end_time": "10:00 PM",
       "description": "Join us for Maximum Overdrive on August 29th! 7-10pm Doors at 5pm Maximum Overdrive is the east coast’s hottest new party band - playing a diverse selection of 80s gems from artists like INXS, Duran Duran, The Pixies, Cindy Lauper, The Cure, Madonna, Billy Idol, New Order, DEVO, Tears for Fears, and many more. You’ve seen them all on stages across Canada and beyond with a host of awesome…",
       "price": "$25"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-09-03"
     }
   ],
-  "last_updated": "2026-08-19T19:08:30-03:00"
+  "last_updated": "2026-08-20T07:11:16-03:00"
 }
