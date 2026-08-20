@@ -20,7 +20,7 @@
       "end_time": "11:00 PM",
       "venue": "Old Confidence Lodge",
       "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Fri, Aug 21 6:00 PM: Family Dance 8:30 PM: 19+ Dance Adults $20 • Teens/Kids $10 • Both dances $30",
+      "description": "Fri, Aug 21 6:00 PM: Family Dance 8:30 PM: 19+ Dance Adults $20 • Teens/Kids $10 • Both dances $30 JUST ADDED: Family of 5 $60 (must be in same household)",
       "url": "https://www.oldconfidence.ca/events/squaredance",
       "ticket_url": "https://www.eventbrite.ca/e/square-dance-tickets-1993015836016?aff=oddtdtcreator&keep_tld=true",
       "price": "$20 • Teens/Kids $10 • Both dances $30",
@@ -144,7 +144,18 @@
       "category": "community",
       "source": "manual_seed",
       "date": "2026-09-03"
+    },
+    {
+      "title": "\"Block Party\" Exhibtion by Marilyn Smulders",
+      "date": "2026-09-03",
+      "time": "7 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "Join us on Thursday, September 3rd at 7 PM for the Opening Reception and Artist Talk for “ Block Party ,” an exhibition by quilt-making extraordinaire and instructor at our School, Marilyn Smulders! “Block Party is an expression of my love of quilting. I love everything about it: drafting the designs; choosing the colours; sewing, sewing, sewing; and then the actual quilting – the slow, meditative way of stitching the three layers (backing, batting and pieced top) together. I dig the old…",
+      "url": "https://lunenburgarts.org/news-events/block-party-exhibtion-by-marilyn-smulders/",
+      "category": "arts",
+      "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-08-20T07:11:16-03:00"
+  "last_updated": "2026-08-20T19:09:00-03:00"
 }
