@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-08-20"
-    },
-    {
       "title": "Square Dance",
       "date": "2026-08-21",
       "time": "6:00 PM",
@@ -155,7 +142,19 @@
       "url": "https://lunenburgarts.org/news-events/block-party-exhibtion-by-marilyn-smulders/",
       "category": "arts",
       "source": "school_of_arts"
+    },
+    {
+      "title": "First Fridays Art Walk",
+      "date": "2026-09-04",
+      "time": "5:00 PM",
+      "venue": "Downtown Lunenburg",
+      "location": "Lunenburg",
+      "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.",
+      "url": "",
+      "price": "Free",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-08-20T19:09:00-03:00"
+  "last_updated": "2026-08-21T07:11:23-03:00"
 }
