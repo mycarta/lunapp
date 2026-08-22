@@ -1,34 +1,6 @@
 {
   "events": [
     {
-      "title": "Square Dance",
-      "date": "2026-08-21",
-      "time": "6:00 PM",
-      "end_time": "11:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Fri, Aug 21 6:00 PM: Family Dance 8:30 PM: 19+ Dance Adults $20 • Teens/Kids $10 • Both dances $30 JUST ADDED: Family of 5 $60 (must be in same household)",
-      "url": "https://www.oldconfidence.ca/events/squaredance",
-      "ticket_url": "https://www.eventbrite.ca/e/square-dance-tickets-1993015836016?aff=oddtdtcreator&keep_tld=true",
-      "price": "$20 • Teens/Kids $10 • Both dances $30",
-      "category": "dance",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/squaredance?format=ical"
-    },
-    {
-      "title": "Big Fish - Live at Lightship - August 21, 2026",
-      "date": "2026-08-21",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/big-fish-live-at-lightship-august-21-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Join us for Big Fish on June 12th! 7-10pm Doors at 5pm Big Fish is a 5 piece band out of Halifax. Members are Dale Letcher, Andy Gallant, Sarah Letcher, Peter Janes, Brad Davidge and sometimes our good friend Glen MacIsaac. . *Show is rain or shine",
-      "price": "$30"
-    },
-    {
       "title": "The GameChangers - Live at Lightship - August 22, 2026",
       "date": "2026-08-22",
       "venue": "Lightship Brewery",
@@ -154,7 +126,22 @@
       "price": "Free",
       "category": "arts",
       "source": "manual_seed"
+    },
+    {
+      "title": "Chris Garneau",
+      "date": "2026-09-05",
+      "time": "7:00 PM",
+      "end_time": "9:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Chris first emerged from the New York music scene with Music for Tourists, gaining international attention. Since then, he’s toured across North America, Europe, Asia, and Brazil, sharing stages with Xiu Xiu, José González, and Charlotte Gainsbourg.",
+      "url": "https://www.oldconfidence.ca/events/chris-garneau",
+      "ticket_url": "https://www.eventbrite.ca/e/chris-garneau-live-in-riverport-with-special-guest-le-maudit-francais-tickets-1994551004747?aff=oddtdtcreator&keep_tld=true",
+      "price": "$20; $25 at the door",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/chris-garneau?format=ical"
     }
   ],
-  "last_updated": "2026-08-21T21:52:56-03:00"
+  "last_updated": "2026-08-22T07:07:42-03:00"
 }
