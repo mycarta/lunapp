@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "The GameChangers - Live at Lightship - August 22, 2026",
-      "date": "2026-08-22",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/the-gamechangers-live-at-lightship-august-22-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Join us for GameChangers on August 22nd! 7-10pm Doors at 5pm GameChangers is a group of good friends that perform a tasteful Groove-Blues mix that's \"Judiciously Obscure, yet Captivatingly Familiar\". Their playlist includes selections from such notable artists as: Alan Parsons Project, Atlanta Rhythm Section, Bill Withers, Billy Preston, Bob Marley, Boz Scaggs, Chris Rea, Colin James, Dean…",
-      "price": "$15"
-    },
-    {
       "title": "Speakeasy — Lunenburg Theatre Collective",
       "date": "2026-08-25",
       "time": "8:00 PM",
@@ -143,5 +130,5 @@
       "ics_url": "https://www.oldconfidence.ca/events/chris-garneau?format=ical"
     }
   ],
-  "last_updated": "2026-08-22T19:06:23-03:00"
+  "last_updated": "2026-08-23T07:08:09-03:00"
 }
