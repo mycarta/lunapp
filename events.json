@@ -128,7 +128,22 @@
       "category": "music",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/chris-garneau?format=ical"
+    },
+    {
+      "title": "Jack Pine; Tea & Scones Concert",
+      "date": "2026-09-07",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "When Jack takes the stage, you can't help but howl and sing along to his wry folk wisdom - at once biting and inspiring - as his mandolin plays furiously then softly. This is alt-folk singer-songery for those who'd rather dance to mandolin rhythms than drum machine beats ...or just sit and dig on some real good tunes for real dark times.",
+      "url": "https://www.oldconfidence.ca/events/jack-pine-lunenburg",
+      "ticket_url": "https://www.eventbrite.ca/e/alt-folk-singer-songwriter-jack-pine-tea-scones-concert-tickets-1996660163297?aff=oddtdtcreator",
+      "price": "$30 for ground floor seating & scones; $15 for balcony seating (no scones)",
+      "category": "dance",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/jack-pine-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-08-23T19:06:36-03:00"
+  "last_updated": "2026-08-24T07:17:45-03:00"
 }
