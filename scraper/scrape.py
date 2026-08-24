@@ -279,6 +279,105 @@ def apply_exclusion_rules(events: list[dict], terms: list[str]) -> list[dict]:
     return kept
 
 
+# --- CMS placeholder / far-future guard ---------------------------------------
+# Several of our sources are hosted on template-driven CMSes (Wix, Squarespace)
+# where an unfinished page still renders stock filler as if it were real
+# listings — e.g. lunenburgtheatre.ca/shows currently serves four Wix demo
+# shows described as "I'm an event description. Click here to open up the Event
+# Editor" and dated 2035. Nothing we parse reads that page today, but any
+# future parser pointed at a half-built site would happily ingest the filler.
+#
+# Two independent checks, both driven from exclusion_rules.json so the phrase
+# list can be extended without touching parser code, exactly like the
+# office-closure title filter above:
+#   description_placeholder_contains — case-insensitive substrings of the
+#       DESCRIPTION that only ever appear in unedited template copy.
+#   max_days_ahead — an event dated further out than this is filler or a
+#       typo'd year, not a real listing. Defaults to DEFAULT_MAX_DAYS_AHEAD.
+# Applied to parsed + seeded events alike, right after the title filter and
+# before the 14-day window trims the list, so drops are logged with their
+# source even though the window would have hidden most of them anyway.
+
+DEFAULT_MAX_DAYS_AHEAD = 730  # ~2 years
+
+
+def load_placeholder_rules() -> tuple[list[str], int]:
+    """Load the placeholder-guard config from exclusion_rules.json.
+
+    Returns ``(phrases, max_days_ahead)``. An empty phrase list disables the
+    description half of the guard; a max_days_ahead of 0 or less disables the
+    far-future half. A missing, unreadable, or malformed file degrades to
+    ``([], DEFAULT_MAX_DAYS_AHEAD)`` rather than failing the scrape — same
+    opt-in posture as load_exclusion_rules().
+    """
+    if not EXCLUSION_RULES_PATH.exists():
+        return [], DEFAULT_MAX_DAYS_AHEAD
+    try:
+        data = json.loads(EXCLUSION_RULES_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        LOG.error("exclusion_rules.json failed to load: %s", exc)
+        return [], DEFAULT_MAX_DAYS_AHEAD
+    if not isinstance(data, dict):
+        return [], DEFAULT_MAX_DAYS_AHEAD
+    raw = data.get("description_placeholder_contains", [])
+    phrases = [
+        p for p in (raw if isinstance(raw, list) else [])
+        if isinstance(p, str) and p.strip()
+    ]
+    horizon = data.get("max_days_ahead", DEFAULT_MAX_DAYS_AHEAD)
+    if not isinstance(horizon, int) or isinstance(horizon, bool):
+        LOG.error("exclusion_rules.json: max_days_ahead %r is not an int, "
+                  "using default %d", horizon, DEFAULT_MAX_DAYS_AHEAD)
+        horizon = DEFAULT_MAX_DAYS_AHEAD
+    return phrases, horizon
+
+
+def apply_placeholder_guard(
+    events: list[dict],
+    phrases: list[str],
+    max_days_ahead: int,
+    today: _date,
+) -> list[dict]:
+    """Drop events that read as unedited CMS filler.
+
+    An event is dropped when its description contains any of ``phrases``
+    (case-insensitive substring) or when its date is more than
+    ``max_days_ahead`` days past ``today``. Each drop is logged as
+    "DROPPED(placeholder): ..." / "DROPPED(far-future): ..." with the event's
+    source so filler stays visible in the workflow logs instead of vanishing
+    silently. Events with an unparseable date are left alone — that is
+    filter_to_window()'s call to make, not this guard's.
+    """
+    if not phrases and max_days_ahead <= 0:
+        return events
+    lowered = [p.lower() for p in phrases]
+    kept: list[dict] = []
+    for e in events:
+        description = (e.get("description") or "").lower()
+        hit = next((p for p in lowered if p in description), None)
+        if hit is not None:
+            LOG.info(
+                "DROPPED(placeholder): %r [%s] (description matched %r)",
+                e.get("title"), e.get("source"), hit,
+            )
+            continue
+        if max_days_ahead > 0:
+            try:
+                d = datetime.strptime(e["date"], "%Y-%m-%d").date()
+            except (KeyError, TypeError, ValueError):
+                d = None
+            if d is not None and (d - today).days > max_days_ahead:
+                LOG.info(
+                    "DROPPED(far-future): %r [%s] (dated %s, %d days out, "
+                    "limit %d)",
+                    e.get("title"), e.get("source"), e.get("date"),
+                    (d - today).days, max_days_ahead,
+                )
+                continue
+        kept.append(e)
+    return kept
+
+
 # --- Parking lot: per-source suppression rules --------------------------------
 # parking_rules.json (repo root, gitignored) is an optional local tuning knob
 # for muting noisy sources without touching parser code. Each rule keys on a
@@ -865,6 +964,19 @@ def main() -> int:
                  before_excl - len(events), len(events))
 
     now = datetime.now(HALIFAX)
+
+    # Drop unedited CMS template filler and absurdly-far-future dates before
+    # the window trims the list, so the drops are logged with their source
+    # even when the window would have hidden them anyway.
+    placeholder_phrases, max_days_ahead = load_placeholder_rules()
+    before_ph = len(events)
+    events = apply_placeholder_guard(
+        events, placeholder_phrases, max_days_ahead, now.date(),
+    )
+    if before_ph != len(events):
+        LOG.info("placeholder guard: %d event(s) dropped, %d remain",
+                 before_ph - len(events), len(events))
+
     events = filter_to_window(events, now)
 
     # Apply per-source parking rules before dedup so suppressed events never

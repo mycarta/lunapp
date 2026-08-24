@@ -5,5 +5,17 @@
     "closed for",
     "holiday hours",
     "hours of operation"
-  ]
+  ],
+  "description_placeholder_contains": [
+    "i'm an event description",
+    "i am an event description",
+    "click here to add your own text",
+    "click here to edit",
+    "click here to open up the event editor",
+    "i'm a paragraph",
+    "i am a paragraph",
+    "double click me and you can start adding your own content",
+    "this is your event description"
+  ],
+  "max_days_ahead": 730
 }
