@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "Speakeasy — Lunenburg Theatre Collective",
-      "date": "2026-08-25",
-      "time": "8:00 PM",
-      "venue": "The Main Gaff Lounge & Eatery",
-      "location": "Lunenburg",
-      "description": "Professional theatre on the South Shore.",
-      "url": "https://www.lunenburgtheatre.ca/shows",
-      "price": "$35",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -145,5 +133,5 @@
       "ics_url": "https://www.oldconfidence.ca/events/jack-pine-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-08-24T07:17:45-03:00"
+  "last_updated": "2026-08-24T15:32:16-03:00"
 }
