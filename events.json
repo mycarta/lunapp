@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "Dancing Queen ABBA Tribute Band - Live at Lightship - August 28, 2026",
-      "date": "2026-08-28",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/dancing-queen-abba-tribute-band-live-at-lightship-august-28-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "description": "Join us for Dancing Queen on August 28th! 7-10pm Doors at 5pm Dancing Queen at Lightship! Three sets of your favourite ABBA hits, with a few sly nods to our danciest favs. Come sing your heart out and dance the night away. You know that really fancy, glittery thing you own but could never find a reason to wear? Tonight's the night! Dance, jive, come have the time of your life! *Show is rain or…",
-      "price": "$35"
-    },
-    {
       "title": "Jazz at LAMP: In Memory of Sonny Rollins",
       "date": "2026-08-29",
       "time": "5:30 PM",
@@ -119,7 +106,22 @@
       "category": "community",
       "source": "manual_seed",
       "date": "2026-09-10"
+    },
+    {
+      "title": "Ska Sound System",
+      "date": "2026-09-12",
+      "time": "7:00 PM",
+      "end_time": "10:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Montreal's Ska Sound System comes to the East Coast to rock your checkered socks off and get you pit skanking on a Saturday night at The Old Confidence Lodge in Riverport NS on September 12, 2026 with Lunenburg County Locals MML and Halifax Ska Sensations Apero.",
+      "url": "https://www.oldconfidence.ca/events/banff-film-lunenburg-4t4wl",
+      "ticket_url": "https://www.eventbrite.ca/e/ska-sound-system-tickets-1998420804422?aff=oddtdtcreator",
+      "price": "$20 + Fees; $25 at the door",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/banff-film-lunenburg-4t4wl?format=ical"
     }
   ],
-  "last_updated": "2026-08-28T19:21:47-03:00"
+  "last_updated": "2026-08-29T07:14:11-03:00"
 }
