@@ -1,34 +1,6 @@
 {
   "events": [
     {
-      "title": "Jazz at LAMP: In Memory of Sonny Rollins",
-      "date": "2026-08-29",
-      "time": "5:30 PM",
-      "end_time": "7:30 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "On August 29 , join Mike Murley (sax), Tom Easley (bass), Nick Halley (drums), and Richard White (guitar) for a special performance in memory of legendary saxophonist and jazz icon Sonny Rollins (1930-2026) . Through a selection of music inspired by Rollins’ extraordinary career and enduring influence, the quartet will celebrate one of the most important voices in jazz history with their artistry and improvisation.",
-      "url": "https://www.lampns.ca/events/jazzaugust",
-      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/AugustJazz/",
-      "price": "$35",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/jazzaugust?format=ical"
-    },
-    {
-      "title": "Maximum Overdrive - Live at Lightship - August 29, 2026",
-      "date": "2026-08-29",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/maximum-overdrive-live-at-lightship-august-29-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "7:30 PM",
-      "end_time": "10:30 PM",
-      "description": "Join us for Maximum Overdrive on August 29th! 7:30-10:30 pm Doors at 5pm Maximum Overdrive is the east coast’s hottest new party band - playing a diverse selection of 80s gems from artists like INXS, Duran Duran, The Pixies, Cindy Lauper, The Cure, Madonna, Billy Idol, New Order, DEVO, Tears for Fears, and many more. You’ve seen them all on stages across Canada and beyond with a host of awesome…",
-      "price": "$25"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -121,7 +93,35 @@
       "category": "music",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/banff-film-lunenburg-4t4wl?format=ical"
+    },
+    {
+      "title": "Fisher’s Memorial Service",
+      "date": "2026-09-13",
+      "venue": "Fisheries Museum of the Atlantic",
+      "location": "68 Bluenose Dr, Lunenburg",
+      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/fishers-memorial-service",
+      "category": "community",
+      "source": "fisheries_museum",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "price": "Free",
+      "description": "Join the community for a heartfelt memorial service honouring the fishermen who have lost their lives at sea. This moving ceremony reflects the deep connection between Lunenburg and its fishing heritage. All are welcome to attend and pay their respects."
+    },
+    {
+      "title": "Banff Mountain Film Festival World Tour",
+      "date": "2026-09-13",
+      "time": "2:30 PM",
+      "end_time": "5:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "The Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
+      "url": "https://www.oldconfidence.ca/events/banff-film-lunenburg",
+      "ticket_url": "https://www.eventbrite.ca/e/banff-centre-mountain-film-festival-sept-2026-tickets-1997584307437?aff=oddtdtcreator",
+      "price": "$30 + fees; $25 each for groups of 5",
+      "category": "film",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/banff-film-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-08-29T19:14:00-03:00"
+  "last_updated": "2026-08-30T07:14:35-03:00"
 }
