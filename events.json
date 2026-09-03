@@ -121,7 +121,32 @@
       "category": "film",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/banff-film-lunenburg?format=ical"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "\"Embracing Constraints\" RAIC Public Lecture by Matthew Bishop and Lucas McDowell",
+      "date": "2026-09-17",
+      "time": "7:00 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "“Embracing Constraints” Public Lecture by Matthew Bishop and Lucas McDowell: Thursday, Sept 17th, 2026, at 7:00 p.m. Presented by the South Shore Network of the Royal Architectural Institute of Canada. This is a free event, no registration required. “Since establishing our practice, we’ve developed a mindset that guides how we work: ‘embracing constraint.’ For us, this means working within the given circumstances of each project and developing a design that responds directly to its particular…",
+      "url": "https://lunenburgarts.org/news-events/embracing-constraints-lecture/",
+      "price": "Free",
+      "category": "arts",
+      "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-09-02T19:16:12-03:00"
+  "last_updated": "2026-09-03T07:18:28-03:00"
 }
