@@ -1,30 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-09-03"
-    },
-    {
-      "title": "\"Block Party\" Exhibition by Marilyn Smulders",
-      "date": "2026-09-03",
-      "time": "7 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Join us on Thursday, September 3rd at 7 PM for the Opening Reception and Artist Talk for “ Block Party ,” an exhibition by quilt-making extraordinaire and instructor at our School, Marilyn Smulders! “Block Party is an expression of my love of quilting. I love everything about it: drafting the designs; choosing the colours; sewing, sewing, sewing; and then the actual quilting – the slow, meditative way of stitching the three layers (backing, batting and pieced top) together. I dig the old…",
-      "url": "https://lunenburgarts.org/news-events/block-party-exhibtion-by-marilyn-smulders/",
-      "category": "arts",
-      "source": "school_of_arts"
-    },
-    {
       "title": "First Fridays Art Walk",
       "date": "2026-09-04",
       "time": "5:00 PM",
@@ -148,5 +124,5 @@
       "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-09-03T19:15:48-03:00"
+  "last_updated": "2026-09-04T07:17:19-03:00"
 }
