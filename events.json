@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "First Fridays Art Walk",
-      "date": "2026-09-04",
-      "time": "5:00 PM",
-      "venue": "Downtown Lunenburg",
-      "location": "Lunenburg",
-      "description": "Monthly art walk — participating galleries, shops and studios stay open late. Self-guided tour, meet artists, enjoy local art and light refreshments. Free street parking from 5pm.",
-      "url": "",
-      "price": "Free",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "Chris Garneau",
       "date": "2026-09-05",
       "time": "7:00 PM",
@@ -122,7 +110,19 @@
       "price": "Free",
       "category": "arts",
       "source": "school_of_arts"
+    },
+    {
+      "title": "Repair Café",
+      "date": "2026-09-19",
+      "time": "1:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Lunenburg Library",
+      "location": "Lunenburg",
+      "description": "Got items that need fixing? Bring them to the Repair Café. Past cafés have covered small furniture and appliances, tool sharpening, bikes, jewelry, clothes, electronics, computers, and a take-apart table. Volunteer fixers are wanted — any level of experience welcome, contact siriarnet@gmail.com.",
+      "url": "https://southshorepubliclibraries.ca",
+      "category": "community",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-09-04T19:15:11-03:00"
+  "last_updated": "2026-09-05T07:14:36-03:00"
 }
