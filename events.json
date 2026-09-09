@@ -42,20 +42,6 @@
       "description": "Join the community for a heartfelt memorial service honouring the fishermen who have lost their lives at sea. This moving ceremony reflects the deep connection between Lunenburg and its fishing heritage. All are welcome to attend and pay their respects."
     },
     {
-      "title": "Banff Mountain Film Festival World Tour",
-      "date": "2026-09-13",
-      "time": "2:30 PM",
-      "end_time": "5:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "The Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.",
-      "url": "https://www.oldconfidence.ca/events/banff-film-lunenburg",
-      "price": "$30 + fees; $25 each for groups of 5",
-      "category": "film",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/banff-film-lunenburg?format=ical"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -143,5 +129,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-09-09T07:17:48-03:00"
+  "last_updated": "2026-09-09T19:14:22-03:00"
 }
