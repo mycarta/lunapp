@@ -115,7 +115,33 @@
       "source": "fisheries_museum",
       "price": "Free/by donation",
       "description": "Anchors & Axles brings together car enthusiasts and visitors for a showcase of classic and custom vehicles set against the scenic waterfront. Enjoy a relaxed atmosphere, meet fellow enthusiasts, and explore a unique blend of automotive and maritime culture."
+    },
+    {
+      "title": "Kim Churchill - Live at Lightship - September 23, 2026",
+      "date": "2026-09-23",
+      "venue": "Lightship Brewery",
+      "location": "93 Tannery Rd, Lunenburg",
+      "url": "https://lightshipbrewery.ca/products/kim-churchill-live-at-lightship-september-23-2026",
+      "category": "music",
+      "source": "lightship",
+      "time": "6:00 PM",
+      "end_time": "8:00 PM",
+      "description": "Join us for Kim Churchill, September 23! 6-8 pm WATCH - Raindrops (feat Shungudzo) LIVE - Live Performance Recap Latest Album ' It's Lovely to Have You Hear' - released October 2024: LISTEN NOW Playing mainstage at Edmonton Folk Festival to 22 Thousand people! Selling over 12 Thousand tickets to the Australian 'Lovely Tour' New album ' Its Lovely To Have You Here ' landing at number 5 in the…",
+      "price": "$25"
+    },
+    {
+      "title": "Lunenburg Doc Fest 2026 — 13th Edition",
+      "date": "2026-09-23",
+      "time": "All Day",
+      "venue": "Multiple venues",
+      "location": "Lunenburg",
+      "description": "The 13th edition of the Lunenburg Doc Fest: 5 nights, 60+ documentaries. An examined life is worth viewing. Features, shorts, filmmaker Q&As, workshops, and free community events. Opening gala September 24, 5-7 PM, with food, drinks and a film screening. You don't need a full pass — standalone tickets for individual films can be ordered from the film schedule once it's posted. First-time attendee and student passes are $50.",
+      "url": "https://www.lunenburgdocfest.com/2026-festival/buy-passes",
+      "url_label": "Buy passes",
+      "price": "Individual film tickets available; Film Pass $85 early bird / $100 (Gala & Film bundle $150/$160; students & first-timers $50)",
+      "category": "festival",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-09-08T19:15:14-03:00"
+  "last_updated": "2026-09-09T07:17:48-03:00"
 }
