@@ -127,7 +127,60 @@
       "price": "Individual film tickets available; Film Pass $85 early bird / $100 (Gala & Film bundle $150/$160; students & first-timers $50)",
       "category": "festival",
       "source": "manual_seed"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Kingdom Come, Kingdom Go - Album Release Tour",
+      "date": "2026-09-24",
+      "time": "7:00 PM",
+      "end_time": "8:30 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "In June 2024, Duguay travelled over 1,500km across Newfoundland, recording original music on seven historic church organs in seven remote coastal communities. This led to the imaginative and acclaimed album, “Kingdom Come, Kingdom Go.”",
+      "url": "https://www.oldconfidence.ca/events/kingdom-come",
+      "ticket_url": "https://www.eventbrite.ca/e/kingdom-come-kingdom-go-tickets-1997567360749?aff=oddtdtcreator",
+      "price": "$25 + fees",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/kingdom-come?format=ical"
+    },
+    {
+      "title": "\"Legitimacy Through Form\" Public lecture by Timothy James Standring",
+      "date": "2026-09-24",
+      "time": "7:00 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "Legitimacy Through Form: Trump’s Triumphal Arch Project, Its Architects, and a Brief History of Power Dressed in Classical Clothes Public Lecture by Timothy James Standring, Curator Emeritus, Denver Art Museum : Thursday, September 24, 2026 at 7:00 p.m. This is a free event, no registration required. The Triumphal Arch of Washington, D.C. — widely nicknamed the “Arc de Trump” — was first proposed in October 2025 as part of the American semiquincentennial celebrations. Its various iterations…",
+      "url": "https://lunenburgarts.org/news-events/legitimacy-through-form-public-lecture-by-timothy-james-standring/",
+      "price": "Free",
+      "category": "arts",
+      "source": "school_of_arts"
+    },
+    {
+      "title": "Lunenburg Doc Fest 2026 — 13th Edition",
+      "date": "2026-09-24",
+      "time": "All Day",
+      "venue": "Multiple venues",
+      "location": "Lunenburg",
+      "description": "The 13th edition of the Lunenburg Doc Fest: 5 nights, 60+ documentaries. An examined life is worth viewing. Features, shorts, filmmaker Q&As, workshops, and free community events. Opening gala September 24, 5-7 PM, with food, drinks and a film screening. You don't need a full pass — standalone tickets for individual films can be ordered from the film schedule once it's posted. First-time attendee and student passes are $50.",
+      "url": "https://www.lunenburgdocfest.com/2026-festival/buy-passes",
+      "url_label": "Buy passes",
+      "price": "Individual film tickets available; Film Pass $85 early bird / $100 (Gala & Film bundle $150/$160; students & first-timers $50)",
+      "category": "festival",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-09-09T19:14:22-03:00"
+  "last_updated": "2026-09-10T07:17:24-03:00"
 }
