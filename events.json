@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-09-10"
-    },
-    {
       "title": "Ska Sound System",
       "date": "2026-09-12",
       "time": "7:00 PM",
@@ -180,7 +167,20 @@
       "price": "Individual film tickets available; Film Pass $85 early bird / $100 (Gala & Film bundle $150/$160; students & first-timers $50)",
       "category": "festival",
       "source": "manual_seed"
+    },
+    {
+      "title": "Lunenburg Doc Fest 2026 — 13th Edition",
+      "date": "2026-09-25",
+      "time": "All Day",
+      "venue": "Multiple venues",
+      "location": "Lunenburg",
+      "description": "The 13th edition of the Lunenburg Doc Fest: 5 nights, 60+ documentaries. An examined life is worth viewing. Features, shorts, filmmaker Q&As, workshops, and free community events. Opening gala September 24, 5-7 PM, with food, drinks and a film screening. You don't need a full pass — standalone tickets for individual films can be ordered from the film schedule once it's posted. First-time attendee and student passes are $50.",
+      "url": "https://www.lunenburgdocfest.com/2026-festival/buy-passes",
+      "url_label": "Buy passes",
+      "price": "Individual film tickets available; Film Pass $85 early bird / $100 (Gala & Film bundle $150/$160; students & first-timers $50)",
+      "category": "festival",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-09-10T19:14:08-03:00"
+  "last_updated": "2026-09-11T07:17:26-03:00"
 }
