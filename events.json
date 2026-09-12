@@ -180,7 +180,50 @@
       "price": "Individual film tickets available; Film Pass $85 early bird / $100 (Gala & Film bundle $150/$160; students & first-timers $50)",
       "category": "festival",
       "source": "manual_seed"
+    },
+    {
+      "title": "Lunenburg Doc Fest - Second Nature",
+      "date": "2026-09-26",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Did you know that clownfish change sex from male to female? (So if Nemo’s mom had died in real life, his dad could have become his mom!) Did you know that albatross, penguins and swans parent in same sex pairs? Or that bonobos, who are just as closely related to us as chimps, are matriarchal and have same-sex sex every day?! Narrated by Elliot Page, Second Nature follows trailblazing Evolutionary Biologist Dr. Joan Roughgarden as she meets groundbreaking scientists exploring the 1500+ animal species who engage in same-sex sexual behavior and parenting, change sex, form matriarchies, and…",
+      "url": "https://www.oldconfidence.ca/events/lunenburg-doc-fest-second-nature",
+      "ticket_url": "https://2026ldf.eventive.org/Schedule/screening-in-riverport-second-nature-6a840daf7cb79d4db7f6a855",
+      "price": "$17",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/lunenburg-doc-fest-second-nature?format=ical"
+    },
+    {
+      "title": "Jazz at LAMP: John Coltrane",
+      "date": "2026-09-26",
+      "time": "5:30 PM",
+      "end_time": "7:30 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Whether you're a long-time jazz lover or new to the genre, the Jazz Concert Series at LAMP promises to be a musical experience that will leave you spellbound. The LAMP Libations bar will be open - have a drink, hear some great jazz, and then head out to one of the many incredible restaurants in Lunenburg, Mahone Bay or Chester. What a fabulous night out!",
+      "url": "https://www.lampns.ca/events/jazzsep",
+      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/SeptemberJazz",
+      "price": "$35",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/jazzsep?format=ical"
+    },
+    {
+      "title": "Lunenburg Doc Fest 2026 — 13th Edition",
+      "date": "2026-09-26",
+      "time": "All Day",
+      "venue": "Multiple venues",
+      "location": "Lunenburg",
+      "description": "The 13th edition of the Lunenburg Doc Fest: 5 nights, 60+ documentaries. An examined life is worth viewing. Features, shorts, filmmaker Q&As, workshops, and free community events. Opening gala September 24, 5-7 PM, with food, drinks and a film screening. You don't need a full pass — standalone tickets for individual films can be ordered from the film schedule once it's posted. First-time attendee and student passes are $50.",
+      "url": "https://www.lunenburgdocfest.com/2026-festival/buy-passes",
+      "url_label": "Buy passes",
+      "price": "Individual film tickets available; Film Pass $85 early bird / $100 (Gala & Film bundle $150/$160; students & first-timers $50)",
+      "category": "festival",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-09-11T19:15:13-03:00"
+  "last_updated": "2026-09-12T07:14:36-03:00"
 }
