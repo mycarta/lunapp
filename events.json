@@ -1,21 +1,6 @@
 {
   "events": [
     {
-      "title": "Ska Sound System",
-      "date": "2026-09-12",
-      "time": "7:00 PM",
-      "end_time": "10:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Montreal's Ska Sound System comes to the East Coast to rock your checkered socks off and get you pit skanking on a Saturday night at The Old Confidence Lodge in Riverport NS on September 12, 2026 with Lunenburg County Locals MML and Halifax Ska Sensations Apero.",
-      "url": "https://www.oldconfidence.ca/events/banff-film-lunenburg-4t4wl",
-      "ticket_url": "https://www.eventbrite.ca/e/ska-sound-system-tickets-1998420804422?aff=oddtdtcreator",
-      "price": "$20 + Fees; $25 at the door",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/banff-film-lunenburg-4t4wl?format=ical"
-    },
-    {
       "title": "Fisher’s Memorial Service",
       "date": "2026-09-13",
       "venue": "Fisheries Museum of the Atlantic",
@@ -223,7 +208,35 @@
       "price": "Individual film tickets available; Film Pass $85 early bird / $100 (Gala & Film bundle $150/$160; students & first-timers $50)",
       "category": "festival",
       "source": "manual_seed"
+    },
+    {
+      "title": "Mallory Chipman; Tea & Scones Concert",
+      "date": "2026-09-27",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Mallory's recent album, Songs to a Wild God, hit #5 on the Folk International Charts, and has been featured on NPR, CBC, and SiriusXM Radio. She has opened for Jann Arden, Madeleine Peyroux, and has sung back-up for the legendary rock band, Heart, but most notably continues to stun with her solo project, described as “profoundly moving” by Celtic Music Radio. With a vast touring history and new album on the way in early 2027, Chipman crafts songs that feel timeless, placing her firmly within the lineage of great storytellers” (Happy Mag Australia), establishing her as an instant classic in…",
+      "url": "https://www.oldconfidence.ca/events/mallory-chapman-riverport",
+      "ticket_url": "https://www.eventbrite.ca/e/folk-rock-artist-mallory-chipman-tea-scones-concert-tickets-1996124691687?aff=oddtdtcreator",
+      "price": "$30 for ground floor seating & scones; $15 for balcony seating (no scones)",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/mallory-chapman-riverport?format=ical"
+    },
+    {
+      "title": "Lunenburg Doc Fest 2026 — 13th Edition",
+      "date": "2026-09-27",
+      "time": "All Day",
+      "venue": "Multiple venues",
+      "location": "Lunenburg",
+      "description": "The 13th edition of the Lunenburg Doc Fest: 5 nights, 60+ documentaries. An examined life is worth viewing. Features, shorts, filmmaker Q&As, workshops, and free community events. Opening gala September 24, 5-7 PM, with food, drinks and a film screening. You don't need a full pass — standalone tickets for individual films can be ordered from the film schedule once it's posted. First-time attendee and student passes are $50.",
+      "url": "https://www.lunenburgdocfest.com/2026-festival/buy-passes",
+      "url_label": "Buy passes",
+      "price": "Individual film tickets available; Film Pass $85 early bird / $100 (Gala & Film bundle $150/$160; students & first-timers $50)",
+      "category": "festival",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-09-12T19:13:44-03:00"
+  "last_updated": "2026-09-13T07:20:36-03:00"
 }
