@@ -131,7 +131,10 @@ def _guess_category(title: str, description: str | None) -> str:
         (description or "").lower(),
     )
     blob = f"{title_low} {desc_low}"
-    if re.search(r"\b(silent film|film|movie|cinema|screening)\b", blob):
+    if re.search(
+        r"\b(silent film|film|movie|cinema|screening|documentary|documentaries|doc fest)\b",
+        blob,
+    ):
         return "film"
     # Theater only triggers on title or explicit production language in description.
     if re.search(r"\b(hedwig|drag show)\b", title_low) or re.search(
