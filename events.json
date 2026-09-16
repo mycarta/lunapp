@@ -223,7 +223,19 @@
       "price": "Most films $17 (some $5). Passes $100, $50 students",
       "category": "festival",
       "source": "manual_seed"
+    },
+    {
+      "title": "Truth & Reconciliation",
+      "date": "2026-09-30",
+      "venue": "Fisheries Museum of the Atlantic",
+      "location": "68 Bluenose Dr, Lunenburg",
+      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/truth-reconciliation",
+      "category": "community",
+      "source": "fisheries_museum",
+      "time": "10:30 AM",
+      "price": "Free / included programming",
+      "description": "This important day offers an opportunity to reflect on the history and ongoing impacts of residential schools and to honour Indigenous communities. Through educational programming and thoughtful engagement, visitors are invited to listen, learn, and take part in meaningful reconciliation."
     }
   ],
-  "last_updated": "2026-09-15T19:15:58-03:00"
+  "last_updated": "2026-09-16T07:18:09-03:00"
 }
