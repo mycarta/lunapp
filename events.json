@@ -235,7 +235,20 @@
       "time": "10:30 AM",
       "price": "Free / included programming",
       "description": "This important day offers an opportunity to reflect on the history and ongoing impacts of residential schools and to honour Indigenous communities. Through educational programming and thoughtful engagement, visitors are invited to listen, learn, and take part in meaningful reconciliation."
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-10-01"
     }
   ],
-  "last_updated": "2026-09-16T19:15:29-03:00"
+  "last_updated": "2026-09-17T07:17:50-03:00"
 }
