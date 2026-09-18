@@ -37,6 +37,17 @@
       "description": "Anchors & Axles brings together car enthusiasts and visitors for a showcase of classic and custom vehicles set against the scenic waterfront. Enjoy a relaxed atmosphere, meet fellow enthusiasts, and explore a unique blend of automotive and maritime culture."
     },
     {
+      "title": "IMPORTANT NOTICE — DATE CHANGE! \"Legitimacy Through Form\" Public lecture by Timothy James Standring",
+      "date": "2026-09-22",
+      "time": "7 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "IMPORTANT NOTICE — DATE CHANGE! “Legitimacy Through Form” Public lecture by Timothy James Standring Due to a scheduling conflict with the Lunenburg Doc Fest Opening Gala, we are moving Timothy Standring’s Public Lecture to Tuesday, September 22nd at 7 PM! Please note: The lecture will NOT take place on Thursday, September 24th as originally scheduled. We apologize for any inconvenience and look forward to seeing you on Tuesday, September 22nd at 7 PM! Join us for a public lecture by Timothy…",
+      "url": "https://lunenburgarts.org/news-events/important-notice-date-change-legitimacy-through-form-public-lecture-by-timothy-james-standring/",
+      "category": "arts",
+      "source": "school_of_arts"
+    },
+    {
       "title": "Kim Churchill - Live at Lightship - September 23, 2026",
       "date": "2026-09-23",
       "venue": "Lightship Brewery",
@@ -89,18 +100,6 @@
       "category": "music",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/kingdom-come?format=ical"
-    },
-    {
-      "title": "\"Legitimacy Through Form\" Public lecture by Timothy James Standring",
-      "date": "2026-09-24",
-      "time": "7:00 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Legitimacy Through Form: Trump’s Triumphal Arch Project, Its Architects, and a Brief History of Power Dressed in Classical Clothes Public Lecture by Timothy James Standring, Curator Emeritus, Denver Art Museum : Thursday, September 24, 2026 at 7:00 p.m. This is a free event, no registration required. The Triumphal Arch of Washington, D.C. — widely nicknamed the “Arc de Trump” — was first proposed in October 2025 as part of the American semiquincentennial celebrations. Its various iterations…",
-      "url": "https://lunenburgarts.org/news-events/legitimacy-through-form-public-lecture-by-timothy-james-standring/",
-      "price": "Free",
-      "category": "arts",
-      "source": "school_of_arts"
     },
     {
       "title": "Lunenburg Doc Fest 2026 — 13th Edition",
@@ -225,6 +224,17 @@
       "date": "2026-10-01"
     },
     {
+      "title": "\"Making Sense of Chaos\" Exhibition by Terry Havlis Drahos",
+      "date": "2026-10-01",
+      "time": "7:00 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "Join us on Thursday, October 1st at 7:00 PM for the Opening Reception and Artist Talk for “Making Sense of Chaos,” our upcoming Exhibition by multimedia artist and instructor at our School, Terry Havlis Drahos! “This new body of work began during the pandemic as an exploration of photography and collage, and has taken me in a very different direction from my usual painting practice. Each piece is a three-dimensional assemblage constructed from multiple layers of glass, creating depth,…",
+      "url": "https://lunenburgarts.org/news-events/making-sense-of-chaos-exhibition-by-terry-havlis-drahos/",
+      "category": "arts",
+      "source": "school_of_arts"
+    },
+    {
       "title": "First Fridays Art Walk",
       "date": "2026-10-02",
       "time": "5:00 PM",
@@ -237,5 +247,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-09-18T07:17:22-03:00"
+  "last_updated": "2026-09-18T19:15:01-03:00"
 }
