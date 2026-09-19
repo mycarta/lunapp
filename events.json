@@ -245,7 +245,50 @@
       "price": "Free",
       "category": "arts",
       "source": "manual_seed"
+    },
+    {
+      "title": "South Shore Oktoberfest",
+      "date": "2026-10-03",
+      "venue": "Fisheries Museum of the Atlantic",
+      "location": "68 Bluenose Dr, Lunenburg",
+      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/south-shore-oktoberfest-0",
+      "category": "festival",
+      "source": "fisheries_museum",
+      "time": "10:30 AM",
+      "end_time": "11:00 PM",
+      "price": "Free daytime / ticketed afternoon /evening components",
+      "description": "Celebrate South Shore Oktoberfest with a full day of family-friendly activities like crafts , Bavarian Heart cookie decorating facepainting, caricature drawing. polka dancing, local vendors, traditional games, and live entertainment. Enjoy delicious food, a festive beer garden, and a vibrant waterfront atmosphere. Whether you’re coming for the family fun or the evening festivities, there’s something for everyone."
+    },
+    {
+      "title": "Sarah Hagen - Goldberg Variations",
+      "date": "2026-10-03",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "“Canadian pianist Sarah Hagen’s Goldberg Variations are dramatically different. Naysayers and refusniks beware: her approach combines unfettered joy, wide awake with wonder, requisite pedagogy, and the ability to make the instrument bend to her will. The epic scope of the work is stated right out of the gate, with an extensive exploration of the Aria that opens the way to the variable tempi, harmonic adventure with unlimited changes in registration and emotion. Hagen’s performance combines vivid precision of touch with perfect articulation of line, making her Goldberg Variations something to…",
+      "url": "https://www.oldconfidence.ca/events/sarah-hagen-goldberg-variations",
+      "ticket_url": "https://www.eventbrite.ca/e/pianist-sarah-hagen-goldberg-variations-tickets-1999498268145?aff=oddtdtcreator",
+      "price": "$30",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/sarah-hagen-goldberg-variations?format=ical"
+    },
+    {
+      "title": "Mean Girls Day",
+      "date": "2026-10-03",
+      "time": "7:00 PM",
+      "end_time": "11:59 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "7:00 PM Trivia & Costume Contest with prizes 8:00 PM Movie Showing with Call-outs and Shadow Cast 10:00 PM Dance Party",
+      "url": "https://www.oldconfidence.ca/events/mean-girls-day-lunenburg",
+      "ticket_url": "https://www.eventbrite.ca/e/mean-girls-day-tickets-1999506214914?aff=oddtdtcreator",
+      "price": "$20",
+      "category": "film",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/mean-girls-day-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-09-18T19:15:01-03:00"
+  "last_updated": "2026-09-19T07:14:57-03:00"
 }
