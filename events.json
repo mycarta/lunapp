@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "Repair Café",
-      "date": "2026-09-19",
-      "time": "1:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Lunenburg Library",
-      "location": "Lunenburg",
-      "description": "Got items that need fixing? Bring them to the Repair Café. Past cafés have covered small furniture and appliances, tool sharpening, bikes, jewelry, clothes, electronics, computers, and a take-apart table. Volunteer fixers are wanted — any level of experience welcome, contact siriarnet@gmail.com.",
-      "url": "https://southshorepubliclibraries.ca",
-      "category": "community",
-      "source": "manual_seed"
-    },
-    {
       "title": "South Shore’s Got Talent",
       "date": "2026-09-20",
       "time": "2:00 PM",
@@ -290,5 +278,5 @@
       "ics_url": "https://www.oldconfidence.ca/events/mean-girls-day-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-09-19T19:14:31-03:00"
+  "last_updated": "2026-09-20T07:15:25-03:00"
 }
