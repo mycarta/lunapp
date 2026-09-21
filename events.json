@@ -1,30 +1,6 @@
 {
   "events": [
     {
-      "title": "South Shore’s Got Talent",
-      "date": "2026-09-20",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Take 2! South Shore’s Got Talent, and we want to showcase yours! Bring us your juggling acts, your beat poetry, your song, your dance … you name it! Email shari@oldconfidence.com to sign up!",
-      "url": "https://www.oldconfidence.ca/events/southshoresgottalent",
-      "category": "dance",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/southshoresgottalent?format=ical"
-    },
-    {
-      "title": "Anchors & Axles Car Show We Feed Lunenburg Fundraiser",
-      "date": "2026-09-20",
-      "venue": "Fisheries Museum of the Atlantic",
-      "location": "68 Bluenose Dr, Lunenburg",
-      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/anchors-axles-car-show-we-feed-lunenburg-fundraiser",
-      "category": "community",
-      "source": "fisheries_museum",
-      "price": "Free/by donation",
-      "description": "Anchors & Axles brings together car enthusiasts and visitors for a showcase of classic and custom vehicles set against the scenic waterfront. Enjoy a relaxed atmosphere, meet fellow enthusiasts, and explore a unique blend of automotive and maritime culture."
-    },
-    {
       "title": "IMPORTANT NOTICE — DATE CHANGE! \"Legitimacy Through Form\" Public lecture by Timothy James Standring",
       "date": "2026-09-22",
       "time": "7 PM",
@@ -278,5 +254,5 @@
       "ics_url": "https://www.oldconfidence.ca/events/mean-girls-day-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-09-20T19:15:06-03:00"
+  "last_updated": "2026-09-21T07:18:56-03:00"
 }
