@@ -1,32 +1,6 @@
 {
   "events": [
     {
-      "title": "Kim Churchill - Live at Lightship - September 23, 2026",
-      "date": "2026-09-23",
-      "venue": "Lightship Brewery",
-      "location": "93 Tannery Rd, Lunenburg",
-      "url": "https://lightshipbrewery.ca/products/kim-churchill-live-at-lightship-september-23-2026",
-      "category": "music",
-      "source": "lightship",
-      "time": "6:00 PM",
-      "end_time": "8:00 PM",
-      "description": "Join us for Kim Churchill, September 23! 6-8 pm WATCH - Raindrops (feat Shungudzo) LIVE - Live Performance Recap Latest Album ' It's Lovely to Have You Hear' - released October 2024: LISTEN NOW Playing mainstage at Edmonton Folk Festival to 22 Thousand people! Selling over 12 Thousand tickets to the Australian 'Lovely Tour' New album ' Its Lovely To Have You Here ' landing at number 5 in the…",
-      "price": "$25"
-    },
-    {
-      "title": "Lunenburg Doc Fest 2026 — 13th Edition",
-      "date": "2026-09-23",
-      "time": "All Day",
-      "venue": "Multiple venues",
-      "location": "Lunenburg",
-      "description": "Boatbuilders (12pm) · My Father and Qaddafi (2:30pm) · The Bookstore That Never Sleeps & Being Still (5:30pm) · Great White Highway (7:30pm) · American Doctor (9:30pm). All at the Lunenburg Opera House. No pass needed — buy a ticket for just the film you want.",
-      "url": "https://2026ldf.eventive.org/schedule",
-      "url_label": "Film schedule & tickets",
-      "price": "Most films $17 (some $5). Passes $100, $50 students",
-      "category": "festival",
-      "source": "manual_seed"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -241,7 +215,20 @@
       "category": "film",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/mean-girls-day-lunenburg?format=ical"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-10-08"
     }
   ],
-  "last_updated": "2026-09-23T19:15:51-03:00"
+  "last_updated": "2026-09-24T07:18:02-03:00"
 }

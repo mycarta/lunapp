@@ -1,7 +1,7 @@
 // Lunenburg Events service worker
 // Bump CACHE_VERSION on every deploy so clients pick up new assets.
 
-const CACHE_VERSION = "lunapp-v312";
+const CACHE_VERSION = "lunapp-v313";
 const STATIC_CACHE = `lunenburg-static-${CACHE_VERSION}`;
 const DATA_CACHE = `lunenburg-data-${CACHE_VERSION}`;
 
