@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-09-24"
-    },
-    {
-      "title": "Kingdom Come, Kingdom Go - Album Release Tour",
-      "date": "2026-09-24",
-      "time": "7:00 PM",
-      "end_time": "8:30 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "In June 2024, Duguay travelled over 1,500km across Newfoundland, recording original music on seven historic church organs in seven remote coastal communities. This led to the imaginative and acclaimed album, “Kingdom Come, Kingdom Go.”",
-      "url": "https://www.oldconfidence.ca/events/kingdom-come",
-      "ticket_url": "https://www.eventbrite.ca/e/kingdom-come-kingdom-go-tickets-1997567360749?aff=oddtdtcreator",
-      "price": "$25 + fees",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/kingdom-come?format=ical"
-    },
-    {
-      "title": "Lunenburg Doc Fest 2026 — 13th Edition",
-      "date": "2026-09-24",
-      "time": "All Day",
-      "venue": "Multiple venues",
-      "location": "Lunenburg",
-      "description": "Buffalo & In Tyee Country (10am) · A Fox Under a Pink Moon (11:30am) · Shorts: No Easy Answers (12pm) · Silenced (1:30pm) · Shorts: See The World Better (3pm) · Union Town (3:30pm) · Bucks Harbor (5pm) · Gala Film: Yo (Love Is a Rebellious Bird) (7:30pm, Opera House) · Captain Newfoundland (10pm). At the Lunenburg Opera House and Ice House Theatre. No pass needed for most films — buy a ticket for just the one you want.",
-      "url": "https://2026ldf.eventive.org/schedule",
-      "url_label": "Film schedule & tickets",
-      "price": "Most films $17 (some $5). Passes $100, $50 students",
-      "category": "festival",
-      "source": "manual_seed"
-    },
-    {
       "title": "Lunenburg Doc Fest 2026 — 13th Edition",
       "date": "2026-09-25",
       "time": "All Day",
@@ -230,5 +189,5 @@
       "date": "2026-10-08"
     }
   ],
-  "last_updated": "2026-09-24T19:16:24-03:00"
+  "last_updated": "2026-09-25T07:18:06-03:00"
 }
