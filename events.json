@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Doc Fest 2026 — 13th Edition",
-      "date": "2026-09-25",
-      "time": "All Day",
-      "venue": "Multiple venues",
-      "location": "Lunenburg",
-      "description": "School Program: Burning Planet (9am) · Namesake (9:30am) · CBC Shorts (12pm) · Derek vs Derek (12:30pm) · Kikuyu Land (2:30pm) · The Delivery Line: Midwives on the Frontlines (3pm) · A War on Women (5pm) · Everybody to Kenmure Street (6:30pm) · The Ultra Runner (9pm). At the Lunenburg Opera House and Ice House Theatre. No pass needed — buy a ticket for just the film you want.",
-      "url": "https://2026ldf.eventive.org/schedule",
-      "url_label": "Film schedule & tickets",
-      "price": "Most films $17 (some $5). Passes $100, $50 students",
-      "category": "festival",
-      "source": "manual_seed"
-    },
-    {
       "title": "Lunenburg Doc Fest - Second Nature",
       "date": "2026-09-26",
       "time": "2:00 PM",
@@ -189,5 +176,5 @@
       "date": "2026-10-08"
     }
   ],
-  "last_updated": "2026-09-25T19:16:18-03:00"
+  "last_updated": "2026-09-26T07:15:25-03:00"
 }
