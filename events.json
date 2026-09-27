@@ -1,49 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Doc Fest - Second Nature",
-      "date": "2026-09-26",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Did you know that clownfish change sex from male to female? (So if Nemo’s mom had died in real life, his dad could have become his mom!) Did you know that albatross, penguins and swans parent in same sex pairs? Or that bonobos, who are just as closely related to us as chimps, are matriarchal and have same-sex sex every day?! Narrated by Elliot Page, Second Nature follows trailblazing Evolutionary Biologist Dr. Joan Roughgarden as she meets groundbreaking scientists exploring the 1500+ animal species who engage in same-sex sexual behavior and parenting, change sex, form matriarchies, and…",
-      "url": "https://www.oldconfidence.ca/events/lunenburg-doc-fest-second-nature",
-      "ticket_url": "https://2026ldf.eventive.org/Schedule/screening-in-riverport-second-nature-6a840daf7cb79d4db7f6a855",
-      "price": "$17",
-      "category": "film",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/lunenburg-doc-fest-second-nature?format=ical"
-    },
-    {
-      "title": "Jazz at LAMP: John Coltrane",
-      "date": "2026-09-26",
-      "time": "5:30 PM",
-      "end_time": "7:30 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Whether you're a long-time jazz lover or new to the genre, the Jazz Concert Series at LAMP promises to be a musical experience that will leave you spellbound. The LAMP Libations bar will be open - have a drink, hear some great jazz, and then head out to one of the many incredible restaurants in Lunenburg, Mahone Bay or Chester. What a fabulous night out!",
-      "url": "https://www.lampns.ca/events/jazzsep",
-      "ticket_url": "https://www.canadahelps.org/en/charities/lunenburg_academy_of_music_performance/events/SeptemberJazz",
-      "price": "$35",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/jazzsep?format=ical"
-    },
-    {
-      "title": "Lunenburg Doc Fest 2026 — 13th Edition",
-      "date": "2026-09-26",
-      "time": "All Day",
-      "venue": "Multiple venues",
-      "location": "Lunenburg",
-      "description": "Ba's Book (9:30am) · The Launch: documentary pitch (10:30am) · Once Upon a Time in Harlem (12pm) · Shorts: Meanwhile Elsewhere (12:30pm) · Second Nature (2pm, Old Confidence Lodge, Riverport) · The Cycle of Love (2pm) · The Kitchen School & Joan's Kitchen Table (3pm) · The Last Days of April (4:30pm) · The Theft (5:30pm) · Steal This Story, Please! (7pm) · Black Zombie (8pm) · Modern Whore: A Crave Original (9:30pm). Riverport aside, at the Lunenburg Opera House and Ice House Theatre. No pass needed — buy a ticket for just the film you want.",
-      "url": "https://2026ldf.eventive.org/schedule",
-      "url_label": "Film schedule & tickets",
-      "price": "Most films $17 (some $5). Passes $100, $50 students",
-      "category": "festival",
-      "source": "manual_seed"
-    },
-    {
       "title": "Mallory Chipman; Tea & Scones Concert",
       "date": "2026-09-27",
       "time": "2:00 PM",
@@ -176,5 +133,5 @@
       "date": "2026-10-08"
     }
   ],
-  "last_updated": "2026-09-26T19:15:00-03:00"
+  "last_updated": "2026-09-27T07:16:10-03:00"
 }
