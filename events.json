@@ -1,34 +1,6 @@
 {
   "events": [
     {
-      "title": "Mallory Chipman; Tea & Scones Concert",
-      "date": "2026-09-27",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Mallory's recent album, Songs to a Wild God, hit #5 on the Folk International Charts, and has been featured on NPR, CBC, and SiriusXM Radio. She has opened for Jann Arden, Madeleine Peyroux, and has sung back-up for the legendary rock band, Heart, but most notably continues to stun with her solo project, described as “profoundly moving” by Celtic Music Radio. With a vast touring history and new album on the way in early 2027, Chipman crafts songs that feel timeless, placing her firmly within the lineage of great storytellers” (Happy Mag Australia), establishing her as an instant classic in…",
-      "url": "https://www.oldconfidence.ca/events/mallory-chapman-riverport",
-      "ticket_url": "https://www.eventbrite.ca/e/folk-rock-artist-mallory-chipman-tea-scones-concert-tickets-1996124691687?aff=oddtdtcreator",
-      "price": "$30 for ground floor seating & scones; $15 for balcony seating (no scones)",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/mallory-chapman-riverport?format=ical"
-    },
-    {
-      "title": "Lunenburg Doc Fest 2026 — 13th Edition",
-      "date": "2026-09-27",
-      "time": "All Day",
-      "venue": "Multiple venues",
-      "location": "Lunenburg",
-      "description": "All About the Money (9am) · SAGED: Garden Musings (10am) · Ladies and Gentleman, Brian Mulroney (11:30am) · Wild Inside (11:30am) · Shorts: This Is Where We Live (11:30am) · The Baddest Speechwriter of All & The Golden Spurtle (2pm) · The Gymnasts of Fisherman Colony (2:30pm) · Jane Elliott Against the World (4:30pm) · To Hold a Mountain (7pm) · Closing Night Film: Run Terry Run (7:30pm, Opera House). At the Lunenburg Opera House and Ice House Theatre. No pass needed — buy a ticket for just the film you want.",
-      "url": "https://2026ldf.eventive.org/schedule",
-      "url_label": "Film schedule & tickets",
-      "price": "Most films $17 (some $5). Passes $100, $50 students",
-      "category": "festival",
-      "source": "manual_seed"
-    },
-    {
       "title": "Truth & Reconciliation",
       "date": "2026-09-30",
       "venue": "Fisheries Museum of the Atlantic",
@@ -131,7 +103,22 @@
       "category": "community",
       "source": "manual_seed",
       "date": "2026-10-08"
+    },
+    {
+      "title": "Dolly Tribute Brunch",
+      "date": "2026-10-12",
+      "time": "11:00 AM",
+      "end_time": "1:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "This Thanksgiving, celebrate the life and work of the one and only Dolly Parton by supporting South Shore Public Libraries, all while enjoying a delicious buffet brunch by Hustle & Bustle, and enjoying many of Dolly's timeless hits!",
+      "url": "https://www.oldconfidence.ca/events/dolly-tribute-brunch-lunenburg",
+      "ticket_url": "https://www.eventbrite.ca/e/dolly-tribute-brunch-old-confidence-lodge-tickets-2000869878669?aff=oddtdtcreator",
+      "price": "$40",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/dolly-tribute-brunch-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-09-27T19:15:15-03:00"
+  "last_updated": "2026-09-28T07:20:13-03:00"
 }
