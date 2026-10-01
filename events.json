@@ -1,18 +1,6 @@
 {
   "events": [
     {
-      "title": "Truth & Reconciliation",
-      "date": "2026-09-30",
-      "venue": "Fisheries Museum of the Atlantic",
-      "location": "68 Bluenose Dr, Lunenburg",
-      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/truth-reconciliation",
-      "category": "community",
-      "source": "fisheries_museum",
-      "time": "10:30 AM",
-      "price": "Free / included programming",
-      "description": "This important day offers an opportunity to reflect on the history and ongoing impacts of residential schools and to honour Indigenous communities. Through educational programming and thoughtful engagement, visitors are invited to listen, learn, and take part in meaningful reconciliation."
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -118,7 +106,20 @@
       "category": "music",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/dolly-tribute-brunch-lunenburg?format=ical"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-10-15"
     }
   ],
-  "last_updated": "2026-09-30T19:18:01-03:00"
+  "last_updated": "2026-10-01T07:18:51-03:00"
 }
