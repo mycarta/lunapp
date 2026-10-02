@@ -1,30 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "\"Making Sense of Chaos\" Exhibition by Terry Havlis Drahos",
-      "date": "2026-10-01",
-      "time": "7:00 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Join us on Thursday, October 1st at 7:00 PM for the Opening Reception and Artist Talk for “Making Sense of Chaos,” our upcoming Exhibition by multimedia artist and instructor at our School, Terry Havlis Drahos! “This new body of work began during the pandemic as an exploration of photography and collage, and has taken me in a very different direction from my usual painting practice. Each piece is a three-dimensional assemblage constructed from multiple layers of glass, creating depth,…",
-      "url": "https://lunenburgarts.org/news-events/making-sense-of-chaos-exhibition-by-terry-havlis-drahos/",
-      "category": "arts",
-      "source": "school_of_arts"
-    },
-    {
       "title": "First Fridays Art Walk",
       "date": "2026-10-02",
       "time": "5:00 PM",
@@ -121,5 +97,5 @@
       "date": "2026-10-15"
     }
   ],
-  "last_updated": "2026-10-01T19:16:38-03:00"
+  "last_updated": "2026-10-02T07:18:33-03:00"
 }
