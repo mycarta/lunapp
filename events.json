@@ -69,6 +69,19 @@
       "date": "2026-10-08"
     },
     {
+      "title": "Bluenose II Presents: Punk Rock on the Dock with Pretty Alrights",
+      "date": "2026-10-08",
+      "time": "6:30 PM",
+      "end_time": "7:00 PM",
+      "venue": "Bluenose II deck",
+      "location": "Fisheries Museum of the Atlantic parking lot, 68 Bluenose Dr, Lunenburg",
+      "description": "Lunenburg's loudest and fastest band performs live on the deck of Bluenose II to celebrate the end of the sailing season. Free, all welcome.",
+      "url": "",
+      "price": "Free",
+      "category": "music",
+      "source": "manual_seed"
+    },
+    {
       "title": "Dolly Tribute Brunch",
       "date": "2026-10-12",
       "time": "11:00 AM",
@@ -108,5 +121,5 @@
       "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-10-02T19:16:54-03:00"
+  "last_updated": "2026-10-02T20:47:26-03:00"
 }
