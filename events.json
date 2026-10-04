@@ -1,34 +1,6 @@
 {
   "events": [
     {
-      "title": "South Shore Oktoberfest",
-      "date": "2026-10-03",
-      "venue": "Fisheries Museum of the Atlantic",
-      "location": "68 Bluenose Dr, Lunenburg",
-      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/south-shore-oktoberfest-0",
-      "category": "festival",
-      "source": "fisheries_museum",
-      "time": "10:30 AM",
-      "end_time": "11:00 PM",
-      "price": "Free daytime / ticketed afternoon /evening components",
-      "description": "Celebrate South Shore Oktoberfest with a full day of family-friendly activities like crafts , Bavarian Heart cookie decorating facepainting, caricature drawing. polka dancing, local vendors, traditional games, and live entertainment. Enjoy delicious food, a festive beer garden, and a vibrant waterfront atmosphere. Whether you’re coming for the family fun or the evening festivities, there’s something for everyone."
-    },
-    {
-      "title": "Mean Girls Day",
-      "date": "2026-10-03",
-      "time": "7:00 PM",
-      "end_time": "11:59 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "7:00 PM Trivia & Costume Contest with prizes 8:00 PM Movie Showing with Call-outs and Shadow Cast 10:00 PM Dance Party",
-      "url": "https://www.oldconfidence.ca/events/mean-girls-day-lunenburg",
-      "ticket_url": "https://www.eventbrite.ca/e/mean-girls-day-tickets-1999506214914?aff=oddtdtcreator",
-      "price": "$20",
-      "category": "film",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/mean-girls-day-lunenburg?format=ical"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -124,5 +96,5 @@
       "ics_url": "https://www.lampns.ca/events/biss-gala?format=ical"
     }
   ],
-  "last_updated": "2026-10-03T19:58:59-03:00"
+  "last_updated": "2026-10-04T08:34:27-03:00"
 }
