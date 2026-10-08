@@ -121,7 +121,20 @@
       "category": "music",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/events/sonatanight?format=ical"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-10-22"
     }
   ],
-  "last_updated": "2026-10-07T19:16:18-03:00"
+  "last_updated": "2026-10-08T07:19:52-03:00"
 }
