@@ -33,6 +33,23 @@ jobs:
       - name: Install dependencies
         run: pip install -r scraper/requirements.txt
 
+      # parser_run_history.json is how scrape.py notices a parser that has
+      # gone quiet (see the staleness warning in scrape.py). It's gitignored,
+      # and every run checks out clean, so without a cache the history would
+      # be empty on each run and the warning could never fire here.
+      #
+      # The key is unique per run so the cache always misses and this job
+      # saves a fresh copy at the end; restore-keys then loads the most
+      # recent previous one. That's the rolling-cache idiom — a fixed key
+      # would restore the first-ever history forever and never update.
+      - name: Restore parser run history
+        uses: actions/cache@v6
+        with:
+          path: parser_run_history.json
+          key: parser-run-history-${{ github.run_id }}
+          restore-keys: |
+            parser-run-history-
+
       - name: Run scraper
         run: python scraper/scrape.py
 
