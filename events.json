@@ -1,6 +1,19 @@
 {
   "events": [
     {
+      "title": "Making Sense of Chaos — Exhibition by Terry Havlis Drahos",
+      "date": "2026-10-09",
+      "time": "9:00 AM",
+      "end_time": "5:00 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "Multimedia art exhibition. 3D assemblages from multiple layers of glass creating depth, reflection, and shifting relationships between images. Gallery hours: Monday to Friday, 9am to 5pm (by chance or appointment). Opening reception Oct 1 at 7pm.",
+      "url": "https://lunenburgarts.org/news-events/making-sense-of-chaos-exhibition-by-terry-havlis-drahos/",
+      "price": "Free",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
       "title": "Dolly Tribute Brunch",
       "date": "2026-10-12",
       "time": "11:00 AM",
@@ -98,5 +111,5 @@
       "date": "2026-10-22"
     }
   ],
-  "last_updated": "2026-10-09T07:19:26-03:00"
+  "last_updated": "2026-10-09T11:53:31-03:00"
 }
