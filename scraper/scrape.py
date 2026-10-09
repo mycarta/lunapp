@@ -45,6 +45,11 @@ RUN_HISTORY_PATH = REPO_ROOT / "parser_run_history.json"
 RUN_HISTORY_RUNS = 5   # how many runs of history to keep per parser
 STALE_RUNS = 3         # consecutive zero-event runs that trigger the warning
 
+# Scratch hand-off to the workflow: the parsers that crossed the staleness
+# threshold on *this* run and need a GitHub issue opened. Rewritten every
+# run (empty list included) and gitignored — it's a message, not state.
+STALE_NOTICE_PATH = REPO_ROOT / "stale_parsers.json"
+
 SITE_URL = "https://lunenburg.fingerpost.ca/"
 
 # Fallback image baked into every event's JSON-LD because none of our
@@ -184,7 +189,32 @@ def collect_events(session: requests.Session) -> tuple[list[dict], dict[str, int
 # runs. To get it in CI, the file needs to persist between runs (actions/cache
 # keyed on the workflow, or committing it alongside events.json).
 
-def load_run_history() -> dict[str, list[int]]:
+def _as_record(value: object) -> dict | None:
+    """Coerce one parser's stored history into the current record shape.
+
+    The file used to hold a bare list of counts per parser; records now also
+    carry ``notified`` (an issue has been opened for the current zero streak)
+    and ``last_nonzero`` (the date the parser last returned something). Old
+    files migrate in place on the next run — same path, same cache key, so no
+    cache invalidation and no lost history.
+    """
+    if isinstance(value, list):
+        counts = [int(c) for c in value if isinstance(c, (int, float))]
+        return {"counts": counts, "notified": False, "last_nonzero": None}
+    if isinstance(value, dict):
+        raw = value.get("counts")
+        if not isinstance(raw, list):
+            return None
+        last_nonzero = value.get("last_nonzero")
+        return {
+            "counts": [int(c) for c in raw if isinstance(c, (int, float))],
+            "notified": bool(value.get("notified", False)),
+            "last_nonzero": last_nonzero if isinstance(last_nonzero, str) else None,
+        }
+    return None
+
+
+def load_run_history() -> dict[str, dict]:
     if not RUN_HISTORY_PATH.exists():
         return {}
     try:
@@ -194,15 +224,15 @@ def load_run_history() -> dict[str, list[int]]:
         return {}
     if not isinstance(data, dict):
         return {}
-    history: dict[str, list[int]] = {}
-    for name, counts in data.items():
-        if isinstance(counts, list):
-            history[str(name)] = [int(c) for c in counts
-                                  if isinstance(c, (int, float))]
+    history: dict[str, dict] = {}
+    for name, value in data.items():
+        record = _as_record(value)
+        if record is not None:
+            history[str(name)] = record
     return history
 
 
-def save_run_history(history: dict[str, list[int]]) -> None:
+def save_run_history(history: dict[str, dict]) -> None:
     """Best-effort write. A read-only checkout or full disk must not fail a
     scrape that already produced good events."""
     try:
@@ -214,31 +244,51 @@ def save_run_history(history: dict[str, list[int]]) -> None:
 
 
 def update_run_history(
-    history: dict[str, list[int]], counts: dict[str, int],
-) -> dict[str, list[int]]:
+    history: dict[str, dict], counts: dict[str, int], today: _date | None = None,
+) -> dict[str, dict]:
     """Append this run's counts, keeping the last RUN_HISTORY_RUNS per parser.
-    Parsers absent from `counts` (removed from ALL_PARSERS) are dropped."""
-    return {
-        name: (history.get(name, []) + [count])[-RUN_HISTORY_RUNS:]
-        for name, count in counts.items()
-    }
+
+    A parser that returned events has its ``notified`` flag cleared and its
+    ``last_nonzero`` date refreshed: the streak is over, so if it goes quiet
+    again later that's a new incident and deserves a new issue.
+
+    Parsers absent from `counts` (removed from ALL_PARSERS) are dropped.
+    """
+    day = (today or datetime.now(HALIFAX).date()).strftime("%Y-%m-%d")
+    updated: dict[str, dict] = {}
+    for name, count in counts.items():
+        previous = history.get(name) or {}
+        series = (list(previous.get("counts", [])) + [count])[-RUN_HISTORY_RUNS:]
+        updated[name] = {
+            "counts": series,
+            "notified": False if count > 0 else bool(previous.get("notified", False)),
+            "last_nonzero": day if count > 0 else previous.get("last_nonzero"),
+        }
+    return updated
 
 
-def warn_on_stale_parsers(history: dict[str, list[int]]) -> list[str]:
-    """WARN for each parser whose last STALE_RUNS runs were all 0 while it
-    produced something earlier in its kept history — i.e. a source that used
-    to work and has gone quiet, not one that is simply out of season from
-    the first run we ever saw. Returns the stale parser names."""
+def zero_streak(counts: list[int]) -> int:
+    """How many runs in a row, counting back from the latest, returned 0."""
+    streak = 0
+    for count in reversed(counts):
+        if count:
+            break
+        streak += 1
+    return streak
+
+
+def warn_on_stale_parsers(history: dict[str, dict]) -> list[str]:
+    """WARN for each parser whose last STALE_RUNS runs all returned 0.
+
+    Deliberately no exemption list: a parser that is quiet because its season
+    ended looks identical to one that is quiet because its site changed, and
+    only a human can tell the difference. The issue raised from this fires
+    once per streak, so a permanently retired source costs one notification,
+    not one per run.
+    """
     stale: list[str] = []
     for name in sorted(history):
-        counts = history[name]
-        if len(counts) < STALE_RUNS:
-            continue
-        if any(counts[-STALE_RUNS:]):
-            continue
-        if not any(counts):
-            # Never produced anything in the window we remember — nothing to
-            # compare against, so silence rather than a permanent warning.
+        if zero_streak(history[name].get("counts", [])) < STALE_RUNS:
             continue
         stale.append(name)
         LOG.warning(
@@ -248,12 +298,62 @@ def warn_on_stale_parsers(history: dict[str, list[int]]) -> list[str]:
     return stale
 
 
-def check_parser_staleness(counts: dict[str, int]) -> list[str]:
-    """Record this run's per-parser counts and warn about quiet parsers."""
-    history = update_run_history(load_run_history(), counts)
-    stale = warn_on_stale_parsers(history)
-    save_run_history(history)
-    return stale
+def parsers_needing_issue(history: dict[str, dict]) -> list[dict]:
+    """Parsers that just crossed the staleness threshold and haven't had an
+    issue opened for *this* streak. Marks them notified in `history` so the
+    next run stays quiet until the parser recovers.
+    """
+    needing: list[dict] = []
+    for name in sorted(history):
+        record = history[name]
+        streak = zero_streak(record.get("counts", []))
+        if streak < STALE_RUNS or record.get("notified"):
+            continue
+        record["notified"] = True
+        needing.append({
+            "parser": name,
+            "streak": streak,
+            "last_nonzero": record.get("last_nonzero"),
+        })
+    return needing
+
+
+def write_stale_notice(needing: list[dict]) -> None:
+    """Hand the workflow the parsers that need a NEW issue this run.
+
+    Always written (empty list included) so a stale file from a previous local
+    run can't be mistaken for this run's result. Gitignored, like the history.
+    """
+    payload = {
+        "generated_at": datetime.now(HALIFAX).replace(microsecond=0).isoformat(),
+        "stale_runs": STALE_RUNS,
+        "parsers": needing,
+    }
+    try:
+        STALE_NOTICE_PATH.write_text(
+            json.dumps(payload, indent=2) + "\n", encoding="utf-8",
+        )
+    except OSError as exc:
+        LOG.warning("could not write stale_parsers.json: %s", exc)
+
+
+def check_parser_staleness(counts: dict[str, int]) -> list[dict]:
+    """Record this run's per-parser counts, warn about quiet parsers, and
+    report which ones need an issue opened. Never raises: a bookkeeping
+    problem must not cost us a good scrape."""
+    try:
+        history = update_run_history(load_run_history(), counts)
+        warn_on_stale_parsers(history)
+        needing = parsers_needing_issue(history)
+        save_run_history(history)
+        write_stale_notice(needing)
+        if needing:
+            LOG.warning("opening issues for %d newly stale parser(s): %s",
+                        len(needing), ", ".join(p["parser"] for p in needing))
+        return needing
+    except Exception as exc:  # pragma: no cover - defensive
+        LOG.error("staleness bookkeeping failed: %s", exc, exc_info=True)
+        return []
 
 
 def _expand_recurring_seed(

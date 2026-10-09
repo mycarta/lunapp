@@ -26,6 +26,7 @@ lunenburg-events-cc-prompt.md
 STATUS.md
 parking_rules.json
 parser_run_history.json
+stale_parsers.json
 
 # Editor / tooling
 .claude/

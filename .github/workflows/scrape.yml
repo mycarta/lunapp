@@ -10,7 +10,12 @@ on:
   workflow_dispatch:
 
 permissions:
+  # Scopes not listed here are set to none, so contents: write must stay
+  # even though only the issue step needs issues: write. Per GitHub's
+  # docs, `issues` is the scope covering issue creation, labels and
+  # assignees — there is no narrower one.
   contents: write
+  issues: write
 
 concurrency:
   group: scrape
@@ -81,3 +86,94 @@ jobs:
           # can arise from human-authored commits.
           git pull --rebase origin main
           git push
+
+      # A stale parser is only useful news if someone sees it, and a WARNING
+      # in this log reaches nobody. scrape.py decides who is newly stale (one
+      # issue per streak, reset when the parser recovers) and writes
+      # stale_parsers.json; this step only delivers. The issue is assigned
+      # because assignment is what generates the notification email —
+      # opening alone may not.
+      #
+      # Runs last and can never fail the job: events.json is already
+      # committed and pushed above, and a notification problem must not be
+      # reported as a scrape failure. `if: always()` so a stale parser is
+      # still reported when an earlier step failed.
+      - name: Open issues for newly stale parsers
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ ! -f stale_parsers.json ]; then
+            echo "No stale_parsers.json — nothing to report."
+            exit 0
+          fi
+
+          total=$(jq -r '.parsers | length' stale_parsers.json 2>/dev/null || echo 0)
+          if [ "$total" = "0" ] || [ -z "$total" ]; then
+            echo "No newly stale parsers this run."
+            exit 0
+          fi
+          echo "$total parser(s) newly stale."
+
+          # Idempotent: fails harmlessly when the label already exists.
+          gh label create parser-stale \
+            --color B60205 \
+            --description "A source parser has returned no events for several consecutive runs" \
+            >/dev/null 2>&1 \
+            && echo "Created parser-stale label." \
+            || echo "parser-stale label already exists (or could not be created)."
+
+          # One pull of open issues, reused for every duplicate check below.
+          open_titles=$(gh issue list --state open --limit 200 --json title 2>/dev/null \
+            || echo '[]')
+
+          jq -c '.parsers[]' stale_parsers.json | while read -r row; do
+            name=$(echo "$row"   | jq -r '.parser')
+            streak=$(echo "$row" | jq -r '.streak')
+            last=$(echo "$row"   | jq -r '.last_nonzero // "unknown (not in retained history)"')
+            title="Stale parser: ${name}"
+
+            # Guards against a duplicate when the actions/cache entry was
+            # evicted and the "already notified" flag went with it.
+            dupes=$(echo "$open_titles" \
+              | jq --arg t "$title" '[.[] | select(.title == $t)] | length' 2>/dev/null \
+              || echo 0)
+            if [ "$dupes" != "0" ]; then
+              echo "Open issue already exists for ${name} — skipping."
+              continue
+            fi
+
+            body=$(printf '%s\n' \
+              "The \`${name}\` parser has returned **0 events for ${streak} consecutive runs**." \
+              "" \
+              "| | |" \
+              "|---|---|" \
+              "| Parser | \`${name}\` |" \
+              "| Zero streak | ${streak} runs |" \
+              "| Last returned events | ${last} |" \
+              "| Detected by | [this workflow run](${RUN_URL}) |" \
+              "" \
+              "This may be a broken parser (the source site changed) or a legitimately quiet source (season over, nothing scheduled). Run it in isolation to tell them apart:" \
+              "" \
+              '```' \
+              "cd scraper && python -c \"import requests, sys; sys.path.insert(0,'.'); from parsers import ${name} as p; print(len(p.fetch(session=requests.Session())))\"" \
+              '```' \
+              "" \
+              "Closing this issue is enough if the source is simply quiet — a new issue only opens if the parser produces events again and then goes stale a second time." \
+            )
+
+            if gh issue create --title "$title" --body "$body" \
+                 --label parser-stale --assignee mycarta >/dev/null 2>&1; then
+              echo "Opened issue: ${title}"
+            elif gh issue create --title "$title" --body "$body" >/dev/null 2>&1; then
+              # Label or assignee rejected (e.g. assignee not a collaborator):
+              # a plain issue is still better than silence.
+              echo "Opened issue without label/assignee: ${title}"
+            else
+              echo "WARNING: could not open issue for ${name}; continuing."
+            fi
+          done
+
+          exit 0
