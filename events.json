@@ -42,6 +42,18 @@
       "date": "2026-10-15"
     },
     {
+      "title": "LHS Speaker Series: Kate Richardson — Painting Heritage Homes with Linseed Oil Paint",
+      "date": "2026-10-15",
+      "time": "7:00 PM",
+      "venue": "Fisheries Museum Boat Shop",
+      "location": "14 Burma Rd, Lunenburg",
+      "description": "Knaut-Rhuland House Winter Speaker Series. $10 suggested donation. All proceeds support the Knaut-Rhuland House Museum.",
+      "url": "https://lunenburgheritagesociety.ca/blogs/events/knaut-rhuland-house-winter-speaker-series",
+      "price": "$10 suggested",
+      "category": "community",
+      "source": "manual_seed"
+    },
+    {
       "title": "\"Design for Hospitality\"RAIC Public Lecture by Dawn MacLachlan and Kara MacGregor",
       "date": "2026-10-15",
       "time": "7 PM",
@@ -111,5 +123,5 @@
       "date": "2026-10-22"
     }
   ],
-  "last_updated": "2026-10-09T12:11:48-03:00"
+  "last_updated": "2026-10-09T12:20:46-03:00"
 }
