@@ -30,6 +30,12 @@ EXCLUSION_RULES_PATH = REPO_ROOT / "exclusion_rules.json"
 HALIFAX = ZoneInfo("America/Halifax")
 WINDOW_DAYS = 14
 
+# A multi-day event (one with an ``end_date``) running this many days or
+# fewer is shown on each of its days — a festival or theatre run, where
+# people pick a day. Anything longer is an exhibition-style run and gets a
+# single card that rolls forward with today; see `_expand_date_range`.
+LONG_RUN_DAYS = 7
+
 SITE_URL = "https://lunenburg.fingerpost.ca/"
 
 # Fallback image baked into every event's JSON-LD because none of our
@@ -212,6 +218,86 @@ def load_manual_seeds() -> list[dict]:
     for seed in valid:
         expanded.extend(_expand_recurring_seed(seed, today, WINDOW_DAYS))
     return expanded
+
+
+def _expand_date_range(event: dict, today: _date, window_days: int) -> list[dict]:
+    """Expand a multi-day event (``end_date``) so it stays visible for its run.
+
+    The app groups cards by ``date`` alone, so a single entry shows on opening
+    day and vanishes the next morning — that's how the "Making Sense of Chaos"
+    exhibition (Oct 1–25) disappeared on Oct 2.
+
+    Two shapes of multi-day event, handled differently on purpose:
+
+    * **Short runs** (``LONG_RUN_DAYS`` days or fewer) — a festival, a theatre
+      run, a multi-night programme. Each day is its own outing, and people
+      plan around specific days, so these expand to one entry per day. That
+      also matches the long-standing hand-seeding convention for festivals.
+
+    * **Long runs** (an exhibition open for weeks) — one entry only, dated
+      today once the run is under way, or its opening day if it hasn't
+      started yet. The card therefore rolls forward with the days and never
+      disappears mid-run, without filling every day group in the window:
+      a 25-day exhibition would otherwise take 15 of ~20 cards.
+
+    Only days inside ``[today, today + window_days]`` are emitted. ``end_date``
+    is stripped from the emitted copies: they're concrete single-day events
+    downstream, and leaving it would re-expand them if this ever ran twice.
+
+    Events with no ``end_date``, an unparseable one, or one that isn't after
+    ``date`` pass through unchanged as a single-item list.
+    """
+    raw_end = event.get("end_date")
+    if not raw_end:
+        return [event]
+    try:
+        start = datetime.strptime(event["date"], "%Y-%m-%d").date()
+        end = datetime.strptime(str(raw_end), "%Y-%m-%d").date()
+    except (KeyError, ValueError):
+        LOG.warning("event %r has unparseable date/end_date (%r → %r); "
+                    "treating as single-day",
+                    event.get("title"), event.get("date"), raw_end)
+        return [event]
+    if end <= start:
+        if end < start:
+            LOG.warning("event %r has end_date %s before date %s; "
+                        "treating as single-day", event.get("title"), end, start)
+        return [{k: v for k, v in event.items() if k != "end_date"}]
+
+    first = max(start, today)
+    last = min(end, today + timedelta(days=window_days))
+    if first > last:
+        # Run is entirely outside the window; keep one entry so the window
+        # filter logs/drops it exactly as it would any other dated event.
+        return [event]
+
+    template = {k: v for k, v in event.items() if k != "end_date"}
+
+    run_days = (end - start).days + 1
+    if run_days > LONG_RUN_DAYS:
+        entry = dict(template)
+        entry["date"] = first.strftime("%Y-%m-%d")
+        return [entry]
+
+    out: list[dict] = []
+    day = first
+    while day <= last:
+        entry = dict(template)
+        entry["date"] = day.strftime("%Y-%m-%d")
+        out.append(entry)
+        day += timedelta(days=1)
+    return out
+
+
+def expand_date_ranges(events: list[dict], today: _date,
+                       window_days: int = WINDOW_DAYS) -> list[dict]:
+    """Apply `_expand_date_range` to every event, parser output and manual
+    seed alike. Runs before windowing so each emitted day is filtered,
+    deduped and sorted like any other single-day event."""
+    out: list[dict] = []
+    for e in events:
+        out.extend(_expand_date_range(e, today, window_days))
+    return out
 
 
 def filter_to_window(events: list[dict], today: datetime) -> list[dict]:
@@ -976,6 +1062,15 @@ def main() -> int:
     if before_ph != len(events):
         LOG.info("placeholder guard: %d event(s) dropped, %d remain",
                  before_ph - len(events), len(events))
+
+    # Multi-day events (end_date) become one entry per day they run, so an
+    # exhibition or festival run shows on every day inside the window rather
+    # than only on opening day.
+    before_expand = len(events)
+    events = expand_date_ranges(events, now.date())
+    if len(events) != before_expand:
+        LOG.info("date ranges: %d event(s) expanded to %d entries",
+                 before_expand, len(events))
 
     events = filter_to_window(events, now)
 
