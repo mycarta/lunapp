@@ -25,6 +25,7 @@ events.json.bak
 lunenburg-events-cc-prompt.md
 STATUS.md
 parking_rules.json
+parser_run_history.json
 
 # Editor / tooling
 .claude/

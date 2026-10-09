@@ -36,6 +36,15 @@ WINDOW_DAYS = 14
 # single card that rolls forward with today; see `_expand_date_range`.
 LONG_RUN_DAYS = 7
 
+# Parser staleness warning. Each run records how many events every parser
+# returned; a parser that produced something in its recent past but has
+# returned nothing for STALE_RUNS runs in a row gets a WARNING, because
+# that's what a silently-broken parser looks like (musique_royale returned
+# 0 for weeks after the site was redesigned). Warning only — never blocks.
+RUN_HISTORY_PATH = REPO_ROOT / "parser_run_history.json"
+RUN_HISTORY_RUNS = 5   # how many runs of history to keep per parser
+STALE_RUNS = 3         # consecutive zero-event runs that trigger the warning
+
 SITE_URL = "https://lunenburg.fingerpost.ca/"
 
 # Fallback image baked into every event's JSON-LD because none of our
@@ -142,17 +151,109 @@ def _time_sort_key(event: dict) -> tuple[str, str]:
     return (event.get("date", ""), f"{hh:02d}:{mm}")
 
 
-def collect_events(session: requests.Session) -> list[dict]:
+def collect_events(session: requests.Session) -> tuple[list[dict], dict[str, int]]:
+    """Run every parser. Returns (events, per-parser event counts).
+
+    A parser that raises is counted as 0 so it feeds the staleness check
+    the same way a parser that quietly matches nothing does — from the
+    app's point of view both mean "this source stopped producing".
+    """
     all_events: list[dict] = []
+    counts: dict[str, int] = {}
     for parser in ALL_PARSERS:
         name = parser.__name__.rsplit(".", 1)[-1]
         try:
             got = parser.fetch(session=session)
             LOG.info("[%s] %d events", name, len(got))
+            counts[name] = len(got)
             all_events.extend(got)
         except Exception as exc:
             LOG.error("[%s] failed: %s", name, exc, exc_info=True)
-    return all_events
+            counts[name] = 0
+    return all_events, counts
+
+
+# --- Parser staleness warning --------------------------------------------------
+# parser_run_history.json (repo root, gitignored — like parking_rules.json) is
+# a tiny rolling log: {"<parser>": [counts, oldest first]}, capped at
+# RUN_HISTORY_RUNS entries. It exists only to answer "has this parser gone
+# quiet?", so a missing or corrupt file is never fatal — we start fresh.
+#
+# NOTE: because the file is gitignored and CI checks out clean on every run,
+# history does not accumulate in GitHub Actions; the warning fires on local
+# runs. To get it in CI, the file needs to persist between runs (actions/cache
+# keyed on the workflow, or committing it alongside events.json).
+
+def load_run_history() -> dict[str, list[int]]:
+    if not RUN_HISTORY_PATH.exists():
+        return {}
+    try:
+        data = json.loads(RUN_HISTORY_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        LOG.warning("parser_run_history.json unreadable (%s) — starting fresh", exc)
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    history: dict[str, list[int]] = {}
+    for name, counts in data.items():
+        if isinstance(counts, list):
+            history[str(name)] = [int(c) for c in counts
+                                  if isinstance(c, (int, float))]
+    return history
+
+
+def save_run_history(history: dict[str, list[int]]) -> None:
+    """Best-effort write. A read-only checkout or full disk must not fail a
+    scrape that already produced good events."""
+    try:
+        RUN_HISTORY_PATH.write_text(
+            json.dumps(history, indent=2, sort_keys=True) + "\n", encoding="utf-8",
+        )
+    except OSError as exc:
+        LOG.warning("could not write parser_run_history.json: %s", exc)
+
+
+def update_run_history(
+    history: dict[str, list[int]], counts: dict[str, int],
+) -> dict[str, list[int]]:
+    """Append this run's counts, keeping the last RUN_HISTORY_RUNS per parser.
+    Parsers absent from `counts` (removed from ALL_PARSERS) are dropped."""
+    return {
+        name: (history.get(name, []) + [count])[-RUN_HISTORY_RUNS:]
+        for name, count in counts.items()
+    }
+
+
+def warn_on_stale_parsers(history: dict[str, list[int]]) -> list[str]:
+    """WARN for each parser whose last STALE_RUNS runs were all 0 while it
+    produced something earlier in its kept history — i.e. a source that used
+    to work and has gone quiet, not one that is simply out of season from
+    the first run we ever saw. Returns the stale parser names."""
+    stale: list[str] = []
+    for name in sorted(history):
+        counts = history[name]
+        if len(counts) < STALE_RUNS:
+            continue
+        if any(counts[-STALE_RUNS:]):
+            continue
+        if not any(counts):
+            # Never produced anything in the window we remember — nothing to
+            # compare against, so silence rather than a permanent warning.
+            continue
+        stale.append(name)
+        LOG.warning(
+            "STALE: [%s] has returned 0 events for %d consecutive runs — "
+            "check if the source has changed.", name, STALE_RUNS,
+        )
+    return stale
+
+
+def check_parser_staleness(counts: dict[str, int]) -> list[str]:
+    """Record this run's per-parser counts and warn about quiet parsers."""
+    history = update_run_history(load_run_history(), counts)
+    stale = warn_on_stale_parsers(history)
+    save_run_history(history)
+    return stale
 
 
 def _expand_recurring_seed(
@@ -1028,9 +1129,10 @@ def main() -> int:
     )
     session = requests.Session()
 
-    parser_events = collect_events(session)
+    parser_events, parser_counts = collect_events(session)
     LOG.info("collected %d parser events from %d sources",
              len(parser_events), len(ALL_PARSERS))
+    check_parser_staleness(parser_counts)
 
     manual = load_manual_seeds()
     LOG.info("loaded %d manual seed events", len(manual))
