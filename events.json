@@ -1,44 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-10-08"
-    },
-    {
-      "title": "Bluenose II Presents: Punk Rock on the Dock with Pretty Alrights",
-      "date": "2026-10-08",
-      "time": "6:30 PM",
-      "end_time": "7:00 PM",
-      "venue": "Bluenose II deck",
-      "location": "Fisheries Museum of the Atlantic parking lot, 68 Bluenose Dr, Lunenburg",
-      "description": "Lunenburg's loudest and fastest band performs live on the deck of Bluenose II to celebrate the end of the sailing season. Free, all welcome.",
-      "url": "",
-      "price": "Free",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
-      "title": "Musique Royale: Divine Dowland",
-      "date": "2026-10-08",
-      "time": "7:00 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Lucas Harris, lutenist, with students and faculty of Mount Allison University. Celebrating the artistry of John Dowland through Renaissance lute songs. Pay what you can at the door.",
-      "url": "https://lunenburgarts.org/news-events/musique-royale-concert-divine-dowland/",
-      "price": "PWYC",
-      "category": "music",
-      "source": "manual_seed"
-    },
-    {
       "title": "Dolly Tribute Brunch",
       "date": "2026-10-12",
       "time": "11:00 AM",
@@ -136,5 +98,5 @@
       "date": "2026-10-22"
     }
   ],
-  "last_updated": "2026-10-08T19:17:23-03:00"
+  "last_updated": "2026-10-09T07:19:26-03:00"
 }
