@@ -2,7 +2,7 @@
   "events": [
     {
       "title": "Making Sense of Chaos — Exhibition by Terry Havlis Drahos",
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "time": "9:00 AM",
       "end_time": "5:00 PM",
       "venue": "Lunenburg School of the Arts",
@@ -121,7 +121,20 @@
       "category": "community",
       "source": "manual_seed",
       "date": "2026-10-22"
+    },
+    {
+      "title": "Museum Closing Day",
+      "date": "2026-10-24",
+      "venue": "Fisheries Museum of the Atlantic",
+      "location": "68 Bluenose Dr, Lunenburg",
+      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/museum-closing-day",
+      "category": "community",
+      "source": "fisheries_museum",
+      "time": "9:30 AM",
+      "end_time": "5:00 PM",
+      "price": "Regular admission rates apply.",
+      "description": "Help us close out the 2026 season at the Fisheries Museum of the Atlantic. Take one last stroll through the exhibits, enjoy the waterfront views, and celebrate a season full of stories, events, and community connections. We look forward to welcoming you back next year!"
     }
   ],
-  "last_updated": "2026-10-09T20:10:44-03:00"
+  "last_updated": "2026-10-10T08:10:05-03:00"
 }
