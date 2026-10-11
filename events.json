@@ -2,7 +2,7 @@
   "events": [
     {
       "title": "Making Sense of Chaos — Exhibition by Terry Havlis Drahos",
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "time": "9:00 AM",
       "end_time": "5:00 PM",
       "venue": "Lunenburg School of the Arts",
@@ -134,7 +134,22 @@
       "end_time": "5:00 PM",
       "price": "Regular admission rates apply.",
       "description": "Help us close out the 2026 season at the Fisheries Museum of the Atlantic. Take one last stroll through the exhibits, enjoy the waterfront views, and celebrate a season full of stories, events, and community connections. We look forward to welcoming you back next year!"
+    },
+    {
+      "title": "Banff Mountain Film Festival World Tour",
+      "date": "2026-10-25",
+      "time": "2:30 PM",
+      "end_time": "5:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "The Banff Mountain Film Festival is back on the South Shore, celebrating amazing achievements in outdoor storytelling and filmmaking worldwide.",
+      "url": "https://www.oldconfidence.ca/events/banff-film-lunenburg",
+      "ticket_url": "https://www.eventbrite.ca/e/banff-centre-mountain-film-festival-oct-2026-tickets-1997584307437?aff=oddtdtcreator",
+      "price": "$30 + fees; $25 each for groups of 5",
+      "category": "film",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/banff-film-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-10-10T20:10:34-03:00"
+  "last_updated": "2026-10-11T08:09:44-03:00"
 }
