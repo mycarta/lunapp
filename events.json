@@ -2,7 +2,7 @@
   "events": [
     {
       "title": "Making Sense of Chaos — Exhibition by Terry Havlis Drahos",
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "time": "9:00 AM",
       "end_time": "5:00 PM",
       "venue": "Lunenburg School of the Arts",
@@ -176,7 +176,22 @@
       "category": "dance",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/halloween-family-lunenburg?format=ical"
+    },
+    {
+      "title": "Halloween Bash",
+      "date": "2026-10-31",
+      "time": "7:00 PM",
+      "end_time": "11:59 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "7 PM: Doors Open, Bar's Open 🍷 7:30 PM: Costume Contest 🦹🏻‍♀️ 8 PM: The Rocky Horror Picture Show Screening 💋 10 PM: Costume Dance Party 👻",
+      "url": "https://www.oldconfidence.ca/events/halloween-bash-old-confidence-lodge",
+      "ticket_url": "https://www.eventbrite.ca/e/halloween-bash-old-confidence-lodge-tickets-2000196284932?aff=oddtdtcreator",
+      "price": "$15 each, or $25 for both 🎟️",
+      "category": "film",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/halloween-bash-old-confidence-lodge?format=ical"
     }
   ],
-  "last_updated": "2026-10-16T20:09:06-03:00"
+  "last_updated": "2026-10-17T08:08:52-03:00"
 }
