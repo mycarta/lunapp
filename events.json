@@ -2,7 +2,7 @@
   "events": [
     {
       "title": "Making Sense of Chaos — Exhibition by Terry Havlis Drahos",
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "time": "9:00 AM",
       "end_time": "5:00 PM",
       "venue": "Lunenburg School of the Arts",
@@ -12,36 +12,6 @@
       "price": "Free",
       "category": "arts",
       "source": "manual_seed"
-    },
-    {
-      "title": "Long Call, Roo Wonfor, S. Ayton",
-      "date": "2026-10-17",
-      "time": "7:00 PM",
-      "end_time": "9:30 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Long Call Sibling duo based in Halifax/Kjipuktuk, Nova Scotia, made up of Avalon (she/they) and Landen (he/him) Moore. Sometimes very quiet, sometimes very loud (both personally and musically). A lil queer and a relatively tall guy. Indie rock/chamber pop/alt folk. Long Call has booked, managed and played four national tours, performing to growing audiences in bars, backyards, living rooms, and theatres across the country and at home in Halifax. Long Call's single \"The Last Time We Spoke\" releases on October 2, 2026, and their album Everything Will Be Alright is set for release in April 2027.",
-      "url": "https://www.oldconfidence.ca/events/mean-girls-day-lunenburg-2pmnt",
-      "ticket_url": "https://www.eventbrite.ca/e/roo-wonfor-s-ayton-long-call-at-the-old-confidence-lodge-tickets-1999274707469?aff=oddtdtcreator&keep_tld=true&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAUGjw9wZG9mAmZkaWQWUNtBF0xMpFmEOuI04YvndWX8nK2en2V4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpzlRENNXltHF-3fvZk8WnhfT68ihzHPfNVD2h7cDzLYOE7TT8HkjMS-BOR-U_aem_-6VcfjHasPifl1MNgg_dCQ",
-      "price": "$25; no one turned away for lack of funds",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/mean-girls-day-lunenburg-2pmnt?format=ical"
-    },
-    {
-      "title": "Fall Gala: Jonathan Biss, piano",
-      "date": "2026-10-17",
-      "time": "7:00 PM",
-      "end_time": "8:30 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Biss is recognized globally for his “impeccable taste and formidable technique” ( The New Yorker ) and has appeared as a soloist with some of the world’s foremost orchestras, including the Los Angeles and New York Philharmonics, the Boston Symphony, the Royal Concertgebouw, the London Symphony and more. Biss is also the author of Unquiet: My Life with Beethoven , in which he examines music and his own life's journey through the lens of Beethoven's last piano sonatas. He has served as the Co-Artistic Director of the Marlboro Music School and Festival alongside pianist Mitsuko Uchida since 2018.",
-      "url": "https://www.lampns.ca/events/biss-gala",
-      "ticket_url": "https://www.zeffy.com/en-CA/ticketing/jonathan-biss-piano",
-      "price": "$75",
-      "category": "festival",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/biss-gala?format=ical"
     },
     {
       "title": "Sonata Night",
@@ -191,7 +161,22 @@
       "category": "film",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/halloween-bash-old-confidence-lodge?format=ical"
+    },
+    {
+      "title": "Eden Chen, piano",
+      "date": "2026-11-01",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Eden is currently preparing his upcoming album, Memory’s Atlas , to be recorded with PENTATONE . Memory’s Atlas pairs Ravel’s Le Tombeau de Couperin with his original arrangements of work by Ryuichi Sakamoto. The program reflects on the awe and ache of memory’s transformations, as we revisit the past only through the language and technology we have today.",
+      "url": "https://www.lampns.ca/events/edenchen",
+      "ticket_url": "https://www.zeffy.com/en-CA/ticketing/eden-chen-piano",
+      "price": "$25",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/edenchen?format=ical"
     }
   ],
-  "last_updated": "2026-10-17T20:08:28-03:00"
+  "last_updated": "2026-10-18T08:08:39-03:00"
 }
