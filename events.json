@@ -42,19 +42,6 @@
       "date": "2026-10-22"
     },
     {
-      "title": "Museum Closing Day",
-      "date": "2026-10-24",
-      "venue": "Fisheries Museum of the Atlantic",
-      "location": "68 Bluenose Dr, Lunenburg",
-      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/museum-closing-day",
-      "category": "community",
-      "source": "fisheries_museum",
-      "time": "9:30 AM",
-      "end_time": "5:00 PM",
-      "price": "Regular admission rates apply.",
-      "description": "Help us close out the 2026 season at the Fisheries Museum of the Atlantic. Take one last stroll through the exhibits, enjoy the waterfront views, and celebrate a season full of stories, events, and community connections. We look forward to welcoming you back next year!"
-    },
-    {
       "title": "Banff Mountain Film Festival World Tour",
       "date": "2026-10-25",
       "time": "2:30 PM",
@@ -178,5 +165,5 @@
       "ics_url": "https://www.lampns.ca/events/edenchen?format=ical"
     }
   ],
-  "last_updated": "2026-10-20T08:11:15-03:00"
+  "last_updated": "2026-10-20T14:12:46-03:00"
 }
