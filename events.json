@@ -93,18 +93,18 @@
       "source": "school_of_arts"
     },
     {
-      "title": "Sound & Sketch at Lunenburg School of the Arts",
+      "title": "LAMP @ Lunenburg School of the Arts",
       "date": "2026-10-30",
       "time": "12:00 PM",
       "end_time": "1:00 PM",
       "venue": "LAMP",
       "location": "6 Prince St, Lunenburg",
-      "description": "What does music look like? In Sound & Sketch , you will embark on a creative journey where sound and visual expression come together. Through live viola performances of vivid, colorful pieces - some inspired by folk tales and storytelling - you are encouraged to explore how music creates emotions, scenes, and characters.",
-      "url": "https://www.lampns.ca/events/soundandsketch-w93lj",
+      "description": "Bring along your sketchbook, knitting, or any other project you've got on the go, and settle in alongside fellow makers and music lovers for an hour of shared creativity. As you draw, craft, or create, LAMP's visiting violist, Tilman Sandvoss , will provide the musical accompaniment, offering a unique and more personal way to experience live performance. All ages and levels of artistic experience are welcome.",
+      "url": "https://www.lampns.ca/events/musicandmaking",
       "price": "Free",
       "category": "music",
       "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/soundandsketch-w93lj?format=ical"
+      "ics_url": "https://www.lampns.ca/events/musicandmaking?format=ical"
     },
     {
       "title": "Halloween Family Dance",
@@ -191,5 +191,5 @@
       "ics_url": "https://www.oldconfidence.ca/events/amazing-digital-circus-lunenburg?format=ical"
     }
   ],
-  "last_updated": "2026-10-22T08:10:14-03:00"
+  "last_updated": "2026-10-22T14:09:38-03:00"
 }
