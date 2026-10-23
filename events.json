@@ -1,21 +1,8 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-10-22"
-    },
-    {
       "title": "Making Sense of Chaos — Exhibition by Terry Havlis Drahos",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "9:00 AM",
       "end_time": "5:00 PM",
       "venue": "Lunenburg School of the Arts",
@@ -176,7 +163,20 @@
       "category": "music",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/amazing-digital-circus-lunenburg?format=ical"
+    },
+    {
+      "title": "Bach, Bach, Bach & Bach",
+      "date": "2026-11-06",
+      "time": "7:30 PM",
+      "venue": "St. John's Anglican Church",
+      "location": "64 Townsend St, Lunenburg",
+      "description": "Step into the extraordinary musical dynasty of the Bach family, where genius spanned generations and styles evolved before your ears. From the radiant brilliance of Johann Sebastian Bach to the bold, expressive voices of Johann Bernhard Bach and Wilhelm Friedemann Bach, this concert traces the shift from high Baroque splendour to the dawn of the Classical era. With lively sinfonias, virtuosic concertos, and exuberant orchestral suites, it’s a vibrant celebration of family legacy and the Bach name. Symphony Nova Scotia joins us once again in Lunenburg on Friday November 6 at 7:30 pm, at…",
+      "url": "https://musiqueroyale.com/event/2026/2026-11-06-bach-bach-bach-and-bach/",
+      "ticket_url": "https://www.canadahelps.org/en/charities/musique-royale-a-treasury-of-music-from-our-historic-past/events/bach-bach-bach-bach",
+      "price": "$30 advance, $35 at the door, youth free (18 and under)",
+      "category": "music",
+      "source": "musique_royale"
     }
   ],
-  "last_updated": "2026-10-22T20:10:08-03:00"
+  "last_updated": "2026-10-23T08:10:37-03:00"
 }
