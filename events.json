@@ -2,7 +2,7 @@
   "events": [
     {
       "title": "Making Sense of Chaos — Exhibition by Terry Havlis Drahos",
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "time": "9:00 AM",
       "end_time": "5:00 PM",
       "venue": "Lunenburg School of the Arts",
@@ -176,7 +176,34 @@
       "price": "$30 advance, $35 at the door, youth free (18 and under)",
       "category": "music",
       "source": "musique_royale"
+    },
+    {
+      "title": "Singamajiggin'",
+      "date": "2026-11-07",
+      "time": "2:00 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "Get ready for a Cookie Concert on Saturday November 7 at 2 pm featuring Mr Mark, who will take listeners on a musical adventure filled with silly songs, strange instruments, and plenty of laughter! Geared for young ears, “Singamajiggin’” is a lively, interactive concert featuring original songs, playful percussion, musical inventions, and hilarious stories inspired by everyday family life! Children are invited to sing, dance, make music, and become part of the show in this joyful celebration of creativity and imagination. Cookie concerts are approximately an hour long at the Lunenburg School…",
+      "url": "https://musiqueroyale.com/event/2026/2026-11-07-singamajiggin/",
+      "price": "$10 at the door, youth free (age 18 and under)",
+      "category": "music",
+      "source": "musique_royale"
+    },
+    {
+      "title": "Tilman Sandvoss, viola",
+      "date": "2026-11-07",
+      "time": "7:00 PM",
+      "end_time": "8:30 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "His residency program brings together works spanning from the Baroque to the twentieth century, including music by Johann Sebastian Bach, Rebecca Clarke, Georges Enescu, Johannes Brahms, Paul Hindemith, Vincent Ho, and Jessie Montgomery. Together, these works represent the breadth of the viola’s repertoire, highlighting the instrument’s expressive range as both a solo and chamber music voice. The inclusion of Tilman’s own arrangements reflects his ongoing interest in expanding the repertoire available to violists and presenting familiar works from new perspectives.",
+      "url": "https://www.lampns.ca/events/tilman",
+      "ticket_url": "https://www.zeffy.com/en-CA/ticketing/tilman-sandvoss-viola",
+      "price": "$25",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/tilman?format=ical"
     }
   ],
-  "last_updated": "2026-10-23T20:09:53-03:00"
+  "last_updated": "2026-10-24T08:08:56-03:00"
 }
