@@ -21,7 +21,6 @@
       "location": "1451 Barrington St Halifax, Nova Scotia",
       "description": "His Honour The Honourable Mike Savage, Lieutenant Governor of Nova Scotia, and Ms. Darlene Savage invite you to join them in Halifax for an evening of music as part of the Evenings @ Government House series, a free public event series celebrating the history, heritage, and culture of Nova Scotia. Each year, the series welcomes speakers and performers from across the province to entertain and educate audiences.",
       "url": "https://www.lampns.ca/events/govhouse",
-      "ticket_url": "https://lt.gov.ns.ca/news-events/evenings-government-house/registration-form",
       "price": "Free",
       "category": "music",
       "source": "lamp",
@@ -177,5 +176,5 @@
       "ics_url": "https://www.lampns.ca/events/tilman?format=ical"
     }
   ],
-  "last_updated": "2026-10-26T08:11:03-03:00"
+  "last_updated": "2026-10-26T14:10:29-03:00"
 }
