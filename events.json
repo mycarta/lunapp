@@ -82,6 +82,20 @@
       "ics_url": "https://www.lampns.ca/events/edenchen?format=ical"
     },
     {
+      "title": "Tunes on Tuesday: Tilman Sandvoss",
+      "date": "2026-11-03",
+      "time": "12:00 PM",
+      "end_time": "1:00 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Canadian violist Tilman Sandvoss presents Learn About the Viola , a chance to get better acquainted with the instrument through the eyes of someone who knows it inside and out. Tilman will share his knowledge and personal insights, touching on the viola’s history and the qualities that make it so distinctive.",
+      "url": "https://www.lampns.ca/events/tottilman",
+      "price": "Free",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/tottilman?format=ical"
+    },
+    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -156,7 +170,7 @@
       "end_time": "1:00 PM",
       "venue": "LAMP",
       "location": "97 Kaulbach St, Lunenburg",
-      "description": "Montréal-based group Trio Timia present an engaging lecture recital exploring the artistry of the piano trio. Featuring pianist Itamar Prag , violinist June Lee , and cellist François Lamontagne , this prize-winning trio will offer insight into their approach to chamber music and the works they perform.",
+      "description": "Montréal-based group Trio Timia present The Value of Chamber Music , an engaging lecture-recital exploring the artistry of collaboration. Featuring pianist Itamar Prag , violinist June Lee , and cellist François Lamontagne , this prize-winning trio will offer insight into their approach to chamber music and the works they perform.",
       "url": "https://www.lampns.ca/events/tottimia",
       "price": "Free",
       "category": "arts",
@@ -164,5 +178,5 @@
       "ics_url": "https://www.lampns.ca/events/tottimia?format=ical"
     }
   ],
-  "last_updated": "2026-10-28T08:08:08-03:00"
+  "last_updated": "2026-10-28T14:08:07-03:00"
 }
