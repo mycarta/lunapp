@@ -14,20 +14,6 @@
       "source": "manual_seed"
     },
     {
-      "title": "LAMP @ Lunenburg School of the Arts",
-      "date": "2026-10-30",
-      "time": "12:00 PM",
-      "end_time": "1:00 PM",
-      "venue": "LAMP",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Bring along your sketchbook, knitting, or any other project you've got on the go, and settle in alongside fellow makers and music lovers for an hour of shared creativity. As you draw, craft, or create, LAMP's visiting violist, Tilman Sandvoss , will provide the musical accompaniment, offering a unique and more personal way to experience live performance. All ages and levels of artistic experience are welcome.",
-      "url": "https://www.lampns.ca/events/musicandmaking",
-      "price": "Free",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/musicandmaking?format=ical"
-    },
-    {
       "title": "Halloween Family Dance",
       "date": "2026-10-30",
       "time": "6:00 PM",
@@ -180,5 +166,5 @@
       "date": "2026-11-12"
     }
   ],
-  "last_updated": "2026-10-30T14:06:58-03:00"
+  "last_updated": "2026-10-30T20:06:44-03:00"
 }
