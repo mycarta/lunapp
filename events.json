@@ -2,7 +2,7 @@
   "events": [
     {
       "title": "Night Happenings — Michelle Darwin",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "time": "11:00 AM",
       "end_time": "4:00 PM",
       "venue": "Lunenburg Art Gallery Society",
@@ -12,19 +12,6 @@
       "price": "Free",
       "category": "arts",
       "source": "manual_seed"
-    },
-    {
-      "title": "Halloween Family Dance",
-      "date": "2026-10-30",
-      "time": "6:00 PM",
-      "end_time": "9:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "6 PM: Doors Open & dancing starts! 👻 8 PM: Costume Contest 🦹🏻‍♀️",
-      "url": "https://www.oldconfidence.ca/events/halloween-family-lunenburg",
-      "category": "dance",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/halloween-family-lunenburg?format=ical"
     },
     {
       "title": "Halloween Bash",
@@ -164,7 +151,22 @@
       "category": "community",
       "source": "manual_seed",
       "date": "2026-11-12"
+    },
+    {
+      "title": "Trio Timia",
+      "date": "2026-11-14",
+      "time": "7:00 PM",
+      "end_time": "8:30 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Trio Timia , formed in Montréal, brings together pianist Itamar Prag , violinist June Lee , and cellist François Lamontagne . Second Prize winners at the 2026 Fischoff Chamber Music Competition and First Prize winners at the 2026 Yellow Springs Chamber Music Competition, the trio also represented Canada at the 2026 Osaka International Chamber Music Competition, where they were one of eight piano trios selected worldwide and the only North American ensemble. Trio Timia shaped its artistic voice as an ensemble-in-residence at the Banff Centre for Arts and Creativity, where they premiered a…",
+      "url": "https://www.lampns.ca/events/triotimia",
+      "ticket_url": "https://www.zeffy.com/en-CA/ticketing/trio-timia",
+      "price": "$25",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/triotimia?format=ical"
     }
   ],
-  "last_updated": "2026-10-30T20:06:44-03:00"
+  "last_updated": "2026-10-31T08:06:14-03:00"
 }
