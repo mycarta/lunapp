@@ -2,7 +2,7 @@
   "events": [
     {
       "title": "Night Happenings — Michelle Darwin",
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "time": "11:00 AM",
       "end_time": "4:00 PM",
       "venue": "Lunenburg Art Gallery Society",
@@ -12,21 +12,6 @@
       "price": "Free",
       "category": "arts",
       "source": "manual_seed"
-    },
-    {
-      "title": "Halloween Bash",
-      "date": "2026-10-31",
-      "time": "7:00 PM",
-      "end_time": "11:59 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "7 PM: Doors Open, Bar's Open 🍷 7:30 PM: Costume Contest 🦹🏻‍♀️ 8 PM: The Rocky Horror Picture Show Screening 💋 10 PM: Costume Dance Party 👻",
-      "url": "https://www.oldconfidence.ca/events/halloween-bash-old-confidence-lodge",
-      "ticket_url": "https://www.eventbrite.ca/e/halloween-bash-old-confidence-lodge-tickets-2000196284932?aff=oddtdtcreator",
-      "price": "$15 each, or $25 for both 🎟️",
-      "category": "film",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/halloween-bash-old-confidence-lodge?format=ical"
     },
     {
       "title": "Eden Chen, piano",
@@ -168,5 +153,5 @@
       "ics_url": "https://www.lampns.ca/events/triotimia?format=ical"
     }
   ],
-  "last_updated": "2026-10-31T20:06:34-03:00"
+  "last_updated": "2026-11-01T07:06:15-04:00"
 }
