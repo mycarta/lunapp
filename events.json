@@ -2,7 +2,7 @@
   "events": [
     {
       "title": "Night Happenings — Michelle Darwin",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "time": "11:00 AM",
       "end_time": "4:00 PM",
       "venue": "Lunenburg Art Gallery Society",
@@ -12,21 +12,6 @@
       "price": "Free",
       "category": "arts",
       "source": "manual_seed"
-    },
-    {
-      "title": "Eden Chen, piano",
-      "date": "2026-11-01",
-      "time": "2:00 PM",
-      "end_time": "4:00 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Eden is currently preparing his upcoming album, Memory’s Atlas , to be recorded with PENTATONE . Memory’s Atlas pairs Ravel’s Le Tombeau de Couperin with his original arrangements of work by Ryuichi Sakamoto. The program reflects on the awe and ache of memory’s transformations, as we revisit the past only through the language and technology we have today.",
-      "url": "https://www.lampns.ca/events/edenchen",
-      "ticket_url": "https://www.zeffy.com/en-CA/ticketing/eden-chen-piano",
-      "price": "$25",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/edenchen?format=ical"
     },
     {
       "title": "Tunes on Tuesday: Tilman Sandvoss",
@@ -153,5 +138,5 @@
       "ics_url": "https://www.lampns.ca/events/triotimia?format=ical"
     }
   ],
-  "last_updated": "2026-11-01T19:06:31-04:00"
+  "last_updated": "2026-11-02T07:07:18-04:00"
 }
