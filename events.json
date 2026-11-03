@@ -14,20 +14,6 @@
       "source": "manual_seed"
     },
     {
-      "title": "Tunes on Tuesday: Tilman Sandvoss",
-      "date": "2026-11-03",
-      "time": "12:00 PM",
-      "end_time": "1:00 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Canadian violist Tilman Sandvoss presents Learn About the Viola , a chance to get better acquainted with the instrument through the eyes of someone who knows it inside and out. Tilman will share his knowledge and personal insights, touching on the viola’s history and the qualities that make it so distinctive.",
-      "url": "https://www.lampns.ca/events/tottilman",
-      "price": "Free",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/tottilman?format=ical"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -152,5 +138,5 @@
       "ics_url": "https://www.lampns.ca/events/totsunmi?format=ical"
     }
   ],
-  "last_updated": "2026-11-03T07:07:22-04:00"
+  "last_updated": "2026-11-03T13:07:14-04:00"
 }
