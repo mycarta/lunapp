@@ -2,7 +2,7 @@
   "events": [
     {
       "title": "Night Happenings — Michelle Darwin",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "time": "11:00 AM",
       "end_time": "4:00 PM",
       "venue": "Lunenburg Art Gallery Society",
@@ -136,7 +136,21 @@
       "category": "music",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/events/triotimia?format=ical"
+    },
+    {
+      "title": "Tunes on Tuesday: Sunmi Han",
+      "date": "2026-11-17",
+      "time": "12:00 PM",
+      "end_time": "1:00 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Pianist Sunmi Han presents The Relationship Between Music and Poetry , inviting us to consider the connection between these two art forms and the ways they speak to one another. Sunmi will share her thoughts on how music and poetry can inspire, complement, and enrich each other.",
+      "url": "https://www.lampns.ca/events/totsunmi",
+      "price": "Free",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/totsunmi?format=ical"
     }
   ],
-  "last_updated": "2026-11-02T19:07:01-04:00"
+  "last_updated": "2026-11-03T07:07:22-04:00"
 }
