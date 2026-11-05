@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "Night Happenings — Michelle Darwin",
-      "date": "2026-11-04",
-      "time": "11:00 AM",
-      "end_time": "4:00 PM",
-      "venue": "Lunenburg Art Gallery Society",
-      "location": "194b Lincoln St., Lunenburg",
-      "description": "Solo show of ~25 acrylic paintings by Michelle Darwin. Nocturnal scenes around Nova Scotia, mostly in and around Lunenburg. Open 11–4 daily. To visit outside these hours, email hello@michelledarwin.com.",
-      "url": "https://michelledarwin.com/night-happenings",
-      "price": "Free",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -25,6 +12,19 @@
       "category": "community",
       "source": "manual_seed",
       "date": "2026-11-05"
+    },
+    {
+      "title": "Night Happenings — Michelle Darwin",
+      "date": "2026-11-05",
+      "time": "11:00 AM",
+      "end_time": "4:00 PM",
+      "venue": "Lunenburg Art Gallery Society",
+      "location": "194b Lincoln St., Lunenburg",
+      "description": "Solo show of ~25 acrylic paintings by Michelle Darwin. Nocturnal scenes around Nova Scotia, mostly in and around Lunenburg. Open 11–4 daily. To visit outside these hours, email hello@michelledarwin.com.",
+      "url": "https://michelledarwin.com/night-happenings",
+      "price": "Free",
+      "category": "arts",
+      "source": "manual_seed"
     },
     {
       "title": "“Acting for Animation” with Alex Rochon (voice of Caine on THE AMAZING DIGITAL CIRCUS)",
@@ -136,7 +136,44 @@
       "category": "music",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/events/totsunmi?format=ical"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-11-19"
+    },
+    {
+      "title": "LHS Speaker Series: Bryn Pottie — The Great Lunenburglary",
+      "date": "2026-11-19",
+      "time": "7:00 PM",
+      "venue": "The Hungry Traveler Cafe",
+      "location": "15 King St, Lunenburg",
+      "description": "Knaut-Rhuland House Winter Speaker Series. $10 suggested donation. All proceeds support the Knaut-Rhuland House Museum.",
+      "url": "https://lunenburgheritagesociety.ca/blogs/events/knaut-rhuland-house-winter-speaker-series",
+      "price": "$10 suggested",
+      "category": "community",
+      "source": "manual_seed"
+    },
+    {
+      "title": "\"Making Room: The Architecture of Adaptation\" RAIC Public Lecture by Charlie Bourne",
+      "date": "2026-11-19",
+      "time": "7:00 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "“Making Room: The Architecture of Adaptation” Public Lecture by Charlie Bourne : Thursday, November 19th, 2026, at 7:00 pm Presented by the South Shore Network of the Royal Architectural Institute of Canada. This is a free event, no registration required. “How do we preserve the past while making room for the future? Adapting historic buildings requires more than protecting their architectural character; it demands thoughtful negotiation between heritage values, contemporary needs, and the…",
+      "url": "https://lunenburgarts.org/news-events/making-room-the-architecture-of-adaptation-raic-public-lecture-by-charlie-bourne/",
+      "price": "Free",
+      "category": "arts",
+      "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-11-04T19:06:53-04:00"
+  "last_updated": "2026-11-05T07:07:08-04:00"
 }
