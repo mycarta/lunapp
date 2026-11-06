@@ -1,21 +1,8 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-11-05"
-    },
-    {
       "title": "Night Happenings — Michelle Darwin",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "time": "11:00 AM",
       "end_time": "4:00 PM",
       "venue": "Lunenburg Art Gallery Society",
@@ -25,21 +12,6 @@
       "price": "Free",
       "category": "arts",
       "source": "manual_seed"
-    },
-    {
-      "title": "“Acting for Animation” with Alex Rochon (voice of Caine on THE AMAZING DIGITAL CIRCUS)",
-      "date": "2026-11-05",
-      "time": "7:00 PM",
-      "end_time": "9:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "What does it take to thrive as a voice actor? Hal-Con presenter Alex Rochon will tell us in this intimate conversation. You’ll learn all about Alex’s compelling journey through the industry, from recording voiceovers in his closet to attending red carpet events and international conventions. Attendees will also get tips on how to use their own voices to capture the essence of an animated character. Whether you’re a fan of DIGITAL CIRCUS, are interested in voice acting, or just love a good conversation with fascinating people, this one is not to be missed!",
-      "url": "https://www.oldconfidence.ca/events/amazing-digital-circus-lunenburg",
-      "ticket_url": "https://www.eventbrite.ca/e/acting-for-animation-a-conversation-with-alex-rochon-tickets-2003408561939?aff=oddtdtcreator",
-      "price": "$15 + fees",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/amazing-digital-circus-lunenburg?format=ical"
     },
     {
       "title": "Bach, Bach, Bach & Bach",
@@ -175,5 +147,5 @@
       "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-11-05T19:06:46-04:00"
+  "last_updated": "2026-11-06T07:06:49-04:00"
 }
