@@ -2,7 +2,7 @@
   "events": [
     {
       "title": "Night Happenings — Michelle Darwin",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "time": "11:00 AM",
       "end_time": "4:00 PM",
       "venue": "Lunenburg Art Gallery Society",
@@ -12,19 +12,6 @@
       "price": "Free",
       "category": "arts",
       "source": "manual_seed"
-    },
-    {
-      "title": "Bach, Bach, Bach & Bach",
-      "date": "2026-11-06",
-      "time": "7:30 PM",
-      "venue": "St. John's Anglican Church",
-      "location": "64 Townsend St, Lunenburg",
-      "description": "Step into the extraordinary musical dynasty of the Bach family, where genius spanned generations and styles evolved before your ears. From the radiant brilliance of Johann Sebastian Bach to the bold, expressive voices of Johann Bernhard Bach and Wilhelm Friedemann Bach, this concert traces the shift from high Baroque splendour to the dawn of the Classical era. With lively sinfonias, virtuosic concertos, and exuberant orchestral suites, it’s a vibrant celebration of family legacy and the Bach name. Symphony Nova Scotia joins us once again in Lunenburg on Friday November 6 at 7:30 pm, at…",
-      "url": "https://musiqueroyale.com/event/2026/2026-11-06-bach-bach-bach-and-bach/",
-      "ticket_url": "https://www.canadahelps.org/en/charities/musique-royale-a-treasury-of-music-from-our-historic-past/events/bach-bach-bach-bach",
-      "price": "$30 advance, $35 at the door, youth free (18 and under)",
-      "category": "music",
-      "source": "musique_royale"
     },
     {
       "title": "Singamajiggin'",
@@ -145,7 +132,37 @@
       "price": "Free",
       "category": "arts",
       "source": "school_of_arts"
+    },
+    {
+      "title": "BILLY JOEL Tribute Night",
+      "date": "2026-11-21",
+      "time": "7:00 PM",
+      "end_time": "9:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Sat, Nov 21 • 7 PM $25 + fees • $30 at the door A night of your favourite Billy Joel Hits - Piano Man! Only the Good Die Young! - plus some deep cuts - Vienna! Rosalinda’s Eyes!",
+      "url": "https://www.oldconfidence.ca/events/billy-joel-lunenburg",
+      "ticket_url": "https://www.eventbrite.ca/e/billy-joel-tribute-night-tickets-2003453244586?aff=oddtdtcreator",
+      "price": "$25 + fees",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/billy-joel-lunenburg?format=ical"
+    },
+    {
+      "title": "Sunmi Han, piano",
+      "date": "2026-11-21",
+      "time": "7:00 PM",
+      "end_time": "8:30 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "While solo repertoire remains an important part of her artistic identity, chamber music and collaboration are central to Han’s work. She believes chamber music is where friendships form, stories intertwine, and listening becomes an act of generosity. Through her work as both a performer and educator, she is passionate about creating musical communities where artists grow not only in skill, but also in humanity.",
+      "url": "https://www.lampns.ca/events/sunmihan",
+      "ticket_url": "https://www.zeffy.com/en-CA/ticketing/sunmi-han-piano",
+      "price": "$25",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/sunmihan?format=ical"
     }
   ],
-  "last_updated": "2026-11-06T19:06:25-04:00"
+  "last_updated": "2026-11-07T07:06:01-04:00"
 }
