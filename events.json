@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "Night Happenings — Michelle Darwin",
-      "date": "2026-11-08",
-      "time": "11:00 AM",
-      "end_time": "4:00 PM",
-      "venue": "Lunenburg Art Gallery Society",
-      "location": "194b Lincoln St., Lunenburg",
-      "description": "Solo show of ~25 acrylic paintings by Michelle Darwin. Nocturnal scenes around Nova Scotia, mostly in and around Lunenburg. Open 11–4 daily. To visit outside these hours, email hello@michelledarwin.com.",
-      "url": "https://michelledarwin.com/night-happenings",
-      "price": "Free",
-      "category": "arts",
-      "source": "manual_seed"
-    },
-    {
       "title": "Tunes on Tuesday: Trio Timia",
       "date": "2026-11-10",
       "time": "12:00 PM",
@@ -150,5 +137,5 @@
       "ics_url": "https://www.lampns.ca/events/sunmihan?format=ical"
     }
   ],
-  "last_updated": "2026-11-08T19:06:23-04:00"
+  "last_updated": "2026-11-09T07:07:12-04:00"
 }
