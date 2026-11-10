@@ -135,7 +135,21 @@
       "category": "music",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/events/sunmihan?format=ical"
+    },
+    {
+      "title": "Tunes on Tuesday: Piotr Kozłowski, Part 1",
+      "date": "2026-11-24",
+      "time": "12:00 PM",
+      "end_time": "1:00 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Polish pianist and educator Piotr Kozłowski presents the first of his two-part session: Central European Music & Culture . Join Piotr for a closer look at the rich musical traditions of Central Europe, exploring the composers, cultural influences, and history that have shaped the region's classical music.",
+      "url": "https://www.lampns.ca/events/totpiotr",
+      "price": "Free",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/totpiotr?format=ical"
     }
   ],
-  "last_updated": "2026-11-09T19:06:29-04:00"
+  "last_updated": "2026-11-10T07:06:41-04:00"
 }
