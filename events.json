@@ -1,20 +1,6 @@
 {
   "events": [
     {
-      "title": "Tunes on Tuesday: Trio Timia",
-      "date": "2026-11-10",
-      "time": "12:00 PM",
-      "end_time": "1:00 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Montréal-based group Trio Timia present The Value of Chamber Music , an engaging lecture-recital exploring the artistry of collaboration. Featuring pianist Itamar Prag , violinist June Lee , and cellist François Lamontagne , this prize-winning trio will offer insight into their approach to chamber music and the works they perform.",
-      "url": "https://www.lampns.ca/events/tottimia",
-      "price": "Free",
-      "category": "arts",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/tottimia?format=ical"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -151,5 +137,5 @@
       "ics_url": "https://www.lampns.ca/events/totpiotr?format=ical"
     }
   ],
-  "last_updated": "2026-11-10T13:06:31-04:00"
+  "last_updated": "2026-11-10T19:06:19-04:00"
 }
