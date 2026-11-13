@@ -149,6 +149,20 @@
       "source": "school_of_arts"
     },
     {
+      "title": "Holiday Carol Sing",
+      "date": "2026-11-27",
+      "time": "4:00 PM",
+      "end_time": "6:00 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "At 5:40pm , we'll make our way down to the Lunenburg waterfront for the Lighting of the Vessels Ceremony , beginning at 6:00pm . We'll lead a few more carols before the lighting of the Lobster Trap Tree!",
+      "url": "https://www.lampns.ca/events/carolsing",
+      "price": "Free",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/carolsing?format=ical"
+    },
+    {
       "title": "Lighting of the Vessels",
       "date": "2026-11-27",
       "venue": "Fisheries Museum of the Atlantic",
@@ -162,5 +176,5 @@
       "description": "Experience the magic of the holiday season as the waterfront comes alive with the Lighting of the Vessels. Boats and the harbour are beautifully illuminated in festive lights, creating a truly enchanting coastal atmosphere. This beloved Lunenburg tradition is filled with family-friendly fun, including face painting, crafts, games, and family bingo. Meet Mr. and Mrs. Claus, enjoy live music, and warm up with delicious food and seasonal treats. Bring your family, dress warmly, and celebrate the…"
     }
   ],
-  "last_updated": "2026-11-13T07:06:56-04:00"
+  "last_updated": "2026-11-13T13:06:40-04:00"
 }
