@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-11-12"
-    },
-    {
       "title": "Trio Timia",
       "date": "2026-11-14",
       "time": "7:00 PM",
@@ -160,7 +147,20 @@
       "price": "Free",
       "category": "arts",
       "source": "school_of_arts"
+    },
+    {
+      "title": "Lighting of the Vessels",
+      "date": "2026-11-27",
+      "venue": "Fisheries Museum of the Atlantic",
+      "location": "68 Bluenose Dr, Lunenburg",
+      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/lighting-vessels",
+      "category": "community",
+      "source": "fisheries_museum",
+      "time": "6:00 PM",
+      "end_time": "9:00 PM",
+      "price": "Free",
+      "description": "Experience the magic of the holiday season as the waterfront comes alive with the Lighting of the Vessels. Boats and the harbour are beautifully illuminated in festive lights, creating a truly enchanting coastal atmosphere. This beloved Lunenburg tradition is filled with family-friendly fun, including face painting, crafts, games, and family bingo. Meet Mr. and Mrs. Claus, enjoy live music, and warm up with delicious food and seasonal treats. Bring your family, dress warmly, and celebrate the…"
     }
   ],
-  "last_updated": "2026-11-12T19:06:19-04:00"
+  "last_updated": "2026-11-13T07:06:56-04:00"
 }
