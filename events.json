@@ -174,7 +174,37 @@
       "end_time": "9:00 PM",
       "price": "Free",
       "description": "Experience the magic of the holiday season as the waterfront comes alive with the Lighting of the Vessels. Boats and the harbour are beautifully illuminated in festive lights, creating a truly enchanting coastal atmosphere. This beloved Lunenburg tradition is filled with family-friendly fun, including face painting, crafts, games, and family bingo. Meet Mr. and Mrs. Claus, enjoy live music, and warm up with delicious food and seasonal treats. Bring your family, dress warmly, and celebrate the…"
+    },
+    {
+      "title": "First of Bells - Encore Performance",
+      "date": "2026-11-28",
+      "time": "7:00 PM",
+      "end_time": "9:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "First of Bells reimagines the music of Cape Breton songwriters, tunesmiths, and musicians. The trio, consisting of guitar, bass, and drums, explores a golden era in Cape Breton music with fresh instrumental jazz interpretations of the Rankin Family, Rita MacNeil, Winston Scotty Fitzgerald, Don Palmer, and more. Just as jazz musicians have reinterpreted the music of artists like Bob Dylan, the Beatles, or Radiohead, First of Bells pays homage to Cape Breton musicians, whose impact has been just as significant to those raised here.",
+      "url": "https://www.oldconfidence.ca/events/first-of-bells-lunenburg",
+      "ticket_url": "https://www.eventbrite.ca/e/first-of-bells-tickets-2003511615174?aff=oddtdtcreator",
+      "price": "$25 + fees",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/first-of-bells-lunenburg?format=ical"
+    },
+    {
+      "title": "Ellita Gagner, mezzo-soprano",
+      "date": "2026-11-28",
+      "time": "7:00 PM",
+      "end_time": "8:30 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Canadian mezzo-soprano Ellita Gagner , currently based in Montreal, has been praised for her “gorgeous, warm tone and winning gamine personality.” She has performed leading and supporting roles across Canada with companies and ensembles including Opéra de Montréal, Opera Nova Scotia, the Brott Festival, Maritime Concert Opera, and Chorus Niagara.",
+      "url": "https://www.lampns.ca/events/ellita",
+      "ticket_url": "https://www.zeffy.com/en-CA/ticketing/ellita-gagner-mezzo-soprano",
+      "price": "$25",
+      "category": "festival",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/ellita?format=ical"
     }
   ],
-  "last_updated": "2026-11-13T19:07:01-04:00"
+  "last_updated": "2026-11-14T07:06:07-04:00"
 }
