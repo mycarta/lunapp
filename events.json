@@ -1,21 +1,6 @@
 {
   "events": [
     {
-      "title": "Trio Timia",
-      "date": "2026-11-14",
-      "time": "7:00 PM",
-      "end_time": "8:30 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Trio Timia , formed in Montréal, brings together pianist Itamar Prag , violinist June Lee , and cellist François Lamontagne . Second Prize winners at the 2026 Fischoff Chamber Music Competition and First Prize winners at the 2026 Yellow Springs Chamber Music Competition, the trio also represented Canada at the 2026 Osaka International Chamber Music Competition, where they were one of eight piano trios selected worldwide and the only North American ensemble. Trio Timia shaped its artistic voice as an ensemble-in-residence at the Banff Centre for Arts and Creativity, where they premiered a…",
-      "url": "https://www.lampns.ca/events/triotimia",
-      "ticket_url": "https://www.zeffy.com/en-CA/ticketing/trio-timia",
-      "price": "$25",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/triotimia?format=ical"
-    },
-    {
       "title": "Tunes on Tuesday: Sunmi Han",
       "date": "2026-11-17",
       "time": "12:00 PM",
@@ -204,7 +189,22 @@
       "category": "festival",
       "source": "lamp",
       "ics_url": "https://www.lampns.ca/events/ellita?format=ical"
+    },
+    {
+      "title": "Victor Fraser - Tea & Scones Concert",
+      "date": "2026-11-29",
+      "time": "2:00 PM",
+      "end_time": "4:00 PM",
+      "venue": "Old Confidence Lodge",
+      "location": "3831 Nova Scotia 332, Riverport",
+      "description": "Trained in the Classical repertoire for guitar, Victor combines his proficiency in diverse styles such as Ragtime, Celtic, Rock and Pop to engage and entertain listeners. He is a founding member of Nova Scotia Celtic Trio \"Celtic Rant\" and one half of Classical Guitar Duo “Con Spirito Duo”. Victor delights his audiences with solo performances of Celtic Flatpicking, Fingerstyle, and Traditional Song. He currently rides in Halifax, Nova Scotia.",
+      "url": "https://www.oldconfidence.ca/events/first-of-bells-lunenburg-rck2a",
+      "ticket_url": "https://www.eventbrite.ca/e/victor-fraser-tea-scones-concert-tickets-2003913277557?aff=oddtdtcreator",
+      "price": "$30 + fees",
+      "category": "music",
+      "source": "old_confidence_lodge",
+      "ics_url": "https://www.oldconfidence.ca/events/first-of-bells-lunenburg-rck2a?format=ical"
     }
   ],
-  "last_updated": "2026-11-14T19:06:16-04:00"
+  "last_updated": "2026-11-15T07:05:53-04:00"
 }
