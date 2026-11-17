@@ -1,20 +1,6 @@
 {
   "events": [
     {
-      "title": "Tunes on Tuesday: Sunmi Han",
-      "date": "2026-11-17",
-      "time": "12:00 PM",
-      "end_time": "1:00 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "Pianist Sunmi Han presents The Relationship Between Music and Poetry , inviting us to consider the connection between these two art forms and the ways they speak to one another. Sunmi will share her thoughts on how music and poetry can inspire, complement, and enrich each other.",
-      "url": "https://www.lampns.ca/events/totsunmi",
-      "price": "Free",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/totsunmi?format=ical"
-    },
-    {
       "title": "Lunenburg Farmers Market",
       "time": "8:00 AM",
       "end_time": "12:00 PM",
@@ -220,5 +206,5 @@
       "ics_url": "https://www.lampns.ca/events/totpiotr2?format=ical"
     }
   ],
-  "last_updated": "2026-11-17T07:07:03-04:00"
+  "last_updated": "2026-11-17T13:07:36-04:00"
 }
