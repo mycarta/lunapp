@@ -26,18 +26,6 @@
       "source": "manual_seed"
     },
     {
-      "title": "\"Making Room: The Architecture of Adaptation\" RAIC Public Lecture by Charlie Bourne",
-      "date": "2026-11-19",
-      "time": "7:00 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "“Making Room: The Architecture of Adaptation” Public Lecture by Charlie Bourne : Thursday, November 19th, 2026, at 7:00 pm Presented by the South Shore Network of the Royal Architectural Institute of Canada. This is a free event, no registration required. “How do we preserve the past while making room for the future? Adapting historic buildings requires more than protecting their architectural character; it demands thoughtful negotiation between heritage values, contemporary needs, and the…",
-      "url": "https://lunenburgarts.org/news-events/making-room-the-architecture-of-adaptation-raic-public-lecture-by-charlie-bourne/",
-      "price": "Free",
-      "category": "arts",
-      "source": "school_of_arts"
-    },
-    {
       "title": "Pottery, Vintage & Thrift Market",
       "date": "2026-11-21",
       "time": "10:00 AM",
@@ -206,5 +194,5 @@
       "ics_url": "https://www.lampns.ca/events/totpiotr2?format=ical"
     }
   ],
-  "last_updated": "2026-11-18T07:07:12-04:00"
+  "last_updated": "2026-11-18T13:07:00-04:00"
 }
