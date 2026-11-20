@@ -1,31 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-11-19"
-    },
-    {
-      "title": "LHS Speaker Series: Bryn Pottie — The Great Lunenburglary",
-      "date": "2026-11-19",
-      "time": "7:00 PM",
-      "venue": "The Hungry Traveler Cafe",
-      "location": "15 King St, Lunenburg",
-      "description": "Knaut-Rhuland House Winter Speaker Series. $10 suggested donation. All proceeds support the Knaut-Rhuland House Museum.",
-      "url": "https://lunenburgheritagesociety.ca/blogs/events/knaut-rhuland-house-winter-speaker-series",
-      "price": "$10 suggested",
-      "category": "community",
-      "source": "manual_seed"
-    },
-    {
       "title": "Pottery, Vintage & Thrift Market",
       "date": "2026-11-21",
       "time": "10:00 AM",
@@ -205,7 +180,41 @@
       "category": "community",
       "source": "manual_seed",
       "date": "2026-12-03"
+    },
+    {
+      "title": "The True Tale of Hansel & Gretel (Matinee) — South Shore Players",
+      "date": "2026-12-04",
+      "time": "2:00 PM",
+      "location": "123 Empire St, Bridgewater",
+      "venue": "South Shore Players",
+      "description": "A comedic adventure, written & directed by Issie Patterson. Shows daily at 2 PM (matinee) and 7 PM (evening). Tickets at SouthShorePlayers.ca.",
+      "url": "https://www.southshoreplayers.ca/tickets/",
+      "price": "Adults $25, Teens $15, Children $12",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "The True Tale of Hansel & Gretel (Evening) — South Shore Players",
+      "date": "2026-12-04",
+      "time": "7:00 PM",
+      "location": "123 Empire St, Bridgewater",
+      "venue": "South Shore Players",
+      "description": "A comedic adventure, written & directed by Issie Patterson. Shows daily at 2 PM (matinee) and 7 PM (evening). Tickets at SouthShorePlayers.ca.",
+      "url": "https://www.southshoreplayers.ca/tickets/",
+      "price": "Adults $25, Teens $15, Children $12",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "\"THE CHRISTMAS TREE\" by the Lunenburg Theatre Collective: Dec. 4, 5 & 6",
+      "date": "2026-12-04",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "“THE CHRISTMAS TREE” Starring Shannon Sponagle and Stephen Scott Findlay Presented by the Lunenburg Theatre Collective Dec. 4, 5 & 6, 2026 Learn more and gets tickets: lunenburgtheatre.ca Tickets available at Caico Mae – Cash Only Please. “One Man, One Woman, and Just One Tree Left, and it’s Christmas Eve! Who gets it? Buy a ticket and find out! This heartfelt comedy filled with laughs is sure to bring a smile to your face. So come out and support live, local, professional theatre right in the…",
+      "url": "https://lunenburgarts.org/news-events/the-christmas-tree-by-the-lunenburg-theatre-collective-dec-4-5-6/",
+      "category": "community",
+      "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-11-19T19:06:09-04:00"
+  "last_updated": "2026-11-20T07:07:12-04:00"
 }
