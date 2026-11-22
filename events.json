@@ -1,49 +1,6 @@
 {
   "events": [
     {
-      "title": "Pottery, Vintage & Thrift Market",
-      "date": "2026-11-21",
-      "time": "10:00 AM",
-      "end_time": "4:00 PM",
-      "venue": "Central United Church Hall",
-      "location": "136 Cumberland St, Lunenburg",
-      "description": "Pottery, vintage and thrift vendors including South Pottery Art, Far Out Floral, Rivers & Fields Pottery & Vintage, Bakeapple Vintage, Annie & Aida, The Flower Girls, Hannah Toews & more. Questions: ainemaclellan@gmail.com.",
-      "url": "",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed"
-    },
-    {
-      "title": "BILLY JOEL Tribute Concert",
-      "date": "2026-11-21",
-      "time": "7:00 PM",
-      "end_time": "9:00 PM",
-      "venue": "Old Confidence Lodge",
-      "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Sat, Nov 21 • 7 PM $25 + fees • $30 at the door A night of your favourite Billy Joel Hits - Piano Man! Only the Good Die Young! - plus some deep cuts - Vienna! Rosalinda’s Eyes!",
-      "url": "https://www.oldconfidence.ca/events/billy-joel-lunenburg",
-      "ticket_url": "https://www.eventbrite.ca/e/billy-joel-tribute-night-tickets-2003453244586?aff=oddtdtcreator",
-      "price": "$25 + fees",
-      "category": "music",
-      "source": "old_confidence_lodge",
-      "ics_url": "https://www.oldconfidence.ca/events/billy-joel-lunenburg?format=ical"
-    },
-    {
-      "title": "Sunmi Han, piano",
-      "date": "2026-11-21",
-      "time": "7:00 PM",
-      "end_time": "8:30 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "While solo repertoire remains an important part of her artistic identity, chamber music and collaboration are central to Han’s work. She believes chamber music is where friendships form, stories intertwine, and listening becomes an act of generosity. Through her work as both a performer and educator, she is passionate about creating musical communities where artists grow not only in skill, but also in humanity.",
-      "url": "https://www.lampns.ca/events/sunmihan",
-      "ticket_url": "https://www.zeffy.com/en-CA/ticketing/sunmi-han-piano",
-      "price": "$25",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/sunmihan?format=ical"
-    },
-    {
       "title": "Tunes on Tuesday: Piotr Kozłowski, Part 1",
       "date": "2026-11-24",
       "time": "12:00 PM",
@@ -228,16 +185,16 @@
       "source": "manual_seed"
     },
     {
-      "title": "\"Geoff & Glenn\" Musique Royale Cookie Concert",
+      "title": "Geoff and Glenn",
       "date": "2026-12-05",
       "time": "2:00 PM",
       "venue": "Lunenburg School of the Arts",
       "location": "6 Prince St, Lunenburg",
-      "description": "“Geoff & Glenn” Musique Royale Cookie Concert Saturday, December 5th, 2026 at 2:00pm “Musique Royale welcomes two fabulous Nova Scotian musicians, Geoff Arsenault and Glenn Patscha, for our next Cookie Concert on Saturday, December 5 at 2 pm at the Lunenburg School of the Arts! Singer, songwriter, and drummer Geoff Arsenault brings his distinctive blend of swampy blues, roots, and Tex-Mex influences, performing original music including songs from his latest album, Hired Hand (2025). A veteran…",
-      "url": "https://lunenburgarts.org/news-events/geoff-glenn-musique-royale-cookie-concert/",
-      "price": "$10 at the door, youth free (18 and under) Details:",
+      "description": "Musique Royale welcomes singer, songwriter and drummer Geoff Arsenault and keyboardist Glenn Patscha to perform a Cookie Concert on Saturday December 5 at 2 pm. We can’t wait to hear what comes when these two fabulous Nova Scotian talents join together. The concert includes original music by Geoff including songs from his 2025 release, Hired Hand. The hourlong concert takes place at the Lunenburg School of the Arts, all ages are welcome and following the concert, cookies are served. Geoff Arsenault – drummer, singer, songwriter Geoff Arsenault is a multi award winning, veteran, touring and…",
+      "url": "https://musiqueroyale.com/event/2026/2026-12-05-geoff-and-glenn/",
+      "price": "$10 at the door, youth free (age 18 and under)",
       "category": "music",
-      "source": "school_of_arts"
+      "source": "musique_royale"
     },
     {
       "title": "The True Tale of Hansel & Gretel (Evening) — South Shore Players",
@@ -276,7 +233,42 @@
       "url": "https://lunenburgchristmascraftfestival.com/",
       "category": "festival",
       "source": "manual_seed"
+    },
+    {
+      "title": "The True Tale of Hansel & Gretel (Matinee) — South Shore Players",
+      "date": "2026-12-06",
+      "time": "2:00 PM",
+      "location": "123 Empire St, Bridgewater",
+      "venue": "South Shore Players",
+      "description": "A comedic adventure, written & directed by Issie Patterson. Shows daily at 2 PM (matinee) and 7 PM (evening). Tickets at SouthShorePlayers.ca.",
+      "url": "https://www.southshoreplayers.ca/tickets/",
+      "price": "Adults $25, Teens $15, Children $12",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "The True Tale of Hansel & Gretel (Evening) — South Shore Players",
+      "date": "2026-12-06",
+      "time": "7:00 PM",
+      "location": "123 Empire St, Bridgewater",
+      "venue": "South Shore Players",
+      "description": "A comedic adventure, written & directed by Issie Patterson. Shows daily at 2 PM (matinee) and 7 PM (evening). Tickets at SouthShorePlayers.ca.",
+      "url": "https://www.southshoreplayers.ca/tickets/",
+      "price": "Adults $25, Teens $15, Children $12",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Lunenburg Christmas Craft Festival",
+      "date": "2026-12-06",
+      "time": "TBA",
+      "venue": "Lunenburg War Memorial Arena",
+      "location": "15 Green St, Lunenburg",
+      "description": "Annual holiday craft festival at the Lunenburg War Memorial Arena.",
+      "url": "https://lunenburgchristmascraftfestival.com/",
+      "category": "festival",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-11-21T19:06:39-04:00"
+  "last_updated": "2026-11-22T07:06:01-04:00"
 }
