@@ -185,16 +185,16 @@
       "source": "manual_seed"
     },
     {
-      "title": "\"Geoff & Glenn\" Musique Royale Cookie Concert",
+      "title": "Geoff and Glenn",
       "date": "2026-12-05",
       "time": "2:00 PM",
       "venue": "Lunenburg School of the Arts",
       "location": "6 Prince St, Lunenburg",
-      "description": "“Geoff & Glenn” Musique Royale Cookie Concert Saturday, December 5th, 2026 at 2:00pm “Musique Royale welcomes two fabulous Nova Scotian musicians, Geoff Arsenault and Glenn Patscha, for our next Cookie Concert on Saturday, December 5 at 2 pm at the Lunenburg School of the Arts! Singer, songwriter, and drummer Geoff Arsenault brings his distinctive blend of swampy blues, roots, and Tex-Mex influences, performing original music including songs from his latest album, Hired Hand (2025). A veteran…",
-      "url": "https://lunenburgarts.org/news-events/geoff-glenn-musique-royale-cookie-concert/",
-      "price": "$10 at the door, youth free (18 and under) Details:",
+      "description": "Musique Royale welcomes singer, songwriter and drummer Geoff Arsenault and keyboardist Glenn Patscha to perform a Cookie Concert on Saturday December 5 at 2 pm. We can’t wait to hear what comes when these two fabulous Nova Scotian talents join together. The concert includes original music by Geoff including songs from his 2025 release, Hired Hand. The hourlong concert takes place at the Lunenburg School of the Arts, all ages are welcome and following the concert, cookies are served. Geoff Arsenault – drummer, singer, songwriter Geoff Arsenault is a multi award winning, veteran, touring and…",
+      "url": "https://musiqueroyale.com/event/2026/2026-12-05-geoff-and-glenn/",
+      "price": "$10 at the door, youth free (age 18 and under)",
       "category": "music",
-      "source": "school_of_arts"
+      "source": "musique_royale"
     },
     {
       "title": "The True Tale of Hansel & Gretel (Evening) — South Shore Players",
@@ -270,5 +270,5 @@
       "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-11-23T07:07:00-04:00"
+  "last_updated": "2026-11-23T13:07:00-04:00"
 }
