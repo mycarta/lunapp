@@ -82,7 +82,7 @@
       "ics_url": "https://www.oldconfidence.ca/events/first-of-bells-lunenburg?format=ical"
     },
     {
-      "title": "Ellita Gagner, mezzo-soprano",
+      "title": "Ellita Gagner: Songs My Mother Taught Me",
       "date": "2026-11-28",
       "time": "7:00 PM",
       "end_time": "8:30 PM",
@@ -97,16 +97,14 @@
       "ics_url": "https://www.lampns.ca/events/ellita?format=ical"
     },
     {
-      "title": "Victor Fraser - Tea & Scones Concert",
+      "title": "CANCELLED - Victor Fraser - Tea & Scones Concert",
       "date": "2026-11-29",
       "time": "2:00 PM",
       "end_time": "4:00 PM",
       "venue": "Old Confidence Lodge",
       "location": "3831 Nova Scotia 332, Riverport",
-      "description": "Trained in the Classical repertoire for guitar, Victor combines his proficiency in diverse styles such as Ragtime, Celtic, Rock and Pop to engage and entertain listeners. He is a founding member of Nova Scotia Celtic Trio \"Celtic Rant\" and one half of Classical Guitar Duo “Con Spirito Duo”. Victor delights his audiences with solo performances of Celtic Flatpicking, Fingerstyle, and Traditional Song. He currently rides in Halifax, Nova Scotia.",
+      "description": "CANCELLED Sun, Nov 29 • 2 PM",
       "url": "https://www.oldconfidence.ca/events/victor-fraser-lunenburg",
-      "ticket_url": "https://www.eventbrite.ca/e/victor-fraser-tea-scones-concert-tickets-2003913277557?aff=oddtdtcreator",
-      "price": "$30 + fees",
       "category": "music",
       "source": "old_confidence_lodge",
       "ics_url": "https://www.oldconfidence.ca/events/victor-fraser-lunenburg?format=ical"
@@ -185,16 +183,16 @@
       "source": "manual_seed"
     },
     {
-      "title": "\"Geoff & Glenn\" Musique Royale Cookie Concert",
+      "title": "Geoff and Glenn",
       "date": "2026-12-05",
       "time": "2:00 PM",
       "venue": "Lunenburg School of the Arts",
       "location": "6 Prince St, Lunenburg",
-      "description": "“Geoff & Glenn” Musique Royale Cookie Concert Saturday, December 5th, 2026 at 2:00pm “Musique Royale welcomes two fabulous Nova Scotian musicians, Geoff Arsenault and Glenn Patscha, for our next Cookie Concert on Saturday, December 5 at 2 pm at the Lunenburg School of the Arts! Singer, songwriter, and drummer Geoff Arsenault brings his distinctive blend of swampy blues, roots, and Tex-Mex influences, performing original music including songs from his latest album, Hired Hand (2025). A veteran…",
-      "url": "https://lunenburgarts.org/news-events/geoff-glenn-musique-royale-cookie-concert/",
-      "price": "$10 at the door, youth free (18 and under) Details:",
+      "description": "Musique Royale welcomes singer, songwriter and drummer Geoff Arsenault and keyboardist Glenn Patscha to perform a Cookie Concert on Saturday December 5 at 2 pm. We can’t wait to hear what comes when these two fabulous Nova Scotian talents join together. The concert includes original music by Geoff including songs from his 2025 release, Hired Hand. The hourlong concert takes place at the Lunenburg School of the Arts, all ages are welcome and following the concert, cookies are served. Geoff Arsenault – drummer, singer, songwriter Geoff Arsenault is a multi award winning, veteran, touring and…",
+      "url": "https://musiqueroyale.com/event/2026/2026-12-05-geoff-and-glenn/",
+      "price": "$10 at the door, youth free (age 18 and under)",
       "category": "music",
-      "source": "school_of_arts"
+      "source": "musique_royale"
     },
     {
       "title": "The True Tale of Hansel & Gretel (Evening) — South Shore Players",
@@ -268,7 +266,20 @@
       "url": "https://lunenburgchristmascraftfestival.com/",
       "category": "festival",
       "source": "manual_seed"
+    },
+    {
+      "title": "Messiah",
+      "date": "2026-12-08",
+      "time": "7:00 PM",
+      "venue": "St. John's Anglican Church",
+      "location": "64 Townsend St, Lunenburg",
+      "description": "Musique Royale welcomes the return of one of the most beloved works in the classical repertoire, George Frideric Handel’s Messiah , with two performances this December in Lunenburg and Wolfville. Bringing together some of Canada’s finest emerging artists, Ménestrel presents an intimate, historically informed interpretation of Handel’s masterpiece, inviting audiences to experience the beauty and power of this cherished holiday tradition. Composed in just 24 days in 1741, Messiah has become one of the most celebrated works in Western music, bringing generations of listeners together each…",
+      "url": "https://musiqueroyale.com/event/2026/2026-12-09-messiah/",
+      "ticket_url": "https://www.canadahelps.org/en/charities/musique-royale-a-treasury-of-music-from-our-historic-past/events/menestrel-messiah-in-lunenburg-2026",
+      "price": "$25 advance, $30 at the door, youth free (18 and under)",
+      "category": "music",
+      "source": "musique_royale"
     }
   ],
-  "last_updated": "2026-11-24T07:07:39-04:00"
+  "last_updated": "2026-11-24T13:07:07-04:00"
 }
