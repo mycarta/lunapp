@@ -265,7 +265,32 @@
       "price": "$25 advance, $30 at the door, youth free (18 and under)",
       "category": "music",
       "source": "musique_royale"
+    },
+    {
+      "title": "Lunenburg Farmers Market",
+      "time": "8:00 AM",
+      "end_time": "12:00 PM",
+      "venue": "Lunenburg Community Centre",
+      "location": "Blockhouse Hill Rd, Lunenburg",
+      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
+      "url": "https://lunenburgfarmersmarketns.ca/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed",
+      "date": "2026-12-10"
+    },
+    {
+      "title": "LHS Speaker Series: Dr. Hilary Doda — Dress and Textiles in Pre-Deportation Acadia",
+      "date": "2026-12-10",
+      "time": "6:00 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "Knaut-Rhuland House Winter Speaker Series. NOTE: 6pm start. $10 suggested donation. All proceeds support the Knaut-Rhuland House Museum.",
+      "url": "https://lunenburgheritagesociety.ca/blogs/events/knaut-rhuland-house-winter-speaker-series",
+      "price": "$10 suggested",
+      "category": "community",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-11-25T19:06:45-04:00"
+  "last_updated": "2026-11-26T07:06:55-04:00"
 }
