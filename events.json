@@ -1,31 +1,6 @@
 {
   "events": [
     {
-      "title": "Lunenburg Farmers Market",
-      "time": "8:00 AM",
-      "end_time": "12:00 PM",
-      "venue": "Lunenburg Community Centre",
-      "location": "Blockhouse Hill Rd, Lunenburg",
-      "description": "Weekly farmers market with local produce, meat, seafood, baked goods, and artisan vendors.",
-      "url": "https://lunenburgfarmersmarketns.ca/",
-      "price": "Free",
-      "category": "community",
-      "source": "manual_seed",
-      "date": "2026-11-26"
-    },
-    {
-      "title": "\"Tange Herbam\" Exhibition by Anna Bald",
-      "date": "2026-11-26",
-      "time": "7:00 PM",
-      "venue": "Lunenburg School of the Arts",
-      "location": "6 Prince St, Lunenburg",
-      "description": "Tange Herbam Anna Bald, Fall 2026 Artist-in-Residence Curated by Brea MacAllister EXHIBITION: November 26th, 2026 to January 22nd, 2027 Gallery hours are by chance or appointment, Monday to Friday, 9:30am to 4:30pm. OPENING: Thursday, Nov. 26th, 2026 Artist Talk at 7:00pm Hosted by Dr. Ella Tetrault Gallery Reception at 8:00pm This is a free event, no registration required. “I dedicate this work to the indigenous plants I chose to paint; these paintings are tight and committed to botanical…",
-      "url": "https://lunenburgarts.org/news-events/tangeherbam-annabald/",
-      "price": "Free",
-      "category": "arts",
-      "source": "school_of_arts"
-    },
-    {
       "title": "Holiday Carol Sing",
       "date": "2026-11-27",
       "time": "4:00 PM",
@@ -290,7 +265,31 @@
       "price": "$10 suggested",
       "category": "community",
       "source": "manual_seed"
+    },
+    {
+      "title": "The True Tale of Hansel & Gretel (Matinee) — South Shore Players",
+      "date": "2026-12-11",
+      "time": "2:00 PM",
+      "location": "123 Empire St, Bridgewater",
+      "venue": "South Shore Players",
+      "description": "A comedic adventure, written & directed by Issie Patterson. Shows daily at 2 PM (matinee) and 7 PM (evening). Tickets at SouthShorePlayers.ca.",
+      "url": "https://www.southshoreplayers.ca/tickets/",
+      "price": "Adults $25, Teens $15, Children $12",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "The True Tale of Hansel & Gretel (Evening) — South Shore Players",
+      "date": "2026-12-11",
+      "time": "7:00 PM",
+      "location": "123 Empire St, Bridgewater",
+      "venue": "South Shore Players",
+      "description": "A comedic adventure, written & directed by Issie Patterson. Shows daily at 2 PM (matinee) and 7 PM (evening). Tickets at SouthShorePlayers.ca.",
+      "url": "https://www.southshoreplayers.ca/tickets/",
+      "price": "Adults $25, Teens $15, Children $12",
+      "category": "arts",
+      "source": "manual_seed"
     }
   ],
-  "last_updated": "2026-11-26T19:06:56-04:00"
+  "last_updated": "2026-11-27T07:06:58-04:00"
 }
