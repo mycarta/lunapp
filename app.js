@@ -207,9 +207,21 @@ function renderLastUpdated(iso) {
 // before we tell the user the data isn't fresh.
 const STALE_THRESHOLD_MS = 24 * 60 * 60 * 1000;
 
+// Phones (iOS home-screen apps especially) often resume the app from the
+// background without reloading the page, so a list loaded in the morning
+// would still be showing in the afternoon. We re-check whenever the app
+// comes back on screen (and periodically while it stays open), and only
+// re-render when the data or the day has actually changed, so the list
+// doesn't jump under someone who is reading it.
+const REFRESH_AFTER_MS = 15 * 60 * 1000;
+let lastCheckedAt = 0;
+let shownKey = null;
+let swRegistration = null;
+
 async function loadEvents() {
   const container = document.getElementById("events");
   const status = document.getElementById("status");
+  const isRefresh = shownKey !== null;
 
   // The service worker's networkFirst handler serves the latest events.json
   // when online and falls back to the cached copy when not. If both fail
@@ -224,7 +236,11 @@ async function loadEvents() {
     console.warn("events.json fetch failed (no cache fallback either):", err);
   }
 
+  lastCheckedAt = Date.now();
+
   if (!data) {
+    // On a background refresh, keep showing what's already on screen.
+    if (isRefresh || !status) return;
     status.textContent = "No events available offline yet. Connect to the internet and try again.";
     status.style.color = "var(--ink-soft)";
     status.style.fontStyle = "normal";
@@ -240,10 +256,14 @@ async function loadEvents() {
     && (Date.now() - lastUpdatedDate.getTime()) > STALE_THRESHOLD_MS;
 
   const today = startOfDay(new Date());
+  const key = `${data.last_updated}|${today.getTime()}`;
+  if (key === shownKey) return;
+  shownKey = key;
+
   const upcoming = (data.events || [])
     .filter(e => e.date && parseLocalDate(e.date) >= today);
 
-  status.remove();
+  if (status) status.remove();
   container.replaceChildren();
 
   if (isStale) {
@@ -287,6 +307,7 @@ if ("serviceWorker" in navigator && location.protocol !== "file:") {
   window.addEventListener("load", async () => {
     try {
       const reg = await navigator.serviceWorker.register("sw.js");
+      swRegistration = reg;
       // Force an update check on every page load. The browser's default
       // SW update heuristic is sluggish on iOS Safari (sometimes deferred
       // a full session), which leaves home-screen PWAs on a stale shell.
@@ -298,5 +319,20 @@ if ("serviceWorker" in navigator && location.protocol !== "file:") {
     }
   });
 }
+
+function refreshIfDue() {
+  if (document.visibilityState !== "visible") return;
+  if (Date.now() - lastCheckedAt < REFRESH_AFTER_MS) return;
+  lastCheckedAt = Date.now(); // block overlapping triggers while this runs
+  loadEvents();
+  // Also pick up a new app version (new SW -> controllerchange -> reload).
+  if (swRegistration) {
+    swRegistration.update().catch(() => {});
+  }
+}
+
+document.addEventListener("visibilitychange", refreshIfDue);
+window.addEventListener("pageshow", (e) => { if (e.persisted) refreshIfDue(); });
+setInterval(refreshIfDue, 5 * 60 * 1000);
 
 loadEvents();
