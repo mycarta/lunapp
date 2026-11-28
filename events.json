@@ -1,6 +1,42 @@
 {
   "events": [
     {
+      "title": "Christmas by the Sea Market",
+      "date": "2026-11-28",
+      "time": "12:00 PM",
+      "venue": "King Street",
+      "location": "King St, Lunenburg",
+      "description": "Holiday market on King Street. Part of the Light Up Lunenburg weekend.",
+      "url": "https://museum.novascotia.ca/whats-on/lighting-vessels",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Lunenburg Christmas Parade",
+      "date": "2026-11-28",
+      "time": "2:00 PM",
+      "venue": "Lincoln Street",
+      "location": "Lincoln St, Lunenburg",
+      "description": "Annual Christmas parade through the streets of Lunenburg. Part of the Light Up Lunenburg weekend.",
+      "url": "https://www.facebook.com/xmassea/",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Lighting of Trees",
+      "date": "2026-11-28",
+      "time": "6:00 PM",
+      "venue": "Lunenburg Heritage Bandstand",
+      "location": "Lunenburg",
+      "description": "Tree lighting ceremony at the Bandstand. Part of the Light Up Lunenburg weekend.",
+      "url": "https://museum.novascotia.ca/whats-on/lighting-vessels",
+      "price": "Free",
+      "category": "community",
+      "source": "manual_seed"
+    },
+    {
       "title": "First of Bells - Encore Performance",
       "date": "2026-11-28",
       "time": "7:00 PM",
@@ -315,5 +351,5 @@
       "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-11-28T07:06:08-04:00"
+  "last_updated": "2026-11-28T11:38:32-04:00"
 }
