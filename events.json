@@ -1,33 +1,6 @@
 {
   "events": [
     {
-      "title": "Holiday Carol Sing",
-      "date": "2026-11-27",
-      "time": "4:00 PM",
-      "end_time": "6:00 PM",
-      "venue": "LAMP",
-      "location": "97 Kaulbach St, Lunenburg",
-      "description": "At 5:40pm , we'll make our way down to the Lunenburg waterfront for the Lighting of the Vessels Ceremony , beginning at 6:00pm . We'll lead a few more carols before the lighting of the Lobster Trap Tree!",
-      "url": "https://www.lampns.ca/events/carolsing",
-      "price": "Free",
-      "category": "music",
-      "source": "lamp",
-      "ics_url": "https://www.lampns.ca/events/carolsing?format=ical"
-    },
-    {
-      "title": "Lighting of the Vessels",
-      "date": "2026-11-27",
-      "venue": "Fisheries Museum of the Atlantic",
-      "location": "68 Bluenose Dr, Lunenburg",
-      "url": "https://fisheriesmuseum.novascotia.ca/whats-on/lighting-vessels",
-      "category": "community",
-      "source": "fisheries_museum",
-      "time": "6:00 PM",
-      "end_time": "9:00 PM",
-      "price": "Free",
-      "description": "Experience the magic of the holiday season as the waterfront comes alive with the Lighting of the Vessels. Boats and the harbour are beautifully illuminated in festive lights, creating a truly enchanting coastal atmosphere. This beloved Lunenburg tradition is filled with family-friendly fun, including face painting, crafts, games, and family bingo. Meet Mr. and Mrs. Claus, enjoy live music, and warm up with delicious food and seasonal treats. Bring your family, dress warmly, and celebrate the…"
-    },
-    {
       "title": "First of Bells - Encore Performance",
       "date": "2026-11-28",
       "time": "7:00 PM",
@@ -289,7 +262,58 @@
       "price": "Adults $25, Teens $15, Children $12",
       "category": "arts",
       "source": "manual_seed"
+    },
+    {
+      "title": "The True Tale of Hansel & Gretel (Matinee) — South Shore Players",
+      "date": "2026-12-12",
+      "time": "2:00 PM",
+      "location": "123 Empire St, Bridgewater",
+      "venue": "South Shore Players",
+      "description": "A comedic adventure, written & directed by Issie Patterson. Shows daily at 2 PM (matinee) and 7 PM (evening). Tickets at SouthShorePlayers.ca.",
+      "url": "https://www.southshoreplayers.ca/tickets/",
+      "price": "Adults $25, Teens $15, Children $12",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Holiday Jazz",
+      "date": "2026-12-12",
+      "time": "5:30 PM",
+      "end_time": "7:00 PM",
+      "venue": "LAMP",
+      "location": "97 Kaulbach St, Lunenburg",
+      "description": "Our summer Jazz Nights are always a crowd favourite, so we're delighted to be bringing the music back for a festive encore this holiday season! Join us for a lively celebration filled with familiar holiday tunes and jazzy interpretations.",
+      "url": "https://www.lampns.ca/events/holidayjazz",
+      "ticket_url": "https://www.zeffy.com/en-CA/ticketing/holiday-jazz-2",
+      "price": "$35",
+      "category": "music",
+      "source": "lamp",
+      "ics_url": "https://www.lampns.ca/events/holidayjazz?format=ical"
+    },
+    {
+      "title": "The True Tale of Hansel & Gretel (Evening) — South Shore Players",
+      "date": "2026-12-12",
+      "time": "7:00 PM",
+      "location": "123 Empire St, Bridgewater",
+      "venue": "South Shore Players",
+      "description": "A comedic adventure, written & directed by Issie Patterson. Shows daily at 2 PM (matinee) and 7 PM (evening). Tickets at SouthShorePlayers.ca.",
+      "url": "https://www.southshoreplayers.ca/tickets/",
+      "price": "Adults $25, Teens $15, Children $12",
+      "category": "arts",
+      "source": "manual_seed"
+    },
+    {
+      "title": "Yuletide Market",
+      "date": "2026-12-12",
+      "time": "10 AM",
+      "end_time": "4 PM",
+      "venue": "Lunenburg School of the Arts",
+      "location": "6 Prince St, Lunenburg",
+      "description": "4th Annual Yuletide Market Saturday, December 12th, 10am – 4pm “Please join us at The Lunenburg School of the Arts for one of the most magical markets of the season. This year we’ll be using 2 floors at the LSA, which has allowed us to add even more amazing vendors. Come shop small, support local makers, and soak in the magic of the season! We can’t wait to welcome you!”",
+      "url": "https://lunenburgarts.org/news-events/yuletide-market-2/",
+      "category": "community",
+      "source": "school_of_arts"
     }
   ],
-  "last_updated": "2026-11-27T19:06:35-04:00"
+  "last_updated": "2026-11-28T07:06:08-04:00"
 }
